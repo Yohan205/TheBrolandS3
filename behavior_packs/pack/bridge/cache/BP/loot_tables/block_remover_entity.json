@@ -1,0 +1,177 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\SecurityBE\\loot_tables\\block_remover_entity.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "80a78cb8_5232_4e99_9afe_2afb305a2ef0",
+	"file_version": 13,
+	"cache_content": {
+		"open": true,
+		"comment": "",
+		"data": "",
+		"key": "global",
+		"type": "object",
+		"meta": {},
+		"children": [
+			{
+				"open": true,
+				"comment": "",
+				"data": "",
+				"key": "pools",
+				"type": "array",
+				"meta": {},
+				"children": [
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "0",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "1",
+								"key": "rolls",
+								"type": "string",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "entries",
+								"type": "array",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "0",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "item",
+												"key": "type",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "minecraft:spawn_egg",
+												"key": "name",
+												"type": "string",
+												"meta": {
+													"definitions": [
+														"item"
+													]
+												},
+												"children": []
+											},
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "functions",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": true,
+														"comment": "",
+														"data": "",
+														"key": "0",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "set_actor_id",
+																"key": "function",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": true,
+																"comment": "",
+																"data": "scb:block_remove_entity",
+																"key": "id",
+																"type": "string",
+																"meta": {
+																	"definitions": [
+																		"entity"
+																	]
+																},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": true,
+														"comment": "",
+														"data": "",
+														"key": "1",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "set_count",
+																"key": "function",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": true,
+																"comment": "",
+																"data": "",
+																"key": "count",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "10",
+																		"key": "min",
+																		"type": "string",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "10",
+																		"key": "max",
+																		"type": "string",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

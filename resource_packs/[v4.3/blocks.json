@@ -1,0 +1,180 @@
+//bridge-file-version: #53
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"korbon:apple_leaves": {
+		"textures": "k_apple_leaves",
+		"sound": "grass"
+	},
+	"korbon:orange_leaves": {
+		"textures": "k_orange_leaves",
+		"sound": "grass"
+	},
+	"korbon:pear_leaves": {
+		"textures": "k_pear_leaves",
+		"sound": "grass"
+	},
+	"korbon:peach_leaves": {
+		"textures": "k_peach_leaves",
+		"sound": "grass"
+	},
+	"korbon:enraged_cobblestone": {
+		"textures": "enraged_cobblestone",
+		"sound": "stone"
+	},
+	"korbon:lemon_leaves": {
+		"textures": "k_lemon_leaves",
+		"sound": "grass"
+	},
+	"korbon:cherry_leaves": {
+		"textures": "k_cherry_leaves",
+		"sound": "grass"
+	},
+	"korbon:vase": {
+		"textures": "vase",
+		"sound": "stone"
+	},
+	"korbon:apple_sapling_block": {
+		"textures": "apple_sapling_block",
+		"sound": "grass"
+	},
+	"korbon:orange_sapling_block": {
+		"textures": "orange_sapling_block",
+		"sound": "grass"
+	},
+	"korbon:cherry_sapling_block": {
+		"textures": "cherry_sapling_block",
+		"sound": "grass"
+	},
+	"korbon:peach_sapling_block": {
+		"textures": "peach_sapling_block",
+		"sound": "grass"
+	},
+	"korbon:pear_sapling_block": {
+		"textures": "pear_sapling_block",
+		"sound": "grass"
+	},
+	"korbon:lemon_sapling_block": {
+		"textures": "lemon_sapling_block",
+		"sound": "grass"
+	},
+	"korbon:herobrine_totem_block": {
+		"textures": "herobrine_totem_block",
+		"sound": "ancient_debris"
+	},
+	"korbon:spike_trap": {
+		"textures": "spike_trap",
+		"sound": "stone"
+	},
+	"korbon:present": {
+		"textures": "present",
+		"sound": "cloth"
+	},
+	"korbon:tombstone1": {
+		"textures": "tombstone1",
+		"sound": "stone"
+	},
+	"korbon:ectoplasm_block": {
+		"textures": "ectoplasm_block",
+		"sound": "honey_block"
+	},
+	"korbon:banana_block": {
+		"sound": "stem",
+		"textures": "banana_block"
+	},
+	"korbon:candle_holder": {
+		"sound": "metal",
+		"textures": "candle_holder"
+	},
+	"korbon:spider_nest": {
+		"textures": "spider_nest",
+		"sound": "cloth"
+	},
+	"korbon:spawner_block_queenspider": {
+		"textures": "spawner_block_queenspider",
+		"sound": "metal"
+	},
+	"korbon:banana_sapling_block": {
+		"textures": "banana_sapling_block",
+		"sound": "grass"
+	},
+	"korbon:blueberry_bush": {
+		"textures": "k_blueberry_bush",
+		"sound": "sweet_berry_bush"
+	},
+	"korbon:blueberry_bush_harvested": {
+		"textures": "k_blueberry_bush_harvested",
+		"sound": "sweet_berry_bush"
+	},
+	"korbon:mysterious_mushroom": {
+		"textures": "mysterious_mushroom",
+		"sound": "grass"
+	},
+	"korbon:sawmill": {
+		"textures": "sawmill",
+		"sound": "stone"
+	},
+	"korbon:spawner_block_lumberjack": {
+		"textures": "spawner_block_queenspider",
+		"sound": "metal"
+	},
+	"korbon:jukebox_extended": {
+		"textures": "jukebox_extended",
+		"sound": "wood"
+	},
+	"korbon:jukebox_extended_mystical": {
+		"textures": "jukebox_extended",
+		"sound": "wood"
+	},
+	"korbon:spawner_block_castle": {
+		"textures": "spawner_block_queenspider",
+		"sound": "metal"
+	},
+	"korbon:stone_bricks_trap": {
+		"textures": "stone_bricks_trap",
+		"sound": "stone"
+	},
+	"korbon:stone_bricks_trap_mossy": {
+		"textures": "stone_bricks_trap_mossy",
+		"sound": "stone"
+	},
+	"korbon:spike_trap_base": {
+		"textures": "spike_trap_base",
+		"sound": "stone"
+	},
+	"korbon:crypt_traproom_small_spawner": {
+		"textures": "spawner_block_castle",
+		"sound": "stone"
+	},
+	"korbon:crypt_throneroom_spawner": {
+		"textures": "crypt_throneroom_spawner",
+		"sound": "stone"
+	},
+	"korbon:crypt_spawner": {
+		"textures": "crypt_spawner",
+		"sound": "stone"
+	},
+	"korbon:coconut_block": {
+		"textures": "coconut_block",
+		"sound": "stone"
+	},
+	"korbon:old_bell": {
+		"textures": "old_bell",
+		"sound": "metal"
+	},
+	"korbon:spawner_block_pillager_and_wolves": {
+		"textures": "spawner_block_castle"
+	},
+	"korbon:spawner_block_pillager_and_wolves_starter": {
+		"textures": "spawner_block_castle"
+	},
+	"korbon:spawner_block_piglins_on_boat": {
+		"textures": "spawner_block_castle"
+	},
+	"korbon:spawner_block_end_pedestal": {
+		"textures": "spawner_block_castle"
+	}
+}

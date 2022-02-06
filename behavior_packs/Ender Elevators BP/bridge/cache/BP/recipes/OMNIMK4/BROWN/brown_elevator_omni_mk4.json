@@ -1,0 +1,243 @@
+{
+	"file_path": "C:\\Users\\Sofia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ender Elevators BP\\recipes\\OMNIMK3\\BROWN\\brown_elevator_omni_mk4.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "efa845a9_b277_4356_b5b0_dbb1a3e97fc8",
+	"file_version": 29,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.16,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "se:brown_elevator_omni_mk4"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"!S!",
+							"S#S",
+							"!S!"
+						],
+						"key": {
+							"S": {
+								"item": "se:brown_elevator_mk4"
+							},
+							"#": {
+								"item": "minecraft:netherstar"
+							},
+							"!": {
+								"item": "minecraft:stonebrick:3"
+							}
+						},
+						"result": [
+							{
+								"count": 1,
+								"item": "se:brown_elevator_omni_mk4"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "se:brown_elevator_omni_mk4"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "se:brown_elevator_mk4"
+								},
+								"#": {
+									"item": "minecraft:netherstar"
+								},
+								"!": {
+									"item": "minecraft:stonebrick:3"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:brown_elevator_omni_mk4"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "se:brown_elevator_omni_mk4"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"!S!",
+							"S#S",
+							"!S!"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:brown_elevator_omni_mk4"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "se:brown_elevator_mk4"
+								},
+								"#": {
+									"item": "minecraft:netherstar"
+								},
+								"!": {
+									"item": "minecraft:stonebrick:3"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:brown_elevator_omni_mk4"
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"S": {
+										"item": "se:brown_elevator_mk4"
+									},
+									"#": {
+										"item": "minecraft:netherstar"
+									},
+									"!": {
+										"item": "minecraft:stonebrick:3"
+									}
+								},
+								"key": "S",
+								"is_minified": true,
+								"children": {
+									"item": "se:brown_elevator_mk4"
+								}
+							},
+							{
+								"open": {
+									"S": {
+										"item": "se:brown_elevator_mk4"
+									},
+									"#": {
+										"item": "minecraft:netherstar"
+									},
+									"!": {
+										"item": "minecraft:stonebrick:3"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:netherstar"
+								}
+							},
+							{
+								"open": {
+									"S": {
+										"item": "se:brown_elevator_mk4"
+									},
+									"#": {
+										"item": "minecraft:netherstar"
+									},
+									"!": {
+										"item": "minecraft:stonebrick:3"
+									}
+								},
+								"key": "!",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:stonebrick:3"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:brown_elevator_omni_mk4"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "se:brown_elevator_mk4"
+								},
+								"#": {
+									"item": "minecraft:netherstar"
+								},
+								"!": {
+									"item": "minecraft:stonebrick:3"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:brown_elevator_omni_mk4"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"count": 1,
+										"item": "se:brown_elevator_omni_mk4"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"count": 1,
+									"item": "se:brown_elevator_omni_mk4"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

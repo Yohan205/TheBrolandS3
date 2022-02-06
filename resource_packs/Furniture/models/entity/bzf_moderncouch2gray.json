@@ -1,0 +1,167 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.bzf_moderncouch2gray",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 5,
+        "visible_bounds_height": 3,
+        "visible_bounds_offset": [
+          0,
+          0.5,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "bb_main",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -20.0,
+                1.0,
+                -7.0
+              ],
+              "size": [
+                40.0,
+                5.0,
+                15.0
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "inflate": 0
+            },
+            {
+              "origin": [
+                -20.0,
+                6.0,
+                4.0
+              ],
+              "size": [
+                40.0,
+                10.0,
+                4.0
+              ],
+              "uv": [
+                0,
+                20
+              ],
+              "inflate": 0
+            },
+            {
+              "origin": [
+                -25.0,
+                1.0,
+                -7.0
+              ],
+              "size": [
+                5.0,
+                15.0,
+                15.0
+              ],
+              "uv": [
+                40,
+                34
+              ],
+              "inflate": 0
+            },
+            {
+              "origin": [
+                20.0,
+                1.0,
+                -7.0
+              ],
+              "size": [
+                5.0,
+                15.0,
+                15.0
+              ],
+              "uv": [
+                0,
+                34
+              ],
+              "inflate": 0
+            },
+            {
+              "origin": [
+                -24.0,
+                0.0,
+                -6.0
+              ],
+              "size": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "uv": [
+                3,
+                3
+              ],
+              "inflate": 0
+            },
+            {
+              "origin": [
+                23.0,
+                0.0,
+                -6.0
+              ],
+              "size": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "uv": [
+                3,
+                1
+              ],
+              "inflate": 0
+            },
+            {
+              "origin": [
+                23.0,
+                0.0,
+                6.0
+              ],
+              "size": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "uv": [
+                0,
+                2
+              ],
+              "inflate": 0
+            },
+            {
+              "origin": [
+                -24.0,
+                0.0,
+                6.0
+              ],
+              "size": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "inflate": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

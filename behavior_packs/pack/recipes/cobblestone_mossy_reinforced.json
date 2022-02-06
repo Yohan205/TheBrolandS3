@@ -1,0 +1,33 @@
+//bridge-file-version: #12
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "scb:cobblestone_mossy_reinforced"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X#"
+		],
+		"key": {
+			"#": {
+				"item": "scb:block_reinforcer"
+			},
+			"X": {
+				"item": "minecraft:mossy_cobblestone"
+			}
+		},
+		"result": [
+			{
+				"item": "scb:cobblestone_mossy_reinforced",
+				"count": 1
+			},
+			{
+				"item": "scb:block_reinforcer",
+				"count": 1
+			}
+		]
+	}
+}

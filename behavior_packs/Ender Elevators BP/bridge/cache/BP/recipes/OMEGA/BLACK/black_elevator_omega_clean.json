@@ -1,0 +1,153 @@
+{
+	"file_path": "C:\\Users\\Sofia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ender Elevators BP\\recipes\\MK5\\BLACK\\black_elevator_omega_clean.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "836d5bf1_e306_450c_8c1e_bfb92ce2e69e",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "se:black_elevator_omega_clean"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"ingredients": [
+							{
+								"item": "se:black_elevator_omega",
+								"count": 1
+							}
+						],
+						"result": [
+							{
+								"item": "se:elevator_omega",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "se:black_elevator_omega_clean"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "se:black_elevator_omega",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "se:elevator_omega",
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "se:black_elevator_omega_clean"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:black_elevator_omega_clean"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "se:black_elevator_omega",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "se:elevator_omega",
+									"count": 1
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "se:black_elevator_omega",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "se:black_elevator_omega",
+									"count": 1
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:black_elevator_omega_clean"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "se:black_elevator_omega",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "se:elevator_omega",
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "se:elevator_omega",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "se:elevator_omega",
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

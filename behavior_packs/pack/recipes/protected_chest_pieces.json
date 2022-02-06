@@ -1,0 +1,37 @@
+//bridge-file-version: #9
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "scb:protected_chest_pieces"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#O#",
+			"#U#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:iron_ingot",
+				"data": 0
+			},
+			"O": {
+				"item": "minecraft:chest",
+				"data": 0
+			},
+			"U": {
+				"item": "scb:padlock",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "scb:protected_chest_pieces",
+				"count": 1
+			}
+		]
+	}
+}

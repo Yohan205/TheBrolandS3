@@ -1,0 +1,21 @@
+{
+    "individual_event_sounds": {
+		"events": {
+			"record.lifeletters": {
+				"sound": "record.lifeletters",
+				"volume": 1,
+				"pitch": 1
+			},
+			"record.fallen": {
+				"sound": "record.fallen",
+				"volume": 1,
+				"pitch": 1
+			},
+			"record.dancing": {
+				"sound": "record.dancing",
+				"volume": 1,
+				"pitch": 1
+			}
+		}
+	}
+}

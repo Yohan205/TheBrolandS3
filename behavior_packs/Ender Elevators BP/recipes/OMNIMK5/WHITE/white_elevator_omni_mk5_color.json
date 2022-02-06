@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "se:white_elevator_omni_mk5_color"
+		},
+		"priority": 2,
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "se:elevator_omni_mk5",
+				"count": 1
+			},
+			{
+				"item": "minecraft:dye",
+				"data": 19,
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "se:white_elevator_omni_mk5",
+				"count": 1
+			}
+		]
+	}
+}

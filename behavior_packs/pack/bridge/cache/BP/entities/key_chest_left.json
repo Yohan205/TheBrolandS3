@@ -1,0 +1,1480 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\SecurityBE\\entities\\key_chest_left.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "48bee15f_e606_47cc_97e8_fb93039ac886",
+	"file_version": 90,
+	"cache_content": {
+		"open": true,
+		"comment": "",
+		"data": "",
+		"key": "global",
+		"type": "object",
+		"meta": {},
+		"children": [
+			{
+				"open": false,
+				"comment": "",
+				"data": "1.13.0",
+				"key": "format_version",
+				"type": "string",
+				"meta": {},
+				"children": []
+			},
+			{
+				"open": true,
+				"comment": "",
+				"data": "",
+				"key": "minecraft:entity",
+				"type": "object",
+				"meta": {
+					"expand_path_exceptions": [
+						"do_not_upgrade"
+					]
+				},
+				"children": [
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "description",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": true,
+								"comment": "",
+								"data": "scb:key_chest_left",
+								"key": "identifier",
+								"type": "string",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "false",
+								"key": "is_spawnable",
+								"type": "boolean",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "false",
+								"key": "is_summonable",
+								"type": "boolean",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "false",
+								"key": "is_experimental",
+								"type": "boolean",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "minecraft:shulker_bullet",
+								"key": "runtime_identifier",
+								"type": "string",
+								"meta": {},
+								"children": []
+							}
+						]
+					},
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "components",
+						"type": "object",
+						"meta": {
+							"expand_path_exceptions": [
+								"minecraft:burns_in_daylight",
+								"minecraft:can_climb",
+								"minecraft:can_power_jump",
+								"minecraft:hide",
+								"minecraft:home",
+								"minecraft:is_baby",
+								"minecraft:is_charged",
+								"minecraft:is_chested",
+								"minecraft:is_hidden_when_invisible",
+								"minecraft:is_ignited",
+								"minecraft:is_illager_captain",
+								"minecraft:is_saddled",
+								"minecraft:is_shaking",
+								"minecraft:is_sheared",
+								"minecraft:is_stackable",
+								"minecraft:is_stunned",
+								"minecraft:is_tamed",
+								"minecraft:item_hopper",
+								"minecraft:jump.dynamic",
+								"minecraft:managed_wandering_trader",
+								"minecraft:persistent",
+								"minecraft:scaffolding_climber",
+								"minecraft:trade_resupply",
+								"minecraft:trust",
+								"minecraft:wants_jockey",
+								"minecraft:annotation.open_door"
+							]
+						},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:type_family",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "family",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "armor_stand",
+												"key": "0",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "inanimate",
+												"key": "1",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "mob",
+												"key": "2",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "turret",
+												"key": "3",
+												"type": "string",
+												"meta": {
+													"is_value": true,
+													"definitions": [
+														"entity"
+													]
+												},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:collision_box",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "1",
+										"key": "width",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "1",
+										"key": "height",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:health",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "6",
+										"key": "value",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "6",
+										"key": "max",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "5",
+										"key": "min",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:loot",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "loot_tables/entities/armor_stand.json",
+										"key": "table",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:nameable",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "false",
+										"key": "always_show",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "false",
+										"key": "allow_name_tag_renaming",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:persistent",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:physics",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:pushable",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "false",
+										"key": "is_pushable",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "is_pushable_by_piston",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:inventory",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "27",
+										"key": "inventory_size",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "minecart_chest",
+										"key": "container_type",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "restrict_to_owner",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:tameable",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "1",
+										"key": "probability",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "tame_items",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "scb:padlock",
+												"key": "0",
+												"type": "string",
+												"meta": {
+													"definitions": [
+														"item"
+													]
+												},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "tame_event",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "scb:tamed",
+												"key": "event",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "true",
+								"key": "minecraft:fire_immune",
+								"type": "string",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:on_hurt_by_player",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "filters",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "is_owner",
+												"key": "test",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "other",
+												"key": "subject",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "true",
+												"key": "value",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "scb:open",
+										"key": "event",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:interact",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "interactions",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "0",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "on_interact",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "filters",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "all_of",
+																		"type": "object",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "0",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_equipment",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "hand",
+																						"key": "domain",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "scb:block_remover",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {
+																							"definitions": [
+																								"block",
+																								"item"
+																							]
+																						},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "1",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_owner",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "true",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "scb:despawn",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "spawn_items",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "loot_tables/key_chest.json",
+																"key": "table",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "1",
+														"key": "hurt_item",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "1",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "on_interact",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "filters",
+																"type": "object",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "",
+																		"key": "all_of",
+																		"type": "array",
+																		"meta": {},
+																		"children": [
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "0",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "has_equipment",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "hand",
+																						"key": "domain",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "scb:rotator",
+																						"key": "value",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "1",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_owner",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "true",
+																						"key": "value",
+																						"type": "boolean",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			},
+																			{
+																				"open": false,
+																				"comment": "",
+																				"data": "",
+																				"key": "2",
+																				"type": "object",
+																				"meta": {},
+																				"children": [
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "is_sneaking",
+																						"key": "test",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "other",
+																						"key": "subject",
+																						"type": "string",
+																						"meta": {},
+																						"children": []
+																					},
+																					{
+																						"open": false,
+																						"comment": "",
+																						"data": "true",
+																						"key": "value",
+																						"type": "boolean",
+																						"meta": {},
+																						"children": []
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "scb:rotation",
+																"key": "event",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "events",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "scb:open",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "execute",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "commands",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": true,
+														"comment": "",
+														"data": "/kill @s",
+														"key": "0",
+														"type": "string",
+														"meta": {
+															"is_value": true
+														},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "scb:despawn",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "scb:despown",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "execute",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "commands",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "/playsound random.orb @a ~ ~ ~",
+														"key": "0",
+														"type": "string",
+														"meta": {
+															"is_value": true
+														},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "/setblock ~ ~ ~ iron_block",
+														"key": "1",
+														"type": "string",
+														"meta": {
+															"is_value": true
+														},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "/setblock ~ ~ ~ air 0 destroy",
+														"key": "2",
+														"type": "string",
+														"meta": {
+															"is_value": true
+														},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "/kill @e[type=item,r=1,name=!\"Protected Chest\"]",
+														"key": "3",
+														"type": "string",
+														"meta": {
+															"is_value": true
+														},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:entity_spawned",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "execute",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "commands",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "/summon scb:key_chest ~ ~ ~ a \"Protected Chest\"",
+														"key": "0",
+														"type": "string",
+														"meta": {
+															"is_value": true
+														},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "/kill @s",
+														"key": "1",
+														"type": "string",
+														"meta": {
+															"is_value": true
+														},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "scb:tamed",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "scb:own",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "scb:rotation",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "scb:rotate",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:entity_transformed",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "execute",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "commands",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "/playsound random.pop @a ~ ~ ~",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "scb:own",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "component_groups",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "scb:despown",
+								"type": "object",
+								"meta": {
+									"expand_path_exceptions": [
+										"minecraft:burns_in_daylight",
+										"minecraft:can_climb",
+										"minecraft:can_power_jump",
+										"minecraft:hide",
+										"minecraft:home",
+										"minecraft:is_baby",
+										"minecraft:is_charged",
+										"minecraft:is_chested",
+										"minecraft:is_hidden_when_invisible",
+										"minecraft:is_ignited",
+										"minecraft:is_illager_captain",
+										"minecraft:is_saddled",
+										"minecraft:is_shaking",
+										"minecraft:is_sheared",
+										"minecraft:is_stackable",
+										"minecraft:is_stunned",
+										"minecraft:is_tamed",
+										"minecraft:item_hopper",
+										"minecraft:jump.dynamic",
+										"minecraft:managed_wandering_trader",
+										"minecraft:persistent",
+										"minecraft:scaffolding_climber",
+										"minecraft:trade_resupply",
+										"minecraft:trust",
+										"minecraft:wants_jockey",
+										"minecraft:annotation.open_door"
+									]
+								},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:despawn",
+										"type": "object",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "scb:own",
+								"type": "object",
+								"meta": {
+									"expand_path_exceptions": [
+										"minecraft:burns_in_daylight",
+										"minecraft:can_climb",
+										"minecraft:can_power_jump",
+										"minecraft:hide",
+										"minecraft:home",
+										"minecraft:is_baby",
+										"minecraft:is_charged",
+										"minecraft:is_chested",
+										"minecraft:is_hidden_when_invisible",
+										"minecraft:is_ignited",
+										"minecraft:is_illager_captain",
+										"minecraft:is_saddled",
+										"minecraft:is_shaking",
+										"minecraft:is_sheared",
+										"minecraft:is_stackable",
+										"minecraft:is_stunned",
+										"minecraft:is_tamed",
+										"minecraft:item_hopper",
+										"minecraft:jump.dynamic",
+										"minecraft:managed_wandering_trader",
+										"minecraft:persistent",
+										"minecraft:scaffolding_climber",
+										"minecraft:trade_resupply",
+										"minecraft:trust",
+										"minecraft:wants_jockey",
+										"minecraft:annotation.open_door"
+									]
+								},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:is_tamed",
+										"type": "object",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "scb:inv",
+								"type": "object",
+								"meta": {
+									"expand_path_exceptions": [
+										"minecraft:burns_in_daylight",
+										"minecraft:can_climb",
+										"minecraft:can_power_jump",
+										"minecraft:hide",
+										"minecraft:home",
+										"minecraft:is_baby",
+										"minecraft:is_charged",
+										"minecraft:is_chested",
+										"minecraft:is_hidden_when_invisible",
+										"minecraft:is_ignited",
+										"minecraft:is_illager_captain",
+										"minecraft:is_saddled",
+										"minecraft:is_shaking",
+										"minecraft:is_sheared",
+										"minecraft:is_stackable",
+										"minecraft:is_stunned",
+										"minecraft:is_tamed",
+										"minecraft:item_hopper",
+										"minecraft:jump.dynamic",
+										"minecraft:managed_wandering_trader",
+										"minecraft:persistent",
+										"minecraft:scaffolding_climber",
+										"minecraft:trade_resupply",
+										"minecraft:trust",
+										"minecraft:wants_jockey",
+										"minecraft:annotation.open_door"
+									]
+								},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:inventory",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "27",
+												"key": "inventory_size",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "minecart_chest",
+												"key": "container_type",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "true",
+												"key": "restrict_to_owner",
+												"type": "boolean",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "scb:rotate",
+								"type": "object",
+								"meta": {
+									"expand_path_exceptions": [
+										"minecraft:burns_in_daylight",
+										"minecraft:can_climb",
+										"minecraft:can_power_jump",
+										"minecraft:hide",
+										"minecraft:home",
+										"minecraft:is_baby",
+										"minecraft:is_charged",
+										"minecraft:is_chested",
+										"minecraft:is_hidden_when_invisible",
+										"minecraft:is_ignited",
+										"minecraft:is_illager_captain",
+										"minecraft:is_saddled",
+										"minecraft:is_shaking",
+										"minecraft:is_sheared",
+										"minecraft:is_stackable",
+										"minecraft:is_stunned",
+										"minecraft:is_tamed",
+										"minecraft:item_hopper",
+										"minecraft:jump.dynamic",
+										"minecraft:managed_wandering_trader",
+										"minecraft:persistent",
+										"minecraft:scaffolding_climber",
+										"minecraft:trade_resupply",
+										"minecraft:trust",
+										"minecraft:wants_jockey",
+										"minecraft:annotation.open_door"
+									]
+								},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:transformation",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "scb:key_chest",
+												"key": "into",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "true",
+												"key": "keep_owner",
+												"type": "boolean",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "true",
+												"key": "drop_equipment",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

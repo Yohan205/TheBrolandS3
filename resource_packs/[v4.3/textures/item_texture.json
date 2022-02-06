@@ -1,0 +1,153 @@
+//bridge-file-version: #20
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"korbon:orange": {
+			"textures": "textures/items/orange"
+		},
+		"mummy": {
+			"textures": "textures/items/mummy"
+		},
+		"korbon:golden_orange": {
+			"textures": "textures/items/golden_orange"
+		},
+		"pirate": {
+			"textures": "textures/items/pirate"
+		},
+		"decayed_zombie": {
+			"textures": "textures/items/decayed_zombie"
+		},
+		"korbon:ectoplasm": {
+			"textures": "textures/items/ectoplasm"
+		},
+		"ghost": {
+			"textures": "textures/items/ghost"
+		},
+		"korbon:pear": {
+			"textures": "textures/items/pear"
+		},
+		"korbon:peach": {
+			"textures": "textures/items/peach"
+		},
+		"korbon:lemon": {
+			"textures": "textures/items/lemon"
+		},
+		"korbon:cherry": {
+			"textures": "textures/items/cherry"
+		},
+		"enraged_zombie": {
+			"textures": "textures/items/enraged_zombie"
+		},
+		"korbon:apple_sapling": {
+			"textures": [
+				"textures/items/apple_sapling"
+			]
+		},
+		"korbon:orange_sapling": {
+			"textures": [
+				"textures/items/orange_sapling"
+			]
+		},
+		"korbon:cherry_sapling": {
+			"textures": [
+				"textures/items/cherry_sapling"
+			]
+		},
+		"korbon:peach_sapling": {
+			"textures": [
+				"textures/items/peach_sapling"
+			]
+		},
+		"korbon:pear_sapling": {
+			"textures": [
+				"textures/items/pear_sapling"
+			]
+		},
+		"korbon:lemon_sapling": {
+			"textures": [
+				"textures/items/lemon_sapling"
+			]
+		},
+		"korbon:candle_item": {
+			"textures": [
+				"textures/items/candle_item"
+			]
+		},
+		"korbon:candle_holder_item": {
+			"textures": [
+				"textures/items/candle_holder_item"
+			]
+		},
+		"queen_spider": {
+			"textures": [
+				"textures/items/queen_spider"
+			]
+		},
+		"korbon:banana": {
+			"textures": [
+				"textures/items/banana"
+			]
+		},
+		"korbon:banana_seeds": {
+			"textures": [
+				"textures/items/banana_seeds"
+			]
+		},
+		"korbon:banana_sapling_item": {
+			"textures": [
+				"textures/items/banana_sapling"
+			]
+		},
+		"bs:exp_book_1": {
+			"textures": [
+				"textures/items/exp_book"
+			]
+		},
+		"bs:exp_book_2": {
+			"textures": [
+				"textures/items/exp_book"
+			]
+		},
+		"bs:exp_book_3": {
+			"textures": [
+				"textures/items/exp_book"
+			]
+		},
+		"bs:the_great_book_of_experience": {
+			"textures": [
+				"textures/items/exp_book_1"
+			]
+		},
+		"korbon:blueberries": {
+			"textures": [
+				"textures/items/blueberries"
+			]
+		},
+		"korbon:mysterious_mushroom": {
+			"textures": [
+				"textures/items/mysterious_mushroom"
+			]
+		},
+		"korbon:mysterious_mushroom_stew": {
+			"textures": [
+				"textures/items/mysterious_mushroom_stew"
+			]
+		},
+		"korbon:record_mystical": {
+			"textures": [
+				"textures/items/record_mystical"
+			]
+		},
+		"korbon:coconut": {
+			"textures": [
+				"textures/items/coconut"
+			]
+		},
+		"korbon:coconut_open": {
+			"textures": [
+				"textures/items/coconut_open"
+			]
+		}
+	}
+}

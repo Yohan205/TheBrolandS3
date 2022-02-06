@@ -1,0 +1,119 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "bzf:storage",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+          "setup"
+        ]
+      },
+      "animations": {
+        "setup": "controller.animation.break.setup"
+      }
+    },
+    "component_groups": {},
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "storage", "arimasen" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.8,
+        "height": 0.2
+      },
+      "minecraft:health": {
+        "value": 1.0,
+        "max": 1.0
+      },
+      "minecraft:fire_immune": {
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:inventory": {
+        "container_type": "container",
+        "inventory_size": 27
+      },
+      "minecraft:inside_block_notifier": {
+        "block_list": [
+          {
+            "block": "bzf:modernfridge",
+            "exited_block_event": {
+              "event": "block_on_break",
+              "target": "self"
+            }
+          },
+          {
+            "block": "bzf:cupboard1",
+            "exited_block_event": {
+              "event": "block_on_break",
+              "target": "self"
+            }
+          },
+          {
+            "block": "bzf:cupboard2",
+            "exited_block_event": {
+              "event": "block_on_break",
+              "target": "self"
+            }
+          },
+          {
+            "block": "bzf:cabinet2",
+            "exited_block_event": {
+              "event": "block_on_break",
+              "target": "self"
+            }
+          },
+          {
+            "block": "bzf:cabinet3",
+            "exited_block_event": {
+              "event": "block_on_break",
+              "target": "self"
+            }
+          },
+          {
+            "block": "bzf:kitchen_drawer",
+            "exited_block_event": {
+              "event": "block_on_break",
+              "target": "self"
+            }
+          },
+          {
+            "block": "bzf:woodendrawer",
+            "exited_block_event": {
+              "event": "block_on_break",
+              "target": "self"
+            }
+          },
+          {
+            "block": "bzf:graydrawer",
+            "exited_block_event": {
+              "event": "block_on_break",
+              "target": "self"
+            }
+          },
+          {
+            "block": "bzf:whitedrawer",
+            "exited_block_event": {
+              "event": "block_on_break",
+              "target": "self"
+            }
+          }		  
+        ]
+      }
+    },
+    "events": {
+      "block_on_break": {
+        "run_command": {
+          "command": "kill @e[type=bzf:storage, c=1]"
+        }
+      }
+    }
+  }
+}

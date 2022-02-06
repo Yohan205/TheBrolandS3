@@ -1,0 +1,774 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\SecurityBE\\entities\\dur_open.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "4ae4287e_a644_4506_98dc_6c905101b932",
+	"file_version": 49,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "scb:door_r_open",
+							"is_summonable": false,
+							"is_spawnable": false
+						},
+						"component_groups": {
+							"scb:r_changed": {
+								"minecraft:is_tamed": {}
+							},
+							"scb:open": {
+								"minecraft:transformation": {
+									"into": "scb:door_r",
+									"keep_owner": true
+								}
+							},
+							"scb:type": {
+								"minecraft:mark_variant": {
+									"value": 0
+								}
+							}
+						},
+						"components": {
+							"minecraft:damage_sensor": {
+								"triggers": [
+									{
+										"cause": "all",
+										"deals_damage": false,
+										"on_damage_sound_event": "deny",
+										"on_damage": {
+											"filters": {
+												"test": "is_owner",
+												"subject": "other",
+												"value": true
+											},
+											"event": "scb:open"
+										}
+									},
+									{
+										"cause": "all",
+										"deals_damage": false
+									}
+								]
+							},
+							"minecraft:interact": {
+								"interactions": [
+									{
+										"on_interact": {
+											"filters": {
+												"test": "is_owner",
+												"subject": "other",
+												"value": true
+											},
+											"event": "scb:open"
+										},
+										"play_sounds": "deny"
+									}
+								]
+							}
+						},
+						"events": {
+							"scb:open": {
+								"add": {
+									"component_groups": [
+										"scb:open"
+									]
+								},
+								"execute": {
+									"commands": [
+										"/playsound random.door_open @a ~ ~ ~"
+									]
+								}
+							},
+							"minecraft:entity_transformed": {
+								"add": {
+									"component_groups": [
+										"scb:type",
+										"scb:r_changed"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:door_r_open",
+								"is_summonable": false,
+								"is_spawnable": false
+							},
+							"component_groups": {
+								"scb:r_changed": {
+									"minecraft:is_tamed": {}
+								},
+								"scb:open": {
+									"minecraft:transformation": {
+										"into": "scb:door_r",
+										"keep_owner": true
+									}
+								},
+								"scb:type": {
+									"minecraft:mark_variant": {
+										"value": 0
+									}
+								}
+							},
+							"components": {
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false,
+											"on_damage_sound_event": "deny",
+											"on_damage": {
+												"filters": {
+													"test": "is_owner",
+													"subject": "other",
+													"value": true
+												},
+												"event": "scb:open"
+											}
+										},
+										{
+											"cause": "all",
+											"deals_damage": false
+										}
+									]
+								},
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"on_interact": {
+												"filters": {
+													"test": "is_owner",
+													"subject": "other",
+													"value": true
+												},
+												"event": "scb:open"
+											},
+											"play_sounds": "deny"
+										}
+									]
+								}
+							},
+							"events": {
+								"scb:open": {
+									"add": {
+										"component_groups": [
+											"scb:open"
+										]
+									},
+									"execute": {
+										"commands": [
+											"/playsound random.door_open @a ~ ~ ~"
+										]
+									}
+								},
+								"minecraft:entity_transformed": {
+									"add": {
+										"component_groups": [
+											"scb:type",
+											"scb:r_changed"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "scb:door_r_open",
+							"is_summonable": false,
+							"is_spawnable": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:door_r_open",
+								"is_summonable": false,
+								"is_spawnable": false
+							},
+							"component_groups": {
+								"scb:r_changed": {
+									"minecraft:is_tamed": {}
+								},
+								"scb:open": {
+									"minecraft:transformation": {
+										"into": "scb:door_r",
+										"keep_owner": true
+									}
+								},
+								"scb:type": {
+									"minecraft:mark_variant": {
+										"value": 0
+									}
+								}
+							},
+							"components": {
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false,
+											"on_damage_sound_event": "deny",
+											"on_damage": {
+												"filters": {
+													"test": "is_owner",
+													"subject": "other",
+													"value": true
+												},
+												"event": "scb:open"
+											}
+										},
+										{
+											"cause": "all",
+											"deals_damage": false
+										}
+									]
+								},
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"on_interact": {
+												"filters": {
+													"test": "is_owner",
+													"subject": "other",
+													"value": true
+												},
+												"event": "scb:open"
+											},
+											"play_sounds": "deny"
+										}
+									]
+								}
+							},
+							"events": {
+								"scb:open": {
+									"add": {
+										"component_groups": [
+											"scb:open"
+										]
+									},
+									"execute": {
+										"commands": [
+											"/playsound random.door_open @a ~ ~ ~"
+										]
+									}
+								},
+								"minecraft:entity_transformed": {
+									"add": {
+										"component_groups": [
+											"scb:type",
+											"scb:r_changed"
+										]
+									}
+								}
+							}
+						},
+						"key": "component_groups",
+						"children": [
+							{
+								"key": "scb:r_changed",
+								"is_minified": true,
+								"children": {
+									"minecraft:is_tamed": {}
+								}
+							},
+							{
+								"open": {
+									"scb:r_changed": {
+										"minecraft:is_tamed": {}
+									},
+									"scb:open": {
+										"minecraft:transformation": {
+											"into": "scb:door_r",
+											"keep_owner": true
+										}
+									},
+									"scb:type": {
+										"minecraft:mark_variant": {
+											"value": 0
+										}
+									}
+								},
+								"key": "scb:open",
+								"children": [
+									{
+										"open": {
+											"minecraft:transformation": {
+												"into": "scb:door_r",
+												"keep_owner": true
+											}
+										},
+										"key": "minecraft:transformation",
+										"is_minified": true,
+										"children": {
+											"into": "scb:door_r",
+											"keep_owner": true
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"scb:r_changed": {
+										"minecraft:is_tamed": {}
+									},
+									"scb:open": {
+										"minecraft:transformation": {
+											"into": "scb:door_r",
+											"keep_owner": true
+										}
+									},
+									"scb:type": {
+										"minecraft:mark_variant": {
+											"value": 0
+										}
+									}
+								},
+								"key": "scb:type",
+								"children": [
+									{
+										"open": {
+											"minecraft:mark_variant": {
+												"value": 0
+											}
+										},
+										"key": "minecraft:mark_variant",
+										"is_minified": true,
+										"children": {
+											"value": 0
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:door_r_open",
+								"is_summonable": false,
+								"is_spawnable": false
+							},
+							"component_groups": {
+								"scb:r_changed": {
+									"minecraft:is_tamed": {}
+								},
+								"scb:open": {
+									"minecraft:transformation": {
+										"into": "scb:door_r",
+										"keep_owner": true
+									}
+								},
+								"scb:type": {
+									"minecraft:mark_variant": {
+										"value": 0
+									}
+								}
+							},
+							"components": {
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false,
+											"on_damage_sound_event": "deny",
+											"on_damage": {
+												"filters": {
+													"test": "is_owner",
+													"subject": "other",
+													"value": true
+												},
+												"event": "scb:open"
+											}
+										},
+										{
+											"cause": "all",
+											"deals_damage": false
+										}
+									]
+								},
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"on_interact": {
+												"filters": {
+													"test": "is_owner",
+													"subject": "other",
+													"value": true
+												},
+												"event": "scb:open"
+											},
+											"play_sounds": "deny"
+										}
+									]
+								}
+							},
+							"events": {
+								"scb:open": {
+									"add": {
+										"component_groups": [
+											"scb:open"
+										]
+									},
+									"execute": {
+										"commands": [
+											"/playsound random.door_open @a ~ ~ ~"
+										]
+									}
+								},
+								"minecraft:entity_transformed": {
+									"add": {
+										"component_groups": [
+											"scb:type",
+											"scb:r_changed"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"cause": "all",
+												"deals_damage": false,
+												"on_damage_sound_event": "deny",
+												"on_damage": {
+													"filters": {
+														"test": "is_owner",
+														"subject": "other",
+														"value": true
+													},
+													"event": "scb:open"
+												}
+											},
+											{
+												"cause": "all",
+												"deals_damage": false
+											}
+										]
+									},
+									"minecraft:interact": {
+										"interactions": [
+											{
+												"on_interact": {
+													"filters": {
+														"test": "is_owner",
+														"subject": "other",
+														"value": true
+													},
+													"event": "scb:open"
+												},
+												"play_sounds": "deny"
+											}
+										]
+									}
+								},
+								"key": "minecraft:damage_sensor",
+								"children": [
+									{
+										"open": {
+											"triggers": [
+												{
+													"cause": "all",
+													"deals_damage": false,
+													"on_damage_sound_event": "deny",
+													"on_damage": {
+														"filters": {
+															"test": "is_owner",
+															"subject": "other",
+															"value": true
+														},
+														"event": "scb:open"
+													}
+												},
+												{
+													"cause": "all",
+													"deals_damage": false
+												}
+											]
+										},
+										"key": "triggers",
+										"array": [
+											{
+												"open": [
+													{
+														"cause": "all",
+														"deals_damage": false,
+														"on_damage_sound_event": "deny",
+														"on_damage": {
+															"filters": {
+																"test": "is_owner",
+																"subject": "other",
+																"value": true
+															},
+															"event": "scb:open"
+														}
+													},
+													{
+														"cause": "all",
+														"deals_damage": false
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"cause": "all",
+													"deals_damage": false,
+													"on_damage_sound_event": "deny",
+													"on_damage": {
+														"filters": {
+															"test": "is_owner",
+															"subject": "other",
+															"value": true
+														},
+														"event": "scb:open"
+													}
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"cause": "all",
+													"deals_damage": false
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:interact",
+								"is_minified": true,
+								"children": {
+									"interactions": [
+										{
+											"on_interact": {
+												"filters": {
+													"test": "is_owner",
+													"subject": "other",
+													"value": true
+												},
+												"event": "scb:open"
+											},
+											"play_sounds": "deny"
+										}
+									]
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:door_r_open",
+								"is_summonable": false,
+								"is_spawnable": false
+							},
+							"component_groups": {
+								"scb:r_changed": {
+									"minecraft:is_tamed": {}
+								},
+								"scb:open": {
+									"minecraft:transformation": {
+										"into": "scb:door_r",
+										"keep_owner": true
+									}
+								},
+								"scb:type": {
+									"minecraft:mark_variant": {
+										"value": 0
+									}
+								}
+							},
+							"components": {
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false,
+											"on_damage_sound_event": "deny",
+											"on_damage": {
+												"filters": {
+													"test": "is_owner",
+													"subject": "other",
+													"value": true
+												},
+												"event": "scb:open"
+											}
+										},
+										{
+											"cause": "all",
+											"deals_damage": false
+										}
+									]
+								},
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"on_interact": {
+												"filters": {
+													"test": "is_owner",
+													"subject": "other",
+													"value": true
+												},
+												"event": "scb:open"
+											},
+											"play_sounds": "deny"
+										}
+									]
+								}
+							},
+							"events": {
+								"scb:open": {
+									"add": {
+										"component_groups": [
+											"scb:open"
+										]
+									},
+									"execute": {
+										"commands": [
+											"/playsound random.door_open @a ~ ~ ~"
+										]
+									}
+								},
+								"minecraft:entity_transformed": {
+									"add": {
+										"component_groups": [
+											"scb:type",
+											"scb:r_changed"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"scb:open": {
+										"add": {
+											"component_groups": [
+												"scb:open"
+											]
+										},
+										"execute": {
+											"commands": [
+												"/playsound random.door_open @a ~ ~ ~"
+											]
+										}
+									},
+									"minecraft:entity_transformed": {
+										"add": {
+											"component_groups": [
+												"scb:type",
+												"scb:r_changed"
+											]
+										}
+									}
+								},
+								"key": "scb:open",
+								"children": [
+									{
+										"key": "add",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"scb:open"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"array": [
+													"scb:open"
+												]
+											}
+										]
+									},
+									{
+										"key": "execute",
+										"is_minified": true,
+										"children": {
+											"commands": [
+												"/playsound random.door_open @a ~ ~ ~"
+											]
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"scb:open": {
+										"add": {
+											"component_groups": [
+												"scb:open"
+											]
+										},
+										"execute": {
+											"commands": [
+												"/playsound random.door_open @a ~ ~ ~"
+											]
+										}
+									},
+									"minecraft:entity_transformed": {
+										"add": {
+											"component_groups": [
+												"scb:type",
+												"scb:r_changed"
+											]
+										}
+									}
+								},
+								"key": "minecraft:entity_transformed",
+								"children": [
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"scb:type",
+													"scb:r_changed"
+												]
+											}
+										},
+										"key": "add",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"scb:type",
+														"scb:r_changed"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"array": [
+													"scb:type",
+													"scb:r_changed"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

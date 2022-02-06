@@ -1,0 +1,1221 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\SecurityBE\\models\\entity\\closed_turret.geo.json",
+	"file_type": "unknown",
+	"format_version": 1,
+	"file_uuid": "aba3df72_7b21_43ee_8632_7725835c8e96",
+	"file_version": 0,
+	"cache_content": {
+		"open": true,
+		"comment": "",
+		"data": "",
+		"key": "global",
+		"type": "object",
+		"meta": {},
+		"children": [
+			{
+				"open": false,
+				"comment": "",
+				"data": "1.12.0",
+				"key": "format_version",
+				"type": "string",
+				"meta": {},
+				"children": []
+			},
+			{
+				"open": true,
+				"comment": "",
+				"data": "",
+				"key": "minecraft:geometry",
+				"type": "array",
+				"meta": {},
+				"children": [
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "0",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "description",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "geometry.torreta_closed.geo",
+										"key": "identifier",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "64",
+										"key": "texture_width",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "64",
+										"key": "texture_height",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "2",
+										"key": "visible_bounds_width",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "1",
+										"key": "visible_bounds_height",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "visible_bounds_offset",
+										"type": "array",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "0",
+												"key": "0",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "0.5",
+												"key": "1",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "0",
+												"key": "2",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "bones",
+								"type": "array",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "0",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "base",
+												"key": "name",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "pivot",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "0",
+														"key": "0",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "25",
+														"key": "1",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "0",
+														"key": "2",
+														"type": "number",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "cubes",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "0",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "origin",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "-8",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "-8",
+																		"key": "2",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "size",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "16",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "16",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "16",
+																		"key": "2",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "uv",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "1",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "body",
+												"key": "name",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "base",
+												"key": "parent",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "pivot",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "0",
+														"key": "0",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "13",
+														"key": "1",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "0",
+														"key": "2",
+														"type": "number",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "cubes",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "0",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "origin",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "-1.5",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "8",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "-1.5",
+																		"key": "2",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "size",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "3",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "4",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "3",
+																		"key": "2",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "pivot",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "-12",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "2",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "uv",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "1",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "origin",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "-2.5",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "4",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "-2.5",
+																		"key": "2",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "size",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "5",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "4",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "5",
+																		"key": "2",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "pivot",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "-12",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "2",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "uv",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "22",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "32",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "2",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "head",
+												"key": "name",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "base",
+												"key": "parent",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "pivot",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "0",
+														"key": "0",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "8",
+														"key": "1",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "0",
+														"key": "2",
+														"type": "number",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "cubes",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "0",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "origin",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "-0.5",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "9",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "-6.5",
+																		"key": "2",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "size",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "1",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "1",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "4",
+																		"key": "2",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "pivot",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "-16",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "2",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "uv",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "7",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "1",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "origin",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "-2",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "12",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "-2.5",
+																		"key": "2",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "size",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "4",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "1",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "5",
+																		"key": "2",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "pivot",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "-16",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "2",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "uv",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "37",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "37",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "2",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "origin",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "-3",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "8",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "-2.5",
+																		"key": "2",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "size",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "6",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "4",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "5",
+																		"key": "2",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "pivot",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "-16",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "2",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "",
+																"key": "uv",
+																"type": "array",
+																"meta": {},
+																"children": [
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "0",
+																		"key": "0",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	},
+																	{
+																		"open": false,
+																		"comment": "",
+																		"data": "32",
+																		"key": "1",
+																		"type": "number",
+																		"meta": {},
+																		"children": []
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

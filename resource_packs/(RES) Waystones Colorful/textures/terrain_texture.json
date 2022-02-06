@@ -1,0 +1,126 @@
+{
+    "num_mip_levels": 4,
+    "padding": 8,
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+      "andesite_waystone_active": {
+        "textures": "textures/blocks/andesite_waystone_active"
+      },
+      "andesite_waystone_top": {
+        "textures": "textures/blocks/andesite_waystone_top"
+      },
+      "andesite_waystone_bottom": {
+        "textures": "textures/blocks/andesite_waystone_bottom"
+      },
+      "andesite_waystone_red": {
+        "textures": "textures/blocks/andesite_waystone_red"
+      },
+      "andesite_waystone_green": {
+        "textures": "textures/blocks/andesite_waystone_green"
+      },
+      "andesite_waystone_blue": {
+        "textures": "textures/blocks/andesite_waystone_blue"
+      },
+      "andesite_waystone_pink": {
+        "textures": "textures/blocks/andesite_waystone_pink"
+      },
+      "andesite_waystone_purple": {
+        "textures": "textures/blocks/andesite_waystone_purple"
+      },
+      "andesite_waystone_black": {
+        "textures": "textures/blocks/andesite_waystone_black"
+      },
+      "andesite_waystone_gray": {
+        "textures": "textures/blocks/andesite_waystone_gray"
+      },
+      "andesite_waystone_yellow": {
+        "textures": "textures/blocks/andesite_waystone_yellow"
+      },
+      "andesite_waystone_orange": {
+        "textures": "textures/blocks/andesite_waystone_orange"
+      },
+      "andesite_waystone_brown": {
+        "textures": "textures/blocks/andesite_waystone_brown"
+      },
+      "sandstone_waystone_active": {
+        "textures": "textures/blocks/sandstone_waystone_active"
+      },
+      "sandstone_waystone_top": {
+        "textures": "textures/blocks/sandstone_waystone_top"
+      },
+      "sandstone_waystone_bottom": {
+        "textures": "textures/blocks/sandstone_waystone_bottom"
+      },
+      "sandstone_waystone_red": {
+        "textures": "textures/blocks/sandstone_waystone_red"
+      },
+      "sandstone_waystone_green": {
+        "textures": "textures/blocks/sandstone_waystone_green"
+      },
+      "sandstone_waystone_blue": {
+        "textures": "textures/blocks/sandstone_waystone_blue"
+      },
+      "sandstone_waystone_pink": {
+        "textures": "textures/blocks/sandstone_waystone_pink"
+      },
+      "sandstone_waystone_purple": {
+        "textures": "textures/blocks/sandstone_waystone_purple"
+      },
+      "sandstone_waystone_black": {
+        "textures": "textures/blocks/sandstone_waystone_black"
+      },
+      "sandstone_waystone_gray": {
+        "textures": "textures/blocks/sandstone_waystone_gray"
+      },
+      "sandstone_waystone_yellow": {
+        "textures": "textures/blocks/sandstone_waystone_yellow"
+      },
+      "sandstone_waystone_orange": {
+        "textures": "textures/blocks/sandstone_waystone_orange"
+      },
+      "sandstone_waystone_brown": {
+        "textures": "textures/blocks/sandstone_waystone_brown"
+      },
+      "mossy_waystone_active": {
+        "textures": "textures/blocks/mossy_waystone_active"
+      },
+      "mossy_waystone_top": {
+        "textures": "textures/blocks/mossy_waystone_top"
+      },
+      "mossy_waystone_bottom": {
+        "textures": "textures/blocks/mossy_waystone_bottom"
+      },
+      "mossy_waystone_red": {
+        "textures": "textures/blocks/mossy_waystone_red"
+      },
+      "mossy_waystone_green": {
+        "textures": "textures/blocks/mossy_waystone_green"
+      },
+      "mossy_waystone_blue": {
+        "textures": "textures/blocks/mossy_waystone_blue"
+      },
+      "mossy_waystone_pink": {
+        "textures": "textures/blocks/mossy_waystone_pink"
+      },
+      "mossy_waystone_purple": {
+        "textures": "textures/blocks/mossy_waystone_purple"
+      },
+      "mossy_waystone_black": {
+        "textures": "textures/blocks/mossy_waystone_black"
+      },
+      "mossy_waystone_gray": {
+        "textures": "textures/blocks/mossy_waystone_gray"
+      },
+      "mossy_waystone_yellow": {
+        "textures": "textures/blocks/mossy_waystone_yellow"
+      },
+      "mossy_waystone_orange": {
+        "textures": "textures/blocks/mossy_waystone_orange"
+      },
+      "mossy_waystone_brown": {
+        "textures": "textures/blocks/mossy_waystone_brown"
+      }
+    },
+    "texture_name": "atlas.terrain"
+}
+// BASE CRIADA POR ANDRIEL GAMES

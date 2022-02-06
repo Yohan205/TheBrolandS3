@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ws:botao_marrom.waystones",
+      "materials": {
+        "default": "entity_alphatest" 
+      },
+      "textures": {
+        "default": "textures/entity/botao_marrom"
+      },
+      "geometry": {
+        "default": "geometry.botoes"
+      },
+      "render_controllers": [ "controller.render.agent" ]
+    }
+  }
+}

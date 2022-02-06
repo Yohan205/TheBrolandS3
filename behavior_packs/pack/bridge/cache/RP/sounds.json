@@ -1,0 +1,577 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\SecurityBE\\sounds.json",
+	"file_type": "client_sound",
+	"format_version": 1,
+	"file_uuid": "b4f3aeb5_8a87_49b9_a693_2038002ac039",
+	"file_version": 0,
+	"cache_content": {
+		"open": true,
+		"comment": "",
+		"data": "",
+		"key": "global",
+		"type": "object",
+		"meta": {},
+		"children": [
+			{
+				"open": true,
+				"comment": "",
+				"data": "",
+				"key": "individual_event_sounds",
+				"type": "object",
+				"meta": {},
+				"children": [
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "events",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "breaking",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "dig.stone",
+										"key": "sound",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "0.8",
+										"key": "pitch",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"open": false,
+				"comment": "",
+				"data": "",
+				"key": "block_sounds",
+				"type": "object",
+				"meta": {},
+				"children": []
+			},
+			{
+				"open": false,
+				"comment": "",
+				"data": "",
+				"key": "entity_sounds",
+				"type": "object",
+				"meta": {},
+				"children": [
+					{
+						"open": false,
+						"comment": "",
+						"data": "",
+						"key": "defaults",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "1",
+								"key": "volume",
+								"type": "number",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "pitch",
+								"type": "array",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "0.8",
+										"key": "0",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "1.2",
+										"key": "1",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "events",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "fall.big",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "damage.fallbig",
+												"key": "sound",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "0.75",
+												"key": "volume",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "1",
+												"key": "pitch",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "fall.small",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "damage.fallsmall",
+												"key": "sound",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "0.75",
+												"key": "volume",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "1",
+												"key": "pitch",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "splash",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "random.splash",
+												"key": "sound",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "pitch",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "0.6",
+														"key": "0",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "1.4",
+														"key": "1",
+														"type": "number",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "swim",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "random.swim",
+												"key": "sound",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "pitch",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "0.6",
+														"key": "0",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "1.4",
+														"key": "1",
+														"type": "number",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "fizz",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "random.fizz",
+												"key": "sound",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "0.7",
+												"key": "volume",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "pitch",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "1.2",
+														"key": "0",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "2",
+														"key": "1",
+														"type": "number",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "drink",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "random.drink",
+												"key": "sound",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "0.5",
+												"key": "volume",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "pitch",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "0.9",
+														"key": "0",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "1",
+														"key": "1",
+														"type": "number",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "eat",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "random.eat",
+												"key": "sound",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "volume",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "0.5",
+														"key": "0",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "1.5",
+														"key": "1",
+														"type": "number",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "pitch",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "0.8",
+														"key": "0",
+														"type": "number",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "1.2",
+														"key": "1",
+														"type": "number",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "ambient",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "flop",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "game.player.hurt",
+										"key": "hurt",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "game.player.die",
+										"key": "death",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "ambient.in.water",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "hurt.in.water",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "death.in.water",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "ambient.in.raid",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": false,
+						"comment": "",
+						"data": "",
+						"key": "entities",
+						"type": "object",
+						"meta": {},
+						"children": []
+					}
+				]
+			}
+		]
+	}
+}

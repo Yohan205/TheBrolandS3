@@ -1,0 +1,49 @@
+
+[
+	
+	{
+		"pack_id" : "bb21e9cb-1b4f-4686-abc4-ce56d273b78c",
+		"version" : [ 0, 0, 8 ]
+	},
+	
+	{
+		"pack_id" : "f5239a94-a102-4fdd-8d8a-932548f620ef",
+		"version" : [ 1, 1, 0 ]
+	},
+	
+	{
+		"pack_id" : "b7895184-56a7-4038-bb1a-ea67648b4144",
+		"version" : [ 1, 0, 14 ]
+	},
+	
+	{
+		"pack_id" : "976c70cd-16c8-4304-aee0-3004e6b95a47",
+		"version" : [ 0, 0, 1 ]
+	},
+
+	{
+		"pack_id" : "478bfb96-79d8-4322-a1cc-62e53fbb4993",
+		"version" : [ 2, 1, 2 ]
+	},
+
+	{
+		"pack_id" : "682b7d8a-7edd-45f9-95f0-dba1b8fff4ef",
+		"version" : [ 1, 0, 4 ]
+	},
+	
+	{
+		"pack_id" : "34adb82f-d00c-4a1d-bc9a-614f4c5d5d67",
+		"version" : [ 1, 0, 1 ]
+	},
+	
+	{
+		"pack_id" : "8b0c3563-c538-4f21-9e0b-10c176e72247",
+		"version" : [ 0, 9, 7 ]
+	},
+	
+	{
+		"pack_id" : "b2dcd007-8312-4d86-b22b-a3c799053d61",
+		"subpack" : "Heart Value",
+		"version" : [ 1, 0, 0 ]
+	}
+]

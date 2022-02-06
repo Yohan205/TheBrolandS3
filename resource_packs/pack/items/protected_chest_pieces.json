@@ -1,0 +1,15 @@
+//bridge-file-version: #10
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "scb:protected_chest_pieces",
+			"category": "SecurityBE"
+		},
+		"components": {
+			"minecraft:icon": "protected_chest_pieces",
+			"minecraft:use_animation": "eat",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

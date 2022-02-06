@@ -1,0 +1,15 @@
+//bridge-file-version: #12
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "scb:rocket_launcher_parts",
+			"category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "rocket_launcher_parts",
+			"minecraft:use_animation": "eat",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

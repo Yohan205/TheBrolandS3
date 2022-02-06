@@ -1,0 +1,716 @@
+{
+	"BP/entities/Turret.json": {
+		"data": {}
+	},
+	"RP/entity/turret.json": {
+		"data": {}
+	},
+	"RP/render_controllers/turret.json": {
+		"data": {}
+	},
+	"RP/textures/item_texture.json": {
+		"data": {}
+	},
+	"BP/entities/turret_bullet.json": {
+		"data": {}
+	},
+	"BP/entities/closed_turret.json": {
+		"data": {}
+	},
+	"RP/entity/closed_turret.json": {
+		"data": {}
+	},
+	"BP/entities/land_mine.json": {
+		"data": {}
+	},
+	"RP/entity/land_mine.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/unknown.json": {
+		"data": {}
+	},
+	"RP/animations/unknown.json": {
+		"data": {}
+	},
+	"RP/animation_controllers/unknown.json": {
+		"data": {}
+	},
+	"BP/loot_tables/turret.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"5a084316_b6c3_4bb7_8dd4_a1ee747f7309": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {
+								"transitions": [
+									{
+										"holds_block_reinforcer": "query.get_equipped_item_name(0, 0) == 'block_reinforcer'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_reset_player"
+								]
+							},
+							"holds_block_reinforcer": {
+								"transitions": [
+									{
+										"default": "query.get_equipped_item_name(0, 0) != 'block_reinforcer'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_equipped_5a084316_b6c3_4bb7_8dd4_a1ee747f7309",
+									"/say §aequipado!"
+								],
+								"on_exit": [
+									"@s bridge:on_unequipped_5a084316_b6c3_4bb7_8dd4_a1ee747f7309"
+								]
+							}
+						}
+					}
+				}
+			},
+			"830df7c8_887d_4d6f_a5e5_29c70bfcc72a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {}
+			},
+			"051836ea_d08b_45f9_be49_762d80f2620e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {}
+			},
+			"4fdcbee6_cb32_41fe_ada0_18ede114b1de": {
+				"format_version": "1.10.0",
+				"animation_controllers": {}
+			},
+			"07fed87c_b96a_4f4a_90ec_f0bc78bebb92": {
+				"format_version": "1.10.0",
+				"animation_controllers": {}
+			},
+			"75252e65_d8d9_4aee_be1d_49e1c3c8527a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/block_reinforcer.json": {
+		"data": {}
+	},
+	"RP/items/block_reinforcer.json": {
+		"data": {}
+	},
+	"BP/items/block_remover.json": {
+		"data": {}
+	},
+	"RP/items/block_remover.json": {
+		"data": {}
+	},
+	"RP/textures/terrain_texture.json": {
+		"data": {}
+	},
+	"RP/blocks.json": {
+		"data": {}
+	},
+	"BP/blocks/dirt_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/cobblestone_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/cobblestone_mossy_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/brick_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/end_stone_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/stone_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/stonebrick_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/stonebrick_mossy_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/stonebrick_cracked_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/stonebrick_carved_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/stone_andesite_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/stone_andesite_smooth_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/stone_diorite_smooth_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/stone_diorite_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/stone_granite_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/stone_granite_smooth_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/dirt_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/cobblestone_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/cobblestone_mossy_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/brick_reinforced.json": {
+		"data": {}
+	},
+	"BP/entities/key_chest.json": {
+		"data": {}
+	},
+	"RP/entity/key_chest.json": {
+		"data": {}
+	},
+	"RP/entity/turret_bullet.json": {
+		"data": {}
+	},
+	"BP/recipes/stone_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/stonebrick_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/stonebrick_cracked_reinforced.json": {
+		"data": {}
+	},
+	"BP/entities/security_table.json": {
+		"data": {}
+	},
+	"RP/entity/security_table.json": {
+		"data": {}
+	},
+	"RP/models/entity/scb_table.geo.json": {
+		"data": {}
+	},
+	"BP/entities/key_door.json": {
+		"data": {}
+	},
+	"BP/items/padlock.json": {
+		"data": {}
+	},
+	"RP/items/padlock.json": {
+		"data": {}
+	},
+	"RP/items/turret_pieces.json": {
+		"data": {}
+	},
+	"BP/items/turret_pieces.json": {
+		"data": {}
+	},
+	"BP/loot_tables/security_table.json": {
+		"data": {}
+	},
+	"BP/items/land_mine_pieces.json": {
+		"data": {}
+	},
+	"RP/items/land_mine_pieces.json": {
+		"data": {}
+	},
+	"BP/items/security_table_pieces.json": {
+		"data": {}
+	},
+	"BP/items/block_remover_pieces.json": {
+		"data": {}
+	},
+	"BP/items/protected_chest_pieces.json": {
+		"data": {}
+	},
+	"BP/items/protected_door_pieces.json": {
+		"data": {}
+	},
+	"BP/entities/armor_stand.json": {
+		"data": {}
+	},
+	"BP/loot_tables/land_mine.json": {
+		"data": {}
+	},
+	"BP/entities/mine_explode.json": {
+		"data": {}
+	},
+	"RP/items/security_table_pieces.json": {
+		"data": {}
+	},
+	"BP/recipes/block_reinforcer.json": {
+		"data": {}
+	},
+	"BP/recipes/security_table_pieces.json": {
+		"data": {}
+	},
+	"BP/loot_tables/key_chest.json": {
+		"data": {}
+	},
+	"BP/recipes/block_remover.json": {
+		"data": {}
+	},
+	"RP/items/protected_chest_pieces.json": {
+		"data": {}
+	},
+	"RP/items/protected_door_pieces.json": {
+		"data": {}
+	},
+	"RP/items/block_remover_pieces.json": {
+		"data": {}
+	},
+	"RP/entity/block_remove_entity.json": {
+		"data": {}
+	},
+	"BP/entities/block_remove_entity.json": {
+		"data": {}
+	},
+	"BP/recipes/padlock.json": {
+		"data": {}
+	},
+	"BP/recipes/protected_chest_pieces.json": {
+		"data": {}
+	},
+	"BP/recipes/land_mine.json": {
+		"data": {}
+	},
+	"BP/recipes/turret_pieces.json": {
+		"data": {}
+	},
+	"RP/models/entity/key_chest_back.geo.json": {
+		"data": {}
+	},
+	"RP/models/entity/key_chest_left.geo.json": {
+		"data": {}
+	},
+	"RP/models/entity/key_chest_right.geo.json": {
+		"data": {}
+	},
+	"RP/models/entity/key_door_open_front.geo.json": {
+		"data": {}
+	},
+	"RP/models/entity/key_door_right.geo.json": {
+		"data": {}
+	},
+	"BP/loot_tables/block_remover_entity.json": {
+		"data": {}
+	},
+	"BP/entities/key_chest_right.json": {
+		"data": {}
+	},
+	"BP/entities/key_chest_back.json": {
+		"data": {}
+	},
+	"BP/entities/key_chest_left.json": {
+		"data": {}
+	},
+	"BP/items/rotator.json": {
+		"data": {}
+	},
+	"RP/items/rotator.json": {
+		"data": {}
+	},
+	"RP/entity/key_chest_right.json": {
+		"data": {}
+	},
+	"RP/entity/key_chest_back.json": {
+		"data": {}
+	},
+	"RP/entity/key_chest_left.json": {
+		"data": {}
+	},
+	"BP/recipes/stonebrick_carved_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/stone_granite_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/stone_granite_smooth_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/stone_diorite_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/stone_diorite_smooth_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/stone_andesite_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/stone_andesite_smooth_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/stonebrick_mossy_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/end_stone_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/wool/wool_black_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/wool/wool_blue_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/wool/wool_brown_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/wool/wool_cyan_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/wool/wool_gray_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/wool/wool_green_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/wool/wool_light_blue_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/wool/wool_lime_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/wool/wool_magenta_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/wool/wool_orange_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/wool/wool_pink_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/wool/wool_purple_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/wool/wool_red_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/wool/wool_silver_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/wool/wool_white_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/wool/wool_yellow_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/planks/plank_acacia_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/planks/plank_big_oak_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/planks/plank_birch_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/planks/plank_jungle_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/planks/plank_oak_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/planks/plank_spruce_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/planks/plank_acacia_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/planks/plank_big_oak_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/planks/plank_birch_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/planks/plank_jungle_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/planks/plank_oak_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/planks/plank_spruce_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/rotator.json": {
+		"data": {}
+	},
+	"BP/entities/key_door_open_front.json": {
+		"data": {}
+	},
+	"RP/entity/key_door_open_front.json": {
+		"data": {}
+	},
+	"RP/models/entity/key_door.geo.json": {
+		"data": {}
+	},
+	"RP/animation_controllers/torreta.json": {
+		"data": {}
+	},
+	"RP/models/entity/closed_turret.geo.json": {
+		"data": {}
+	},
+	"RP/animations/torreta.animation.json": {
+		"data": {}
+	},
+	"RP/models/entity/misil_launcher.geo.json": {
+		"data": {}
+	},
+	"BP/entities/misil_launcher.json": {
+		"data": {}
+	},
+	"RP/entity/misil_launcher.json": {
+		"data": {}
+	},
+	"BP/entities/misile_bullet.json": {
+		"data": {}
+	},
+	"RP/entity/misile_bullet.json": {
+		"data": {}
+	},
+	"RP/models/entity/misile.geo.json": {
+		"data": {}
+	},
+	"BP/loot_tables/missile_launcher.json": {
+		"data": {}
+	},
+	"BP/items/damage_upgrade.json": {
+		"data": {}
+	},
+	"RP/items/damage_upgrade.json": {
+		"data": {}
+	},
+	"BP/items/land_mine_deactivate.json": {
+		"data": {}
+	},
+	"RP/items/land_mine_deactivate.json": {
+		"data": {}
+	},
+	"BP/entities/iron_bars_trap.json": {
+		"data": {}
+	},
+	"RP/entity/iron_bars_trap.json": {
+		"data": {}
+	},
+	"RP/render_controllers/land_mine_variant.json": {
+		"data": {}
+	},
+	"RP/entity/land_mine_inactive.json": {
+		"data": {}
+	},
+	"BP/entities/land_mine_inactive.json": {
+		"data": {}
+	},
+	"RP/render_controllers/key_chest.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/commands_key_chest.json.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/commands_security_table.json.json": {
+		"data": {}
+	},
+	"RP/particles/breaking.json": {
+		"data": {}
+	},
+	"RP/sounds.json": {
+		"data": {}
+	},
+	"BP/blocks/table_drop.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/commands_security_table.json": {
+		"data": {}
+	},
+	"BP/entities/fire_alarm.json": {
+		"data": {}
+	},
+	"RP/render_controllers/fire_alarm.json": {
+		"data": {}
+	},
+	"RP/entity/fire_alarm.json": {
+		"data": {}
+	},
+	"BP/items/rocket_item.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"RP/items/rocket_item.json": {
+		"data": {}
+	},
+	"BP/items/iron_bars_trap_parts.json": {
+		"data": {}
+	},
+	"RP/items/iron_bars_trap_parts.json": {
+		"data": {}
+	},
+	"BP/items/rocket_launcher_parts.json": {
+		"data": {}
+	},
+	"RP/items/rocket_launcher_parts.json": {
+		"data": {}
+	},
+	"BP/blocks/fire_alarm_drop.json": {
+		"data": {}
+	},
+	"BP/loot_tables/fire_alarm.json": {
+		"data": {}
+	},
+	"BP/loot_tables/iron_bars_trap.json": {
+		"data": {}
+	},
+	"BP/entities/door.json": {
+		"data": {}
+	},
+	"BP/entities/door_open.json": {
+		"data": {}
+	},
+	"RP/entity/door.json/key_door.json": {
+		"data": {}
+	},
+	"RP/entity/door_open.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/commands_door.json": {
+		"data": {}
+	},
+	"RP/render_controllers/door.json": {
+		"data": {}
+	},
+	"BP/entities/dur_open.json": {
+		"data": {}
+	},
+	"BP/entities/dur.json": {
+		"data": {}
+	},
+	"RP/entity/door_r_open.json": {
+		"data": {}
+	},
+	"RP/entity/door_r.json": {
+		"data": {}
+	},
+	"BP/manifest.json": {
+		"data": {}
+	},
+	"RP/manifest.json": {
+		"data": {}
+	},
+	"BP/loot_tables/door.json": {
+		"data": {}
+	},
+	"BP/blocks/quartz/quartz_block_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/quartz/quartz_block_chiseled_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/quartz_block_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/quartz/quartz_block_lines_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/quartz/quartz_block_reinforced.json": {
+		"data": {}
+	},
+	"BP/loot_tables/missile_launcher_two.json": {
+		"data": {}
+	},
+	"BP/recipes/quartz/quartz_block_lines_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/quartz/quartz_block_chiseled_reinforced.json/quartz_chiseled_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/quartz/quartz_block_chiseled_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/land_mine_desactivador.json": {
+		"data": {}
+	},
+	"BP/recipes/rocket_bullet.json": {
+		"data": {}
+	},
+	"BP/recipes/protected_door.json": {
+		"data": {}
+	},
+	"BP/recipes/iron_bars_trap_parts.json": {
+		"data": {}
+	},
+	"BP/recipes/rocket_launcher.json": {
+		"data": {}
+	},
+	"BP/items/fire_alarm_parts.json": {
+		"data": {}
+	},
+	"RP/items/fire_alarm_parts.json": {
+		"data": {}
+	},
+	"BP/recipes/fire_alarm.json": {
+		"data": {}
+	},
+	"BP/recipes/wool/wool_black_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/wool/wool_gray_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/wool/wool_orange_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/wool/wool_magenta_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/wool/wool_light_blue_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/wool/wool_yellow_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/wool/wool_lime_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/wool/wool_pink_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/wool/wool_silver_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/wool/wool_cyan_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/wool/wool_purple_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/wool/wool_blue_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/wool/wool_brown_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/wool/wool_green_reinforced.json": {
+		"data": {}
+	},
+	"BP/recipes/wool/wool_red_reinforced.json": {
+		"data": {}
+	},
+	"BP/blocks/rocket_launcher_drop.json": {
+		"data": {}
+	}
+}

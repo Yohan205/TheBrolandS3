@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "flatscreentv_af7132bc"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "bzf:furniture_box",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bzf:flatscreentv",
+      "count": 1
+    }
+  }
+}

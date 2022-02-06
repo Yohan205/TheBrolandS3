@@ -1,0 +1,73 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.bridge_key_chest.execute_commands": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"execute_command_id_4": "query.skin_id == 4"
+						},
+						{
+							"execute_command_id_3": "query.skin_id == 3"
+						},
+						{
+							"execute_command_id_2": "query.skin_id == 2"
+						},
+						{
+							"execute_command_id_1": "query.skin_id == 1"
+						}
+					]
+				},
+				"execute_command_id_1": {
+					"transitions": [
+						{
+							"default": "query.skin_id != 1"
+						}
+					],
+					"on_entry": [
+						"/kill @s",
+						"@s bridge:remove_command_id_1"
+					]
+				},
+				"execute_command_id_2": {
+					"transitions": [
+						{
+							"default": "query.skin_id != 2"
+						}
+					],
+					"on_entry": [
+						"/playsound random.orb @a ~ ~ ~",
+						"/setblock ~ ~ ~ iron_block",
+						"/setblock ~ ~ ~ air 0 destroy",
+						"/kill @e[type=item,r=1,name=!\"Protected Chest\"]",
+						"@s bridge:remove_command_id_2"
+					]
+				},
+				"execute_command_id_3": {
+					"transitions": [
+						{
+							"default": "query.skin_id != 3"
+						}
+					],
+					"on_entry": [
+						"/playsound random.pop @a ~ ~ ~",
+						"@s bridge:remove_command_id_3"
+					]
+				},
+				"execute_command_id_4": {
+					"transitions": [
+						{
+							"default": "query.skin_id != 4"
+						}
+					],
+					"on_entry": [
+						"/title @p actionbar §cUnbreakable",
+						"/particle minecraft:critical_hit_emitter ~ ~ ~",
+						"@s bridge:remove_command_id_4"
+					]
+				}
+			}
+		}
+	}
+}

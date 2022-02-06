@@ -1,0 +1,15 @@
+//bridge-file-version: #13
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "scb:block_remover_pieces",
+			"category": "SecurityBE"
+		},
+		"components": {
+			"minecraft:icon": "block_remover_pieces",
+			"minecraft:use_animation": "eat",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

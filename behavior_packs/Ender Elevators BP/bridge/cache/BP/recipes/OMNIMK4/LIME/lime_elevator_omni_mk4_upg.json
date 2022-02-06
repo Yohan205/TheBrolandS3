@@ -1,0 +1,232 @@
+{
+	"file_path": "C:\\Users\\Sofia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ender Elevators BP\\recipes\\OMNIMK3\\LIME\\lime_elevator_omni_mk4_upg.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "9ce4ef96_97aa_4edd_9d7a_a1fd983155fd",
+	"file_version": 30,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.16,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "se:lime_elevator_omni_mk4_upg"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"!S!",
+							"S#S",
+							"!S!"
+						],
+						"key": {
+							"S": {
+								"item": "se:lime_elevator_mk4"
+							},
+							"#": {
+								"item": "se:lime_elevator_omni_mk3"
+							},
+							"!": {
+								"item": "minecraft:stonebrick:3"
+							}
+						},
+						"result": [
+							{
+								"count": 1,
+								"item": "se:lime_elevator_omni_mk4"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "se:lime_elevator_omni_mk4_upg"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "se:lime_elevator_mk4"
+								},
+								"#": {
+									"item": "se:lime_elevator_omni_mk3"
+								},
+								"!": {
+									"item": "minecraft:stonebrick:3"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:lime_elevator_omni_mk4"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "se:lime_elevator_omni_mk4_upg"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"!S!",
+							"S#S",
+							"!S!"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:lime_elevator_omni_mk4_upg"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "se:lime_elevator_mk4"
+								},
+								"#": {
+									"item": "se:lime_elevator_omni_mk3"
+								},
+								"!": {
+									"item": "minecraft:stonebrick:3"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:lime_elevator_omni_mk4"
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"S": {
+										"item": "se:lime_elevator_mk4"
+									},
+									"#": {
+										"item": "se:lime_elevator_omni_mk3"
+									},
+									"!": {
+										"item": "minecraft:stonebrick:3"
+									}
+								},
+								"key": "S",
+								"is_minified": true,
+								"children": {
+									"item": "se:lime_elevator_mk4"
+								}
+							},
+							{
+								"open": {
+									"S": {
+										"item": "se:lime_elevator_mk4"
+									},
+									"#": {
+										"item": "se:lime_elevator_omni_mk3"
+									},
+									"!": {
+										"item": "minecraft:stonebrick:3"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "se:lime_elevator_omni_mk3"
+								}
+							},
+							{
+								"key": "!",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:stonebrick:3"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:lime_elevator_omni_mk4_upg"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "se:lime_elevator_mk4"
+								},
+								"#": {
+									"item": "se:lime_elevator_omni_mk3"
+								},
+								"!": {
+									"item": "minecraft:stonebrick:3"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:lime_elevator_omni_mk4"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"count": 1,
+										"item": "se:lime_elevator_omni_mk4"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"count": 1,
+									"item": "se:lime_elevator_omni_mk4"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,673 @@
+// Caso você utilize esses código no seu addon deixe os créditos para Andriel Games
+{
+  "format_version":"1.16.0",
+  "minecraft:block":{
+    "description":{
+      "identifier":"ws:sandstone_waystone_bottom.waystones",
+      "properties":{
+        "ws:cores":[ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+      }
+    },
+    "components":{
+      "minecraft:material_instances":{
+        "*":{
+          "texture":"sandstone_waystone_bottom",
+          "render_method":"alpha_test"
+        }
+      },
+      "minecraft:geometry":"geometry.waystone_bottom",
+      "minecraft:pick_collision":{
+        "origin":[ -8, 0, -8 ],
+        "size":[ 16, 16, 16 ]
+      },
+      "minecraft:entity_collision":{
+        "origin":[ -8, 0, -8 ],
+        "size":[ 16, 16, 16 ]
+      },
+      "tag:minecraft:stone": {},
+    	"minecraft:placement_filter": {
+        "conditions": [
+      		{
+            "block_filter": [
+              "ws:sandstone_waystone_active.waystones",
+              "ws:sandstone_waystone_top.waystones"
+            ],
+            "allowed_faces": ["down"]
+      		}
+        ]
+    	},
+      "minecraft:immovable":true,
+      "minecraft:destroy_time":1.0,
+      "minecraft:friction":0.6,
+      "minecraft:explosion_resistance":3.0,
+      "minecraft:block_light_absorption":8.0,
+      "minecraft:loot":"loot_tables/empty.json",
+      "minecraft:map_color":"#818181",
+      "minecraft:on_interact":{
+        "event":"cor"
+      }
+    },
+    "events":{
+      "cor":{
+        "sequence":[
+          {
+            "condition":"q.get_equipped_item_name == 'red_dye'",
+            "run_command":{
+              "command":[
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1] ~~~ say §cUma waystone na cor §4§lVERMELHA§r§c ja foi definida antes, escolha outra cor!",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1] ~~~ say §4A §c§lRED§r§4 waystone has been defined before, choose another color!",
+                "summon ws:waystone.waystones waystone ~~~",
+                "tag @e[type=ws:waystone.waystones, name=waystone, r=2, c=1] add red",
+                "tickingarea add circle ~~~ 1 red",
+                "fill ~~1~ ~~1~ ws:sandstone_waystone_active.waystones 0 replace ws:sandstone_waystone_top.waystones",
+                "playsound random.levelup @a ~~~",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1, r=2] ~~~ tag @p add red",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1, r=2] ~~~ tag @p add green",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1, r=2] ~~~ tag @p add blue",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1, r=2] ~~~ tag @p add pink",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1, r=2] ~~~ tag @p add purple",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1, r=2] ~~~ tag @p add black",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1, r=2] ~~~ tag @p add gray",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1, r=2] ~~~ tag @p add yellow",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1, r=2] ~~~ tag @p add orange",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1, r=2] ~~~ tag @p add brown",
+                "particle ws:enchanting ~~0.7~"
+              ]
+            },
+            "decrement_stack":{},
+            "set_block_property":{
+              "ws:cores": 1
+            }
+          },
+          {
+            "condition":"q.get_equipped_item_name == 'green_dye'",
+            "run_command":{
+              "command":[
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1] ~~~ say §cUma waystone na cor §a§lVERDE§r§c ja foi definida antes, escolha outra cor!",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1] ~~~ say §4A §a§lGREEN§r§4 waystone has been defined before, choose another color!",
+                "summon ws:waystone.waystones waystone ~~~",
+                "tag @e[type=ws:waystone.waystones, name=waystone, r=2, c=1] add green",
+                "tickingarea add circle ~~~ 1 green",
+                "fill ~~1~ ~~1~ ws:sandstone_waystone_active.waystones 0 replace ws:sandstone_waystone_top.waystones",
+                "playsound random.levelup @a ~~~",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1, r=2] ~~~ tag @p add red",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1, r=2] ~~~ tag @p add green",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1, r=2] ~~~ tag @p add blue",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1, r=2] ~~~ tag @p add pink",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1, r=2] ~~~ tag @p add purple",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1, r=2] ~~~ tag @p add black",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1, r=2] ~~~ tag @p add gray",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1, r=2] ~~~ tag @p add yellow",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1, r=2] ~~~ tag @p add orange",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1, r=2] ~~~ tag @p add brown",
+                "particle ws:enchanting ~~0.7~"
+              ]
+            },
+            "decrement_stack":{},
+            "set_block_property":{
+              "ws:cores": 2
+            }
+          },
+          {
+            "condition":"q.get_equipped_item_name == 'lime_dye'",
+            "run_command":{
+              "command":[
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1] ~~~ say §cUma waystone na cor §a§lVERDE§r§c ja foi definida antes, escolha outra cor!",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1] ~~~ say §4A §a§lGREEN§r§4 waystone has been defined before, choose another color!",
+                "summon ws:waystone.waystones waystone ~~~",
+                "tag @e[type=ws:waystone.waystones, name=waystone, r=2, c=1] add green",
+                "tickingarea add circle ~~~ 1 green",
+                "fill ~~1~ ~~1~ ws:sandstone_waystone_active.waystones 0 replace ws:sandstone_waystone_top.waystones",
+                "playsound random.levelup @a ~~~",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1, r=2] ~~~ tag @p add red",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1, r=2] ~~~ tag @p add green",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1, r=2] ~~~ tag @p add blue",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1, r=2] ~~~ tag @p add pink",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1, r=2] ~~~ tag @p add purple",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1, r=2] ~~~ tag @p add black",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1, r=2] ~~~ tag @p add gray",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1, r=2] ~~~ tag @p add yellow",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1, r=2] ~~~ tag @p add orange",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1, r=2] ~~~ tag @p add brown",
+                "particle ws:enchanting ~~0.7~"
+              ]
+            },
+            "decrement_stack":{},
+            "set_block_property":{
+              "ws:cores": 2
+            }
+          },
+          {
+            "condition":"q.get_equipped_item_name == 'blue_dye'",
+            "run_command":{
+              "command":[
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1] ~~~ say §cUma waystone na cor §9§lAZUL§r§c ja foi definida antes, escolha outra cor!",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1] ~~~ say §4A §9§lBLUE§r§4 waystone has been defined before, choose another color!",
+                "summon ws:waystone.waystones waystone ~~~",
+                "tag @e[type=ws:waystone.waystones, name=waystone, r=2, c=1] add blue",
+                "tickingarea add circle ~~~ 1 blue",
+                "fill ~~1~ ~~1~ ws:sandstone_waystone_active.waystones 0 replace ws:sandstone_waystone_top.waystones",
+                "playsound random.levelup @a ~~~",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1, r=2] ~~~ tag @p add red",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1, r=2] ~~~ tag @p add green",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1, r=2] ~~~ tag @p add blue",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1, r=2] ~~~ tag @p add pink",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1, r=2] ~~~ tag @p add purple",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1, r=2] ~~~ tag @p add black",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1, r=2] ~~~ tag @p add gray",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1, r=2] ~~~ tag @p add yellow",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1, r=2] ~~~ tag @p add orange",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1, r=2] ~~~ tag @p add brown",
+                "particle ws:enchanting ~~0.7~"
+              ]
+            },
+            "decrement_stack":{},
+            "set_block_property":{
+              "ws:cores": 3
+            }
+          },
+          {
+            "condition":"q.get_equipped_item_name == 'light_blue_dye'",
+            "run_command":{
+              "command":[
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1] ~~~ say §cUma waystone na cor §9§lAZUL§r§c ja foi definida antes, escolha outra cor!",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1] ~~~ say §4A §9§lBLUE§r§4 waystone has been defined before, choose another color!",
+                "summon ws:waystone.waystones waystone ~~~",
+                "tag @e[type=ws:waystone.waystones, name=waystone, r=2, c=1] add blue",
+                "tickingarea add circle ~~~ 1 blue",
+                "fill ~~1~ ~~1~ ws:sandstone_waystone_active.waystones 0 replace ws:sandstone_waystone_top.waystones",
+                "playsound random.levelup @a ~~~",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1, r=2] ~~~ tag @p add red",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1, r=2] ~~~ tag @p add green",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1, r=2] ~~~ tag @p add blue",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1, r=2] ~~~ tag @p add pink",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1, r=2] ~~~ tag @p add purple",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1, r=2] ~~~ tag @p add black",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1, r=2] ~~~ tag @p add gray",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1, r=2] ~~~ tag @p add yellow",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1, r=2] ~~~ tag @p add orange",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1, r=2] ~~~ tag @p add brown",
+                "particle ws:enchanting ~~0.7~"
+              ]
+            },
+            "decrement_stack":{},
+            "set_block_property":{
+              "ws:cores": 3
+            }
+          },
+          {
+            "condition":"q.get_equipped_item_name == 'cyan_dye'",
+            "run_command":{
+              "command":[
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1] ~~~ say §cUma waystone na cor §9§lAZUL§r§c ja foi definida antes, escolha outra cor!",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1] ~~~ say §4A §9§lBLUE§r§4 waystone has been defined before, choose another color!",
+                "summon ws:waystone.waystones waystone ~~~",
+                "tag @e[type=ws:waystone.waystones, name=waystone, r=2, c=1] add blue",
+                "tickingarea add circle ~~~ 1 blue",
+                "fill ~~1~ ~~1~ ws:sandstone_waystone_active.waystones 0 replace ws:sandstone_waystone_top.waystones",
+                "playsound random.levelup @a ~~~",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1, r=2] ~~~ tag @p add red",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1, r=2] ~~~ tag @p add green",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1, r=2] ~~~ tag @p add blue",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1, r=2] ~~~ tag @p add pink",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1, r=2] ~~~ tag @p add purple",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1, r=2] ~~~ tag @p add black",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1, r=2] ~~~ tag @p add gray",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1, r=2] ~~~ tag @p add yellow",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1, r=2] ~~~ tag @p add orange",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1, r=2] ~~~ tag @p add brown",
+                "particle ws:enchanting ~~0.7~"
+              ]
+            },
+            "decrement_stack":{},
+            "set_block_property":{
+              "ws:cores": 3
+            }
+          },
+          {
+            "condition":"q.get_equipped_item_name == 'pink_dye'",
+            "run_command":{
+              "command":[
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1] ~~~ say §cUma waystone na cor §d§lROSA§r§c ja foi definida antes, escolha outra cor!",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1] ~~~ say §4A §d§lPINK§r§4 waystone has been defined before, choose another color!",
+                "summon ws:waystone.waystones waystone ~~~",
+                "tag @e[type=ws:waystone.waystones, name=waystone, r=2, c=1] add pink",
+                "tickingarea add circle ~~~ 1 pink",
+                "fill ~~1~ ~~1~ ws:sandstone_waystone_active.waystones 0 replace ws:sandstone_waystone_top.waystones",
+                "playsound random.levelup @a ~~~",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1, r=2] ~~~ tag @p add red",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1, r=2] ~~~ tag @p add green",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1, r=2] ~~~ tag @p add blue",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1, r=2] ~~~ tag @p add pink",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1, r=2] ~~~ tag @p add purple",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1, r=2] ~~~ tag @p add black",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1, r=2] ~~~ tag @p add gray",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1, r=2] ~~~ tag @p add yellow",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1, r=2] ~~~ tag @p add orange",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1, r=2] ~~~ tag @p add brown",
+                "particle ws:enchanting ~~0.7~"
+              ]
+            },
+            "decrement_stack":{},
+            "set_block_property":{
+              "ws:cores": 4
+            }
+          },
+          {
+            "condition":"q.get_equipped_item_name == 'magenta_dye'",
+            "run_command":{
+              "command":[
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1] ~~~ say §cUma waystone na cor §d§lROSA§r§c ja foi definida antes, escolha outra cor!",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1] ~~~ say §4A §d§lPINK§r§4 waystone has been defined before, choose another color!",
+                "summon ws:waystone.waystones waystone ~~~",
+                "tag @e[type=ws:waystone.waystones, name=waystone, r=2, c=1] add pink",
+                "tickingarea add circle ~~~ 1 pink",
+                "fill ~~1~ ~~1~ ws:sandstone_waystone_active.waystones 0 replace ws:sandstone_waystone_top.waystones",
+                "playsound random.levelup @a ~~~",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1, r=2] ~~~ tag @p add red",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1, r=2] ~~~ tag @p add green",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1, r=2] ~~~ tag @p add blue",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1, r=2] ~~~ tag @p add pink",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1, r=2] ~~~ tag @p add purple",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1, r=2] ~~~ tag @p add black",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1, r=2] ~~~ tag @p add gray",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1, r=2] ~~~ tag @p add yellow",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1, r=2] ~~~ tag @p add orange",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1, r=2] ~~~ tag @p add brown",
+                "particle ws:enchanting ~~0.7~"
+              ]
+            },
+            "decrement_stack":{},
+            "set_block_property":{
+              "ws:cores": 4
+            }
+          },
+          {
+            "condition":"q.get_equipped_item_name == 'purple_dye'",
+            "run_command":{
+              "command":[
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1] ~~~ say §cUma waystone na cor §5§lROXA§r§c ja foi definida antes, escolha outra cor!",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1] ~~~ say §4A §5§lPURPLE§r§4 waystone has been defined before, choose another color!",
+                "summon ws:waystone.waystones waystone ~~~",
+                "tag @e[type=ws:waystone.waystones, name=waystone, r=2, c=1] add purple",
+                "tickingarea add circle ~~~ 1 purple",
+                "fill ~~1~ ~~1~ ws:sandstone_waystone_active.waystones 0 replace ws:sandstone_waystone_top.waystones",
+                "playsound random.levelup @a ~~~",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1, r=2] ~~~ tag @p add red",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1, r=2] ~~~ tag @p add green",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1, r=2] ~~~ tag @p add blue",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1, r=2] ~~~ tag @p add pink",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1, r=2] ~~~ tag @p add purple",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1, r=2] ~~~ tag @p add black",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1, r=2] ~~~ tag @p add gray",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1, r=2] ~~~ tag @p add yellow",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1, r=2] ~~~ tag @p add orange",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1, r=2] ~~~ tag @p add brown",
+                "particle ws:enchanting ~~0.7~"
+              ]
+            },
+            "decrement_stack":{},
+            "set_block_property":{
+              "ws:cores": 5
+            }
+          },
+          {
+            "condition":"q.get_equipped_item_name == 'black_dye'",
+            "run_command":{
+              "command":[
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1] ~~~ say §cUma waystone na cor §0§lPRETA§r§c ja foi definida antes, escolha outra cor!",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1] ~~~ say §4A §0§lBLACK§r§4 waystone has been defined before, choose another color!",
+                "summon ws:waystone.waystones waystone ~~~",
+                "tag @e[type=ws:waystone.waystones, name=waystone, r=2, c=1] add black",
+                "tickingarea add circle ~~~ 1 black",
+                "fill ~~1~ ~~1~ ws:sandstone_waystone_active.waystones 0 replace ws:sandstone_waystone_top.waystones",
+                "playsound random.levelup @a ~~~",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1, r=2] ~~~ tag @p add red",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1, r=2] ~~~ tag @p add green",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1, r=2] ~~~ tag @p add blue",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1, r=2] ~~~ tag @p add pink",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1, r=2] ~~~ tag @p add purple",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1, r=2] ~~~ tag @p add black",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1, r=2] ~~~ tag @p add gray",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1, r=2] ~~~ tag @p add yellow",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1, r=2] ~~~ tag @p add orange",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1, r=2] ~~~ tag @p add brown",
+                "particle ws:enchanting ~~0.7~"
+              ]
+            },
+            "decrement_stack":{},
+            "set_block_property":{
+              "ws:cores": 6
+            }
+          },
+          {
+            "condition":"q.get_equipped_item_name == 'gray_dye'",
+            "run_command":{
+              "command":[
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1] ~~~ say §cUma waystone na cor §7§lCINZA§r§c ja foi definida antes, escolha outra cor!",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1] ~~~ say §4A §7§lGRAY§r§4 waystone has been defined before, choose another color!",
+                "summon ws:waystone.waystones waystone ~~~",
+                "tag @e[type=ws:waystone.waystones, name=waystone, r=2, c=1] add gray",
+                "tickingarea add circle ~~~ 1 gray",
+                "fill ~~1~ ~~1~ ws:sandstone_waystone_active.waystones 0 replace ws:sandstone_waystone_top.waystones",
+                "playsound random.levelup @a ~~~",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1, r=2] ~~~ tag @p add red",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1, r=2] ~~~ tag @p add green",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1, r=2] ~~~ tag @p add blue",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1, r=2] ~~~ tag @p add pink",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1, r=2] ~~~ tag @p add purple",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1, r=2] ~~~ tag @p add black",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1, r=2] ~~~ tag @p add gray",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1, r=2] ~~~ tag @p add yellow",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1, r=2] ~~~ tag @p add orange",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1, r=2] ~~~ tag @p add brown",
+                "particle ws:enchanting ~~0.7~"
+              ]
+            },
+            "decrement_stack":{},
+            "set_block_property":{
+              "ws:cores": 7
+            }
+          },
+          {
+            "condition":"q.get_equipped_item_name == 'light_gray_dye'",
+            "run_command":{
+              "command":[
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1] ~~~ say §cUma waystone na cor §7§lCINZA§r§c ja foi definida antes, escolha outra cor!",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1] ~~~ say §4A §7§lGRAY§r§4 waystone has been defined before, choose another color!",
+                "summon ws:waystone.waystones waystone ~~~",
+                "tag @e[type=ws:waystone.waystones, name=waystone, r=2, c=1] add gray",
+                "tickingarea add circle ~~~ 1 gray",
+                "fill ~~1~ ~~1~ ws:sandstone_waystone_active.waystones 0 replace ws:sandstone_waystone_top.waystones",
+                "playsound random.levelup @a ~~~",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1, r=2] ~~~ tag @p add red",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1, r=2] ~~~ tag @p add green",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1, r=2] ~~~ tag @p add blue",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1, r=2] ~~~ tag @p add pink",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1, r=2] ~~~ tag @p add purple",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1, r=2] ~~~ tag @p add black",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1, r=2] ~~~ tag @p add gray",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1, r=2] ~~~ tag @p add yellow",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1, r=2] ~~~ tag @p add orange",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1, r=2] ~~~ tag @p add brown",
+                "particle ws:enchanting ~~0.7~"
+              ]
+            },
+            "decrement_stack":{},
+            "set_block_property":{
+              "ws:cores": 7
+            }
+          },
+          {
+            "condition":"q.get_equipped_item_name == 'yellow_dye'",
+            "run_command":{
+              "command":[
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1] ~~~ say §cUma waystone na cor §e§lAMARELO§r§c ja foi definida antes, escolha outra cor!",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1] ~~~ say §4A §e§lYELLOW§r§4 waystone has been defined before, choose another color!",
+                "summon ws:waystone.waystones waystone ~~~",
+                "tag @e[type=ws:waystone.waystones, name=waystone, r=2, c=1] add yellow",
+                "tickingarea add circle ~~~ 1 yellow",
+                "fill ~~1~ ~~1~ ws:sandstone_waystone_active.waystones 0 replace ws:sandstone_waystone_top.waystones",
+                "playsound random.levelup @a ~~~",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1, r=2] ~~~ tag @p add red",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1, r=2] ~~~ tag @p add green",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1, r=2] ~~~ tag @p add blue",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1, r=2] ~~~ tag @p add pink",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1, r=2] ~~~ tag @p add purple",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1, r=2] ~~~ tag @p add black",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1, r=2] ~~~ tag @p add gray",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1, r=2] ~~~ tag @p add yellow",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1, r=2] ~~~ tag @p add orange",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1, r=2] ~~~ tag @p add brown",
+                "particle ws:enchanting ~~0.7~"
+              ]
+            },
+            "decrement_stack":{},
+            "set_block_property":{
+              "ws:cores": 8
+            }
+          },
+          {
+            "condition":"q.get_equipped_item_name == 'orange_dye'",
+            "run_command":{
+              "command":[
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1] ~~~ say §cUma waystone na cor §6§lLARANJA§r§c ja foi definida antes, escolha outra cor!",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1] ~~~ say §4A §6§lORANGE§r§4 waystone has been defined before, choose another color!",
+                "summon ws:waystone.waystones waystone ~~~",
+                "tag @e[type=ws:waystone.waystones, name=waystone, r=2, c=1] add orange",
+                "tickingarea add circle ~~~ 1 orange",
+                "fill ~~1~ ~~1~ ws:sandstone_waystone_active.waystones 0 replace ws:sandstone_waystone_top.waystones",
+                "playsound random.levelup @a ~~~",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1, r=2] ~~~ tag @p add red",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1, r=2] ~~~ tag @p add green",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1, r=2] ~~~ tag @p add blue",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1, r=2] ~~~ tag @p add pink",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1, r=2] ~~~ tag @p add purple",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1, r=2] ~~~ tag @p add black",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1, r=2] ~~~ tag @p add gray",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1, r=2] ~~~ tag @p add yellow",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1, r=2] ~~~ tag @p add orange",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1, r=2] ~~~ tag @p add brown",
+                "particle ws:enchanting ~~0.7~"
+              ]
+            },
+            "decrement_stack":{},
+            "set_block_property":{
+              "ws:cores": 9
+            }
+          },
+          {
+            "condition":"q.get_equipped_item_name == 'brown_dye'",
+            "run_command":{
+              "command":[
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1] ~~~ say §cUma waystone na cor §g§lMARROM§r§c ja foi definida antes, escolha outra cor!",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1] ~~~ say §4A §g§lBROWN§r§4 waystone has been defined before, choose another color!",
+                "summon ws:waystone.waystones waystone ~~~",
+                "tag @e[type=ws:waystone.waystones, name=waystone, r=2, c=1] add brown",
+                "tickingarea add circle ~~~ 1 brown",
+                "fill ~~1~ ~~1~ ws:sandstone_waystone_active.waystones 0 replace ws:sandstone_waystone_top.waystones",
+                "playsound random.levelup @a ~~~",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1, r=2] ~~~ tag @p add red",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1, r=2] ~~~ tag @p add green",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1, r=2] ~~~ tag @p add blue",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1, r=2] ~~~ tag @p add pink",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1, r=2] ~~~ tag @p add purple",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1, r=2] ~~~ tag @p add black",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1, r=2] ~~~ tag @p add gray",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1, r=2] ~~~ tag @p add yellow",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1, r=2] ~~~ tag @p add orange",
+                "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1, r=2] ~~~ tag @p add brown",
+                "particle ws:enchanting ~~0.7~"
+              ]
+            },
+            "decrement_stack":{},
+            "set_block_property":{
+              "ws:cores": 10
+            }
+          },
+          {
+            "condition":"q.get_equipped_item_name == 'white_dye'",
+            "run_command":{
+              "command":[
+                "function corante_branco"
+              ]
+            }
+          },
+          {
+            "condition":"q.get_equipped_item_name == 0",
+            "run_command":{
+              "command":[
+                "function waystone_info"
+              ]
+            }
+          }
+        ]
+      },
+      "no_cor": {
+        "set_block_property": {
+          "ws:cores": 0
+        }
+      },
+      "interface":{
+        "run_command":{
+          "command":[
+            "summon ws:ui.waystones ~~~-0.6",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1, r=2] ~~~ tag @p add red",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1, r=2] ~~~ tag @p add green",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1, r=2] ~~~ tag @p add blue",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1, r=2] ~~~ tag @p add pink",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1, r=2] ~~~ tag @p add purple",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1, r=2] ~~~ tag @p add black",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1, r=2] ~~~ tag @p add gray",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1, r=2] ~~~ tag @p add yellow",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1, r=2] ~~~ tag @p add orange",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1, r=2] ~~~ tag @p add brown"
+          ]
+        }
+      }
+    },
+    "permutations":[
+      {
+        "condition":"query.block_property('ws:cores') == 1",
+        "components":{
+          "minecraft:material_instances":{
+            "*":{
+              "texture": "sandstone_waystone_red",
+              "render_method":"opaque"
+            }
+          },
+          "minecraft:on_interact":{
+            "event":"interface"
+          }
+        }
+      },
+      {
+        "condition":"query.block_property('ws:cores') == 2",
+        "components":{
+          "minecraft:material_instances":{
+            "*":{
+              "texture": "sandstone_waystone_green",
+              "render_method":"opaque"
+            }
+          },
+          "minecraft:on_interact":{
+            "event":"interface"
+          }
+        }
+      },
+      {
+        "condition":"query.block_property('ws:cores') == 3",
+        "components":{
+          "minecraft:material_instances":{
+            "*":{
+              "texture": "sandstone_waystone_blue",
+              "render_method":"opaque"
+            }
+          },
+          "minecraft:on_interact":{
+            "event":"interface"
+          }
+        }
+      },
+      {
+        "condition":"query.block_property('ws:cores') == 4",
+        "components":{
+          "minecraft:material_instances":{
+            "*":{
+              "texture": "sandstone_waystone_pink",
+              "render_method":"opaque"
+            }
+          },
+          "minecraft:on_interact":{
+            "event":"interface"
+          }
+        }
+      },
+      {
+        "condition":"query.block_property('ws:cores') == 5",
+        "components":{
+          "minecraft:material_instances":{
+            "*":{
+              "texture": "sandstone_waystone_purple",
+              "render_method":"opaque"
+            }
+          },
+          "minecraft:on_interact":{
+            "event":"interface"
+          }
+        }
+      },
+      {
+        "condition":"query.block_property('ws:cores') == 6",
+        "components":{
+          "minecraft:material_instances":{
+            "*":{
+              "texture": "sandstone_waystone_black",
+              "render_method":"opaque"
+            }
+          },
+          "minecraft:on_interact":{
+            "event":"interface"
+          }
+        }
+      },
+      {
+        "condition":"query.block_property('ws:cores') == 7",
+        "components":{
+          "minecraft:material_instances":{
+            "*":{
+              "texture": "sandstone_waystone_gray",
+              "render_method":"opaque"
+            }
+          },
+          "minecraft:on_interact":{
+            "event":"interface"
+          }
+        }
+      },
+      {
+        "condition":"query.block_property('ws:cores') == 8",
+        "components":{
+          "minecraft:material_instances":{
+            "*":{
+              "texture": "sandstone_waystone_yellow",
+              "render_method":"opaque"
+            }
+          },
+          "minecraft:on_interact":{
+            "event":"interface"
+          }
+        }
+      },
+      {
+        "condition":"query.block_property('ws:cores') == 9",
+        "components":{
+          "minecraft:material_instances":{
+            "*":{
+              "texture": "sandstone_waystone_orange",
+              "render_method":"opaque"
+            }
+          },
+          "minecraft:on_interact":{
+            "event":"interface"
+          }
+        }
+      },
+      {
+        "condition":"query.block_property('ws:cores') == 10",
+        "components":{
+          "minecraft:material_instances":{
+            "*":{
+              "texture": "sandstone_waystone_brown",
+              "render_method":"opaque"
+            }
+          },
+          "minecraft:on_interact":{
+            "event":"interface"
+          }
+        }
+      }
+    ]
+  }
+}
+// BASE FEITA POR ANDRIEL GAMES

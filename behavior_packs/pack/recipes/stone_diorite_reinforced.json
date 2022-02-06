@@ -1,0 +1,34 @@
+//bridge-file-version: #19
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "scb:stone_diorite_reinforced"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X#"
+		],
+		"key": {
+			"#": {
+				"item": "scb:block_reinforcer"
+			},
+			"X": {
+				"item": "minecraft:stone",
+				"data": 3
+			}
+		},
+		"result": [
+			{
+				"item": "scb:stone_diorite_reinforced",
+				"count": 1
+			},
+			{
+				"item": "scb:block_reinforcer",
+				"count": 1
+			}
+		]
+	}
+}

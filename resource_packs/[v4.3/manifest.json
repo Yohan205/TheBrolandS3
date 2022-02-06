@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§7[v4.3.0] §fMore Structures by §eiKorbon - §2RP",
+		"description": "Adds more structures to the game! v4.3 - §f@iKorbon §cYouTube - §fiKorbon§f",
+		"uuid": "b7895184-56a7-4038-bb1a-ea67648b4144",
+		"version": [
+			1,
+			0,
+			14
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "d95816c7-e4ba-4cea-9639-d82f3fbbd100",
+			"version": [
+				1,
+				0,
+				14
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "9908781a-9595-45ac-8c5b-251ec59c4af1",
+			"version": [
+				1,
+				0,
+				14
+			]
+		}
+	]
+}

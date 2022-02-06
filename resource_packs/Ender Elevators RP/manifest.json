@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"SyKoNetwork"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.1.5"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			17,
+			0
+		],
+		"uuid": "478bfb96-79d8-4322-a1cc-62e53fbb4993",
+		"version": [
+			2,
+			1,
+			2
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "dc05ef9d-7ecd-49fe-b8ce-02d72ceb46a6",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

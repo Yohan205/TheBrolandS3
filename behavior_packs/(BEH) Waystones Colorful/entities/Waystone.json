@@ -1,0 +1,139 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ws:waystone.waystones",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+
+    "component_groups": {
+      "close": {
+        "minecraft:timer": {
+          "looping": false,
+          "time": 1.5,
+          "time_down_event": {
+            "event": "close"
+          }
+        }
+      }
+    },
+    "components": {
+      "minecraft:nameable": {},
+      "minecraft:type_family": {
+        "family": [ "waystone" ]
+      },
+      "minecraft:despawn": {
+        "filters": {
+          "all_of": [        		    
+            { 
+              "test": "has_tag",
+              "subject": "self",
+              "operator": "equals",
+              "value": "fechar"
+            }
+        	]
+        }
+      },
+      "minecraft:environment_sensor": {
+        "triggers": {
+          "filters": {
+            "all_of": [
+              { 
+                "test": "has_tag",
+                "subject": "self",
+                "operator": "equals",
+                "value": "close"
+              }
+            ]
+          },
+          "event": "close"
+        }
+      },
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "ws:andesite_waystone_bottom.waystones"
+						},
+						"exited_block_event": {
+							"event": "destruido"
+						}
+					},
+					{
+						"block": {
+							"name": "ws:sandstone_waystone_bottom.waystones"
+						},
+						"exited_block_event": {
+							"event": "destruido"
+						}
+					},
+					{
+						"block": {
+							"name": "ws:mossy_waystone_bottom.waystones"
+						},
+						"exited_block_event": {
+							"event": "destruido"
+						}
+					}
+				]
+			},
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1,
+        "min": 1
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      }
+    },
+    "events": {
+      "destruido": {
+        "run_command": {
+          "command": [
+            "tickingarea remove ~~~",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1, r=0] ~~~ tag @a remove red",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1, r=0] ~~~ tag @a remove green",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1, r=0] ~~~ tag @a remove blue",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1, r=0] ~~~ tag @a remove pink",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1, r=0] ~~~ tag @a remove purple",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1, r=0] ~~~ tag @a remove black",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1, r=0] ~~~ tag @a remove gray",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1, r=0] ~~~ tag @a remove yellow",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1, r=0] ~~~ tag @a remove orange",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1, r=0] ~~~ tag @a remove brown",
+            "tag @e[type=ws:waystone.waystones, name=waystone, r=0, c=1] add close",
+            "tag @e[type=ws:ui.waystones, r=3, c=1] add fechar"
+          ]
+        }
+      },
+      "close": {
+        "run_command": {
+          "command": [
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=!close, tag=red, c=1] ~~~ tickingarea add circle ~~~ 1 red",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=!close, tag=green, c=1] ~~~ tickingarea add circle ~~~ 1 green",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=!close, tag=blue, c=1] ~~~ tickingarea add circle ~~~ 1 blue",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=!close, tag=pink, c=1] ~~~ tickingarea add circle ~~~ 1 pink",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=!close, tag=purple, c=1] ~~~ tickingarea add circle ~~~ 1 purple",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=!close, tag=black, c=1] ~~~ tickingarea add circle ~~~ 1 black",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=!close, tag=gray, c=1] ~~~ tickingarea add circle ~~~ 1 gray",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=!close, tag=yellow, c=1] ~~~ tickingarea add circle ~~~ 1 yellow",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=!close, tag=orange, c=1] ~~~ tickingarea add circle ~~~ 1 orange",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=!close, tag=brown, c=1] ~~~ tickingarea add circle ~~~ 1 brown",
+            "tag @e[type=ws:waystone.waystones, name=waystone, tag=close, r=0, c=1] add fechar"
+          ]
+        }
+      }
+    }
+  }
+}

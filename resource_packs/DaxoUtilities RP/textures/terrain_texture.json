@@ -1,0 +1,42 @@
+{
+	"resource_pack_name": "daxo",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"jukebox_utility": {
+			"textures": [
+				"textures/blocks/jukebox_utility_side",
+				"textures/blocks/jukebox_utility_top",
+				"textures/blocks/jukebox_utility_bottom"
+			]
+		},
+		"jukebox_utility_stop": {
+			"textures": [
+				"textures/blocks/jukebox_utility_side",
+				"textures/blocks/jukebox_utility_top_stop",
+				"textures/blocks/jukebox_utility_bottom"
+			]
+		},
+		"jukebox_utility_bottom": {
+			"textures": [
+				"textures/blocks/jukebox_utility_bottom"
+			]
+		},
+		"jukebox_utility_top": {
+			"textures": [
+				"textures/blocks/jukebox_utility_top"
+			]
+		},
+		"jukebox_utility_top_stop": {
+			"textures": [
+				"textures/blocks/jukebox_utility_top_stop"
+			]
+		},
+		"jukebox_utility_side": {
+			"textures": [
+				"textures/blocks/jukebox_utility_side"
+			]
+		}
+	}
+}

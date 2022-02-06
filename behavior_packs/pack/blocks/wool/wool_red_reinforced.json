@@ -1,0 +1,21 @@
+//bridge-file-version: #23
+{
+	"format_version": "1.10.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "scb:wool_red_reinforced",
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:destroy_time": {
+				"value": 10000
+			},
+			"minecraft:explosion_resistance": {
+				"value": 10000
+			},
+			"minecraft:map_color": {
+				"color": "#3B3B3B"
+			}
+		}
+	}
+}

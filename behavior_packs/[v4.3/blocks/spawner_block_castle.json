@@ -1,0 +1,41 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:spawner_block_castle"
+		},
+		"components": {
+			"minecraft:destroy_time": 100,
+			"minecraft:explosion_resistance": 100,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "spawner_block",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:immovable": true,
+			"minecraft:ticking": {
+				"range": [
+					0,
+					1
+				],
+				"on_tick": {
+					"event": "spawn",
+					"target": "self"
+				},
+				"looping": true
+			}
+		},
+		"events": {
+			"spawn": {
+				"run_command": {
+					"command": [
+						"structure load castle_island_actual ~~~",
+						"fill ~~~ ~~~ air"
+					]
+				}
+			}
+		}
+	}
+}

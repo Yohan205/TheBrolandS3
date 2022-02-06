@@ -1,0 +1,108 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ws:botao_roxo.waystones",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+
+    "component_groups": {
+     "marrom":{
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "family_types": [
+          "waystone"
+        ],
+        "seats": {
+          "position": [ 0.0, -1.2, 0.0 ]
+        }
+      },
+        "minecraft:addrider": {
+          "entity_type": "ws:botao_marrom.waystones"
+        }
+     }
+    },
+	
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "waystone" ]
+      },
+        "minecraft:scale": {
+          "value": 0.22
+        },
+      "minecraft:collision_box": {
+        "width": 0.0001,
+        "height": 0.0001
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1,
+        "min": 1
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "on_damage": {
+              "filters": { "test" :  "is_family", "subject" : "other", "value" :  "player" },
+              "event": "teleporte"
+            },
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:environment_sensor": {
+        "triggers": {
+          "filters": {
+            "all_of": [
+              { 
+                "test": "is_family",
+                "subject": "self",
+                "value": "waystone" 
+              }
+            ]
+          },
+          "event": "menu"
+        }
+      },
+      "minecraft:despawn": {
+        "filters": {
+          "test": "is_riding",
+          "operator": "==",
+          "value": false
+        }
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      }
+    },
+    
+    "events": {
+      "menu": {
+        "add": {
+          "component_groups": [
+            "marrom"
+          ]
+        }
+      },
+      "teleporte": {
+        "sequence":[
+          {
+            "filters": {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "nether"
+            },
+	      		"run_command":{
+		       		"command": [
+	      			  "tag @e[type=ws:ui.waystones, r=2] add fechar",
+                "execute @p[tag=!purple] ~~~ execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1] ~~~ execute @e[type=ws:botao_roxo.waystones, c=1] ~~~ function acesso",
+	      			  "tp @p[tag=purple, r=4] @e[type=ws:waystone.waystones, tag=purple, c=1]"
+	    			  ]
+  	    		}
+          }
+  			]
+      }
+    }
+  }
+}

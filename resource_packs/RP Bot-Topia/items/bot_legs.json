@@ -1,0 +1,14 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "lfm:bot_legs",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": "bot_legs",
+			"minecraft:render_offsets": "armor"
+		}
+	}
+}

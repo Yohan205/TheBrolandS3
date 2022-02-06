@@ -1,0 +1,37 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.key_door.posing_0": {
+			"loop": true,
+			"bones": {
+			    "door": {
+					"rotation": ["-this", "-this", "-this"]
+				}
+			}
+		},
+		"animation.key_door.posing_1": {
+			"loop": true,
+			"bones": {
+				"door": {
+					"rotation": ["-this", "-this -90", "-this"]
+				}
+			}
+		},
+		"animation.key_door.posing_2": {
+			"loop": true,
+			"bones": {
+			    "door": {
+					"rotation": ["-this", "-this -180", "-this"]
+				}
+			}
+		},
+		"animation.key_door.posing_3": {
+			"loop": true,
+			"bones": {
+				"door": {
+					"rotation": ["-this", "-this -270", "-this"]
+				}
+			}
+		}
+	}
+}

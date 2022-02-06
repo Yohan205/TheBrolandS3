@@ -1,0 +1,292 @@
+{
+	"file_path": "C:\\Users\\Sofia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ender Elevators BP\\recipes\\MK3\\BLACK\\upg_black_elevator_mk3.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "443cd97c_3322_4a76_8e35_779a26162732",
+	"file_version": 11,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.16,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "se:upg_black_elevator_mk3"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"!S!",
+							"S#S",
+							"!S!"
+						],
+						"key": {
+							"S": {
+								"item": "minecraft:stonebrick:3"
+							},
+							"#": {
+								"item": "se:black_elevator_mk2"
+							},
+							"!": {
+								"item": "minecraft:gold_ingot"
+							}
+						},
+						"result": [
+							{
+								"count": 1,
+								"item": "se:black_elevator_mk3"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "se:upg_black_elevator_mk3"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "minecraft:stonebrick:3"
+								},
+								"#": {
+									"item": "se:black_elevator_mk2"
+								},
+								"!": {
+									"item": "minecraft:gold_ingot"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:black_elevator_mk3"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "se:upg_black_elevator_mk3"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:upg_black_elevator_mk3"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "minecraft:stonebrick:3"
+								},
+								"#": {
+									"item": "se:black_elevator_mk2"
+								},
+								"!": {
+									"item": "minecraft:gold_ingot"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:black_elevator_mk3"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:upg_black_elevator_mk3"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "minecraft:stonebrick:3"
+								},
+								"#": {
+									"item": "se:black_elevator_mk2"
+								},
+								"!": {
+									"item": "minecraft:gold_ingot"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:black_elevator_mk3"
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"!S!",
+							"S#S",
+							"!S!"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:upg_black_elevator_mk3"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "minecraft:stonebrick:3"
+								},
+								"#": {
+									"item": "se:black_elevator_mk2"
+								},
+								"!": {
+									"item": "minecraft:gold_ingot"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:black_elevator_mk3"
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"key": "S",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:stonebrick:3"
+								}
+							},
+							{
+								"open": {
+									"S": {
+										"item": "minecraft:stonebrick:3"
+									},
+									"#": {
+										"item": "se:black_elevator_mk2"
+									},
+									"!": {
+										"item": "minecraft:gold_ingot"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "se:black_elevator_mk2"
+								}
+							},
+							{
+								"open": {
+									"S": {
+										"item": "minecraft:stonebrick:3"
+									},
+									"#": {
+										"item": "se:black_elevator_mk2"
+									},
+									"!": {
+										"item": "minecraft:gold_ingot"
+									}
+								},
+								"key": "!",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:gold_ingot"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:upg_black_elevator_mk3"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "minecraft:stonebrick:3"
+								},
+								"#": {
+									"item": "se:black_elevator_mk2"
+								},
+								"!": {
+									"item": "minecraft:gold_ingot"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:black_elevator_mk3"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"count": 1,
+										"item": "se:black_elevator_mk3"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"count": 1,
+									"item": "se:black_elevator_mk3"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

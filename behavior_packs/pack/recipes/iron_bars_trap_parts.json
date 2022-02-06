@@ -1,0 +1,34 @@
+//bridge-file-version: #35
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "scb:iron_bars_trap_parts"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#U#",
+			"###",
+			"#O#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:iron_bars"
+			},
+			"O": {
+				"item": "minecraft:stone_pressure_plate"
+			},
+			"U": {
+				"item": "minecraft:iron_block"
+			}
+		},
+		"result": [
+			{
+				"item": "scb:iron_bars_trap_parts",
+				"count": 1
+			}
+		]
+	}
+}

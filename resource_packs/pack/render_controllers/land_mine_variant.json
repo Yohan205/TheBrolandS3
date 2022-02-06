@@ -1,0 +1,25 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.variant_land_mine": {
+			"arrays": {
+				"textures": {
+					"Array.Textures": [
+						"Texture.default",
+						"Texture.inactive"
+					]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.Textures[query.mark_variant]"
+			]
+		}
+	}
+}

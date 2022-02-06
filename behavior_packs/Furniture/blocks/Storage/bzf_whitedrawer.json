@@ -1,0 +1,144 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "bzf:whitedrawer",
+            "properties": {
+                "bzf:face": [ 0, 1, 2, 3 ],
+                "bzf:on": [ 0, 1, 2 ]
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "bzf_whitedrawer",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:loot": "loot_tables/blocks/bzf_whitedrawer.json",
+            "minecraft:geometry": "geometry.bzf_whitedrawer",
+            "minecraft:destroy_time": 3.0,
+			"minecraft:block_light_absorption": 0.0,
+            "minecraft:unwalkable": true,
+            "minecraft:entity_collision": {
+                "origin": [ -8.0, 0.0, -8.0 ],
+                "size": [ 16, 16, 16 ]
+            },
+            "minecraft:pick_collision": {
+                "origin": [ -8, 0, -8 ],
+                "size": [ 16, 16, 16 ]
+            },
+            "minecraft:on_placed": {
+                 "event": "bzf:open"
+            },
+            "minecraft:on_interact": { 
+			     "event": "bzf:toggle" 
+			},
+            "minecraft:on_player_placing": { 
+			     "event": "bzf:face" 
+	      }   
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('bzf:face') == 0",
+                "components": { "minecraft:rotation": [ 0, 180, 0 ] }
+            }, {
+                "condition": "query.block_property('bzf:face') == 1",
+                "components": { "minecraft:rotation": [ 0, 0, 0 ] }
+            }, {
+                "condition": "query.block_property('bzf:face') == 2",
+                "components": { "minecraft:rotation": [ 0, 270, 0 ] }
+            },  {
+                "condition": "query.block_property('bzf:face') == 3",
+                "components": { "minecraft:rotation": [ 0, 90, 0 ] }
+            },
+            {
+                "condition": "query.block_property('bzf:on') == 1",
+                "components": {
+                    "minecraft:geometry": "geometry.bzf_whitedraweropen",
+			        "minecraft:block_light_absorption": 0.0,
+					"minecraft:entity_collision":{
+			            "origin":[ -8.0, 0.0, -6.0 ],
+			            "size":[ 16, 16, 14 ]
+			        },
+					"minecraft:pick_collision":{
+			            "origin":[ -8, 0, -6 ],
+			            "size":[ 16, 16, 14 ]
+			        },
+                    "minecraft:on_placed": {
+                        "event": "nothing"
+                    },
+		            "minecraft:on_interact": { 
+			            "event": "nothing" 
+			        },
+                    "minecraft:ticking": {
+                        "looping": true,
+                        "range": [ 5, 5 ],
+                        "on_tick": {
+                        "event": "bzf:normal"
+                        }
+                    }
+				}
+            },
+            {
+                "condition": "query.block_property('bzf:on') == 2",
+                "components": {
+                    "minecraft:geometry": "geometry.bzf_whitedrawer",
+			        "minecraft:block_light_absorption": 0.0,
+					"minecraft:entity_collision":{
+			            "origin":[ -8.0, 0.0, -8.0 ],
+			            "size":[ 16, 16, 16 ]
+			        },
+					"minecraft:pick_collision":{
+			            "origin":[ -8, 0, -8 ],
+			            "size":[ 16, 16, 16 ]
+			        },
+                    "minecraft:on_placed": {
+                        "event": "nothing"
+                    },
+		            "minecraft:on_interact": { 
+			            "event": "bzf:toggle" 
+			        }
+				}
+            }
+        ],
+    "events": {          
+      "bzf:face": {
+        "set_block_property": {
+          "bzf:face": "query.cardinal_facing_2d-2"
+        },
+	  "set_block_at_pos": {
+	      "block_type":{
+		  "name": "bzf:colision"
+		  },
+		 "block_offset": [
+		   0,
+		   1,
+		   0
+		    ]
+         }
+	  },
+      "bzf:open": {
+            "run_command": {
+              "command": "summon bzf:storage"
+        }
+      },
+      "bzf:normal": {
+            "set_block_property": {
+              "bzf:on": 2
+            },
+            "run_command": {
+              "command": "playsound block.barrel.close @p ~~~ 1 1"
+	    }
+      },
+      "bzf:toggle": {
+            "set_block_property": {
+              "bzf:on": 1
+            },
+            "run_command": {
+              "command": "playsound block.barrel.open @p ~~~ 1 1"
+	    }
+      }
+    }
+  }
+}

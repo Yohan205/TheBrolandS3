@@ -1,0 +1,57 @@
+// Caso você utilize esse código no seu addon deixe os créditos para Andriel Games
+{
+  "format_version":"1.16.0",
+  "minecraft:block":{
+    "description":{
+      "identifier":"ws:andesite_waystone_top.waystones"
+    },
+    "components":{
+      "minecraft:material_instances":{
+        "*":{
+          "texture":"andesite_waystone_top",
+          "render_method":"opaque"
+        }
+      },
+      "minecraft:geometry":"geometry.waystone_top",
+      "minecraft:pick_collision":{
+        "origin":[ -8, 0, -8 ],
+        "size":[ 16, 16, 16 ]
+      },
+      "minecraft:entity_collision":{
+        "origin":[ -8, 0, -8 ],
+        "size":[ 16, 16, 16 ]
+      },
+      "minecraft:immovable": true,
+      "minecraft:destroy_time":1.0,
+      "minecraft:friction":0.6,
+      "minecraft:explosion_resistance":3.0,
+      "minecraft:block_light_absorption":8.0,
+      "minecraft:loot":"loot_tables/andesite_waystone.json",
+      "minecraft:map_color":"#818181",
+    	"minecraft:placement_filter": {
+        "conditions": [
+      		{
+            "block_filter": [
+              "ws:andesite_waystone_bottom.waystones",
+              "ws:andesite_waystone_test.waystones"
+            ],
+            "allowed_faces": ["up"]
+      		}
+        ]
+    	},
+      "minecraft:on_interact":{
+        "event":"info"
+      }
+    },
+    "events":{
+      "info":{
+        "run_command":{
+          "command":[
+            "function waystone_info"
+          ]
+        }
+      }
+    }
+  }
+}
+// BASE FEITA POR ANDRIEL GAMES

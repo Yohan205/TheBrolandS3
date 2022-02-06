@@ -1,0 +1,325 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\SecurityBE\\entity\\land_mine_inactive.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "e7d7e3cf_6b39_4840_9cfb_131b85e348c2",
+	"file_version": 22,
+	"cache_content": {
+		"open": true,
+		"comment": "",
+		"data": "",
+		"key": "global",
+		"type": "object",
+		"meta": {},
+		"children": [
+			{
+				"open": false,
+				"comment": "",
+				"data": "1.10.0",
+				"key": "format_version",
+				"type": "string",
+				"meta": {},
+				"children": []
+			},
+			{
+				"open": true,
+				"comment": "",
+				"data": "",
+				"key": "minecraft:client_entity",
+				"type": "object",
+				"meta": {},
+				"children": [
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "description",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": true,
+								"comment": "",
+								"data": "scb:land_mine_inactive",
+								"key": "identifier",
+								"type": "string",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "1.12.0",
+								"key": "min_engine_version",
+								"type": "string",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "materials",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "chicken",
+										"key": "default",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "chicken_legs",
+										"key": "legs",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "textures",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "textures/entity/mine_inactive",
+										"key": "default",
+										"type": "string",
+										"meta": {
+											"is_value": true
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "geometry",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "geometry.mine",
+										"key": "default",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "animations",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "animation.blank",
+										"key": "move",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "animation.blank",
+										"key": "general",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "animation.blank",
+										"key": "look_at_target",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "animation.blank",
+										"key": "baby_transform",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "controller.animation.blank",
+										"key": "exe",
+										"type": "string",
+										"meta": {
+											"is_value": true,
+											"definitions": [
+												"rp_animation",
+												"rp_animation_controller"
+											]
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "scripts",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "animate",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "general",
+												"key": "0",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "1",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "query.modified_move_speed",
+														"key": "move",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "look_at_target",
+												"key": "2",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "3",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "query.is_baby",
+														"key": "baby_transform",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "exe",
+												"key": "4",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "render_controllers",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "controller.render.turret",
+										"key": "0",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "spawn_egg",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "mine",
+										"key": "texture",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "0",
+										"key": "texture_index",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

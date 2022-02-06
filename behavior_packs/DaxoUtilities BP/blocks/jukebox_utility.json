@@ -1,0 +1,160 @@
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "daxo:jukebox_utility",
+			"category": "items",
+			"properties": {
+				"daxo:face": [
+					1,
+					2,
+					3,
+					4,
+					5
+				]
+			}
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "jukebox_utility_stop",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:loot": "loot_tables/blocks/jukebox_utility.json",
+			"minecraft:destroy_time": 0.8,
+			"minecraft:friction": 0.6,
+			"minecraft:map_color": "#0000FF",
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0,
+			"minecraft:on_player_placing": {
+				"event": "daxo:place"
+			},
+			"minecraft:on_interact": {
+				"target": "self",
+				"event": "records"
+			},
+			"minecraft:creative_category": {
+				"category": "items"
+			}
+		},
+		"events": {
+			"daxo:place": {
+				"set_block_property": {
+					"daxo:face": "(query.cardinal_player_facing)"
+				}
+			},
+			"record_lifeletters": {
+				"set_block": {
+					"block_type": "daxo:jukebox_utility_lifeletters"
+				},
+				"decrement_stack": {},
+				"run_command": {
+					"target": "self",
+					"command": [
+						"playsound record.lifeletters @a[r=25] ~~~ 0.6",
+						"title @a[r=10] actionbar §dReproduciendo: NGUTP - Life Letters"
+					]
+				}
+			},
+			"records": {
+				"sequence": [
+					{
+						"condition": "query.get_equipped_item_name == 'record_lifeletters'",
+						"set_block": {
+							"block_type": "daxo:jukebox_utility_lifeletters"
+						},
+						"decrement_stack": {},
+						"run_command": {
+							"target": "self",
+							"command": [
+								"playsound record.lifeletters @a[r=25] ~~~ 0.6",
+								"title @a[r=10] actionbar §dReproduciendo: NGUTP - Life Letters"
+							]
+						}
+					},
+					{
+						"condition": "query.get_equipped_item_name == 'record_fallen'",
+						"set_block": {
+							"block_type": "daxo:jukebox_utility_fallen"
+						},
+						"decrement_stack": {},
+						"run_command": {
+							"target": "self",
+							"command": [
+								"playsound record.fallen @a[r=25] ~~~ 0.6",
+								"title @a[r=10] actionbar §dReproduciendo: Undertale - Fallen Down"
+							]
+						}
+					},
+					{
+						"condition": "query.get_equipped_item_name == 'record_sweater'",
+						"set_block": {
+							"block_type": "daxo:jukebox_utility_sweater"
+						},
+						"decrement_stack": {},
+						"run_command": {
+							"target": "self",
+							"command": [
+								"playsound record.sweater @a[r=25] ~~~ 0.6",
+								"title @a[r=10] actionbar §dReproduciendo: TheNeigborhood - Sweater Weather"
+							]
+						}
+					},
+					{
+						"condition": "query.get_equipped_item_name == 'record_dancing'",
+						"set_block": {
+							"block_type": "daxo:jukebox_utility_dancing"
+						},
+						"decrement_stack": {},
+						"run_command": {
+							"target": "self",
+							"command": [
+								"playsound record.dancing @a[r=25] ~~~ 0.6",
+								"title @a[r=10] actionbar §dReproduciendo: Aaron Smith - Dancing"
+							]
+						}
+					}
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('daxo:face') == 2",
+				"components": {
+					"minecraft:block_light_absorption": 0
+				}
+			},
+			{
+				"condition": "query.block_property('daxo:face') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('daxo:face') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('daxo:face') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			}
+		]
+	}
+}

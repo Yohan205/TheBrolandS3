@@ -1,0 +1,17 @@
+item.dye.black_new.name=Black Dye §l§k||§r§7 Waystone Button 6
+item.dye.blue_new.name=Blue Dye §l§k||§r§7 Waystone Button 3
+item.dye.brown_new.name=Brown Dye §l§k||§r§7 Waystone Button 10
+item.dye.cyan.name=Cyan Dye §l§k||§r§7 Waystone Button 3
+item.dye.gray.name=Gray Dye §l§k||§r§7 Waystone Button 7
+item.dye.green.name=Green Dye §l§k||§r§7 Waystone Button 2
+item.dye.lightBlue.name=Light Blue Dye §l§k||§r§7 Waystone Button 3
+item.dye.lime.name=Lime Dye §l§k||§r§7 Waystone Button 2
+item.dye.magenta.name=Magenta Dye §l§k||§r§7 Waystone Button 4
+item.dye.orange.name=Orange Dye §l§k||§r§7 Waystone Button 9
+item.dye.pink.name=Pink Dye §l§k||§r§7 Waystone Button 4
+item.dye.purple.name=Purple Dye §l§k||§r§7 Waystone Button 5
+item.dye.red.name=Red Dye §l§k||§r§7 Waystone Button 1
+item.dye.silver.name=Silver Dye §l§k||§r§7 Waystone Button 7
+item.dye.yellow.name=Yellow Dye §l§k||§r§7 Waystone Button 8
+waystone.acesso=§cTienes que tocar o interactuar con una Waystone de este color para obtener el acceso!
+waystone.info=§eHaz click derecho o presiona la Waystone para usar uno de los Waystones activos!

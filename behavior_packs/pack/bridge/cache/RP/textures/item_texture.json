@@ -1,0 +1,961 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\SecurityBE\\textures\\item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "7c35cf34_145d_4d18_b06f_a25ed61432cd",
+	"file_version": 23,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"turret": {
+							"textures": [
+								"textures/items/turret"
+							]
+						},
+						"mine": {
+							"textures": [
+								"textures/items/bomb"
+							]
+						},
+						"block_reinforcer": {
+							"textures": [
+								"textures/items/block_reinforcer"
+							]
+						},
+						"block_remover": {
+							"textures": [
+								"textures/items/block_remover"
+							]
+						},
+						"padlock": {
+							"textures": [
+								"textures/items/padlock"
+							]
+						},
+						"turret_pieces": {
+							"textures": [
+								"textures/items/turret_pieces"
+							]
+						},
+						"security_table_pieces": {
+							"textures": [
+								"textures/items/security_table_pieces"
+							]
+						},
+						"security_table": {
+							"textures": [
+								"textures/items/security_table"
+							]
+						},
+						"block_remover_pieces": {
+							"textures": [
+								"textures/items/block_remover_pieces"
+							]
+						},
+						"land_mine_pieces": {
+							"textures": [
+								"textures/items/land_mine_pieces"
+							]
+						},
+						"door_protected_pieces": {
+							"textures": [
+								"textures/items/door_iron_protected_pieces"
+							]
+						},
+						"door_protected": {
+							"textures": [
+								"textures/items/door_iron_protected"
+							]
+						},
+						"protected_chest_pieces": {
+							"textures": [
+								"textures/items/protected_chest_pieces"
+							]
+						},
+						"protected_chest": {
+							"textures": [
+								"textures/items/protected_chest"
+							]
+						},
+						"rotator": {
+							"textures": [
+								"textures/items/rotator"
+							]
+						},
+						"universal_block_remover": {
+							"textures": [
+								"textures/items/universal_block_remover"
+							]
+						},
+						"missile_launcher": {
+							"textures": [
+								"textures/items/misile_launcher"
+							]
+						},
+						"damage_upgrade": {
+							"textures": [
+								"textures/items/damage_upgrade"
+							]
+						},
+						"land_mine_deactivate": {
+							"textures": [
+								"textures/items/land_mine_deactivator"
+							]
+						},
+						"iron_bars_trap": {
+							"textures": [
+								"textures/items/iron_bars_trap"
+							]
+						},
+						"rocket": {
+							"textures": [
+								"textures/items/misile"
+							]
+						},
+						"iron_bars_trap_parts": {
+							"textures": [
+								"textures/items/iron_bars_trap_parts"
+							]
+						},
+						"rocket_launcher_parts": {
+							"textures": [
+								"textures/items/misile_launcher_parts"
+							]
+						},
+						"fire_alarm": {
+							"textures": [
+								"textures/items/fire_alarm"
+							]
+						},
+						"fire_alarm_parts": {
+							"textures": [
+								"textures/items/fire_alarm_parts"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"key": "turret",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/turret"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/turret"
+								]
+							}
+						]
+					},
+					{
+						"key": "mine",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/bomb"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/bomb"
+								]
+							}
+						]
+					},
+					{
+						"key": "block_reinforcer",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/block_reinforcer"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/block_reinforcer"
+								]
+							}
+						]
+					},
+					{
+						"key": "block_remover",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/block_remover"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/block_remover"
+								]
+							}
+						]
+					},
+					{
+						"key": "padlock",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/padlock"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/padlock"
+								]
+							}
+						]
+					},
+					{
+						"key": "turret_pieces",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/turret_pieces"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/turret_pieces"
+								]
+							}
+						]
+					},
+					{
+						"key": "security_table_pieces",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/security_table_pieces"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/security_table_pieces"
+								]
+							}
+						]
+					},
+					{
+						"key": "security_table",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/security_table"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/security_table"
+								]
+							}
+						]
+					},
+					{
+						"key": "block_remover_pieces",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/block_remover_pieces"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/block_remover_pieces"
+								]
+							}
+						]
+					},
+					{
+						"key": "land_mine_pieces",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/land_mine_pieces"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/land_mine_pieces"
+								]
+							}
+						]
+					},
+					{
+						"key": "door_protected_pieces",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/door_iron_protected_pieces"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/door_iron_protected_pieces"
+								]
+							}
+						]
+					},
+					{
+						"key": "door_protected",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/door_iron_protected"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/door_iron_protected"
+								]
+							}
+						]
+					},
+					{
+						"key": "protected_chest_pieces",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/protected_chest_pieces"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/protected_chest_pieces"
+								]
+							}
+						]
+					},
+					{
+						"key": "protected_chest",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/protected_chest"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/protected_chest"
+								]
+							}
+						]
+					},
+					{
+						"key": "rotator",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/rotator"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/rotator"
+								]
+							}
+						]
+					},
+					{
+						"key": "universal_block_remover",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/universal_block_remover"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/universal_block_remover"
+								]
+							}
+						]
+					},
+					{
+						"key": "missile_launcher",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/misile_launcher"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/misile_launcher"
+								]
+							}
+						]
+					},
+					{
+						"key": "damage_upgrade",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/damage_upgrade"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/damage_upgrade"
+								]
+							}
+						]
+					},
+					{
+						"key": "land_mine_deactivate",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/land_mine_deactivator"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/land_mine_deactivator"
+								]
+							}
+						]
+					},
+					{
+						"key": "iron_bars_trap",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/iron_bars_trap"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/iron_bars_trap"
+								]
+							}
+						]
+					},
+					{
+						"key": "rocket",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/misile"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/misile"
+								]
+							}
+						]
+					},
+					{
+						"key": "iron_bars_trap_parts",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/iron_bars_trap_parts"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/iron_bars_trap_parts"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"turret": {
+								"textures": [
+									"textures/items/turret"
+								]
+							},
+							"mine": {
+								"textures": [
+									"textures/items/bomb"
+								]
+							},
+							"block_reinforcer": {
+								"textures": [
+									"textures/items/block_reinforcer"
+								]
+							},
+							"block_remover": {
+								"textures": [
+									"textures/items/block_remover"
+								]
+							},
+							"padlock": {
+								"textures": [
+									"textures/items/padlock"
+								]
+							},
+							"turret_pieces": {
+								"textures": [
+									"textures/items/turret_pieces"
+								]
+							},
+							"security_table_pieces": {
+								"textures": [
+									"textures/items/security_table_pieces"
+								]
+							},
+							"security_table": {
+								"textures": [
+									"textures/items/security_table"
+								]
+							},
+							"block_remover_pieces": {
+								"textures": [
+									"textures/items/block_remover_pieces"
+								]
+							},
+							"land_mine_pieces": {
+								"textures": [
+									"textures/items/land_mine_pieces"
+								]
+							},
+							"door_protected_pieces": {
+								"textures": [
+									"textures/items/door_iron_protected_pieces"
+								]
+							},
+							"door_protected": {
+								"textures": [
+									"textures/items/door_iron_protected"
+								]
+							},
+							"protected_chest_pieces": {
+								"textures": [
+									"textures/items/protected_chest_pieces"
+								]
+							},
+							"protected_chest": {
+								"textures": [
+									"textures/items/protected_chest"
+								]
+							},
+							"rotator": {
+								"textures": [
+									"textures/items/rotator"
+								]
+							},
+							"universal_block_remover": {
+								"textures": [
+									"textures/items/universal_block_remover"
+								]
+							},
+							"missile_launcher": {
+								"textures": [
+									"textures/items/misile_launcher"
+								]
+							},
+							"damage_upgrade": {
+								"textures": [
+									"textures/items/damage_upgrade"
+								]
+							},
+							"land_mine_deactivate": {
+								"textures": [
+									"textures/items/land_mine_deactivator"
+								]
+							},
+							"iron_bars_trap": {
+								"textures": [
+									"textures/items/iron_bars_trap"
+								]
+							},
+							"rocket": {
+								"textures": [
+									"textures/items/misile"
+								]
+							},
+							"iron_bars_trap_parts": {
+								"textures": [
+									"textures/items/iron_bars_trap_parts"
+								]
+							},
+							"rocket_launcher_parts": {
+								"textures": [
+									"textures/items/misile_launcher_parts"
+								]
+							},
+							"fire_alarm": {
+								"textures": [
+									"textures/items/fire_alarm"
+								]
+							},
+							"fire_alarm_parts": {
+								"textures": [
+									"textures/items/fire_alarm_parts"
+								]
+							}
+						},
+						"key": "rocket_launcher_parts",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/misile_launcher_parts"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/misile_launcher_parts"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"turret": {
+								"textures": [
+									"textures/items/turret"
+								]
+							},
+							"mine": {
+								"textures": [
+									"textures/items/bomb"
+								]
+							},
+							"block_reinforcer": {
+								"textures": [
+									"textures/items/block_reinforcer"
+								]
+							},
+							"block_remover": {
+								"textures": [
+									"textures/items/block_remover"
+								]
+							},
+							"padlock": {
+								"textures": [
+									"textures/items/padlock"
+								]
+							},
+							"turret_pieces": {
+								"textures": [
+									"textures/items/turret_pieces"
+								]
+							},
+							"security_table_pieces": {
+								"textures": [
+									"textures/items/security_table_pieces"
+								]
+							},
+							"security_table": {
+								"textures": [
+									"textures/items/security_table"
+								]
+							},
+							"block_remover_pieces": {
+								"textures": [
+									"textures/items/block_remover_pieces"
+								]
+							},
+							"land_mine_pieces": {
+								"textures": [
+									"textures/items/land_mine_pieces"
+								]
+							},
+							"door_protected_pieces": {
+								"textures": [
+									"textures/items/door_iron_protected_pieces"
+								]
+							},
+							"door_protected": {
+								"textures": [
+									"textures/items/door_iron_protected"
+								]
+							},
+							"protected_chest_pieces": {
+								"textures": [
+									"textures/items/protected_chest_pieces"
+								]
+							},
+							"protected_chest": {
+								"textures": [
+									"textures/items/protected_chest"
+								]
+							},
+							"rotator": {
+								"textures": [
+									"textures/items/rotator"
+								]
+							},
+							"universal_block_remover": {
+								"textures": [
+									"textures/items/universal_block_remover"
+								]
+							},
+							"missile_launcher": {
+								"textures": [
+									"textures/items/misile_launcher"
+								]
+							},
+							"damage_upgrade": {
+								"textures": [
+									"textures/items/damage_upgrade"
+								]
+							},
+							"land_mine_deactivate": {
+								"textures": [
+									"textures/items/land_mine_deactivator"
+								]
+							},
+							"iron_bars_trap": {
+								"textures": [
+									"textures/items/iron_bars_trap"
+								]
+							},
+							"rocket": {
+								"textures": [
+									"textures/items/misile"
+								]
+							},
+							"iron_bars_trap_parts": {
+								"textures": [
+									"textures/items/iron_bars_trap_parts"
+								]
+							},
+							"rocket_launcher_parts": {
+								"textures": [
+									"textures/items/misile_launcher_parts"
+								]
+							},
+							"fire_alarm": {
+								"textures": [
+									"textures/items/fire_alarm"
+								]
+							},
+							"fire_alarm_parts": {
+								"textures": [
+									"textures/items/fire_alarm_parts"
+								]
+							}
+						},
+						"key": "fire_alarm",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/fire_alarm"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/fire_alarm"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"turret": {
+								"textures": [
+									"textures/items/turret"
+								]
+							},
+							"mine": {
+								"textures": [
+									"textures/items/bomb"
+								]
+							},
+							"block_reinforcer": {
+								"textures": [
+									"textures/items/block_reinforcer"
+								]
+							},
+							"block_remover": {
+								"textures": [
+									"textures/items/block_remover"
+								]
+							},
+							"padlock": {
+								"textures": [
+									"textures/items/padlock"
+								]
+							},
+							"turret_pieces": {
+								"textures": [
+									"textures/items/turret_pieces"
+								]
+							},
+							"security_table_pieces": {
+								"textures": [
+									"textures/items/security_table_pieces"
+								]
+							},
+							"security_table": {
+								"textures": [
+									"textures/items/security_table"
+								]
+							},
+							"block_remover_pieces": {
+								"textures": [
+									"textures/items/block_remover_pieces"
+								]
+							},
+							"land_mine_pieces": {
+								"textures": [
+									"textures/items/land_mine_pieces"
+								]
+							},
+							"door_protected_pieces": {
+								"textures": [
+									"textures/items/door_iron_protected_pieces"
+								]
+							},
+							"door_protected": {
+								"textures": [
+									"textures/items/door_iron_protected"
+								]
+							},
+							"protected_chest_pieces": {
+								"textures": [
+									"textures/items/protected_chest_pieces"
+								]
+							},
+							"protected_chest": {
+								"textures": [
+									"textures/items/protected_chest"
+								]
+							},
+							"rotator": {
+								"textures": [
+									"textures/items/rotator"
+								]
+							},
+							"universal_block_remover": {
+								"textures": [
+									"textures/items/universal_block_remover"
+								]
+							},
+							"missile_launcher": {
+								"textures": [
+									"textures/items/misile_launcher"
+								]
+							},
+							"damage_upgrade": {
+								"textures": [
+									"textures/items/damage_upgrade"
+								]
+							},
+							"land_mine_deactivate": {
+								"textures": [
+									"textures/items/land_mine_deactivator"
+								]
+							},
+							"iron_bars_trap": {
+								"textures": [
+									"textures/items/iron_bars_trap"
+								]
+							},
+							"rocket": {
+								"textures": [
+									"textures/items/misile"
+								]
+							},
+							"iron_bars_trap_parts": {
+								"textures": [
+									"textures/items/iron_bars_trap_parts"
+								]
+							},
+							"rocket_launcher_parts": {
+								"textures": [
+									"textures/items/misile_launcher_parts"
+								]
+							},
+							"fire_alarm": {
+								"textures": [
+									"textures/items/fire_alarm"
+								]
+							},
+							"fire_alarm_parts": {
+								"textures": [
+									"textures/items/fire_alarm_parts"
+								]
+							}
+						},
+						"key": "fire_alarm_parts",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/fire_alarm_parts"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"array": [
+									"textures/items/fire_alarm_parts"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

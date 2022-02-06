@@ -1,0 +1,1364 @@
+{
+	"entity": {
+		"BP/entities/Turret.json": {
+			"events": [
+				"sbc:turret_activate",
+				"minecraft:entity_transformed",
+				"minecraft:entity_spawned",
+				"scb:owner",
+				"scb:rem",
+				"scb:despawn",
+				"scb:camuflaje"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:turret"
+			],
+			"animation_references": [],
+			"families": [
+				"shulker",
+				"mob",
+				"inanimate",
+				"turret"
+			]
+		},
+		"BP/entities/turret_bullet.json": {
+			"events": [
+				"minecraft:entity_spawned"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:turret_bullet"
+			],
+			"animation_references": [],
+			"families": []
+		},
+		"BP/entities/closed_turret.json": {
+			"events": [
+				"sbc:turret_activate",
+				"minecraft:entity_transformed"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:closed_turret"
+			],
+			"animation_references": [],
+			"families": [
+				"shulker",
+				"mob",
+				"inanimate",
+				"turret"
+			]
+		},
+		"BP/entities/land_mine.json": {
+			"events": [
+				"land_mine:explode",
+				"scb:deactivate",
+				"scb:bye"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:land_mine"
+			],
+			"animation_references": [],
+			"families": []
+		},
+		"BP/entities/key_chest.json": {
+			"events": [
+				"scb:open",
+				"scb:despawn",
+				"scb:tamed",
+				"minecraft:entity_transformed",
+				"scb:security",
+				"scb:rotblank",
+				"scb:rotleft",
+				"scb:rotright",
+				"scb:rotback"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:key_chest"
+			],
+			"animation_references": [],
+			"families": [
+				"armor_stand",
+				"inanimate",
+				"mob",
+				"turret"
+			]
+		},
+		"BP/entities/security_table.json": {
+			"events": [
+				"scb:despawn",
+				"scb:drop",
+				"minecraft:entity_transformed",
+				"scb:unbreakable",
+				"minecraft:entity_spawned"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:security_table"
+			],
+			"animation_references": [],
+			"families": [
+				"armor_stand",
+				"inanimate",
+				"mob",
+				"turret"
+			]
+		},
+		"BP/entities/key_door.json": {
+			"events": [
+				"dou:lou",
+				"minecraft:entity_transformed",
+				"minecraft:entity_spawned",
+				"scb:tamed"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:key_door"
+			],
+			"animation_references": [],
+			"families": [
+				"armor_stand",
+				"inanimate",
+				"mob",
+				"turret"
+			]
+		},
+		"BP/entities/armor_stand.json": {
+			"events": [
+				"build:security_table",
+				"minecraft:entity_transformed"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:armor_stand"
+			],
+			"animation_references": [],
+			"families": [
+				"armor_stand",
+				"inanimate",
+				"mob"
+			]
+		},
+		"BP/entities/mine_explode.json": {
+			"events": [
+				"from_explosion"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:mine_explode"
+			],
+			"animation_references": [],
+			"families": [
+				"tnt",
+				"inanimate"
+			]
+		},
+		"BP/entities/block_remove_entity.json": {
+			"events": [
+				"minecraft:entity_spawned"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:block_remove_entity"
+			],
+			"animation_references": [],
+			"families": [
+				"armor_stand",
+				"inanimate",
+				"mob"
+			]
+		},
+		"BP/entities/key_chest_right.json": {
+			"events": [
+				"scb:open",
+				"scb:despawn",
+				"minecraft:entity_spawned",
+				"scb:tamed",
+				"scb:rotation",
+				"minecraft:entity_transformed"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:key_chest_right"
+			],
+			"animation_references": [],
+			"families": [
+				"armor_stand",
+				"inanimate",
+				"mob",
+				"turret"
+			]
+		},
+		"BP/entities/key_chest_back.json": {
+			"events": [
+				"scb:open",
+				"scb:despawn",
+				"minecraft:entity_spawned",
+				"scb:tamed",
+				"scb:rotation",
+				"minecraft:entity_transformed"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:key_chest_back"
+			],
+			"animation_references": [],
+			"families": [
+				"armor_stand",
+				"inanimate",
+				"mob",
+				"turret"
+			]
+		},
+		"BP/entities/key_chest_left.json": {
+			"events": [
+				"scb:open",
+				"scb:despawn",
+				"minecraft:entity_spawned",
+				"scb:tamed",
+				"scb:rotation",
+				"minecraft:entity_transformed"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:key_chest_left"
+			],
+			"animation_references": [],
+			"families": [
+				"armor_stand",
+				"inanimate",
+				"mob",
+				"turret"
+			]
+		},
+		"BP/entities/key_door_open_front.json": {
+			"events": [
+				"dou:lou",
+				"minecraft:entity_transformed",
+				"minecraft:entity_spawned",
+				"scb:tamed"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:key_door_open_front"
+			],
+			"animation_references": [],
+			"families": [
+				"armor_stand",
+				"inanimate",
+				"mob",
+				"turret"
+			]
+		},
+		"BP/entities/misil_launcher.json": {
+			"events": [
+				"sbc:turret_activate",
+				"minecraft:entity_transformed",
+				"minecraft:entity_spawned",
+				"scb:owner",
+				"scb:rem",
+				"scb:despawn"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:misil_launcher"
+			],
+			"animation_references": [],
+			"families": [
+				"shulker",
+				"mob",
+				"inanimate",
+				"turret"
+			]
+		},
+		"BP/entities/misile_bullet.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"scb:hit_misile"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:misile_bullet"
+			],
+			"animation_references": [],
+			"families": []
+		},
+		"BP/entities/iron_bars_trap.json": {
+			"events": [
+				"land_mine:explode",
+				"scb:deactivate"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:iron_bars_trap"
+			],
+			"animation_references": [],
+			"families": []
+		},
+		"BP/entities/land_mine_inactive.json": {
+			"events": [
+				"scb:deactivate",
+				"scb:bye"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:land_mine_inactive"
+			],
+			"animation_references": [],
+			"families": []
+		},
+		"BP/entities/fire_alarm.json": {
+			"events": [
+				"scb:alarm",
+				"scb:active",
+				"scb:break_alarm",
+				"minecraft:entity_spawned"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:fire_alarm"
+			],
+			"animation_references": [],
+			"families": []
+		},
+		"BP/entities/player.json": {
+			"custom_components": []
+		},
+		"BP/entities/door.json": {
+			"events": [
+				"scb:open",
+				"minecraft:entity_transformed",
+				"scb:rotate",
+				"minecraft:entity_spawned",
+				"scb:despawn"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:door"
+			],
+			"animation_references": [],
+			"families": []
+		},
+		"BP/entities/door_open.json": {
+			"events": [
+				"scb:open",
+				"minecraft:entity_transformed"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:door_open"
+			],
+			"animation_references": [],
+			"families": []
+		},
+		"BP/entities/dur_open.json": {
+			"events": [
+				"scb:open",
+				"minecraft:entity_transformed"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:door_r_open"
+			],
+			"animation_references": [],
+			"families": []
+		},
+		"BP/entities/dur.json": {
+			"events": [
+				"scb:open",
+				"minecraft:entity_transformed",
+				"scb:rotate",
+				"scb:despawn"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"scb:door_r"
+			],
+			"animation_references": [],
+			"families": []
+		}
+	},
+	"client_entity": {
+		"RP/entity/turret.json": {
+			"identifiers": [
+				"scb:turret"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move",
+				"general",
+				"look_at_target",
+				"baby_transform",
+				"close",
+				"open",
+				"animach"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default",
+				"cobblestone_skin"
+			],
+			"material_references": [
+				"default",
+				"legs"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/entity/closed_turret.json": {
+			"identifiers": [
+				"scb:closed_turret"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move",
+				"general",
+				"look_at_target",
+				"baby_transform",
+				"close",
+				"open"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default",
+				"legs"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/entity/land_mine.json": {
+			"identifiers": [
+				"scb:land_mine"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move",
+				"general",
+				"look_at_target",
+				"baby_transform",
+				"exe"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default",
+				"inactive"
+			],
+			"material_references": [
+				"default",
+				"legs"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/entity/key_chest.json": {
+			"identifiers": [
+				"scb:key_chest"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"default_pose",
+				"no_pose",
+				"solemn_pose",
+				"athena_pose",
+				"brandish_pose",
+				"honor_pose",
+				"entertain_pose",
+				"salute_pose",
+				"riposte_pose",
+				"zombie_pose",
+				"cancan_a_pose",
+				"cancan_b_pose",
+				"hero_pose",
+				"wiggle",
+				"controller.pose",
+				"controller.wiggling"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default",
+				"right",
+				"left",
+				"back"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default",
+				"right",
+				"left",
+				"back"
+			]
+		},
+		"RP/entity/turret_bullet.json": {
+			"identifiers": [
+				"scb:misile_bullet"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/entity/security_table.json": {
+			"identifiers": [
+				"scb:security_table"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"default_pose",
+				"no_pose",
+				"solemn_pose",
+				"athena_pose",
+				"brandish_pose",
+				"honor_pose",
+				"entertain_pose",
+				"salute_pose",
+				"riposte_pose",
+				"zombie_pose",
+				"cancan_a_pose",
+				"cancan_b_pose",
+				"hero_pose",
+				"wiggle",
+				"controller.pose",
+				"controller.wiggling"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/entity/block_remove_entity.json": {
+			"identifiers": [
+				"scb:block_remove_entity"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"default_pose",
+				"no_pose",
+				"solemn_pose",
+				"athena_pose",
+				"brandish_pose",
+				"honor_pose",
+				"entertain_pose",
+				"salute_pose",
+				"riposte_pose",
+				"zombie_pose",
+				"cancan_a_pose",
+				"cancan_b_pose",
+				"hero_pose",
+				"wiggle",
+				"controller.pose",
+				"controller.wiggling"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/entity/key_chest_right.json": {
+			"identifiers": [
+				"scb:key_chest_right"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"default_pose",
+				"no_pose",
+				"solemn_pose",
+				"athena_pose",
+				"brandish_pose",
+				"honor_pose",
+				"entertain_pose",
+				"salute_pose",
+				"riposte_pose",
+				"zombie_pose",
+				"cancan_a_pose",
+				"cancan_b_pose",
+				"hero_pose",
+				"wiggle",
+				"controller.pose",
+				"controller.wiggling"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/entity/key_chest_back.json": {
+			"identifiers": [
+				"scb:key_chest_back"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"default_pose",
+				"no_pose",
+				"solemn_pose",
+				"athena_pose",
+				"brandish_pose",
+				"honor_pose",
+				"entertain_pose",
+				"salute_pose",
+				"riposte_pose",
+				"zombie_pose",
+				"cancan_a_pose",
+				"cancan_b_pose",
+				"hero_pose",
+				"wiggle",
+				"controller.pose",
+				"controller.wiggling"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/entity/key_chest_left.json": {
+			"identifiers": [
+				"scb:key_chest_left"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"default_pose",
+				"no_pose",
+				"solemn_pose",
+				"athena_pose",
+				"brandish_pose",
+				"honor_pose",
+				"entertain_pose",
+				"salute_pose",
+				"riposte_pose",
+				"zombie_pose",
+				"cancan_a_pose",
+				"cancan_b_pose",
+				"hero_pose",
+				"wiggle",
+				"controller.pose",
+				"controller.wiggling"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/entity/key_door_open_front.json": {
+			"identifiers": [
+				"scb:key_door_open_front"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"default_pose",
+				"no_pose",
+				"solemn_pose",
+				"athena_pose",
+				"brandish_pose",
+				"honor_pose",
+				"entertain_pose",
+				"salute_pose",
+				"riposte_pose",
+				"zombie_pose",
+				"cancan_a_pose",
+				"cancan_b_pose",
+				"hero_pose",
+				"wiggle",
+				"controller.pose",
+				"controller.wiggling"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/entity/misil_launcher.json": {
+			"identifiers": [
+				"scb:misil_launcher"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move",
+				"general",
+				"look_at_target",
+				"baby_transform",
+				"close",
+				"open",
+				"animach"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default",
+				"legs"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/entity/misile_bullet.json": {
+			"identifiers": [
+				"scb:misile_bullet"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move",
+				"look_at_target_default"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/entity/iron_bars_trap.json": {
+			"identifiers": [
+				"scb:iron_bars_trap"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move",
+				"general",
+				"look_at_target",
+				"baby_transform",
+				"exe"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"legs",
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/entity/land_mine_inactive.json": {
+			"identifiers": [
+				"scb:land_mine_inactive"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move",
+				"general",
+				"look_at_target",
+				"baby_transform",
+				"exe"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default",
+				"legs"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/entity/fire_alarm.json": {
+			"identifiers": [
+				"scb:fire_alarm"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move",
+				"general",
+				"look_at_target",
+				"baby_transform"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default",
+				"legs"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.fire_alarm"
+			]
+		},
+		"RP/entity/door.json/key_door.json": {
+			"identifiers": [
+				"scb:door"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"key_door_posing_0",
+				"key_door_posing_1",
+				"key_door_posing_2",
+				"key_door_posing_3"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.key_door"
+			]
+		},
+		"RP/entity/door_open.json": {
+			"identifiers": [
+				"scb:door_open"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"key_door_posing_0",
+				"key_door_posing_1",
+				"key_door_posing_2",
+				"key_door_posing_3"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.key_door"
+			]
+		},
+		"RP/entity/door_r_open.json": {
+			"identifiers": [
+				"scb:door_r_open"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"key_door_posing_0",
+				"key_door_posing_1",
+				"key_door_posing_2",
+				"key_door_posing_3"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.key_door"
+			]
+		},
+		"RP/entity/door_r.json": {
+			"identifiers": [
+				"scb:door_r"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"key_door_posing_0",
+				"key_door_posing_1",
+				"key_door_posing_2",
+				"key_door_posing_3"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.key_door"
+			]
+		}
+	},
+	"render_controller": {
+		"RP/render_controllers/turret.json": {
+			"ids": [
+				"controller.render.turret"
+			]
+		},
+		"RP/render_controllers/land_mine_variant.json": {
+			"ids": [
+				"controller.render.variant_land_mine"
+			]
+		},
+		"RP/render_controllers/key_chest.json": {
+			"ids": [
+				"controller.render.key_chest"
+			]
+		},
+		"RP/render_controllers/fire_alarm.json": {
+			"ids": [
+				"controller.render.fire_alarm"
+			]
+		},
+		"RP/render_controllers/door.json": {
+			"ids": [
+				"controller.render.key_door"
+			]
+		}
+	},
+	"animation_controller": {
+		"BP/animation_controllers/unknown.json": {
+			"ids": [
+				"controller.animation.blank"
+			]
+		},
+		"BP/animation_controllers/bridge/commands_key_chest.json.json": {
+			"ids": [
+				"controller.animation.bridge_key_chest.execute_commands"
+			]
+		},
+		"BP/animation_controllers/bridge/commands_security_table.json.json": {
+			"ids": [
+				"controller.animation.bridge_security_table.execute_commands"
+			]
+		},
+		"BP/animation_controllers/bridge/commands_security_table.json": {
+			"ids": [
+				"controller.animation.bridge_security_table.execute_commands"
+			]
+		},
+		"BP/animation_controllers/bridge/commands_door.json": {
+			"ids": [
+				"controller.animation.bridge_door.execute_commands"
+			]
+		}
+	},
+	"rp_animation": {
+		"RP/animations/unknown.json": {
+			"ids": [
+				"animation.blank"
+			]
+		},
+		"RP/animations/torreta.animation.json": {
+			"ids": [
+				"animation.torreta.geo.off",
+				"animation.torreta.geo.on"
+			]
+		}
+	},
+	"rp_animation_controller": {
+		"RP/animation_controllers/unknown.json": {
+			"ids": [
+				"controller.animation.blank"
+			]
+		},
+		"RP/animation_controllers/torreta.json": {
+			"ids": [
+				"controller.animation.torreta"
+			]
+		}
+	},
+	"item": {
+		"BP/items/block_reinforcer.json": {
+			"identifiers": [
+				"scb:block_reinforcer"
+			]
+		},
+		"BP/items/block_remover.json": {
+			"identifiers": [
+				"scb:block_remover"
+			]
+		},
+		"BP/items/padlock.json": {
+			"identifiers": [
+				"scb:damage_upgrade"
+			]
+		},
+		"BP/items/turret_pieces.json": {
+			"identifiers": [
+				"scb:protected_door_pieces"
+			]
+		},
+		"BP/items/land_mine_pieces.json": {
+			"identifiers": [
+				"scb:protected_door_pieces"
+			]
+		},
+		"BP/items/security_table_pieces.json": {
+			"identifiers": [
+				"scb:rocket_launcher_parts"
+			]
+		},
+		"BP/items/block_remover_pieces.json": {
+			"identifiers": [
+				"scb:protected_door_pieces"
+			]
+		},
+		"BP/items/protected_chest_pieces.json": {
+			"identifiers": [
+				"scb:protected_door_pieces"
+			]
+		},
+		"BP/items/protected_door_pieces.json": {
+			"identifiers": [
+				"scb:protected_door_pieces"
+			]
+		},
+		"BP/items/rotator.json": {
+			"identifiers": [
+				"scb:rocket"
+			]
+		},
+		"BP/items/damage_upgrade.json": {
+			"identifiers": [
+				"scb:land_mine_deactivate"
+			]
+		},
+		"BP/items/land_mine_deactivate.json": {
+			"identifiers": [
+				"scb:land_mine_deactivate"
+			]
+		},
+		"BP/items/rocket_item.json": {
+			"identifiers": [
+				"scb:rocket"
+			]
+		},
+		"BP/items/iron_bars_trap_parts.json": {
+			"identifiers": [
+				"scb:rocket_launcher_parts"
+			]
+		},
+		"BP/items/rocket_launcher_parts.json": {
+			"identifiers": [
+				"scb:fire_alarm_parts"
+			]
+		},
+		"BP/items/fire_alarm_parts.json": {
+			"identifiers": [
+				"scb:fire_alarm_parts"
+			]
+		}
+	},
+	"block": {
+		"BP/blocks/dirt_reinforced.json": {
+			"identifiers": [
+				"scb:dirt_reinforced"
+			]
+		},
+		"BP/blocks/cobblestone_reinforced.json": {
+			"identifiers": [
+				"scb:cobblestone_reinforced"
+			]
+		},
+		"BP/blocks/cobblestone_mossy_reinforced.json": {
+			"identifiers": [
+				"scb:cobblestone_mossy_reinforced"
+			]
+		},
+		"BP/blocks/brick_reinforced.json": {
+			"identifiers": [
+				"scb:brick_reinforced"
+			]
+		},
+		"BP/blocks/end_stone_reinforced.json": {
+			"identifiers": [
+				"scb:end_stone_reinforced"
+			]
+		},
+		"BP/blocks/stone_reinforced.json": {
+			"identifiers": [
+				"scb:stone_reinforced"
+			]
+		},
+		"BP/blocks/stonebrick_reinforced.json": {
+			"identifiers": [
+				"scb:stonebrick_reinforced"
+			]
+		},
+		"BP/blocks/stonebrick_mossy_reinforced.json": {
+			"identifiers": [
+				"scb:stonebrick_mossy_reinforced"
+			]
+		},
+		"BP/blocks/stonebrick_cracked_reinforced.json": {
+			"identifiers": [
+				"scb:stonebrick_cracked_reinforced"
+			]
+		},
+		"BP/blocks/stonebrick_carved_reinforced.json": {
+			"identifiers": [
+				"scb:stonebrick_carved_reinforced"
+			]
+		},
+		"BP/blocks/stone_andesite_reinforced.json": {
+			"identifiers": [
+				"scb:stone_andesite_reinforced"
+			]
+		},
+		"BP/blocks/stone_andesite_smooth_reinforced.json": {
+			"identifiers": [
+				"scb:stone_andesite_smooth_reinforced"
+			]
+		},
+		"BP/blocks/stone_diorite_smooth_reinforced.json": {
+			"identifiers": [
+				"scb:stone_diorite_smooth_reinforced"
+			]
+		},
+		"BP/blocks/stone_diorite_reinforced.json": {
+			"identifiers": [
+				"scb:stone_diorite_reinforced"
+			]
+		},
+		"BP/blocks/stone_granite_reinforced.json": {
+			"identifiers": [
+				"scb:stone_granite_reinforced"
+			]
+		},
+		"BP/blocks/stone_granite_smooth_reinforced.json": {
+			"identifiers": [
+				"scb:stone_granite_smooth_reinforced"
+			]
+		},
+		"BP/blocks/wool/wool_black_reinforced.json": {
+			"identifiers": [
+				"scb:wool_black_reinforced"
+			]
+		},
+		"BP/blocks/wool/wool_blue_reinforced.json": {
+			"identifiers": [
+				"scb:wool_blue_reinforced"
+			]
+		},
+		"BP/blocks/wool/wool_brown_reinforced.json": {
+			"identifiers": [
+				"scb:wool_brown_reinforced"
+			]
+		},
+		"BP/blocks/wool/wool_cyan_reinforced.json": {
+			"identifiers": [
+				"scb:wool_cyan_reinforced"
+			]
+		},
+		"BP/blocks/wool/wool_gray_reinforced.json": {
+			"identifiers": [
+				"scb:wool_gray_reinforced"
+			]
+		},
+		"BP/blocks/wool/wool_green_reinforced.json": {
+			"identifiers": [
+				"scb:wool_green_reinforced"
+			]
+		},
+		"BP/blocks/wool/wool_light_blue_reinforced.json": {
+			"identifiers": [
+				"scb:wool_light_blue_reinforced"
+			]
+		},
+		"BP/blocks/wool/wool_lime_reinforced.json": {
+			"identifiers": [
+				"scb:wool_lime_reinforced"
+			]
+		},
+		"BP/blocks/wool/wool_magenta_reinforced.json": {
+			"identifiers": [
+				"scb:wool_magenta_reinforced"
+			]
+		},
+		"BP/blocks/wool/wool_orange_reinforced.json": {
+			"identifiers": [
+				"scb:wool_orange_reinforced"
+			]
+		},
+		"BP/blocks/wool/wool_pink_reinforced.json": {
+			"identifiers": [
+				"scb:wool_pink_reinforced"
+			]
+		},
+		"BP/blocks/wool/wool_purple_reinforced.json": {
+			"identifiers": [
+				"scb:wool_purple_reinforced"
+			]
+		},
+		"BP/blocks/wool/wool_red_reinforced.json": {
+			"identifiers": [
+				"scb:wool_red_reinforced"
+			]
+		},
+		"BP/blocks/wool/wool_silver_reinforced.json": {
+			"identifiers": [
+				"scb:wool_silver_reinforced"
+			]
+		},
+		"BP/blocks/wool/wool_white_reinforced.json": {
+			"identifiers": [
+				"scb:wool_white_reinforced"
+			]
+		},
+		"BP/blocks/wool/wool_yellow_reinforced.json": {
+			"identifiers": [
+				"scb:wool_yellow_reinforced"
+			]
+		},
+		"BP/blocks/planks/plank_acacia_reinforced.json": {
+			"identifiers": [
+				"scb:plank_acacia_reinforced"
+			]
+		},
+		"BP/blocks/planks/plank_big_oak_reinforced.json": {
+			"identifiers": [
+				"scb:plank_big_oak_reinforced"
+			]
+		},
+		"BP/blocks/planks/plank_birch_reinforced.json": {
+			"identifiers": [
+				"scb:plank_birch_reinforced"
+			]
+		},
+		"BP/blocks/planks/plank_jungle_reinforced.json": {
+			"identifiers": [
+				"scb:plank_jungle_reinforced"
+			]
+		},
+		"BP/blocks/planks/plank_oak_reinforced.json": {
+			"identifiers": [
+				"scb:plank_oak_reinforced"
+			]
+		},
+		"BP/blocks/planks/plank_spruce_reinforced.json": {
+			"identifiers": [
+				"scb:plank_spruce_reinforced"
+			]
+		},
+		"BP/blocks/table_drop.json": {
+			"identifiers": [
+				"scb:rocket_launcher_drop"
+			]
+		},
+		"BP/blocks/fire_alarm_drop.json": {
+			"identifiers": [
+				"scb:fire_alarm_drop"
+			]
+		},
+		"BP/blocks/quartz/quartz_block_reinforced.json": {
+			"identifiers": [
+				"scb:brick_reinforced"
+			]
+		},
+		"BP/blocks/quartz/quartz_block_chiseled_reinforced.json": {
+			"identifiers": [
+				"scb:quartz_block_chiseled_reinforced"
+			]
+		},
+		"BP/blocks/quartz_block_reinforced.json": {
+			"identifiers": [
+				"scb:quartz_block_reinforced"
+			]
+		},
+		"BP/blocks/quartz/quartz_block_lines_reinforced.json": {
+			"identifiers": [
+				"scb:quartz_block_lines_reinforced"
+			]
+		},
+		"BP/blocks/rocket_launcher_drop.json": {
+			"identifiers": [
+				"scb:rocket_launcher_drop"
+			]
+		}
+	},
+	"particle": {
+		"RP/particles/breaking.json": {
+			"ids": [
+				"minecraft:block_destruct"
+			]
+		}
+	}
+}

@@ -1,0 +1,132 @@
+//bridge-file-version: #23
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"turret": {
+			"textures": [
+				"textures/items/turret"
+			]
+		},
+		"mine": {
+			"textures": [
+				"textures/items/bomb"
+			]
+		},
+		"block_reinforcer": {
+			"textures": [
+				"textures/items/block_reinforcer"
+			]
+		},
+		"block_remover": {
+			"textures": [
+				"textures/items/block_remover"
+			]
+		},
+		"padlock": {
+			"textures": [
+				"textures/items/padlock"
+			]
+		},
+		"turret_pieces": {
+			"textures": [
+				"textures/items/turret_pieces"
+			]
+		},
+		"security_table_pieces": {
+			"textures": [
+				"textures/items/security_table_pieces"
+			]
+		},
+		"security_table": {
+			"textures": [
+				"textures/items/security_table"
+			]
+		},
+		"block_remover_pieces": {
+			"textures": [
+				"textures/items/block_remover_pieces"
+			]
+		},
+		"land_mine_pieces": {
+			"textures": [
+				"textures/items/land_mine_pieces"
+			]
+		},
+		"door_protected_pieces": {
+			"textures": [
+				"textures/items/door_iron_protected_pieces"
+			]
+		},
+		"door_protected": {
+			"textures": [
+				"textures/items/door_iron_protected"
+			]
+		},
+		"protected_chest_pieces": {
+			"textures": [
+				"textures/items/protected_chest_pieces"
+			]
+		},
+		"protected_chest": {
+			"textures": [
+				"textures/items/protected_chest"
+			]
+		},
+		"rotator": {
+			"textures": [
+				"textures/items/rotator"
+			]
+		},
+		"universal_block_remover": {
+			"textures": [
+				"textures/items/universal_block_remover"
+			]
+		},
+		"missile_launcher": {
+			"textures": [
+				"textures/items/misile_launcher"
+			]
+		},
+		"damage_upgrade": {
+			"textures": [
+				"textures/items/damage_upgrade"
+			]
+		},
+		"land_mine_deactivate": {
+			"textures": [
+				"textures/items/land_mine_deactivator"
+			]
+		},
+		"iron_bars_trap": {
+			"textures": [
+				"textures/items/iron_bars_trap"
+			]
+		},
+		"rocket": {
+			"textures": [
+				"textures/items/misile"
+			]
+		},
+		"iron_bars_trap_parts": {
+			"textures": [
+				"textures/items/iron_bars_trap_parts"
+			]
+		},
+		"rocket_launcher_parts": {
+			"textures": [
+				"textures/items/misile_launcher_parts"
+			]
+		},
+		"fire_alarm": {
+			"textures": [
+				"textures/items/fire_alarm"
+			]
+		},
+		"fire_alarm_parts": {
+			"textures": [
+				"textures/items/fire_alarm_parts"
+			]
+		}
+	}
+}

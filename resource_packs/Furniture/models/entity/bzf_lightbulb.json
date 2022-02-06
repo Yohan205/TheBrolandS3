@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.bzf_lightbulb",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Bulb",
+					"pivot": [0, 16, 0],
+					"cubes": [
+						{"origin": [-1.5, 11, -1.5], "size": [3, 3, 3], "uv": [11, 3]},
+						{"origin": [-1, 14, -1], "size": [2, 1, 2], "pivot": [0, 0, 0], "rotation": [0, 45, 0], "uv": [0, 12]},
+						{"origin": [-1, 15, -2.5], "size": [2, 1, 5], "uv": [0, 6]},
+						{"origin": [-1, 15, -2.5], "size": [2, 1, 5], "pivot": [0, 0, 0], "rotation": [0, 90, 0], "uv": [0, 0]},
+						{"origin": [-2, 15, -2], "size": [4, 1, 1], "pivot": [0, 0, 0], "rotation": [0, 90, 0], "uv": [9, 9]},
+						{"origin": [-2, 15, 1], "size": [4, 1, 1], "pivot": [0, 0, 0], "rotation": [0, 90, 0], "uv": [9, 0]}
+					]
+				}
+			]
+		}
+	]
+}

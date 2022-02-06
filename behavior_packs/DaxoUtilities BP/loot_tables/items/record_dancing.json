@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "daxo:record_dancing",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

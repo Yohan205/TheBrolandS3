@@ -1,0 +1,326 @@
+//bridge-file-version: #38
+{
+	"entity_sounds": {
+		"entities": {
+			"korbon:mummy": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.mummy.ambient",
+					"hurt": "mob.mummy.hurt",
+					"death": "mob.mummy.death",
+					"step": {
+						"sound": "mob.mummy.step",
+						"volume": 0.15,
+						"pitch": 1
+					}
+				}
+			},
+			"korbon:pirate": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.pirate.idle",
+					"hurt": "mob.pirate.hurt",
+					"death": "mob.pirate.death",
+					"ambient.in.raid": {
+						"sound": "mob.pirate.idle",
+						"volume": 3,
+						"pitch": [
+							0.8,
+							1.2
+						]
+					},
+					"celebrate": "mob.pirate.celebrate"
+				}
+			},
+			"korbon:decayed_zombie": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.decayed_zombie.say",
+					"hurt": {
+						"sound": "mob.decayed_zombie.hurt",
+						"volume": 0.7
+					},
+					"death": "mob.decayed_zombie.death",
+					"step": {
+						"sound": "mob.decayed_zombie.step",
+						"volume": 1,
+						"pitch": 1
+					}
+				}
+			},
+			"korbon:ghost": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.ghost.say",
+					"hurt": {
+						"sound": "mob.ghost.hurt",
+						"volume": 0.7
+					},
+					"death": "mob.ghost.death",
+					"step": {
+						"sound": "mob.empty.step",
+						"volume": 1,
+						"pitch": 1
+					}
+				}
+			},
+			"korbon:enraged_zombie": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.enraged_zombie.say",
+					"hurt": "mob.enraged_zombie.hurt",
+					"death": "mob.enraged_zombie.death",
+					"step": {
+						"sound": "mob.enraged_zombie.step",
+						"volume": 0.15,
+						"pitch": 1
+					}
+				}
+			},
+			"korbon:queen_spider": {
+				"events": {
+					"ambient": "mob.spider.say",
+					"death": "mob.spider.death",
+					"hurt": "mob.spider.say",
+					"step": {
+						"pitch": [
+							0.9,
+							1.1,
+							0.9,
+							1.1
+						],
+						"sound": "mob.spider.step",
+						"volume": 0.35
+					}
+				},
+				"pitch": [
+					0.3,
+					0.5,
+					0.3,
+					0.6
+				],
+				"volume": 2
+			},
+			"korbon:baby_spider": {
+				"events": {
+					"ambient": "mob.spider.say",
+					"death": "mob.spider.death",
+					"hurt": "mob.spider.say",
+					"step": {
+						"pitch": [
+							0.9,
+							1.1,
+							0.9,
+							1.1
+						],
+						"sound": "mob.spider.step",
+						"volume": 0.35
+					}
+				},
+				"pitch": [
+					2,
+					2.1,
+					2,
+					1.2
+				],
+				"volume": 1
+			},
+			"korbon:lumberjack_villager": {
+				"events": {
+					"ambient": "mob.lumberjack_villager.idle",
+					"death": "mob.lumberjack_villager.death",
+					"death.to.zombie": "mob.lumberjack_villager.death",
+					"haggle": "mob.lumberjack_villager.haggle",
+					"haggle.no": "mob.lumberjack_villager.no",
+					"haggle.yes": "mob.lumberjack_villager.yes",
+					"hurt": "mob.lumberjack_villager.hit"
+				},
+				"pitch": [
+					0.7,
+					0.7
+				],
+				"volume": [
+					1
+				]
+			},
+			"korbon:possessed_cow": {
+				"events": {
+					"ambient": "mob.cow.say",
+					"death": "mob.cow.hurt",
+					"hurt": "mob.cow.hurt",
+					"step": {
+						"pitch": [
+							0.9,
+							1.1
+						],
+						"sound": "mob.cow.step",
+						"volume": 0.65
+					}
+				},
+				"pitch": [
+					0.5,
+					0.5
+				],
+				"volume": 1
+			},
+			"korbon:possessed_villager": {
+				"events": {
+					"ambient": "mob.villager.idle",
+					"death": "mob.villager.death",
+					"death.to.zombie": "mob.villager.death",
+					"haggle": "mob.villager.haggle",
+					"haggle.no": "mob.villager.no",
+					"haggle.yes": "mob.villager.yes",
+					"hurt": "mob.villager.hit"
+				},
+				"pitch": [
+					0.5,
+					0.5
+				],
+				"volume": 1
+			},
+			"korbon:aetherial_knight": {
+				"events": {
+					"hurt": {
+						"sound": "mob.aetherial_knight.hurt"
+					},
+					"death": {
+						"sound": "mob.aetherial_knight.death"
+					}
+				},
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				]
+			},
+			"korbon:cryptcrawler": {
+				"events": {
+					"ambient": "mob.cryptcrawler.ambient",
+					"hurt": "mob.cryptcrawler.hurt",
+					"death": "mob.cryptcrawler.death",
+					"step": "mob.cryptkeeper.step"
+				},
+				"volume": 0.9,
+				"pitch": [
+					0.8,
+					1.2
+				]
+			},
+			"korbon:pillager_wolf": {
+				"events": {
+					"ambient": "mob.wolf.growl",
+					"death": "mob.wolf.death",
+					"growl": "mob.wolf.growl",
+					"hurt": "mob.wolf.hurt",
+					"pant": "mob.wolf.bark",
+					"shake": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.wolf.shake"
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.wolf.step",
+						"volume": 0.65
+					},
+					"whine": "mob.wolf.whine"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"korbon:pillager_trapper": {
+				"events": {
+					"ambient": "mob.pillager.idle",
+					"ambient.in.raid": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.pillager.idle",
+						"volume": 3
+					},
+					"celebrate": "mob.pillager.celebrate",
+					"death": "mob.pillager.death",
+					"hurt": "mob.pillager.hurt"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"korbon:pumpkin_zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": "mob.zombie.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"korbon:pumpkin_skeleton": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.skeleton.step",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			}
+		}
+	},
+	"individual_event_sounds": {
+		"events": {
+			"record.mystical": {
+				"sound": "record.mystical",
+				"volume": 1,
+				"pitch": 1
+			}
+		}
+	}
+}

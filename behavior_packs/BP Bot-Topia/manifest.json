@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Bot-Topia Realms Edition",
+    "description": "Bot-Topia Realms Edition behavior pack §e*Mob Greifing must be turned §lON§r§e for this addon to work.",
+    "uuid": "0f110793-7ee5-43a2-a53d-ec20cfa178e9",
+    "version": [1, 0, 1],
+    "min_engine_version": [1, 13, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "4ebc9431-c199-427c-9b8b-960e69e0732d",
+      "version": [1, 0, 1]
+    }
+  ],
+  "dependencies": [
+    {
+      "version": [1, 0, 1],
+      "uuid": "34adb82f-d00c-4a1d-bc9a-614f4c5d5d67"
+    }
+  ]
+}

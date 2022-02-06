@@ -1,0 +1,503 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "bzf_furniture_box_up": {
+      "textures": [
+        "textures/blocks/bzf_furnibox/bzf_furniture_box_up"
+      ]
+    },
+    "bzf_modernchair": {
+      "textures": [
+        "textures/blocks/bzf_modernchair"
+      ]
+    },
+    "bzf_collision": {
+      "textures": [
+        "textures/blocks/bzf_collision"
+      ]
+    },
+    "bzf_shower": {
+      "textures": [
+        "textures/blocks/bzf_shower"
+      ]
+    },
+    "bzf_whitebookshelf1": {
+      "textures": [
+        "textures/blocks/bzf_whitebookshelf1"
+      ]
+    },
+    "bzf_small_lamp_white": {
+      "textures": [
+        "textures/blocks/bzf_small_lamp_white"
+      ]
+    },
+    "bzf_small_lamp_red": {
+      "textures": [
+        "textures/blocks/bzf_small_lamp_red"
+      ]
+    },
+    "bzf_small_lamp_blue": {
+      "textures": [
+        "textures/blocks/bzf_small_lamp_blue"
+      ]
+    },
+    "bzf_sprucebookshelf2": {
+      "textures": [
+        "textures/blocks/bzf_sprucebookshelf2"
+      ]
+    },
+    "bzf_sprucebookshelf1": {
+      "textures": [
+        "textures/blocks/bzf_sprucebookshelf1"
+      ]
+    },
+    "bzf_itemshelf": {
+      "textures": [
+        "textures/blocks/bzf_itemshelf"
+      ]
+    },
+    "bzf_whitebookshelf2": {
+      "textures": [
+        "textures/blocks/bzf_whitebookshelf2"
+      ]
+    },
+    "bzf_whiteshelf": {
+      "textures": [
+        "textures/blocks/bzf_whiteshelf"
+      ]
+    },
+    "bzf_moderncouch": {
+      "textures": [
+        "textures/blocks/bzf_moderncouch"
+      ]
+    },
+    "bzf_woodenshelf": {
+      "textures": [
+        "textures/blocks/bzf_woodenshelf"
+      ]
+    },
+    "bzf_graymodernlamp": {
+      "textures": [
+        "textures/blocks/bzf_graymodernlamp"
+      ]
+    },
+    "bzf_whitecoffeetable": {
+      "textures": [
+        "textures/blocks/bzf_whitecoffeetable"
+      ]
+    },
+    "bzf_graycoffeetable": {
+      "textures": [
+        "textures/blocks/bzf_graycoffeetable"
+      ]
+    },
+    "bzf_graypottedplant": {
+      "textures": [
+        "textures/blocks/bzf_graypottedplant"
+      ]
+    },
+    "bzf_modernchair2gray": {
+      "textures": [
+        "textures/blocks/bzf_modernchair2gray"
+      ]
+    },
+    "bzf_shelfgray": {
+      "textures": [
+        "textures/blocks/bzf_shelfgray"
+      ]
+    },
+    "bzf_modernchair2white": {
+      "textures": [
+        "textures/blocks/bzf_modernchair2white"
+      ]
+    },
+    "bzf_whitemodernlamp": {
+      "textures": [
+        "textures/blocks/bzf_whitemodernlamp"
+      ]
+    },
+    "bzf_moderncouch2gray": {
+      "textures": [
+        "textures/blocks/bzf_moderncouch2gray"
+      ]
+    },
+    "bzf_moderncouch2white": {
+      "textures": [
+        "textures/blocks/bzf_moderncouch2white"
+      ]
+    },
+    "bzf_flatscreentv": {
+      "textures": [
+        "textures/blocks/bzf_flatscreentv"
+      ]
+    },
+    "bzf_wallflatscreentv": {
+      "textures": [
+        "textures/blocks/bzf_wallflatscreentv"
+      ]
+    },
+    "bzf_blender": {
+      "textures": [
+        "textures/blocks/bzf_blender"
+      ]
+    },
+    "bzf_cupboard1": {
+      "textures": [
+        "textures/blocks/bzf_cupboard1"
+      ]
+    },
+    "bzf_toiletwhite": {
+      "textures": [
+        "textures/blocks/bzf_toiletwhite"
+      ]
+    },
+    "bzf_whitesink": {
+      "textures": [
+        "textures/blocks/bzf_whitesink"
+      ]
+    },
+    "bzf_whitecuttingboard": {
+      "textures": [
+        "textures/blocks/bzf_whitecuttingboard"
+      ]
+    },
+    "bzf_fruitbowl": {
+      "textures": [
+        "textures/blocks/bzf_fruitbowl"
+      ]
+    },
+    "bzf_towel": {
+      "textures": [
+        "textures/blocks/bzf_towel"
+      ]
+    },
+    "bzf_stove": {
+      "textures": [
+        "textures/blocks/bzf_stove"
+      ]
+    },
+    "bzf_woodencuttingboard": {
+      "textures": [
+        "textures/blocks/bzf_woodencuttingboard"
+      ]
+    },
+    "bzf_microwave": {
+      "textures": [
+        "textures/blocks/bzf_microwave"
+      ]
+    },
+    "bzf_desktop": {
+      "textures": [
+        "textures/blocks/bzf_desktop"
+      ]
+    },
+    "bzf_plate": {
+      "textures": [
+        "textures/blocks/bzf_plate"
+      ]
+    },
+    "bzf_bathtub": {
+      "textures": [
+        "textures/blocks/bzf_bathtub"
+      ]
+    },
+    "bzf_cabinet1": {
+      "textures": [
+        "textures/blocks/bzf_cabinet1"
+      ]
+    },
+    "bzf_cupboard2": {
+      "textures": [
+        "textures/blocks/bzf_cupboard2"
+      ]
+    },
+    "bzf_modernfridge": {
+      "textures": [
+        "textures/blocks/bzf_modernfridge"
+      ]
+    },
+    "bzf_bedcover2": {
+      "textures": [
+        "textures/blocks/bzf_bedcover2"
+      ]
+    },
+    "bzf_bedcover3": {
+      "textures": [
+        "textures/blocks/bzf_bedcover3"
+      ]
+    },
+    "bzf_bedbarcover1": {
+      "textures": [
+        "textures/blocks/bzf_bedbarcover1"
+      ]
+    },
+    "bzf_bedbarcover2": {
+      "textures": [
+        "textures/blocks/bzf_bedbarcover2"
+      ]
+    },
+    "bzf_kitchen_sink": {
+      "textures": [
+        "textures/blocks/bzf_kitchen_sink"
+      ]
+    },
+    "bzf_kitchen_drawer": {
+      "textures": [
+        "textures/blocks/bzf_kitchen_drawer"
+      ]
+    },
+    "bzf_tv_placement": {
+      "textures": [
+        "textures/blocks/bzf_tv_placement"
+      ]
+    },
+    "bzf_bedcover1": {
+      "textures": [
+        "textures/blocks/bzf_bedcover1"
+      ]
+    },
+    "bzf_tv_placement2": {
+      "textures": [
+        "textures/blocks/bzf_tv_placement2"
+      ]
+    },
+    "bzf_cabinet2": {
+      "textures": [
+        "textures/blocks/bzf_cabinet2"
+      ]
+    },
+    "bzf_knife_placement": {
+      "textures": [
+        "textures/blocks/bzf_knife_placement"
+      ]
+    },
+    "bzf_cabinet3": {
+      "textures": [
+        "textures/blocks/bzf_cabinet3"
+      ]
+    },
+    "bzf_redbookopen": {
+      "textures": [
+        "textures/blocks/bzf_redbookopen"
+      ]
+    },
+    "bzf_japanese_lantern": {
+      "textures": [
+        "textures/blocks/bzf_japanese_lantern"
+      ]
+    },
+    "bzf_bluebookopen": {
+      "textures": [
+        "textures/blocks/bzf_bluebookopen"
+      ]
+    },
+    "bzf_graydinningtable": {
+      "textures": [
+        "textures/blocks/bzf_graydinningtable"
+      ]
+    },
+    "bzf_whitedinningchair": {
+      "textures": [
+        "textures/blocks/bzf_whitedinningchair"
+      ]
+    },
+    "bzf_woodendinningchair": {
+      "textures": [
+        "textures/blocks/bzf_woodendinningchair"
+      ]
+    },
+    "bzf_whitedrawer": {
+      "textures": [
+        "textures/blocks/bzf_whitedrawer"
+      ]
+    },
+    "bzf_graydrawer": {
+      "textures": [
+        "textures/blocks/bzf_graydrawer"
+      ]
+    },
+    "bzf_mirror": {
+      "textures": [
+        "textures/blocks/bzf_mirror"
+      ]
+    },
+    "bzf_woodendinningtable": {
+      "textures": [
+        "textures/blocks/bzf_woodendinningtable"
+      ]
+    },
+    "bzf_woodendrawer": {
+      "textures": [
+        "textures/blocks/bzf_woodendrawer"
+      ]
+    },
+    "bzf_whitesmalltable": {
+      "textures": [
+        "textures/blocks/bzf_whitesmalltable"
+      ]
+    },
+    "bzf_whitedinningtable": {
+      "textures": [
+        "textures/blocks/bzf_whitedinningtable"
+      ]
+    },
+    "bzf_graysmalltable": {
+      "textures": [
+        "textures/blocks/bzf_graysmalltable"
+      ]
+    },
+    "bzf_woodensmalltable": {
+      "textures": [
+        "textures/blocks/bzf_woodensmalltable"
+      ]
+    },
+    "bzf_whitepottedplant": {
+      "textures": [
+        "textures/blocks/bzf_whitepottedplant"
+      ]
+    },
+    "bzf_small_lamp_pink": {
+      "textures": [
+        "textures/blocks/bzf_small_lamp_pink"
+      ]
+    },
+    "bzf_grayshelf": {
+      "textures": [
+        "textures/blocks/bzf_grayshelf"
+      ]
+    },
+    "bzf_small_lamp_gray": {
+      "textures": [
+        "textures/blocks/bzf_small_lamp_gray"
+      ]
+    },
+    "bzf_furniture_box_down": {
+      "textures": [
+        "textures/blocks/bzf_furnibox/bzf_furniture_box_down"
+      ]
+    },
+    "bzf_graydinningchair": {
+      "textures": [
+        "textures/blocks/bzf_graydinningchair"
+      ]
+    },
+    "bzf_kitchen_counter": {
+      "textures": [
+        "textures/blocks/bzf_kitchen_counter"
+      ]
+    },
+    "bzf_whitebookshelvestyle": {
+      "textures": [
+        "textures/blocks/bzf_whitebookshelvestyle"
+      ]
+    },
+    "bzf_graybookshelvestyle": {
+      "textures": [
+        "textures/blocks/bzf_graybookshelvestyle"
+      ]
+    },
+    "bzf_oakbookshelvestyle": {
+      "textures": [
+        "textures/blocks/bzf_oakbookshelvestyle"
+      ]
+    },
+    "bzf_darkoakbookshelvestyle": {
+      "textures": [
+        "textures/blocks/bzf_darkoakbookshelvestyle"
+      ]
+    },
+    "bzf_japanese_lantern2": {
+      "textures": [
+        "textures/blocks/bzf_japanese_lantern2"
+      ]
+    },
+    "bzf_bookstack": {
+      "textures": [
+        "textures/blocks/bzf_bookstack"
+      ]
+    },
+    "bzf_lightbulbon": {
+      "textures": [
+        "textures/blocks/bzf_lightbulbon"
+      ]
+    },
+    "bzf_lightbulboff": {
+      "textures": [
+        "textures/blocks/bzf_lightbulboff"
+      ]
+    },
+    "bzf_studytable1": {
+      "textures": [
+        "textures/blocks/bzf_studytable1"
+      ]
+    },
+    "bzf_studytable2": {
+      "textures": [
+        "textures/blocks/bzf_studytable2"
+      ]
+    },
+    "bzf_desk": {
+      "textures": [
+        "textures/blocks/bzf_desk"
+      ]
+    },
+    "bzf_fireplace": {
+      "textures": [
+        "textures/blocks/bzf_fireplace"
+      ]
+    },
+    "bzf_speaker": {
+      "textures": [
+        "textures/blocks/bzf_speaker"
+      ]
+    },
+    "bzf_portrait1": {
+      "textures": [
+        "textures/blocks/bzf_portrait1"
+      ]
+    },
+    "bzf_trophy": {
+      "textures": [
+        "textures/blocks/bzf_trophy"
+      ]
+    },
+    "bzf_kitchen_vent": {
+      "textures": [
+        "textures/blocks/bzf_kitchen_vent"
+      ]
+    },
+    "bzf_kitchen_sidevent": {
+      "textures": [
+        "textures/blocks/bzf_kitchen_sidevent"
+      ]
+    },
+    "bzf_portrait2": {
+      "textures": [
+        "textures/blocks/bzf_portrait2"
+      ]
+    },
+    "bzf_portrait3": {
+      "textures": [
+        "textures/blocks/bzf_portrait3"
+      ]
+    },
+    "bzf_billboard": {
+      "textures": [
+        "textures/blocks/bzf_billboard"
+      ]
+    },
+    "bzf_modernpaintings": {
+      "textures": [
+        "textures/blocks/bzf_modernpaintings"
+      ]
+    },
+    "bzf_furniture_box_side": {
+      "textures": [
+        "textures/blocks/bzf_furnibox/bzf_furniture_box_side"
+      ]
+    }
+  }
+}

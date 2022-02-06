@@ -1,0 +1,113 @@
+//bridge-file-version: #49
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "scb:door_r_open",
+			"is_summonable": false,
+			"is_spawnable": false,
+			"scripts": {
+				"animate": [
+					"bridge_execute_commands"
+				]
+			},
+			"animations": {
+				"bridge_execute_commands": "controller.animation.bridge_dur_open.execute_commands"
+			}
+		},
+		"component_groups": {
+			"scb:r_changed": {
+				"minecraft:is_tamed": {}
+			},
+			"scb:open": {
+				"minecraft:transformation": {
+					"into": "scb:door_r",
+					"keep_owner": true
+				}
+			},
+			"scb:type": {
+				"minecraft:mark_variant": {
+					"value": 0
+				}
+			},
+			"bridge:execute_command_id_1": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"bridge:execute_no_command": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			}
+		},
+		"components": {
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false,
+						"on_damage_sound_event": "deny",
+						"on_damage": {
+							"filters": {
+								"test": "is_owner",
+								"subject": "other",
+								"value": true
+							},
+							"event": "scb:open"
+						}
+					},
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"test": "is_owner",
+								"subject": "other",
+								"value": true
+							},
+							"event": "scb:open"
+						},
+						"play_sounds": "deny"
+					}
+				]
+			}
+		},
+		"events": {
+			"scb:open": {
+				"add": {
+					"component_groups": [
+						"scb:open",
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"minecraft:entity_transformed": {
+				"add": {
+					"component_groups": [
+						"scb:type",
+						"scb:r_changed"
+					]
+				}
+			},
+			"bridge:remove_command_id_1": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			}
+		}
+	}
+}

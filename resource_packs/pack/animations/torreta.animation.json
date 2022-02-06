@@ -1,0 +1,72 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.torreta.geo.off": {
+			"animation_length": 2,
+			"bones": {
+				"head": {
+					"position": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"2.0": [
+							0,
+							-14,
+							0
+						]
+					}
+				},
+				"body": {
+					"position": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"2.0": [
+							0,
+							-13,
+							0
+						]
+					}
+				}
+			}
+		},
+		"animation.torreta.geo.on": {
+			"animation_length": 2,
+			"bones": {
+				"head": {
+					"position": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"2.0": [
+							0,
+							14,
+							0
+						]
+					}
+				},
+				"body": {
+					"position": {
+						"0.0": [
+							0,
+							-4,
+							0
+						],
+						"2.0": [
+							0,
+							10,
+							0
+						]
+					}
+				}
+			}
+		}
+	}
+}

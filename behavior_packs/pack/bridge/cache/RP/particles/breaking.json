@@ -1,0 +1,536 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\SecurityBE/particles/breaking.json",
+	"file_type": "particle",
+	"format_version": 1,
+	"file_uuid": "d55e8feb_4c36_4b68_95f0_7febff8bbc27",
+	"file_version": 0,
+	"cache_content": {
+		"open": true,
+		"comment": "",
+		"data": "",
+		"key": "global",
+		"type": "object",
+		"meta": {},
+		"children": [
+			{
+				"open": false,
+				"comment": "",
+				"data": "1.10.0",
+				"key": "format_version",
+				"type": "string",
+				"meta": {},
+				"children": []
+			},
+			{
+				"open": true,
+				"comment": "",
+				"data": "",
+				"key": "particle_effect",
+				"type": "object",
+				"meta": {},
+				"children": [
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "description",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "minecraft:block_destruct",
+								"key": "identifier",
+								"type": "string",
+								"meta": {
+									"is_value": true
+								},
+								"children": []
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "basic_render_parameters",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "particles_alpha",
+										"key": "material",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "atlas.terrain",
+										"key": "texture",
+										"type": "string",
+										"meta": {
+											"is_value": true
+										},
+										"children": []
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": false,
+						"comment": "",
+						"data": "",
+						"key": "components",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:emitter_rate_instant",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "variable.emitter_intensity * variable.emitter_intensity * (variable.emitter_intensity)",
+										"key": "num_particles",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:emitter_lifetime_once",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "0",
+										"key": "active_time",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:emitter_shape_point",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "offset",
+										"type": "array",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "Math.random(-variable.emitter_radius, variable.emitter_radius)",
+												"key": "0",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "Math.random(-variable.emitter_radius, variable.emitter_radius)",
+												"key": "1",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "Math.random(-variable.emitter_radius, variable.emitter_radius)",
+												"key": "2",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "direction",
+										"type": "array",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "Math.random(-1,1)",
+												"key": "0",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "1",
+												"key": "1",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "Math.random(-1, 1)",
+												"key": "2",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "Math.random(0, 4) * variable.velocity_scalar",
+								"key": "minecraft:particle_initial_speed",
+								"type": "string",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:particle_lifetime_expression",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "0.2f / (Math.random(0.0, 1.0) * 0.9f + 0.1f)",
+										"key": "max_lifetime",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:particle_motion_dynamic",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "linear_acceleration",
+										"type": "array",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "0",
+												"key": "0",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "-9.8",
+												"key": "1",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "0",
+												"key": "2",
+												"type": "number",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "0.5",
+										"key": "linear_drag_coefficient",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:particle_motion_collision",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "0.1",
+										"key": "coefficient_of_restitution",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "5",
+										"key": "collision_drag",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "0.1",
+										"key": "collision_radius",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:particle_appearance_billboard",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "size",
+										"type": "array",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "variable.particle_random_1 * 0.0375 + 0.0375",
+												"key": "0",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "variable.particle_random_1 * 0.0375 + 0.0375",
+												"key": "1",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "lookat_xyz",
+										"key": "facing_camera_mode",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "uv",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "1",
+												"key": "texture_width",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "1",
+												"key": "texture_height",
+												"type": "number",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "uv",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "variable.emitter_texture_coordinate.u + (variable.emitter_texture_size.u/4) * (variable.particle_random_1*3)",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "variable.emitter_texture_coordinate.v + (variable.emitter_texture_size.v/4) * (variable.particle_random_2*3)",
+														"key": "1",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "uv_size",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "variable.emitter_texture_size.u/4",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "variable.emitter_texture_size.v/4",
+														"key": "1",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:particle_appearance_tinting",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "color",
+										"type": "array",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "variable.color.r",
+												"key": "0",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "variable.color.g",
+												"key": "1",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "variable.color.b",
+												"key": "2",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "variable.color.a",
+												"key": "3",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:particle_appearance_lighting",
+								"type": "object",
+								"meta": {},
+								"children": []
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

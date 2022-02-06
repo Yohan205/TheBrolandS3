@@ -1,0 +1,149 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:armor_stand",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"bridge_execute_commands"
+				]
+			},
+			"animations": {
+				"bridge_execute_commands": "controller.animation.bridge_armor_stand.execute_commands"
+			}
+		},
+		"component_groups": {
+			"build:security": {
+				"minecraft:transformation": {
+					"into": "scb:security_table",
+					"drop_equipment": true
+				}
+			},
+			"bridge:execute_command_id_1": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"bridge:execute_no_command": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			},
+			"bridge:execute_command_id_2": {
+				"minecraft:skin_id": {
+					"value": 2
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"armor_stand",
+					"inanimate",
+					"mob"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0.5,
+				"height": 1.975
+			},
+			"minecraft:health": {
+				"value": 6,
+				"max": 6
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/armor_stand.json"
+			},
+			"minecraft:nameable": {},
+			"minecraft:persistent": {},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "scb:security_table_pieces"
+									}
+								]
+							},
+							"event": "build:security_table"
+						},
+						"spawn_items": {
+							"table": "loot_tables/armor_stand"
+						},
+						"use_item": true,
+						"interact_text": "build.scb.text"
+					}
+				]
+			}
+		},
+		"events": {
+			"build:security_table": {
+				"add": {
+					"component_groups": [
+						"build:security",
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"minecraft:entity_transformed": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_command_id_2"
+					]
+				}
+			},
+			"bridge:remove_command_id_1": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"bridge:remove_command_id_2": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_2"
+					]
+				}
+			}
+		}
+	}
+}

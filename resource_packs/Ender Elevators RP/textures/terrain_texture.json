@@ -1,0 +1,1353 @@
+//bridge-file-version: #65
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"elevator_side": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK1/elevator_side"
+				}
+			]
+		},
+		"elevator_top": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK1/elevator_top"
+				}
+			]
+		},
+		"elevator_top_black": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK1/elevator_top_black"
+				}
+			]
+		},
+		"elevator_top_blue": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK1/elevator_top_blue"
+				}
+			]
+		},
+		"elevator_top_brown": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK1/elevator_top_brown"
+				}
+			]
+		},
+		"elevator_top_cyan": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK1/elevator_top_cyan"
+				}
+			]
+		},
+		"elevator_top_gray": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK1/elevator_top_gray"
+				}
+			]
+		},
+		"elevator_top_green": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK1/elevator_top_green"
+				}
+			]
+		},
+		"elevator_top_light_blue": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK1/elevator_top_light_blue"
+				}
+			]
+		},
+		"elevator_top_light_gray": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK1/elevator_top_light_gray"
+				}
+			]
+		},
+		"elevator_top_lime": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK1/elevator_top_lime"
+				}
+			]
+		},
+		"elevator_top_magenta": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK1/elevator_top_magenta"
+				}
+			]
+		},
+		"elevator_top_orange": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK1/elevator_top_orange"
+				}
+			]
+		},
+		"elevator_top_pink": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK1/elevator_top_pink"
+				}
+			]
+		},
+		"elevator_top_purple": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK1/elevator_top_purple"
+				}
+			]
+		},
+		"elevator_top_red": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK1/elevator_top_red"
+				}
+			]
+		},
+		"elevator_top_white": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK1/elevator_top_white"
+				}
+			]
+		},
+		"elevator_top_yellow": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK1/elevator_top_yellow"
+				}
+			]
+		},
+		"elevator_side_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK2/elevator_side_mk2"
+				}
+			]
+		},
+		"elevator_top_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK2/elevator_top_mk2"
+				}
+			]
+		},
+		"elevator_top_black_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK2/elevator_top_black"
+				}
+			]
+		},
+		"elevator_top_blue_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK2/elevator_top_blue"
+				}
+			]
+		},
+		"elevator_top_brown_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK2/elevator_top_brown"
+				}
+			]
+		},
+		"elevator_top_cyan_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK2/elevator_top_cyan"
+				}
+			]
+		},
+		"elevator_top_gray_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK2/elevator_top_gray"
+				}
+			]
+		},
+		"elevator_top_green_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK2/elevator_top_green"
+				}
+			]
+		},
+		"elevator_top_light_blue_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK2/elevator_top_light_blue"
+				}
+			]
+		},
+		"elevator_top_light_gray_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK2/elevator_top_light_gray"
+				}
+			]
+		},
+		"elevator_top_lime_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK2/elevator_top_lime"
+				}
+			]
+		},
+		"elevator_top_magenta_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK2/elevator_top_magenta"
+				}
+			]
+		},
+		"elevator_top_orange_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK2/elevator_top_orange"
+				}
+			]
+		},
+		"elevator_top_pink_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK2/elevator_top_pink"
+				}
+			]
+		},
+		"elevator_top_purple_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK2/elevator_top_purple"
+				}
+			]
+		},
+		"elevator_top_red_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK2/elevator_top_red"
+				}
+			]
+		},
+		"elevator_top_white_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK2/elevator_top_white"
+				}
+			]
+		},
+		"elevator_top_yellow_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK2/elevator_top_yellow"
+				}
+			]
+		},
+		"elevator_side_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK3/elevator_side_mk3"
+				}
+			]
+		},
+		"elevator_top_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK3/elevator_top_mk3"
+				}
+			]
+		},
+		"elevator_top_black_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK3/elevator_top_black"
+				}
+			]
+		},
+		"elevator_top_blue_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK3/elevator_top_blue"
+				}
+			]
+		},
+		"elevator_top_brown_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK3/elevator_top_brown"
+				}
+			]
+		},
+		"elevator_top_cyan_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK3/elevator_top_cyan"
+				}
+			]
+		},
+		"elevator_top_gray_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK3/elevator_top_gray"
+				}
+			]
+		},
+		"elevator_top_green_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK3/elevator_top_green"
+				}
+			]
+		},
+		"elevator_top_light_blue_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK3/elevator_top_light_blue"
+				}
+			]
+		},
+		"elevator_top_light_gray_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK3/elevator_top_light_gray"
+				}
+			]
+		},
+		"elevator_top_lime_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK3/elevator_top_lime"
+				}
+			]
+		},
+		"elevator_top_magenta_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK3/elevator_top_magenta"
+				}
+			]
+		},
+		"elevator_top_orange_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK3/elevator_top_orange"
+				}
+			]
+		},
+		"elevator_top_pink_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK3/elevator_top_pink"
+				}
+			]
+		},
+		"elevator_top_purple_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK3/elevator_top_purple"
+				}
+			]
+		},
+		"elevator_top_red_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK3/elevator_top_red"
+				}
+			]
+		},
+		"elevator_top_white_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK3/elevator_top_white"
+				}
+			]
+		},
+		"elevator_top_yellow_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK3/elevator_top_yellow"
+				}
+			]
+		},
+		"elevator_side_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK4/elevator_side_mk4"
+				}
+			]
+		},
+		"elevator_top_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK4/elevator_top_mk4"
+				}
+			]
+		},
+		"elevator_top_black_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK4/elevator_top_black"
+				}
+			]
+		},
+		"elevator_top_blue_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK4/elevator_top_blue"
+				}
+			]
+		},
+		"elevator_top_brown_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK4/elevator_top_brown"
+				}
+			]
+		},
+		"elevator_top_cyan_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK4/elevator_top_cyan"
+				}
+			]
+		},
+		"elevator_top_gray_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK4/elevator_top_gray"
+				}
+			]
+		},
+		"elevator_top_green_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK4/elevator_top_green"
+				}
+			]
+		},
+		"elevator_top_light_blue_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK4/elevator_top_light_blue"
+				}
+			]
+		},
+		"elevator_top_light_gray_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK4/elevator_top_light_gray"
+				}
+			]
+		},
+		"elevator_top_lime_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK4/elevator_top_lime"
+				}
+			]
+		},
+		"elevator_top_magenta_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK4/elevator_top_magenta"
+				}
+			]
+		},
+		"elevator_top_orange_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK4/elevator_top_orange"
+				}
+			]
+		},
+		"elevator_top_pink_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK4/elevator_top_pink"
+				}
+			]
+		},
+		"elevator_top_purple_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK4/elevator_top_purple"
+				}
+			]
+		},
+		"elevator_top_red_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK4/elevator_top_red"
+				}
+			]
+		},
+		"elevator_top_white_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK4/elevator_top_white"
+				}
+			]
+		},
+		"elevator_top_yellow_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK4/elevator_top_yellow"
+				}
+			]
+		},
+		"elevator_side_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK5/elevator_side_mk5"
+				}
+			]
+		},
+		"elevator_top_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK5/elevator_top_mk5"
+				}
+			]
+		},
+		"elevator_top_black_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK5/elevator_top_black"
+				}
+			]
+		},
+		"elevator_top_blue_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK5/elevator_top_blue"
+				}
+			]
+		},
+		"elevator_top_brown_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK5/elevator_top_brown"
+				}
+			]
+		},
+		"elevator_top_cyan_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK5/elevator_top_cyan"
+				}
+			]
+		},
+		"elevator_top_gray_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK5/elevator_top_gray"
+				}
+			]
+		},
+		"elevator_top_green_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK5/elevator_top_green"
+				}
+			]
+		},
+		"elevator_top_light_blue_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK5/elevator_top_light_blue"
+				}
+			]
+		},
+		"elevator_top_light_gray_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK5/elevator_top_light_gray"
+				}
+			]
+		},
+		"elevator_top_lime_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK5/elevator_top_lime"
+				}
+			]
+		},
+		"elevator_top_magenta_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK5/elevator_top_magenta"
+				}
+			]
+		},
+		"elevator_top_orange_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK5/elevator_top_orange"
+				}
+			]
+		},
+		"elevator_top_pink_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK5/elevator_top_pink"
+				}
+			]
+		},
+		"elevator_top_purple_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK5/elevator_top_purple"
+				}
+			]
+		},
+		"elevator_top_red_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK5/elevator_top_red"
+				}
+			]
+		},
+		"elevator_top_white_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK5/elevator_top_white"
+				}
+			]
+		},
+		"elevator_top_yellow_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/MK5/elevator_top_yellow"
+				}
+			]
+		},
+		"elevator_omega": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMEGA/omega_elevator"
+				}
+			]
+		},
+		"elevator_omega_black": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMEGA/elevator_top_black"
+				}
+			]
+		},
+		"elevator_omega_blue": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMEGA/elevator_top_blue"
+				}
+			]
+		},
+		"elevator_omega_brown": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMEGA/elevator_top_brown"
+				}
+			]
+		},
+		"elevator_omega_cyan": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMEGA/elevator_top_cyan"
+				}
+			]
+		},
+		"elevator_omega_gray": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMEGA/elevator_top_gray"
+				}
+			]
+		},
+		"elevator_omega_green": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMEGA/elevator_top_green"
+				}
+			]
+		},
+		"elevator_omega_light_blue": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMEGA/elevator_top_light_blue"
+				}
+			]
+		},
+		"elevator_omega_light_gray": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMEGA/elevator_top_light_gray"
+				}
+			]
+		},
+		"elevator_omega_lime": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMEGA/elevator_top_lime"
+				}
+			]
+		},
+		"elevator_omega_magenta": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMEGA/elevator_top_magenta"
+				}
+			]
+		},
+		"elevator_omega_orange": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMEGA/elevator_top_orange"
+				}
+			]
+		},
+		"elevator_omega_pink": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMEGA/elevator_top_pink"
+				}
+			]
+		},
+		"elevator_omega_purple": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMEGA/elevator_top_purple"
+				}
+			]
+		},
+		"elevator_omega_red": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMEGA/elevator_top_red"
+				}
+			]
+		},
+		"elevator_omega_white": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMEGA/elevator_top_white"
+				}
+			]
+		},
+		"elevator_omega_yellow": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMEGA/elevator_top_yellow"
+				}
+			]
+		},
+		"elevator_omni": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK1/omni_elevator"
+				}
+			]
+		},
+		"elevator_omni_black": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK1/elevator_top_black"
+				}
+			]
+		},
+		"elevator_omni_blue": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK1/elevator_top_blue"
+				}
+			]
+		},
+		"elevator_omni_brown": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK1/elevator_top_brown"
+				}
+			]
+		},
+		"elevator_omni_cyan": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK1/elevator_top_cyan"
+				}
+			]
+		},
+		"elevator_omni_gray": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK1/elevator_top_gray"
+				}
+			]
+		},
+		"elevator_omni_green": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK1/elevator_top_green"
+				}
+			]
+		},
+		"elevator_omni_light_blue": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK1/elevator_top_light_blue"
+				}
+			]
+		},
+		"elevator_omni_light_gray": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK1/elevator_top_light_gray"
+				}
+			]
+		},
+		"elevator_omni_lime": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK1/elevator_top_lime"
+				}
+			]
+		},
+		"elevator_omni_magenta": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK1/elevator_top_magenta"
+				}
+			]
+		},
+		"elevator_omni_orange": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK1/elevator_top_orange"
+				}
+			]
+		},
+		"elevator_omni_pink": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK1/elevator_top_pink"
+				}
+			]
+		},
+		"elevator_omni_purple": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK1/elevator_top_purple"
+				}
+			]
+		},
+		"elevator_omni_red": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK1/elevator_top_red"
+				}
+			]
+		},
+		"elevator_omni_white": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK1/elevator_top_white"
+				}
+			]
+		},
+		"elevator_omni_yellow": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK1/elevator_top_yellow"
+				}
+			]
+		},
+		"elevator_omni_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK2/omni_elevator_mk2"
+				}
+			]
+		},
+		"elevator_omni_black_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK2/elevator_top_black"
+				}
+			]
+		},
+		"elevator_omni_blue_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK2/elevator_top_blue"
+				}
+			]
+		},
+		"elevator_omni_brown_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK2/elevator_top_brown"
+				}
+			]
+		},
+		"elevator_omni_cyan_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK2/elevator_top_cyan"
+				}
+			]
+		},
+		"elevator_omni_gray_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK2/elevator_top_gray"
+				}
+			]
+		},
+		"elevator_omni_green_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK2/elevator_top_green"
+				}
+			]
+		},
+		"elevator_omni_light_blue_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK2/elevator_top_light_blue"
+				}
+			]
+		},
+		"elevator_omni_light_gray_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK2/elevator_top_light_gray"
+				}
+			]
+		},
+		"elevator_omni_lime_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK2/elevator_top_lime"
+				}
+			]
+		},
+		"elevator_omni_magenta_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK2/elevator_top_magenta"
+				}
+			]
+		},
+		"elevator_omni_orange_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK2/elevator_top_orange"
+				}
+			]
+		},
+		"elevator_omni_pink_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK2/elevator_top_pink"
+				}
+			]
+		},
+		"elevator_omni_purple_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK2/elevator_top_purple"
+				}
+			]
+		},
+		"elevator_omni_red_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK2/elevator_top_red"
+				}
+			]
+		},
+		"elevator_omni_white_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK2/elevator_top_white"
+				}
+			]
+		},
+		"elevator_omni_yellow_mk2": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK2/elevator_top_yellow"
+				}
+			]
+		},
+		"elevator_omni_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK3/omni_elevator_mk3"
+				}
+			]
+		},
+		"elevator_omni_black_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK3/elevator_top_black"
+				}
+			]
+		},
+		"elevator_omni_blue_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK2/elevator_top_blue"
+				}
+			]
+		},
+		"elevator_omni_brown_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK3/elevator_top_brown"
+				}
+			]
+		},
+		"elevator_omni_cyan_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK3/elevator_top_cyan"
+				}
+			]
+		},
+		"elevator_omni_gray_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK3/elevator_top_gray"
+				}
+			]
+		},
+		"elevator_omni_green_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK3/elevator_top_green"
+				}
+			]
+		},
+		"elevator_omni_light_blue_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK3/elevator_top_light_blue"
+				}
+			]
+		},
+		"elevator_omni_light_gray_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK3/elevator_top_light_gray"
+				}
+			]
+		},
+		"elevator_omni_lime_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK3/elevator_top_lime"
+				}
+			]
+		},
+		"elevator_omni_magenta_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK3/elevator_top_magenta"
+				}
+			]
+		},
+		"elevator_omni_orange_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK3/elevator_top_orange"
+				}
+			]
+		},
+		"elevator_omni_pink_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK3/elevator_top_pink"
+				}
+			]
+		},
+		"elevator_omni_purple_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK3/elevator_top_purple"
+				}
+			]
+		},
+		"elevator_omni_red_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK3/elevator_top_red"
+				}
+			]
+		},
+		"elevator_omni_white_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK3/elevator_top_white"
+				}
+			]
+		},
+		"elevator_omni_yellow_mk3": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK3/elevator_top_yellow"
+				}
+			]
+		},
+		"elevator_omni_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK4/omni_elevator_mk4"
+				}
+			]
+		},
+		"elevator_omni_black_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK4/elevator_top_black"
+				}
+			]
+		},
+		"elevator_omni_blue_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK4/elevator_top_blue"
+				}
+			]
+		},
+		"elevator_omni_brown_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK4/elevator_top_brown"
+				}
+			]
+		},
+		"elevator_omni_cyan_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK4/elevator_top_cyan"
+				}
+			]
+		},
+		"elevator_omni_gray_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK4/elevator_top_gray"
+				}
+			]
+		},
+		"elevator_omni_green_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK4/elevator_top_green"
+				}
+			]
+		},
+		"elevator_omni_light_blue_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK4/elevator_top_light_blue"
+				}
+			]
+		},
+		"elevator_omni_light_gray_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK4/elevator_top_light_gray"
+				}
+			]
+		},
+		"elevator_omni_lime_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK4/elevator_top_lime"
+				}
+			]
+		},
+		"elevator_omni_magenta_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK4/elevator_top_magenta"
+				}
+			]
+		},
+		"elevator_omni_orange_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK4/elevator_top_orange"
+				}
+			]
+		},
+		"elevator_omni_pink_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK4/elevator_top_pink"
+				}
+			]
+		},
+		"elevator_omni_purple_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK4/elevator_top_purple"
+				}
+			]
+		},
+		"elevator_omni_red_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK4/elevator_top_red"
+				}
+			]
+		},
+		"elevator_omni_white_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK4/elevator_top_white"
+				}
+			]
+		},
+		"elevator_omni_yellow_mk4": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK4/elevator_top_yellow"
+				}
+			]
+		},
+		"elevator_omni_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK5/omni_elevator_mk5"
+				}
+			]
+		},
+		"elevator_omni_black_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK5/elevator_top_black"
+				}
+			]
+		},
+		"elevator_omni_blue_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK5/elevator_top_blue"
+				}
+			]
+		},
+		"elevator_omni_brown_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK5/elevator_top_brown"
+				}
+			]
+		},
+		"elevator_omni_cyan_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK5/elevator_top_cyan"
+				}
+			]
+		},
+		"elevator_omni_gray_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK5/elevator_top_gray"
+				}
+			]
+		},
+		"elevator_omni_green_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK5/elevator_top_green"
+				}
+			]
+		},
+		"elevator_omni_light_blue_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK5/elevator_top_light_blue"
+				}
+			]
+		},
+		"elevator_omni_light_gray_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK5/elevator_top_light_gray"
+				}
+			]
+		},
+		"elevator_omni_lime_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK5/elevator_top_lime"
+				}
+			]
+		},
+		"elevator_omni_magenta_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK5/elevator_top_magenta"
+				}
+			]
+		},
+		"elevator_omni_orange_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK5/elevator_top_orange"
+				}
+			]
+		},
+		"elevator_omni_pink_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK5/elevator_top_pink"
+				}
+			]
+		},
+		"elevator_omni_purple_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK5/elevator_top_purple"
+				}
+			]
+		},
+		"elevator_omni_red_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK5/elevator_top_red"
+				}
+			]
+		},
+		"elevator_omni_white_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK5/elevator_top_white"
+				}
+			]
+		},
+		"elevator_omni_yellow_mk5": {
+			"textures": [
+				{
+					"path": "textures/blocks/OMNIMK5/elevator_top_yellow"
+				}
+			]
+		}
+	}
+}

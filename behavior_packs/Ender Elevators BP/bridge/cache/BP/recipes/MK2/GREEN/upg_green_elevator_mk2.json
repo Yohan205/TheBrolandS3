@@ -1,0 +1,139 @@
+{
+	"file_path": "C:\\Users\\Sofia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ender Elevators\\recipes\\MK2\\GREEN\\upg_green_elevator_mk2.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "9485922a_0e32_4f99_a9eb_3e21a83062f1",
+	"file_version": 10,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.16,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "se:upg_green_elevator_mk2"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"!S!",
+							"S#S",
+							"!S!"
+						],
+						"key": {
+							"S": {
+								"item": "minecraft:stonebrick:3"
+							},
+							"#": {
+								"item": "se:green_elevator"
+							},
+							"!": {
+								"item": "minecraft:iron_ingot"
+							}
+						},
+						"result": [
+							{
+								"count": 1,
+								"item": "se:green_elevator_mk2"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "se:upg_green_elevator_mk2"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"!S!",
+							"S#S",
+							"!S!"
+						]
+					},
+					{
+						"key": "key",
+						"is_minified": true,
+						"children": {
+							"S": {
+								"item": "minecraft:stonebrick:3"
+							},
+							"#": {
+								"item": "se:green_elevator"
+							},
+							"!": {
+								"item": "minecraft:iron_ingot"
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:upg_green_elevator_mk2"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "minecraft:stonebrick:3"
+								},
+								"#": {
+									"item": "se:green_elevator"
+								},
+								"!": {
+									"item": "minecraft:iron_ingot"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:green_elevator_mk2"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"count": 1,
+										"item": "se:green_elevator_mk2"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"count": 1,
+									"item": "se:green_elevator_mk2"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

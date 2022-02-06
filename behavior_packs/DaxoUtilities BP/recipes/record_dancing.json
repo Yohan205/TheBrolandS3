@@ -1,0 +1,31 @@
+{
+	"format_version": 1.17,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "daxo:record_dancing"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"SGS",
+			"GIG",
+			"SGS"
+		],
+		"key": {
+			"G": {
+				"item": "minecraft:glass"
+			},
+			"I": {
+				"item": "minecraft:iron_ingot"
+			},
+			"S": {
+				"item": "minecraft:stone"
+			}
+		},
+		"result": {
+			"item": "daxo:record_dancing",
+			"count": 1
+		}
+	}
+}

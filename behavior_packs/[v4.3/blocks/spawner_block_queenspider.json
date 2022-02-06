@@ -1,0 +1,45 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:spawner_block_queenspider"
+		},
+		"components": {
+			"minecraft:destroy_time": 100,
+			"minecraft:explosion_resistance": 100,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "spawner_block",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:immovable": true,
+			"minecraft:ticking": {
+				"range": [
+					20,
+					50
+				],
+				"on_tick": {
+					"event": "spawn",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"spawn": {
+				"run_command": {
+					"command": [
+						"summon korbon:queen_spider ~~~",
+						"summon korbon:baby_spider ~~~",
+						"summon korbon:baby_spider ~~~",
+						"summon korbon:baby_spider ~~~",
+						"summon korbon:baby_spider ~~~",
+						"summon korbon:baby_spider ~~~",
+						"fill ~~~ ~~~ stone"
+					]
+				}
+			}
+		}
+	}
+}

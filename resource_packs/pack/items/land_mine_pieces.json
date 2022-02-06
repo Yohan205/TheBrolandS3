@@ -1,0 +1,15 @@
+//bridge-file-version: #7
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "scb:land_mine_pieces",
+			"category": "SecurityBE"
+		},
+		"components": {
+			"minecraft:icon": "land_mine_pieces",
+			"minecraft:use_animation": "eat",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

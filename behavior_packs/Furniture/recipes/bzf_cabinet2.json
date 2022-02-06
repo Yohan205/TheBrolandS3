@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "Cabinet2_b5e081af"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "bzf:furniture_box",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bzf:cabinet2",
+      "count": 1
+    }
+  }
+}

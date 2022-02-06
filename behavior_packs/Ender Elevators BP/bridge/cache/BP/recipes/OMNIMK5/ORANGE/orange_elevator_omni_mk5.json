@@ -1,0 +1,243 @@
+{
+	"file_path": "C:\\Users\\Sofia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ender Elevators BP\\recipes\\OMNIMK4\\ORANGE\\orange_elevator_omni_mk5.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "164cbe05_6add_455e_9853_38df289a73ce",
+	"file_version": 41,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.16,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "se:orange_elevator_omni_mk5"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"!S!",
+							"S#S",
+							"!S!"
+						],
+						"key": {
+							"S": {
+								"item": "se:orange_elevator_mk5"
+							},
+							"#": {
+								"item": "minecraft:netherstar"
+							},
+							"!": {
+								"item": "minecraft:stonebrick:3"
+							}
+						},
+						"result": [
+							{
+								"count": 1,
+								"item": "se:orange_elevator_omni_mk5"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "se:orange_elevator_omni_mk5"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "se:orange_elevator_mk5"
+								},
+								"#": {
+									"item": "minecraft:netherstar"
+								},
+								"!": {
+									"item": "minecraft:stonebrick:3"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:orange_elevator_omni_mk5"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "se:orange_elevator_omni_mk5"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"!S!",
+							"S#S",
+							"!S!"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:orange_elevator_omni_mk5"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "se:orange_elevator_mk5"
+								},
+								"#": {
+									"item": "minecraft:netherstar"
+								},
+								"!": {
+									"item": "minecraft:stonebrick:3"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:orange_elevator_omni_mk5"
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"S": {
+										"item": "se:orange_elevator_mk5"
+									},
+									"#": {
+										"item": "minecraft:netherstar"
+									},
+									"!": {
+										"item": "minecraft:stonebrick:3"
+									}
+								},
+								"key": "S",
+								"is_minified": true,
+								"children": {
+									"item": "se:orange_elevator_mk5"
+								}
+							},
+							{
+								"open": {
+									"S": {
+										"item": "se:orange_elevator_mk5"
+									},
+									"#": {
+										"item": "minecraft:netherstar"
+									},
+									"!": {
+										"item": "minecraft:stonebrick:3"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:netherstar"
+								}
+							},
+							{
+								"open": {
+									"S": {
+										"item": "se:orange_elevator_mk5"
+									},
+									"#": {
+										"item": "minecraft:netherstar"
+									},
+									"!": {
+										"item": "minecraft:stonebrick:3"
+									}
+								},
+								"key": "!",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:stonebrick:3"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:orange_elevator_omni_mk5"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "se:orange_elevator_mk5"
+								},
+								"#": {
+									"item": "minecraft:netherstar"
+								},
+								"!": {
+									"item": "minecraft:stonebrick:3"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:orange_elevator_omni_mk5"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"count": 1,
+										"item": "se:orange_elevator_omni_mk5"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"count": 1,
+									"item": "se:orange_elevator_omni_mk5"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,243 @@
+{
+	"file_uuid": "842827a0_a7fc_4977_9333_c013ec6fd04c",
+	"file_path": "C:\\Users\\Sofia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ender Elevators BP\\recipes\\OMNIMK2\\BLACK\\brown_elevator_omni_mk2_upg.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_version": 27,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.16,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "se:brown_elevator_omni_mk2_upg"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"!S!",
+							"S#S",
+							"!S!"
+						],
+						"key": {
+							"S": {
+								"item": "se:brown_elevator_mk2"
+							},
+							"#": {
+								"item": "se:brown_elevator_omni_mk1"
+							},
+							"!": {
+								"item": "minecraft:stonebrick:3"
+							}
+						},
+						"result": [
+							{
+								"count": 1,
+								"item": "se:brown_elevator_omni_mk2"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "se:brown_elevator_omni_mk2_upg"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "se:brown_elevator_mk2"
+								},
+								"#": {
+									"item": "se:brown_elevator_omni_mk1"
+								},
+								"!": {
+									"item": "minecraft:stonebrick:3"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:brown_elevator_omni_mk2"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "se:brown_elevator_omni_mk2_upg"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"!S!",
+							"S#S",
+							"!S!"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:brown_elevator_omni_mk2_upg"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "se:brown_elevator_mk2"
+								},
+								"#": {
+									"item": "se:brown_elevator_omni_mk1"
+								},
+								"!": {
+									"item": "minecraft:stonebrick:3"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:brown_elevator_omni_mk2"
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"S": {
+										"item": "se:brown_elevator_mk2"
+									},
+									"#": {
+										"item": "se:brown_elevator_omni_mk1"
+									},
+									"!": {
+										"item": "minecraft:stonebrick:3"
+									}
+								},
+								"key": "S",
+								"is_minified": true,
+								"children": {
+									"item": "se:brown_elevator_mk2"
+								}
+							},
+							{
+								"open": {
+									"S": {
+										"item": "se:brown_elevator_mk2"
+									},
+									"#": {
+										"item": "se:brown_elevator_omni_mk1"
+									},
+									"!": {
+										"item": "minecraft:stonebrick:3"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "se:brown_elevator_omni_mk1"
+								}
+							},
+							{
+								"open": {
+									"S": {
+										"item": "se:brown_elevator_mk2"
+									},
+									"#": {
+										"item": "se:brown_elevator_omni_mk1"
+									},
+									"!": {
+										"item": "minecraft:stonebrick:3"
+									}
+								},
+								"key": "!",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:stonebrick:3"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:brown_elevator_omni_mk2_upg"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "se:brown_elevator_mk2"
+								},
+								"#": {
+									"item": "se:brown_elevator_omni_mk1"
+								},
+								"!": {
+									"item": "minecraft:stonebrick:3"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:brown_elevator_omni_mk2"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"count": 1,
+										"item": "se:brown_elevator_omni_mk2"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"count": 1,
+									"item": "se:brown_elevator_omni_mk2"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

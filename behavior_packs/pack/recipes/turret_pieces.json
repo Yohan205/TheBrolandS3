@@ -1,0 +1,44 @@
+//bridge-file-version: #21
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "scb:turret_pieces"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#D#",
+			"OUO",
+			"XXX"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:redstone"
+			},
+			"D": {
+				"item": "minecraft:dispenser"
+			},
+			"O": {
+				"item": "minecraft:iron_ingot"
+			},
+			"U": {
+				"item": "minecraft:observer"
+			},
+			"X": {
+				"item": "minecraft:iron_block"
+			}
+		},
+		"result": [
+			{
+				"item": "scb:turret_pieces",
+				"count": 1
+			},
+			{
+				"item": "scb:padlock",
+				"count": 1
+			}
+		]
+	}
+}

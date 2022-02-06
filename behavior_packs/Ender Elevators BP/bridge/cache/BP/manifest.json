@@ -1,0 +1,198 @@
+{
+	"file_path": "C:\\Users\\Sofia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ender-Elevators-BP\\manifest.json",
+	"file_type": "manifest_bp",
+	"format_version": 1,
+	"file_uuid": "53047fd6_61af_4a39_8b3b_f630aa06fdcd",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "2",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "pack.name",
+						"description": "pack.description",
+						"version": [
+							2,
+							1,
+							6
+						],
+						"min_engine_version": [
+							1,
+							13,
+							0
+						],
+						"uuid": "6e7bdaa2-05fb-4355-8ca9-f6c78724c1a4"
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "65a5dbb6-f30e-4a4a-93b5-1eca9dd0fb91",
+							"version": [
+								1,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								0,
+								3
+							],
+							"uuid": "3fa56bb2-03cb-4381-af35-5784b52eb59e"
+						}
+					]
+				},
+				"key": "header",
+				"children": [
+					{
+						"data": "pack.name",
+						"key": "name"
+					},
+					{
+						"data": "pack.description",
+						"key": "description"
+					},
+					{
+						"open": {
+							"name": "pack.name",
+							"description": "pack.description",
+							"version": [
+								2,
+								1,
+								6
+							],
+							"min_engine_version": [
+								1,
+								13,
+								0
+							],
+							"uuid": "6e7bdaa2-05fb-4355-8ca9-f6c78724c1a4"
+						},
+						"key": "version",
+						"is_minified": true,
+						"children": [
+							2,
+							1,
+							6
+						]
+					},
+					{
+						"key": "min_engine_version",
+						"is_minified": true,
+						"children": [
+							1,
+							13,
+							0
+						]
+					},
+					{
+						"data": "6e7bdaa2-05fb-4355-8ca9-f6c78724c1a4",
+						"key": "uuid"
+					}
+				]
+			},
+			{
+				"key": "modules",
+				"is_minified": true,
+				"children": [
+					{
+						"type": "data",
+						"uuid": "65a5dbb6-f30e-4a4a-93b5-1eca9dd0fb91",
+						"version": [
+							1,
+							0,
+							0
+						]
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "pack.name",
+						"description": "pack.description",
+						"version": [
+							2,
+							1,
+							6
+						],
+						"min_engine_version": [
+							1,
+							13,
+							0
+						],
+						"uuid": "6e7bdaa2-05fb-4355-8ca9-f6c78724c1a4"
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "65a5dbb6-f30e-4a4a-93b5-1eca9dd0fb91",
+							"version": [
+								1,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								0,
+								3
+							],
+							"uuid": "3fa56bb2-03cb-4381-af35-5784b52eb59e"
+						}
+					]
+				},
+				"key": "dependencies",
+				"children": [
+					{
+						"open": [
+							{
+								"version": [
+									1,
+									0,
+									3
+								],
+								"uuid": "3fa56bb2-03cb-4381-af35-5784b52eb59e"
+							}
+						],
+						"children": [
+							{
+								"open": {
+									"version": [
+										1,
+										0,
+										3
+									],
+									"uuid": "3fa56bb2-03cb-4381-af35-5784b52eb59e"
+								},
+								"key": "version",
+								"is_minified": true,
+								"children": [
+									1,
+									0,
+									3
+								]
+							},
+							{
+								"data": "3fa56bb2-03cb-4381-af35-5784b52eb59e",
+								"key": "uuid"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,33 @@
+//bridge-file-version: #14
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "scb:brick_reinforced"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X#"
+		],
+		"key": {
+			"#": {
+				"item": "scb:block_reinforcer"
+			},
+			"X": {
+				"item": "minecraft:brick_block"
+			}
+		},
+		"result": [
+			{
+				"item": "scb:brick_reinforced",
+				"count": 1
+			},
+			{
+				"item": "scb:block_reinforcer",
+				"count": 1
+			}
+		]
+	}
+}

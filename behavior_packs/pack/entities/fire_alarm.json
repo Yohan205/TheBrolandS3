@@ -1,0 +1,212 @@
+//bridge-file-version: #79
+{
+	"format_version": "1.10.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "scb:fire_alarm",
+			"is_summonable": true,
+			"is_spawnable": true,
+			"runtime_identifier": "scb:fire_alarm",
+			"scripts": {
+				"animate": [
+					"bridge_execute_commands"
+				]
+			},
+			"animations": {
+				"bridge_execute_commands": "controller.animation.bridge_fire_alarm.execute_commands"
+			}
+		},
+		"component_groups": {
+			"scb:on_fire_alarm_tamed": {
+				"minecraft:behavior.move_to_block": {
+					"priority": 1,
+					"search_range": 10,
+					"goal_radius": 10,
+					"on_reach": {
+						"event": "scb:alarm"
+					},
+					"target_blocks": [
+						"minecraft:fire"
+					],
+					"tick_interval": 1,
+					"start_chance": 1,
+					"search_height": 5
+				}
+			},
+			"scb:despawn": {
+				"minecraft:despawn": {}
+			},
+			"bridge:execute_command_id_1": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"bridge:execute_no_command": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			},
+			"bridge:execute_command_id_2": {
+				"minecraft:skin_id": {
+					"value": 2
+				}
+			},
+			"bridge:execute_command_id_3": {
+				"minecraft:skin_id": {
+					"value": 3
+				}
+			}
+		},
+		"components": {
+			"minecraft:navigation.hover": {
+				"avoid_damage_blocks": false,
+				"can_path_from_air": true,
+				"can_sink": true
+			},
+			"minecraft:movement.hover": {},
+			"minecraft:movement": {
+				"value": 0
+			},
+			"minecraft:tameable": {
+				"probability": 1,
+				"tame_items": [
+					"scb:padlock"
+				],
+				"tame_event": {
+					"event": "scb:active"
+				}
+			},
+			"minecraft:knockback_resistance": 10000,
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 0.9
+			},
+			"minecraft:can_fly": {
+				"value": true
+			},
+			"minecraft:jump.static": {},
+			"minecraft:flying_speed": {
+				"value": 0
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": {
+								"any_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:diamond_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:golden_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:iron_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:stone_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:wooden_pickaxe"
+									}
+								]
+							},
+							"event": "scb:break_alarm"
+						},
+						"on_damage_sound_event": "breaking"
+					},
+					{
+						"cause": "all",
+						"deals_damage": false,
+						"on_damage_sound_event": "item.book.put"
+					}
+				]
+			}
+		},
+		"events": {
+			"scb:alarm": {
+				"add": {
+					"component_groups": [
+						"scb:on_fire_alarm_tamed",
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"scb:active": {
+				"add": {
+					"component_groups": [
+						"scb:on_fire_alarm_tamed"
+					]
+				}
+			},
+			"scb:break_alarm": {
+				"add": {
+					"component_groups": [
+						"scb:despawn",
+						"bridge:execute_command_id_2"
+					]
+				}
+			},
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_command_id_3"
+					]
+				}
+			},
+			"bridge:remove_command_id_1": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"bridge:remove_command_id_2": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_2"
+					]
+				}
+			},
+			"bridge:remove_command_id_3": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_3"
+					]
+				}
+			}
+		}
+	}
+}

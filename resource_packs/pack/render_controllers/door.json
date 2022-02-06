@@ -1,0 +1,25 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.key_door": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"part_visibility": [
+				{
+					"open*": "query.skin_id == 1"
+				},
+				{
+					"close*": "query.skin_id == 0"
+				}
+			],
+			"textures": [
+				"Texture.default"
+			]
+		}
+	}
+}

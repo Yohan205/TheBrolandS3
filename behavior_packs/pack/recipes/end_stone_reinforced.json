@@ -1,0 +1,34 @@
+//bridge-file-version: #21
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "scb:end_stone_reinforced"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X#"
+		],
+		"key": {
+			"#": {
+				"item": "scb:block_reinforcer"
+			},
+			"X": {
+				"item": "minecraft:end_stone",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "scb:end_stone_reinforced",
+				"count": 1
+			},
+			{
+				"item": "scb:block_reinforcer",
+				"count": 1
+			}
+		]
+	}
+}

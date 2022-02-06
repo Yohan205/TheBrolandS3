@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "graypottedplant_a2b044e0"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "bzf:furniture_box",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bzf:graypottedplant",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,3991 @@
+{
+	"file_path": "C:\\Users\\Sofia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Ender_Elevators_RP\\blocks.json",
+	"file_type": "client_block",
+	"format_version": 1,
+	"file_uuid": "647dd1a3_baec_4b6f_b255_4d735cc9df05",
+	"file_version": 72,
+	"cache_content": {
+		"children": [
+			{
+				"key": "format_version",
+				"is_minified": true,
+				"children": [
+					1,
+					1,
+					0
+				]
+			},
+			{
+				"key": "se:elevator",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top",
+						"down": "elevator_top",
+						"side": "elevator_side"
+					}
+				}
+			},
+			{
+				"key": "se:black_elevator",
+				"children": [
+					{
+						"data": "cloth",
+						"key": "sound"
+					},
+					{
+						"open": {
+							"sound": "cloth",
+							"textures": {
+								"up": "elevator_top_black",
+								"down": "elevator_top_black",
+								"side": "elevator_side"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "elevator_top_black",
+							"down": "elevator_top_black",
+							"side": "elevator_side"
+						}
+					}
+				]
+			},
+			{
+				"key": "se:blue_elevator",
+				"children": [
+					{
+						"data": "cloth",
+						"key": "sound"
+					},
+					{
+						"open": {
+							"sound": "cloth",
+							"textures": {
+								"up": "elevator_top_blue",
+								"down": "elevator_top_blue",
+								"side": "elevator_side"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "elevator_top_blue",
+							"down": "elevator_top_blue",
+							"side": "elevator_side"
+						}
+					}
+				]
+			},
+			{
+				"key": "se:brown_elevator",
+				"children": [
+					{
+						"data": "cloth",
+						"key": "sound"
+					},
+					{
+						"open": {
+							"sound": "cloth",
+							"textures": {
+								"up": "elevator_top_brown",
+								"down": "elevator_top_brown",
+								"side": "elevator_side"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "elevator_top_brown",
+							"down": "elevator_top_brown",
+							"side": "elevator_side"
+						}
+					}
+				]
+			},
+			{
+				"key": "se:cyan_elevator",
+				"children": [
+					{
+						"data": "cloth",
+						"key": "sound"
+					},
+					{
+						"open": {
+							"sound": "cloth",
+							"textures": {
+								"up": "elevator_top_cyan",
+								"down": "elevator_top_cyan",
+								"side": "elevator_side"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "elevator_top_cyan",
+							"down": "elevator_top_cyan",
+							"side": "elevator_side"
+						}
+					}
+				]
+			},
+			{
+				"key": "se:gray_elevator",
+				"children": [
+					{
+						"data": "cloth",
+						"key": "sound"
+					},
+					{
+						"open": {
+							"sound": "cloth",
+							"textures": {
+								"up": "elevator_top_gray",
+								"down": "elevator_top_gray",
+								"side": "elevator_side"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "elevator_top_gray",
+							"down": "elevator_top_gray",
+							"side": "elevator_side"
+						}
+					}
+				]
+			},
+			{
+				"key": "se:green_elevator",
+				"children": [
+					{
+						"data": "cloth",
+						"key": "sound"
+					},
+					{
+						"open": {
+							"sound": "cloth",
+							"textures": {
+								"up": "elevator_top_green",
+								"down": "elevator_top_green",
+								"side": "elevator_side"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "elevator_top_green",
+							"down": "elevator_top_green",
+							"side": "elevator_side"
+						}
+					}
+				]
+			},
+			{
+				"key": "se:light_blue_elevator",
+				"children": [
+					{
+						"data": "cloth",
+						"key": "sound"
+					},
+					{
+						"open": {
+							"sound": "cloth",
+							"textures": {
+								"up": "elevator_top_light_blue",
+								"down": "elevator_top_light_blue",
+								"side": "elevator_side"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "elevator_top_light_blue",
+							"down": "elevator_top_light_blue",
+							"side": "elevator_side"
+						}
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"se:elevator": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top",
+							"down": "elevator_top",
+							"side": "elevator_side"
+						}
+					},
+					"se:black_elevator": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_black",
+							"down": "elevator_top_black",
+							"side": "elevator_side"
+						}
+					},
+					"se:blue_elevator": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_blue",
+							"down": "elevator_top_blue",
+							"side": "elevator_side"
+						}
+					},
+					"se:brown_elevator": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_brown",
+							"down": "elevator_top_brown",
+							"side": "elevator_side"
+						}
+					},
+					"se:cyan_elevator": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_cyan",
+							"down": "elevator_top_cyan",
+							"side": "elevator_side"
+						}
+					},
+					"se:gray_elevator": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_gray",
+							"down": "elevator_top_gray",
+							"side": "elevator_side"
+						}
+					},
+					"se:green_elevator": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_green",
+							"down": "elevator_top_green",
+							"side": "elevator_side"
+						}
+					},
+					"se:light_blue_elevator": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_light_blue",
+							"down": "elevator_top_light_blue",
+							"side": "elevator_side"
+						}
+					},
+					"se:light_gray_elevator": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_light_gray",
+							"down": "elevator_top_light_gray",
+							"side": "elevator_side"
+						}
+					},
+					"se:lime_elevator": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_lime",
+							"down": "elevator_top_lime",
+							"side": "elevator_side"
+						}
+					},
+					"se:magenta_elevator": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_magenta",
+							"down": "elevator_top_magenta",
+							"side": "elevator_side"
+						}
+					},
+					"se:orange_elevator": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_orange",
+							"down": "elevator_top_orange",
+							"side": "elevator_side"
+						}
+					},
+					"se:pink_elevator": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_pink",
+							"down": "elevator_top_pink",
+							"side": "elevator_side"
+						}
+					},
+					"se:purple_elevator": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_purple",
+							"down": "elevator_top_purple",
+							"side": "elevator_side"
+						}
+					},
+					"se:red_elevator": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_red",
+							"down": "elevator_top_red",
+							"side": "elevator_side"
+						}
+					},
+					"se:white_elevator": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_white",
+							"down": "elevator_top_white",
+							"side": "elevator_side"
+						}
+					},
+					"se:yellow_elevator": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_yellow",
+							"down": "elevator_top_yellow",
+							"side": "elevator_side"
+						}
+					},
+					"se:elevator_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_mk2",
+							"down": "elevator_top_mk2",
+							"side": "elevator_side_mk2"
+						}
+					},
+					"se:black_elevator_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_black_mk2",
+							"down": "elevator_top_black_mk2",
+							"side": "elevator_side_mk2"
+						}
+					},
+					"se:blue_elevator_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_blue_mk2",
+							"down": "elevator_top_blue_mk2",
+							"side": "elevator_side_mk2"
+						}
+					},
+					"se:brown_elevator_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_brown_mk2",
+							"down": "elevator_top_brown_mk2",
+							"side": "elevator_side_mk2"
+						}
+					},
+					"se:cyan_elevator_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_cyan_mk2",
+							"down": "elevator_top_cyan_mk2",
+							"side": "elevator_side_mk2"
+						}
+					},
+					"se:gray_elevator_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_gray_mk2",
+							"down": "elevator_top_gray_mk2",
+							"side": "elevator_side_mk2"
+						}
+					},
+					"se:green_elevator_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_green_mk2",
+							"down": "elevator_top_green_mk2",
+							"side": "elevator_side_mk2"
+						}
+					},
+					"se:light_blue_elevator_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_light_blue_mk2",
+							"down": "elevator_top_light_blue_mk2",
+							"side": "elevator_side_mk2"
+						}
+					},
+					"se:light_gray_elevator_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_light_gray_mk2",
+							"down": "elevator_top_light_gray_mk2",
+							"side": "elevator_side_mk2"
+						}
+					},
+					"se:lime_elevator_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_lime_mk2",
+							"down": "elevator_top_lime_mk2",
+							"side": "elevator_side_mk2"
+						}
+					},
+					"se:magenta_elevator_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_magenta_mk2",
+							"down": "elevator_top_magenta_mk2",
+							"side": "elevator_side_mk2"
+						}
+					},
+					"se:orange_elevator_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_orange_mk2",
+							"down": "elevator_top_orange_mk2",
+							"side": "elevator_side_mk2"
+						}
+					},
+					"se:pink_elevator_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_pink_mk2",
+							"down": "elevator_top_pink_mk2",
+							"side": "elevator_side_mk2"
+						}
+					},
+					"se:purple_elevator_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_purple_mk2",
+							"down": "elevator_top_purple_mk2",
+							"side": "elevator_side_mk2"
+						}
+					},
+					"se:red_elevator_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_red_mk2",
+							"down": "elevator_top_red_mk2",
+							"side": "elevator_side_mk2"
+						}
+					},
+					"se:white_elevator_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_white_mk2",
+							"down": "elevator_top_white_mk2",
+							"side": "elevator_side_mk2"
+						}
+					},
+					"se:yellow_elevator_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_yellow_mk2",
+							"down": "elevator_top_yellow_mk2",
+							"side": "elevator_side_mk2"
+						}
+					},
+					"se:elevator_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_mk3",
+							"down": "elevator_side_mk3",
+							"side": "elevator_side_mk3"
+						}
+					},
+					"se:black_elevator_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_black_mk3",
+							"down": "elevator_top_black_mk3",
+							"side": "elevator_side_mk3"
+						}
+					},
+					"se:blue_elevator_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_blue_mk3",
+							"down": "elevator_top_blue_mk3",
+							"side": "elevator_side_mk3"
+						}
+					},
+					"se:brown_elevator_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_brown_mk3",
+							"down": "elevator_top_brown_mk3",
+							"side": "elevator_side_mk3"
+						}
+					},
+					"se:cyan_elevator_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_cyan_mk3",
+							"down": "elevator_top_cyan_mk3",
+							"side": "elevator_side_mk3"
+						}
+					},
+					"se:gray_elevator_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_gray_mk3",
+							"down": "elevator_top_gray_mk3",
+							"side": "elevator_side_mk3"
+						}
+					},
+					"se:green_elevator_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_green_mk3",
+							"down": "elevator_top_green_mk3",
+							"side": "elevator_side_mk3"
+						}
+					},
+					"se:light_blue_elevator_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_light_blue_mk3",
+							"down": "elevator_top_light_blue_mk3",
+							"side": "elevator_side_mk3"
+						}
+					},
+					"se:light_gray_elevator_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_light_gray_mk3",
+							"down": "elevator_top_light_gray_mk3",
+							"side": "elevator_side_mk3"
+						}
+					},
+					"se:lime_elevator_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_lime_mk3",
+							"down": "elevator_top_lime_mk3",
+							"side": "elevator_side_mk3"
+						}
+					},
+					"se:magenta_elevator_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_magenta_mk3",
+							"down": "elevator_top_magenta_mk3",
+							"side": "elevator_side_mk3"
+						}
+					},
+					"se:orange_elevator_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_orange_mk3",
+							"down": "elevator_top_orange_mk3",
+							"side": "elevator_side_mk3"
+						}
+					},
+					"se:pink_elevator_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_pink_mk3",
+							"down": "elevator_top_pink_mk3",
+							"side": "elevator_side_mk3"
+						}
+					},
+					"se:purple_elevator_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_purple_mk3",
+							"down": "elevator_top_purple_mk3",
+							"side": "elevator_side_mk3"
+						}
+					},
+					"se:red_elevator_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_red_mk3",
+							"down": "elevator_top_red_mk3",
+							"side": "elevator_side_mk3"
+						}
+					},
+					"se:white_elevator_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_white_mk3",
+							"down": "elevator_top_white_mk3",
+							"side": "elevator_side_mk3"
+						}
+					},
+					"se:yellow_elevator_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_yellow_mk3",
+							"down": "elevator_top_yellow_mk3",
+							"side": "elevator_side_mk3"
+						}
+					},
+					"se:elevator_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_mk4",
+							"down": "elevator_top_mk4",
+							"side": "elevator_side_mk4"
+						}
+					},
+					"se:black_elevator_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_black_mk4",
+							"down": "elevator_top_black_mk4",
+							"side": "elevator_side_mk4"
+						}
+					},
+					"se:blue_elevator_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_blue_mk4",
+							"down": "elevator_top_blue_mk4",
+							"side": "elevator_side_mk4"
+						}
+					},
+					"se:brown_elevator_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_brown_mk4",
+							"down": "elevator_top_brown_mk4",
+							"side": "elevator_side_mk4"
+						}
+					},
+					"se:cyan_elevator_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_cyan_mk4",
+							"down": "elevator_top_cyan_mk4",
+							"side": "elevator_side_mk4"
+						}
+					},
+					"se:gray_elevator_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_gray_mk4",
+							"down": "elevator_top_gray_mk4",
+							"side": "elevator_side_mk4"
+						}
+					},
+					"se:green_elevator_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_green_mk4",
+							"down": "elevator_top_green_mk4",
+							"side": "elevator_side_mk4"
+						}
+					},
+					"se:light_blue_elevator_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_light_blue_mk4",
+							"down": "elevator_top_light_blue_mk4",
+							"side": "elevator_side_mk4"
+						}
+					},
+					"se:light_gray_elevator_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_light_gray_mk4",
+							"down": "elevator_top_light_gray_mk4",
+							"side": "elevator_side_mk4"
+						}
+					},
+					"se:lime_elevator_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_lime_mk4",
+							"down": "elevator_top_lime_mk4",
+							"side": "elevator_side_mk4"
+						}
+					},
+					"se:magenta_elevator_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_magenta_mk4",
+							"down": "elevator_top_magenta_mk4",
+							"side": "elevator_side_mk4"
+						}
+					},
+					"se:orange_elevator_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_orange_mk4",
+							"down": "elevator_top_orange_mk4",
+							"side": "elevator_side_mk4"
+						}
+					},
+					"se:pink_elevator_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_pink_mk4",
+							"down": "elevator_top_pink_mk4",
+							"side": "elevator_side_mk4"
+						}
+					},
+					"se:purple_elevator_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_purple_mk4",
+							"down": "elevator_top_purple_mk4",
+							"side": "elevator_side_mk4"
+						}
+					},
+					"se:red_elevator_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_red_mk4",
+							"down": "elevator_top_red_mk4",
+							"side": "elevator_side_mk4"
+						}
+					},
+					"se:white_elevator_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_white_mk4",
+							"down": "elevator_top_white_mk4",
+							"side": "elevator_side_mk4"
+						}
+					},
+					"se:yellow_elevator_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_yellow_mk4",
+							"down": "elevator_top_yellow_mk4",
+							"side": "elevator_side_mk4"
+						}
+					},
+					"se:elevator_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_mk5",
+							"down": "elevator_top_mk5",
+							"side": "elevator_side_mk5"
+						}
+					},
+					"se:black_elevator_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_black_mk5",
+							"down": "elevator_top_black_mk5",
+							"side": "elevator_side_mk5"
+						}
+					},
+					"se:blue_elevator_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_blue_mk5",
+							"down": "elevator_top_blue_mk5",
+							"side": "elevator_side_mk5"
+						}
+					},
+					"se:brown_elevator_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_brown_mk5",
+							"down": "elevator_top_brown_mk5",
+							"side": "elevator_side_mk5"
+						}
+					},
+					"se:cyan_elevator_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_cyan_mk5",
+							"down": "elevator_top_cyan_mk5",
+							"side": "elevator_side_mk5"
+						}
+					},
+					"se:gray_elevator_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_gray_mk5",
+							"down": "elevator_top_gray_mk5",
+							"side": "elevator_side_mk5"
+						}
+					},
+					"se:green_elevator_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_green_mk5",
+							"down": "elevator_top_green_mk5",
+							"side": "elevator_side_mk5"
+						}
+					},
+					"se:light_blue_elevator_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_light_blue_mk5",
+							"down": "elevator_top_light_blue_mk5",
+							"side": "elevator_side_mk5"
+						}
+					},
+					"se:light_gray_elevator_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_light_gray_mk5",
+							"down": "elevator_top_light_gray_mk5",
+							"side": "elevator_side_mk5"
+						}
+					},
+					"se:lime_elevator_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_lime_mk5",
+							"down": "elevator_top_lime_mk5",
+							"side": "elevator_side_mk5"
+						}
+					},
+					"se:magenta_elevator_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_magenta_mk5",
+							"down": "elevator_top_magenta_mk5",
+							"side": "elevator_side_mk5"
+						}
+					},
+					"se:orange_elevator_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_orange_mk5",
+							"down": "elevator_top_orange_mk5",
+							"side": "elevator_side_mk5"
+						}
+					},
+					"se:pink_elevator_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_pink_mk5",
+							"down": "elevator_top_pink_mk5",
+							"side": "elevator_side_mk5"
+						}
+					},
+					"se:purple_elevator_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_purple_mk5",
+							"down": "elevator_top_purple_mk5",
+							"side": "elevator_side_mk5"
+						}
+					},
+					"se:red_elevator_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_red_mk5",
+							"down": "elevator_top_red_mk5",
+							"side": "elevator_side_mk5"
+						}
+					},
+					"se:white_elevator_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_white_mk5",
+							"down": "elevator_top_white_mk5",
+							"side": "elevator_side_mk5"
+						}
+					},
+					"se:yellow_elevator_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_top_yellow_mk5",
+							"down": "elevator_top_yellow_mk5",
+							"side": "elevator_side_mk5"
+						}
+					},
+					"se:elevator_omega": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omega",
+							"down": "elevator_omega",
+							"side": "elevator_omega"
+						}
+					},
+					"se:black_elevator_omega": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omega_black",
+							"down": "elevator_omega_black",
+							"side": "elevator_omega"
+						}
+					},
+					"se:blue_elevator_omega": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omega_blue",
+							"down": "elevator_omega_blue",
+							"side": "elevator_omega"
+						}
+					},
+					"se:brown_elevator_omega": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omega_brown",
+							"down": "elevator_omega_brown",
+							"side": "elevator_omega"
+						}
+					},
+					"se:cyan_elevator_omega": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omega_cyan",
+							"down": "elevator_omega_cyan",
+							"side": "elevator_omega"
+						}
+					},
+					"se:gray_elevator_omega": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omega_gray",
+							"down": "elevator_omega_gray",
+							"side": "elevator_omega"
+						}
+					},
+					"se:green_elevator_omega": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omega_green",
+							"down": "elevator_omega_green",
+							"side": "elevator_omega"
+						}
+					},
+					"se:light_blue_elevator_omega": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omega_light_blue",
+							"down": "elevator_omega_light_blue",
+							"side": "elevator_omega"
+						}
+					},
+					"se:light_gray_elevator_omega": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omega_light_gray",
+							"down": "elevator_omega_light_gray",
+							"side": "elevator_omega"
+						}
+					},
+					"se:lime_elevator_omega": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omega_lime",
+							"down": "elevator_omega_lime",
+							"side": "elevator_omega"
+						}
+					},
+					"se:magenta_elevator_omega": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omega_magenta",
+							"down": "elevator_omega_magenta",
+							"side": "elevator_omega"
+						}
+					},
+					"se:orange_elevator_omega": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omega_orange",
+							"down": "elevator_omega_orange",
+							"side": "elevator_omega"
+						}
+					},
+					"se:pink_elevator_omega": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omega_pink",
+							"down": "elevator_omega_pink",
+							"side": "elevator_omega"
+						}
+					},
+					"se:purple_elevator_omega": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omega_purple",
+							"down": "elevator_omega_purple",
+							"side": "elevator_omega"
+						}
+					},
+					"se:red_elevator_omega": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omega_red",
+							"down": "elevator_omega_red",
+							"side": "elevator_omega"
+						}
+					},
+					"se:white_elevator_omega": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omega_white",
+							"down": "elevator_omega_white",
+							"side": "elevator_omega"
+						}
+					},
+					"se:yellow_elevator_omega": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omega_yellow",
+							"down": "elevator_omega_yellow",
+							"side": "elevator_omega"
+						}
+					},
+					"se:elevator_omni_mk1": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni",
+							"down": "elevator_omni",
+							"side": "elevator_omni"
+						}
+					},
+					"se:black_elevator_omni_mk1": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_black",
+							"down": "elevator_omni_black",
+							"side": "elevator_omni"
+						}
+					},
+					"se:blue_elevator_omni_mk1": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_blue",
+							"down": "elevator_omni_blue",
+							"side": "elevator_omni"
+						}
+					},
+					"se:brown_elevator_omni_mk1": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_brown",
+							"down": "elevator_omni_brown",
+							"side": "elevator_omni"
+						}
+					},
+					"se:cyan_elevator_omni_mk1": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_cyan",
+							"down": "elevator_omni_cyan",
+							"side": "elevator_omni"
+						}
+					},
+					"se:gray_elevator_omni_mk1": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_gray",
+							"down": "elevator_omni_gray",
+							"side": "elevator_omni"
+						}
+					},
+					"se:green_elevator_omni_mk1": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_green",
+							"down": "elevator_omni_green",
+							"side": "elevator_omni"
+						}
+					},
+					"se:light_blue_elevator_omni_mk1": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_light_blue",
+							"down": "elevator_omni_light_blue",
+							"side": "elevator_omni"
+						}
+					},
+					"se:light_gray_elevator_omni_mk1": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_light_gray",
+							"down": "elevator_omni_light_gray",
+							"side": "elevator_omni"
+						}
+					},
+					"se:lime_elevator_omni_mk1": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_lime",
+							"down": "elevator_omni_lime",
+							"side": "elevator_omni"
+						}
+					},
+					"se:magenta_elevator_omni_mk1": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_magenta",
+							"down": "elevator_omni_magenta",
+							"side": "elevator_omni"
+						}
+					},
+					"se:orange_elevator_omni_mk1": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_orange",
+							"down": "elevator_omni_orange",
+							"side": "elevator_omni"
+						}
+					},
+					"se:pink_elevator_omni_mk1": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_pink",
+							"down": "elevator_omni_pink",
+							"side": "elevator_omni"
+						}
+					},
+					"se:purple_elevator_omni_mk1": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_purple",
+							"down": "elevator_omni_purple",
+							"side": "elevator_omni"
+						}
+					},
+					"se:red_elevator_omni_mk1": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_red",
+							"down": "elevator_omni_red",
+							"side": "elevator_omni"
+						}
+					},
+					"se:white_elevator_omni_mk1": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_white",
+							"down": "elevator_omni_white",
+							"side": "elevator_omni"
+						}
+					},
+					"se:yellow_elevator_omni_mk1": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_yellow",
+							"down": "elevator_omni_yellow",
+							"side": "elevator_omni"
+						}
+					},
+					"se:elevator_omni_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_mk2",
+							"down": "elevator_omni_mk2",
+							"side": "elevator_omni_mk2"
+						}
+					},
+					"se:black_elevator_omni_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_black_mk2",
+							"down": "elevator_omni_black_mk2",
+							"side": "elevator_omni_mk2"
+						}
+					},
+					"se:blue_elevator_omni_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_blue_mk2",
+							"down": "elevator_omni_blue_mk2",
+							"side": "elevator_omni_mk2"
+						}
+					},
+					"se:brown_elevator_omni_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_brown_mk2",
+							"down": "elevator_omni_brown_mk2",
+							"side": "elevator_omni_mk2"
+						}
+					},
+					"se:cyan_elevator_omni_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_cyan_mk2",
+							"down": "elevator_omni_cyan_mk2",
+							"side": "elevator_omni_mk2"
+						}
+					},
+					"se:gray_elevator_omni_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_gray_mk2",
+							"down": "elevator_omni_gray_mk2",
+							"side": "elevator_omni_mk2"
+						}
+					},
+					"se:green_elevator_omni_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_green_mk2",
+							"down": "elevator_omni_green_mk2",
+							"side": "elevator_omni_mk2"
+						}
+					},
+					"se:light_blue_elevator_omni_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_light_blue_mk2",
+							"down": "elevator_omni_light_blue_mk2",
+							"side": "elevator_omni_mk2"
+						}
+					},
+					"se:light_gray_elevator_omni_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_light_gray_mk2",
+							"down": "elevator_omni_light_gray_mk2",
+							"side": "elevator_omni_mk2"
+						}
+					},
+					"se:lime_elevator_omni_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_lime_mk2",
+							"down": "elevator_omni_lime_mk2",
+							"side": "elevator_omni_mk2"
+						}
+					},
+					"se:magenta_elevator_omni_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_magenta_mk2",
+							"down": "elevator_omni_magenta_mk2",
+							"side": "elevator_omni_mk2"
+						}
+					},
+					"se:orange_elevator_omni_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_orange_mk2",
+							"down": "elevator_omni_orange_mk2",
+							"side": "elevator_omni_mk2"
+						}
+					},
+					"se:pink_elevator_omni_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_pink_mk2",
+							"down": "elevator_omni_pink_mk2",
+							"side": "elevator_omni_mk2"
+						}
+					},
+					"se:purple_elevator_omni_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_purple_mk2",
+							"down": "elevator_omni_purple_mk2",
+							"side": "elevator_omni_mk2"
+						}
+					},
+					"se:red_elevator_omni_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_red_mk2",
+							"down": "elevator_omni_red_mk2",
+							"side": "elevator_omni_mk2"
+						}
+					},
+					"se:white_elevator_omni_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_white_mk2",
+							"down": "elevator_omni_white_mk2",
+							"side": "elevator_omni_mk2"
+						}
+					},
+					"se:yellow_elevator_omni_mk2": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_yellow_mk2",
+							"down": "elevator_omni_yellow_mk2",
+							"side": "elevator_omni_mk2"
+						}
+					},
+					"se:elevator_omni_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_mk3",
+							"down": "elevator_omni_mk3",
+							"side": "elevator_omni_mk3"
+						}
+					},
+					"se:black_elevator_omni_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_black_mk3",
+							"down": "elevator_omni_black_mk3",
+							"side": "elevator_omni_mk3"
+						}
+					},
+					"se:blue_elevator_omni_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_blue_mk3",
+							"down": "elevator_omni_blue_mk3",
+							"side": "elevator_omni_mk3"
+						}
+					},
+					"se:brown_elevator_omni_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_brown_mk3",
+							"down": "elevator_omni_brown_mk3",
+							"side": "elevator_omni_mk3"
+						}
+					},
+					"se:cyan_elevator_omni_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_cyan_mk3",
+							"down": "elevator_omni_cyan_mk3",
+							"side": "elevator_omni_mk3"
+						}
+					},
+					"se:gray_elevator_omni_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_gray_mk3",
+							"down": "elevator_omni_gray_mk3",
+							"side": "elevator_omni_mk3"
+						}
+					},
+					"se:green_elevator_omni_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_green_mk3",
+							"down": "elevator_omni_green_mk3",
+							"side": "elevator_omni_mk3"
+						}
+					},
+					"se:light_blue_elevator_omni_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_light_blue_mk3",
+							"down": "elevator_omni_light_blue_mk3",
+							"side": "elevator_omni_mk3"
+						}
+					},
+					"se:light_gray_elevator_omni_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_light_gray_mk3",
+							"down": "elevator_omni_light_gray_mk3",
+							"side": "elevator_omni_mk3"
+						}
+					},
+					"se:lime_elevator_omni_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_lime_mk3",
+							"down": "elevator_omni_lime_mk3",
+							"side": "elevator_omni_mk3"
+						}
+					},
+					"se:magenta_elevator_omni_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_magenta_mk3",
+							"down": "elevator_omni_magenta_mk3",
+							"side": "elevator_omni_mk3"
+						}
+					},
+					"se:orange_elevator_omni_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_orange_mk3",
+							"down": "elevator_omni_orange_mk3",
+							"side": "elevator_omni_mk3"
+						}
+					},
+					"se:pink_elevator_omni_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_pink_mk3",
+							"down": "elevator_omni_pink_mk3",
+							"side": "elevator_omni_mk3"
+						}
+					},
+					"se:purple_elevator_omni_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_purple_mk3",
+							"down": "elevator_omni_purple_mk3",
+							"side": "elevator_omni_mk3"
+						}
+					},
+					"se:red_elevator_omni_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_red_mk3",
+							"down": "elevator_omni_red_mk3",
+							"side": "elevator_omni_mk3"
+						}
+					},
+					"se:white_elevator_omni_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_white_mk3",
+							"down": "elevator_omni_white_mk3",
+							"side": "elevator_omni_mk3"
+						}
+					},
+					"se:yellow_elevator_omni_mk3": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_yellow_mk3",
+							"down": "elevator_omni_yellow_mk3",
+							"side": "elevator_omni_mk3"
+						}
+					},
+					"se:elevator_omni_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_mk4",
+							"down": "elevator_omni_mk4",
+							"side": "elevator_omni_mk4"
+						}
+					},
+					"se:black_elevator_omni_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_black_mk4",
+							"down": "elevator_omni_black_mk4",
+							"side": "elevator_omni_mk4"
+						}
+					},
+					"se:blue_elevator_omni_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_blue_mk4",
+							"down": "elevator_omni_blue_mk4",
+							"side": "elevator_omni_mk4"
+						}
+					},
+					"se:brown_elevator_omni_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_brown_mk4",
+							"down": "elevator_omni_brown_mk4",
+							"side": "elevator_omni_mk4"
+						}
+					},
+					"se:cyan_elevator_omni_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_cyan_mk4",
+							"down": "elevator_omni_cyan_mk4",
+							"side": "elevator_omni_mk4"
+						}
+					},
+					"se:gray_elevator_omni_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_gray_mk4",
+							"down": "elevator_omni_gray_mk4",
+							"side": "elevator_omni_mk4"
+						}
+					},
+					"se:green_elevator_omni_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_green_mk4",
+							"down": "elevator_omni_green_mk4",
+							"side": "elevator_omni_mk4"
+						}
+					},
+					"se:light_blue_elevator_omni_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_light_blue_mk4",
+							"down": "elevator_omni_light_blue_mk4",
+							"side": "elevator_omni_mk4"
+						}
+					},
+					"se:light_gray_elevator_omni_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_light_gray_mk4",
+							"down": "elevator_omni_light_gray_mk4",
+							"side": "elevator_omni_mk4"
+						}
+					},
+					"se:lime_elevator_omni_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_lime_mk4",
+							"down": "elevator_omni_lime_mk4",
+							"side": "elevator_omni_mk4"
+						}
+					},
+					"se:magenta_elevator_omni_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_magenta_mk4",
+							"down": "elevator_omni_magenta_mk4",
+							"side": "elevator_omni_mk4"
+						}
+					},
+					"se:orange_elevator_omni_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_orange_mk4",
+							"down": "elevator_omni_orange_mk4",
+							"side": "elevator_omni_mk4"
+						}
+					},
+					"se:pink_elevator_omni_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_pink_mk4",
+							"down": "elevator_omni_pink_mk4",
+							"side": "elevator_omni_mk4"
+						}
+					},
+					"se:purple_elevator_omni_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_purple_mk4",
+							"down": "elevator_omni_purple_mk4",
+							"side": "elevator_omni_mk4"
+						}
+					},
+					"se:red_elevator_omni_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_red_mk4",
+							"down": "elevator_omni_red_mk4",
+							"side": "elevator_omni_mk4"
+						}
+					},
+					"se:white_elevator_omni_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_white_mk4",
+							"down": "elevator_omni_white_mk4",
+							"side": "elevator_omni_mk4"
+						}
+					},
+					"se:yellow_elevator_omni_mk4": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_yellow_mk4",
+							"down": "elevator_omni_yellow_mk4",
+							"side": "elevator_omni_mk4"
+						}
+					},
+					"se:elevator_omni_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_mk5",
+							"down": "elevator_omni_mk5",
+							"side": "elevator_omni_mk5"
+						}
+					},
+					"se:black_elevator_omni_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_black_mk5",
+							"down": "elevator_omni_black_mk5",
+							"side": "elevator_omni_mk5"
+						}
+					},
+					"se:blue_elevator_omni_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_blue_mk5",
+							"down": "elevator_omni_blue_mk5",
+							"side": "elevator_omni_mk5"
+						}
+					},
+					"se:brown_elevator_omni_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_brown_mk5",
+							"down": "elevator_omni_brown_mk5",
+							"side": "elevator_omni_mk5"
+						}
+					},
+					"se:cyan_elevator_omni_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_cyan_mk5",
+							"down": "elevator_omni_cyan_mk5",
+							"side": "elevator_omni_mk5"
+						}
+					},
+					"se:gray_elevator_omni_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_gray_mk5",
+							"down": "elevator_omni_gray_mk5",
+							"side": "elevator_omni_mk5"
+						}
+					},
+					"se:green_elevator_omni_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_green_mk5",
+							"down": "elevator_omni_green_mk5",
+							"side": "elevator_omni_mk5"
+						}
+					},
+					"se:light_blue_elevator_omni_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_light_blue_mk5",
+							"down": "elevator_omni_light_blue_mk5",
+							"side": "elevator_omni_mk5"
+						}
+					},
+					"se:light_gray_elevator_omni_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_light_gray_mk5",
+							"down": "elevator_omni_light_gray_mk5",
+							"side": "elevator_omni_mk5"
+						}
+					},
+					"se:lime_elevator_omni_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_lime_mk5",
+							"down": "elevator_omni_lime_mk5",
+							"side": "elevator_omni_mk5"
+						}
+					},
+					"se:magenta_elevator_omni_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_magenta_mk5",
+							"down": "elevator_omni_magenta_mk5",
+							"side": "elevator_omni_mk5"
+						}
+					},
+					"se:orange_elevator_omni_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_orange_mk5",
+							"down": "elevator_omni_orange_mk5",
+							"side": "elevator_omni_mk5"
+						}
+					},
+					"se:pink_elevator_omni_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_pink_mk5",
+							"down": "elevator_omni_pink_mk5",
+							"side": "elevator_omni_mk5"
+						}
+					},
+					"se:purple_elevator_omni_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_purple_mk5",
+							"down": "elevator_omni_purple_mk5",
+							"side": "elevator_omni_mk5"
+						}
+					},
+					"se:red_elevator_omni_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_red_mk5",
+							"down": "elevator_omni_red_mk5",
+							"side": "elevator_omni_mk5"
+						}
+					},
+					"se:white_elevator_omni_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_white_mk5",
+							"down": "elevator_omni_white_mk5",
+							"side": "elevator_omni_mk5"
+						}
+					},
+					"se:yellow_elevator_omni_mk5": {
+						"sound": "cloth",
+						"textures": {
+							"up": "elevator_omni_yellow_mk5",
+							"down": "elevator_omni_yellow_mk5",
+							"side": "elevator_omni_mk5"
+						}
+					}
+				},
+				"key": "se:light_gray_elevator",
+				"children": [
+					{
+						"data": "cloth",
+						"key": "sound"
+					},
+					{
+						"open": {
+							"sound": "cloth",
+							"textures": {
+								"up": "elevator_top_light_gray",
+								"down": "elevator_top_light_gray",
+								"side": "elevator_side"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "elevator_top_light_gray",
+							"down": "elevator_top_light_gray",
+							"side": "elevator_side"
+						}
+					}
+				]
+			},
+			{
+				"key": "se:lime_elevator",
+				"children": [
+					{
+						"data": "cloth",
+						"key": "sound"
+					},
+					{
+						"open": {
+							"sound": "cloth",
+							"textures": {
+								"up": "elevator_top_lime",
+								"down": "elevator_top_lime",
+								"side": "elevator_side"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "elevator_top_lime",
+							"down": "elevator_top_lime",
+							"side": "elevator_side"
+						}
+					}
+				]
+			},
+			{
+				"key": "se:magenta_elevator",
+				"children": [
+					{
+						"data": "cloth",
+						"key": "sound"
+					},
+					{
+						"open": {
+							"sound": "cloth",
+							"textures": {
+								"up": "elevator_top_magenta",
+								"down": "elevator_top_magenta",
+								"side": "elevator_side"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "elevator_top_magenta",
+							"down": "elevator_top_magenta",
+							"side": "elevator_side"
+						}
+					}
+				]
+			},
+			{
+				"key": "se:orange_elevator",
+				"children": [
+					{
+						"data": "cloth",
+						"key": "sound"
+					},
+					{
+						"open": {
+							"sound": "cloth",
+							"textures": {
+								"up": "elevator_top_orange",
+								"down": "elevator_top_orange",
+								"side": "elevator_side"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "elevator_top_orange",
+							"down": "elevator_top_orange",
+							"side": "elevator_side"
+						}
+					}
+				]
+			},
+			{
+				"key": "se:pink_elevator",
+				"children": [
+					{
+						"data": "cloth",
+						"key": "sound"
+					},
+					{
+						"open": {
+							"sound": "cloth",
+							"textures": {
+								"up": "elevator_top_pink",
+								"down": "elevator_top_pink",
+								"side": "elevator_side"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "elevator_top_pink",
+							"down": "elevator_top_pink",
+							"side": "elevator_side"
+						}
+					}
+				]
+			},
+			{
+				"key": "se:purple_elevator",
+				"children": [
+					{
+						"data": "cloth",
+						"key": "sound"
+					},
+					{
+						"open": {
+							"sound": "cloth",
+							"textures": {
+								"up": "elevator_top_purple",
+								"down": "elevator_top_purple",
+								"side": "elevator_side"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "elevator_top_purple",
+							"down": "elevator_top_purple",
+							"side": "elevator_side"
+						}
+					}
+				]
+			},
+			{
+				"key": "se:red_elevator",
+				"children": [
+					{
+						"data": "cloth",
+						"key": "sound"
+					},
+					{
+						"open": {
+							"sound": "cloth",
+							"textures": {
+								"up": "elevator_top_red",
+								"down": "elevator_top_red",
+								"side": "elevator_side"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "elevator_top_red",
+							"down": "elevator_top_red",
+							"side": "elevator_side"
+						}
+					}
+				]
+			},
+			{
+				"key": "se:white_elevator",
+				"children": [
+					{
+						"data": "cloth",
+						"key": "sound"
+					},
+					{
+						"open": {
+							"sound": "cloth",
+							"textures": {
+								"up": "elevator_top_white",
+								"down": "elevator_top_white",
+								"side": "elevator_side"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "elevator_top_white",
+							"down": "elevator_top_white",
+							"side": "elevator_side"
+						}
+					}
+				]
+			},
+			{
+				"key": "se:yellow_elevator",
+				"children": [
+					{
+						"data": "cloth",
+						"key": "sound"
+					},
+					{
+						"open": {
+							"sound": "cloth",
+							"textures": {
+								"up": "elevator_top_yellow",
+								"down": "elevator_top_yellow",
+								"side": "elevator_side"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "elevator_top_yellow",
+							"down": "elevator_top_yellow",
+							"side": "elevator_side"
+						}
+					}
+				]
+			},
+			{
+				"key": "se:elevator_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_mk2",
+						"down": "elevator_top_mk2",
+						"side": "elevator_side_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:black_elevator_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_black_mk2",
+						"down": "elevator_top_black_mk2",
+						"side": "elevator_side_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:blue_elevator_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_blue_mk2",
+						"down": "elevator_top_blue_mk2",
+						"side": "elevator_side_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:brown_elevator_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_brown_mk2",
+						"down": "elevator_top_brown_mk2",
+						"side": "elevator_side_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:cyan_elevator_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_cyan_mk2",
+						"down": "elevator_top_cyan_mk2",
+						"side": "elevator_side_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:gray_elevator_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_gray_mk2",
+						"down": "elevator_top_gray_mk2",
+						"side": "elevator_side_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:green_elevator_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_green_mk2",
+						"down": "elevator_top_green_mk2",
+						"side": "elevator_side_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:light_blue_elevator_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_light_blue_mk2",
+						"down": "elevator_top_light_blue_mk2",
+						"side": "elevator_side_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:light_gray_elevator_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_light_gray_mk2",
+						"down": "elevator_top_light_gray_mk2",
+						"side": "elevator_side_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:lime_elevator_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_lime_mk2",
+						"down": "elevator_top_lime_mk2",
+						"side": "elevator_side_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:magenta_elevator_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_magenta_mk2",
+						"down": "elevator_top_magenta_mk2",
+						"side": "elevator_side_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:orange_elevator_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_orange_mk2",
+						"down": "elevator_top_orange_mk2",
+						"side": "elevator_side_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:pink_elevator_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_pink_mk2",
+						"down": "elevator_top_pink_mk2",
+						"side": "elevator_side_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:purple_elevator_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_purple_mk2",
+						"down": "elevator_top_purple_mk2",
+						"side": "elevator_side_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:red_elevator_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_red_mk2",
+						"down": "elevator_top_red_mk2",
+						"side": "elevator_side_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:white_elevator_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_white_mk2",
+						"down": "elevator_top_white_mk2",
+						"side": "elevator_side_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:yellow_elevator_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_yellow_mk2",
+						"down": "elevator_top_yellow_mk2",
+						"side": "elevator_side_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:elevator_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_mk3",
+						"down": "elevator_side_mk3",
+						"side": "elevator_side_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:black_elevator_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_black_mk3",
+						"down": "elevator_top_black_mk3",
+						"side": "elevator_side_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:blue_elevator_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_blue_mk3",
+						"down": "elevator_top_blue_mk3",
+						"side": "elevator_side_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:brown_elevator_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_brown_mk3",
+						"down": "elevator_top_brown_mk3",
+						"side": "elevator_side_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:cyan_elevator_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_cyan_mk3",
+						"down": "elevator_top_cyan_mk3",
+						"side": "elevator_side_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:gray_elevator_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_gray_mk3",
+						"down": "elevator_top_gray_mk3",
+						"side": "elevator_side_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:green_elevator_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_green_mk3",
+						"down": "elevator_top_green_mk3",
+						"side": "elevator_side_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:light_blue_elevator_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_light_blue_mk3",
+						"down": "elevator_top_light_blue_mk3",
+						"side": "elevator_side_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:light_gray_elevator_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_light_gray_mk3",
+						"down": "elevator_top_light_gray_mk3",
+						"side": "elevator_side_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:lime_elevator_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_lime_mk3",
+						"down": "elevator_top_lime_mk3",
+						"side": "elevator_side_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:magenta_elevator_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_magenta_mk3",
+						"down": "elevator_top_magenta_mk3",
+						"side": "elevator_side_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:orange_elevator_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_orange_mk3",
+						"down": "elevator_top_orange_mk3",
+						"side": "elevator_side_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:pink_elevator_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_pink_mk3",
+						"down": "elevator_top_pink_mk3",
+						"side": "elevator_side_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:purple_elevator_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_purple_mk3",
+						"down": "elevator_top_purple_mk3",
+						"side": "elevator_side_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:red_elevator_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_red_mk3",
+						"down": "elevator_top_red_mk3",
+						"side": "elevator_side_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:white_elevator_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_white_mk3",
+						"down": "elevator_top_white_mk3",
+						"side": "elevator_side_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:yellow_elevator_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_yellow_mk3",
+						"down": "elevator_top_yellow_mk3",
+						"side": "elevator_side_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:elevator_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_mk4",
+						"down": "elevator_top_mk4",
+						"side": "elevator_side_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:black_elevator_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_black_mk4",
+						"down": "elevator_top_black_mk4",
+						"side": "elevator_side_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:blue_elevator_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_blue_mk4",
+						"down": "elevator_top_blue_mk4",
+						"side": "elevator_side_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:brown_elevator_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_brown_mk4",
+						"down": "elevator_top_brown_mk4",
+						"side": "elevator_side_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:cyan_elevator_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_cyan_mk4",
+						"down": "elevator_top_cyan_mk4",
+						"side": "elevator_side_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:gray_elevator_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_gray_mk4",
+						"down": "elevator_top_gray_mk4",
+						"side": "elevator_side_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:green_elevator_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_green_mk4",
+						"down": "elevator_top_green_mk4",
+						"side": "elevator_side_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:light_blue_elevator_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_light_blue_mk4",
+						"down": "elevator_top_light_blue_mk4",
+						"side": "elevator_side_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:light_gray_elevator_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_light_gray_mk4",
+						"down": "elevator_top_light_gray_mk4",
+						"side": "elevator_side_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:lime_elevator_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_lime_mk4",
+						"down": "elevator_top_lime_mk4",
+						"side": "elevator_side_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:magenta_elevator_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_magenta_mk4",
+						"down": "elevator_top_magenta_mk4",
+						"side": "elevator_side_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:orange_elevator_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_orange_mk4",
+						"down": "elevator_top_orange_mk4",
+						"side": "elevator_side_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:pink_elevator_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_pink_mk4",
+						"down": "elevator_top_pink_mk4",
+						"side": "elevator_side_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:purple_elevator_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_purple_mk4",
+						"down": "elevator_top_purple_mk4",
+						"side": "elevator_side_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:red_elevator_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_red_mk4",
+						"down": "elevator_top_red_mk4",
+						"side": "elevator_side_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:white_elevator_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_white_mk4",
+						"down": "elevator_top_white_mk4",
+						"side": "elevator_side_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:yellow_elevator_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_yellow_mk4",
+						"down": "elevator_top_yellow_mk4",
+						"side": "elevator_side_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:elevator_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_mk5",
+						"down": "elevator_top_mk5",
+						"side": "elevator_side_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:black_elevator_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_black_mk5",
+						"down": "elevator_top_black_mk5",
+						"side": "elevator_side_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:blue_elevator_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_blue_mk5",
+						"down": "elevator_top_blue_mk5",
+						"side": "elevator_side_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:brown_elevator_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_brown_mk5",
+						"down": "elevator_top_brown_mk5",
+						"side": "elevator_side_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:cyan_elevator_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_cyan_mk5",
+						"down": "elevator_top_cyan_mk5",
+						"side": "elevator_side_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:gray_elevator_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_gray_mk5",
+						"down": "elevator_top_gray_mk5",
+						"side": "elevator_side_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:green_elevator_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_green_mk5",
+						"down": "elevator_top_green_mk5",
+						"side": "elevator_side_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:light_blue_elevator_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_light_blue_mk5",
+						"down": "elevator_top_light_blue_mk5",
+						"side": "elevator_side_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:light_gray_elevator_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_light_gray_mk5",
+						"down": "elevator_top_light_gray_mk5",
+						"side": "elevator_side_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:lime_elevator_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_lime_mk5",
+						"down": "elevator_top_lime_mk5",
+						"side": "elevator_side_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:magenta_elevator_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_magenta_mk5",
+						"down": "elevator_top_magenta_mk5",
+						"side": "elevator_side_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:orange_elevator_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_orange_mk5",
+						"down": "elevator_top_orange_mk5",
+						"side": "elevator_side_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:pink_elevator_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_pink_mk5",
+						"down": "elevator_top_pink_mk5",
+						"side": "elevator_side_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:purple_elevator_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_purple_mk5",
+						"down": "elevator_top_purple_mk5",
+						"side": "elevator_side_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:red_elevator_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_red_mk5",
+						"down": "elevator_top_red_mk5",
+						"side": "elevator_side_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:white_elevator_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_white_mk5",
+						"down": "elevator_top_white_mk5",
+						"side": "elevator_side_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:yellow_elevator_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_top_yellow_mk5",
+						"down": "elevator_top_yellow_mk5",
+						"side": "elevator_side_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:elevator_omega",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omega",
+						"down": "elevator_omega",
+						"side": "elevator_omega"
+					}
+				}
+			},
+			{
+				"key": "se:black_elevator_omega",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omega_black",
+						"down": "elevator_omega_black",
+						"side": "elevator_omega"
+					}
+				}
+			},
+			{
+				"key": "se:blue_elevator_omega",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omega_blue",
+						"down": "elevator_omega_blue",
+						"side": "elevator_omega"
+					}
+				}
+			},
+			{
+				"key": "se:brown_elevator_omega",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omega_brown",
+						"down": "elevator_omega_brown",
+						"side": "elevator_omega"
+					}
+				}
+			},
+			{
+				"key": "se:cyan_elevator_omega",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omega_cyan",
+						"down": "elevator_omega_cyan",
+						"side": "elevator_omega"
+					}
+				}
+			},
+			{
+				"key": "se:gray_elevator_omega",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omega_gray",
+						"down": "elevator_omega_gray",
+						"side": "elevator_omega"
+					}
+				}
+			},
+			{
+				"key": "se:green_elevator_omega",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omega_green",
+						"down": "elevator_omega_green",
+						"side": "elevator_omega"
+					}
+				}
+			},
+			{
+				"key": "se:light_blue_elevator_omega",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omega_light_blue",
+						"down": "elevator_omega_light_blue",
+						"side": "elevator_omega"
+					}
+				}
+			},
+			{
+				"key": "se:light_gray_elevator_omega",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omega_light_gray",
+						"down": "elevator_omega_light_gray",
+						"side": "elevator_omega"
+					}
+				}
+			},
+			{
+				"key": "se:lime_elevator_omega",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omega_lime",
+						"down": "elevator_omega_lime",
+						"side": "elevator_omega"
+					}
+				}
+			},
+			{
+				"key": "se:magenta_elevator_omega",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omega_magenta",
+						"down": "elevator_omega_magenta",
+						"side": "elevator_omega"
+					}
+				}
+			},
+			{
+				"key": "se:orange_elevator_omega",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omega_orange",
+						"down": "elevator_omega_orange",
+						"side": "elevator_omega"
+					}
+				}
+			},
+			{
+				"key": "se:pink_elevator_omega",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omega_pink",
+						"down": "elevator_omega_pink",
+						"side": "elevator_omega"
+					}
+				}
+			},
+			{
+				"key": "se:purple_elevator_omega",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omega_purple",
+						"down": "elevator_omega_purple",
+						"side": "elevator_omega"
+					}
+				}
+			},
+			{
+				"key": "se:red_elevator_omega",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omega_red",
+						"down": "elevator_omega_red",
+						"side": "elevator_omega"
+					}
+				}
+			},
+			{
+				"key": "se:white_elevator_omega",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omega_white",
+						"down": "elevator_omega_white",
+						"side": "elevator_omega"
+					}
+				}
+			},
+			{
+				"key": "se:yellow_elevator_omega",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omega_yellow",
+						"down": "elevator_omega_yellow",
+						"side": "elevator_omega"
+					}
+				}
+			},
+			{
+				"key": "se:elevator_omni_mk1",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni",
+						"down": "elevator_omni",
+						"side": "elevator_omni"
+					}
+				}
+			},
+			{
+				"key": "se:black_elevator_omni_mk1",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_black",
+						"down": "elevator_omni_black",
+						"side": "elevator_omni"
+					}
+				}
+			},
+			{
+				"key": "se:blue_elevator_omni_mk1",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_blue",
+						"down": "elevator_omni_blue",
+						"side": "elevator_omni"
+					}
+				}
+			},
+			{
+				"key": "se:brown_elevator_omni_mk1",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_brown",
+						"down": "elevator_omni_brown",
+						"side": "elevator_omni"
+					}
+				}
+			},
+			{
+				"key": "se:cyan_elevator_omni_mk1",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_cyan",
+						"down": "elevator_omni_cyan",
+						"side": "elevator_omni"
+					}
+				}
+			},
+			{
+				"key": "se:gray_elevator_omni_mk1",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_gray",
+						"down": "elevator_omni_gray",
+						"side": "elevator_omni"
+					}
+				}
+			},
+			{
+				"key": "se:green_elevator_omni_mk1",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_green",
+						"down": "elevator_omni_green",
+						"side": "elevator_omni"
+					}
+				}
+			},
+			{
+				"key": "se:light_blue_elevator_omni_mk1",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_light_blue",
+						"down": "elevator_omni_light_blue",
+						"side": "elevator_omni"
+					}
+				}
+			},
+			{
+				"key": "se:light_gray_elevator_omni_mk1",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_light_gray",
+						"down": "elevator_omni_light_gray",
+						"side": "elevator_omni"
+					}
+				}
+			},
+			{
+				"key": "se:lime_elevator_omni_mk1",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_lime",
+						"down": "elevator_omni_lime",
+						"side": "elevator_omni"
+					}
+				}
+			},
+			{
+				"key": "se:magenta_elevator_omni_mk1",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_magenta",
+						"down": "elevator_omni_magenta",
+						"side": "elevator_omni"
+					}
+				}
+			},
+			{
+				"key": "se:orange_elevator_omni_mk1",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_orange",
+						"down": "elevator_omni_orange",
+						"side": "elevator_omni"
+					}
+				}
+			},
+			{
+				"key": "se:pink_elevator_omni_mk1",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_pink",
+						"down": "elevator_omni_pink",
+						"side": "elevator_omni"
+					}
+				}
+			},
+			{
+				"key": "se:purple_elevator_omni_mk1",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_purple",
+						"down": "elevator_omni_purple",
+						"side": "elevator_omni"
+					}
+				}
+			},
+			{
+				"key": "se:red_elevator_omni_mk1",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_red",
+						"down": "elevator_omni_red",
+						"side": "elevator_omni"
+					}
+				}
+			},
+			{
+				"key": "se:white_elevator_omni_mk1",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_white",
+						"down": "elevator_omni_white",
+						"side": "elevator_omni"
+					}
+				}
+			},
+			{
+				"key": "se:yellow_elevator_omni_mk1",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_yellow",
+						"down": "elevator_omni_yellow",
+						"side": "elevator_omni"
+					}
+				}
+			},
+			{
+				"key": "se:elevator_omni_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_mk2",
+						"down": "elevator_omni_mk2",
+						"side": "elevator_omni_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:black_elevator_omni_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_black_mk2",
+						"down": "elevator_omni_black_mk2",
+						"side": "elevator_omni_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:blue_elevator_omni_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_blue_mk2",
+						"down": "elevator_omni_blue_mk2",
+						"side": "elevator_omni_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:brown_elevator_omni_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_brown_mk2",
+						"down": "elevator_omni_brown_mk2",
+						"side": "elevator_omni_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:cyan_elevator_omni_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_cyan_mk2",
+						"down": "elevator_omni_cyan_mk2",
+						"side": "elevator_omni_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:gray_elevator_omni_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_gray_mk2",
+						"down": "elevator_omni_gray_mk2",
+						"side": "elevator_omni_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:green_elevator_omni_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_green_mk2",
+						"down": "elevator_omni_green_mk2",
+						"side": "elevator_omni_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:light_blue_elevator_omni_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_light_blue_mk2",
+						"down": "elevator_omni_light_blue_mk2",
+						"side": "elevator_omni_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:light_gray_elevator_omni_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_light_gray_mk2",
+						"down": "elevator_omni_light_gray_mk2",
+						"side": "elevator_omni_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:lime_elevator_omni_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_lime_mk2",
+						"down": "elevator_omni_lime_mk2",
+						"side": "elevator_omni_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:magenta_elevator_omni_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_magenta_mk2",
+						"down": "elevator_omni_magenta_mk2",
+						"side": "elevator_omni_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:orange_elevator_omni_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_orange_mk2",
+						"down": "elevator_omni_orange_mk2",
+						"side": "elevator_omni_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:pink_elevator_omni_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_pink_mk2",
+						"down": "elevator_omni_pink_mk2",
+						"side": "elevator_omni_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:purple_elevator_omni_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_purple_mk2",
+						"down": "elevator_omni_purple_mk2",
+						"side": "elevator_omni_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:red_elevator_omni_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_red_mk2",
+						"down": "elevator_omni_red_mk2",
+						"side": "elevator_omni_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:white_elevator_omni_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_white_mk2",
+						"down": "elevator_omni_white_mk2",
+						"side": "elevator_omni_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:yellow_elevator_omni_mk2",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_yellow_mk2",
+						"down": "elevator_omni_yellow_mk2",
+						"side": "elevator_omni_mk2"
+					}
+				}
+			},
+			{
+				"key": "se:elevator_omni_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_mk3",
+						"down": "elevator_omni_mk3",
+						"side": "elevator_omni_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:black_elevator_omni_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_black_mk3",
+						"down": "elevator_omni_black_mk3",
+						"side": "elevator_omni_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:blue_elevator_omni_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_blue_mk3",
+						"down": "elevator_omni_blue_mk3",
+						"side": "elevator_omni_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:brown_elevator_omni_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_brown_mk3",
+						"down": "elevator_omni_brown_mk3",
+						"side": "elevator_omni_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:cyan_elevator_omni_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_cyan_mk3",
+						"down": "elevator_omni_cyan_mk3",
+						"side": "elevator_omni_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:gray_elevator_omni_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_gray_mk3",
+						"down": "elevator_omni_gray_mk3",
+						"side": "elevator_omni_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:green_elevator_omni_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_green_mk3",
+						"down": "elevator_omni_green_mk3",
+						"side": "elevator_omni_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:light_blue_elevator_omni_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_light_blue_mk3",
+						"down": "elevator_omni_light_blue_mk3",
+						"side": "elevator_omni_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:light_gray_elevator_omni_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_light_gray_mk3",
+						"down": "elevator_omni_light_gray_mk3",
+						"side": "elevator_omni_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:lime_elevator_omni_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_lime_mk3",
+						"down": "elevator_omni_lime_mk3",
+						"side": "elevator_omni_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:magenta_elevator_omni_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_magenta_mk3",
+						"down": "elevator_omni_magenta_mk3",
+						"side": "elevator_omni_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:orange_elevator_omni_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_orange_mk3",
+						"down": "elevator_omni_orange_mk3",
+						"side": "elevator_omni_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:pink_elevator_omni_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_pink_mk3",
+						"down": "elevator_omni_pink_mk3",
+						"side": "elevator_omni_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:purple_elevator_omni_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_purple_mk3",
+						"down": "elevator_omni_purple_mk3",
+						"side": "elevator_omni_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:red_elevator_omni_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_red_mk3",
+						"down": "elevator_omni_red_mk3",
+						"side": "elevator_omni_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:white_elevator_omni_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_white_mk3",
+						"down": "elevator_omni_white_mk3",
+						"side": "elevator_omni_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:yellow_elevator_omni_mk3",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_yellow_mk3",
+						"down": "elevator_omni_yellow_mk3",
+						"side": "elevator_omni_mk3"
+					}
+				}
+			},
+			{
+				"key": "se:elevator_omni_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_mk4",
+						"down": "elevator_omni_mk4",
+						"side": "elevator_omni_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:black_elevator_omni_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_black_mk4",
+						"down": "elevator_omni_black_mk4",
+						"side": "elevator_omni_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:blue_elevator_omni_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_blue_mk4",
+						"down": "elevator_omni_blue_mk4",
+						"side": "elevator_omni_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:brown_elevator_omni_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_brown_mk4",
+						"down": "elevator_omni_brown_mk4",
+						"side": "elevator_omni_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:cyan_elevator_omni_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_cyan_mk4",
+						"down": "elevator_omni_cyan_mk4",
+						"side": "elevator_omni_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:gray_elevator_omni_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_gray_mk4",
+						"down": "elevator_omni_gray_mk4",
+						"side": "elevator_omni_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:green_elevator_omni_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_green_mk4",
+						"down": "elevator_omni_green_mk4",
+						"side": "elevator_omni_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:light_blue_elevator_omni_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_light_blue_mk4",
+						"down": "elevator_omni_light_blue_mk4",
+						"side": "elevator_omni_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:light_gray_elevator_omni_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_light_gray_mk4",
+						"down": "elevator_omni_light_gray_mk4",
+						"side": "elevator_omni_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:lime_elevator_omni_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_lime_mk4",
+						"down": "elevator_omni_lime_mk4",
+						"side": "elevator_omni_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:magenta_elevator_omni_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_magenta_mk4",
+						"down": "elevator_omni_magenta_mk4",
+						"side": "elevator_omni_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:orange_elevator_omni_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_orange_mk4",
+						"down": "elevator_omni_orange_mk4",
+						"side": "elevator_omni_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:pink_elevator_omni_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_pink_mk4",
+						"down": "elevator_omni_pink_mk4",
+						"side": "elevator_omni_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:purple_elevator_omni_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_purple_mk4",
+						"down": "elevator_omni_purple_mk4",
+						"side": "elevator_omni_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:red_elevator_omni_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_red_mk4",
+						"down": "elevator_omni_red_mk4",
+						"side": "elevator_omni_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:white_elevator_omni_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_white_mk4",
+						"down": "elevator_omni_white_mk4",
+						"side": "elevator_omni_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:yellow_elevator_omni_mk4",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_yellow_mk4",
+						"down": "elevator_omni_yellow_mk4",
+						"side": "elevator_omni_mk4"
+					}
+				}
+			},
+			{
+				"key": "se:elevator_omni_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_mk5",
+						"down": "elevator_omni_mk5",
+						"side": "elevator_omni_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:black_elevator_omni_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_black_mk5",
+						"down": "elevator_omni_black_mk5",
+						"side": "elevator_omni_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:blue_elevator_omni_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_blue_mk5",
+						"down": "elevator_omni_blue_mk5",
+						"side": "elevator_omni_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:brown_elevator_omni_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_brown_mk5",
+						"down": "elevator_omni_brown_mk5",
+						"side": "elevator_omni_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:cyan_elevator_omni_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_cyan_mk5",
+						"down": "elevator_omni_cyan_mk5",
+						"side": "elevator_omni_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:gray_elevator_omni_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_gray_mk5",
+						"down": "elevator_omni_gray_mk5",
+						"side": "elevator_omni_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:green_elevator_omni_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_green_mk5",
+						"down": "elevator_omni_green_mk5",
+						"side": "elevator_omni_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:light_blue_elevator_omni_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_light_blue_mk5",
+						"down": "elevator_omni_light_blue_mk5",
+						"side": "elevator_omni_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:light_gray_elevator_omni_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_light_gray_mk5",
+						"down": "elevator_omni_light_gray_mk5",
+						"side": "elevator_omni_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:lime_elevator_omni_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_lime_mk5",
+						"down": "elevator_omni_lime_mk5",
+						"side": "elevator_omni_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:magenta_elevator_omni_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_magenta_mk5",
+						"down": "elevator_omni_magenta_mk5",
+						"side": "elevator_omni_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:orange_elevator_omni_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_orange_mk5",
+						"down": "elevator_omni_orange_mk5",
+						"side": "elevator_omni_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:pink_elevator_omni_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_pink_mk5",
+						"down": "elevator_omni_pink_mk5",
+						"side": "elevator_omni_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:purple_elevator_omni_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_purple_mk5",
+						"down": "elevator_omni_purple_mk5",
+						"side": "elevator_omni_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:red_elevator_omni_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_red_mk5",
+						"down": "elevator_omni_red_mk5",
+						"side": "elevator_omni_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:white_elevator_omni_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_white_mk5",
+						"down": "elevator_omni_white_mk5",
+						"side": "elevator_omni_mk5"
+					}
+				}
+			},
+			{
+				"key": "se:yellow_elevator_omni_mk5",
+				"is_minified": true,
+				"children": {
+					"sound": "cloth",
+					"textures": {
+						"up": "elevator_omni_yellow_mk5",
+						"down": "elevator_omni_yellow_mk5",
+						"side": "elevator_omni_mk5"
+					}
+				}
+			}
+		]
+	}
+}

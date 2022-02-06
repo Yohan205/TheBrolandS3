@@ -1,0 +1,60 @@
+//bridge-file-version: #24
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:spawner_block_pillager_and_wolves"
+		},
+		"components": {
+			"minecraft:destroy_time": 100,
+			"minecraft:explosion_resistance": 100,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "spawner_block_castle",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:immovable": true,
+			"minecraft:ticking": {
+				"range": [
+					0,
+					1
+				],
+				"on_tick": {
+					"event": "spawn",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"spawn": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"summon pillager ~~~ minecraft:spawn_as_illager_captain",
+								"summon korbon:pillager_wolf ~~~",
+								"summon korbon:pillager_wolf ~~~",
+								"summon korbon:pillager_wolf ~~~",
+								"summon pillager ~~~",
+								"summon pillager ~~~",
+								"summon pillager ~~~",
+								"summon pillager ~~~"
+							]
+						}
+					},
+					{
+						"set_block_at_pos": {
+							"block_type": "minecraft:air",
+							"block_offset": [
+								0,
+								0,
+								0
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

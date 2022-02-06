@@ -1,0 +1,79 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bzf:furniture_box",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/blocks/bzf_furniture_box.json",
+      "minecraft:destroy_time": 5.0,
+      "minecraft:friction": 0.7,
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:explosion_resistance": 1.0,
+      "minecraft:block_light_absorption": 0.0,
+      "minecraft:block_light_emission": 0.0,
+      "minecraft:geometry": "geometry.block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "bzf_furniture_box_side",
+          "render_method": "blend"
+        }
+      },
+      "minecraft:on_placed": {
+        "event": "size:block",
+        "target": "self"
+      },
+      "minecraft:on_player_destroyed": {
+        "event": "remove:block",
+        "target": "self"
+      },
+      "minecraft:on_step_on": {
+        "event": "step:on",
+        "target": "self"
+      },
+      "minecraft:on_step_off": {
+        "event": "step:off",
+        "target": "self"
+      },
+      "minecraft:ticking": {
+        "looping": true,
+        "range": [
+          10,
+          10
+        ],
+        "on_tick": {
+          "event": "on_tick",
+          "target": "self"
+        }
+      }
+    },
+    "events": {
+      "on_tick": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "size:block": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "remove:block": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "step:on": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "step:off": {
+        "run_command": {
+          "command": []
+        }
+      }
+    }
+  }
+}

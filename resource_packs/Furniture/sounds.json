@@ -1,0 +1,21 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "bzf:sit": {
+        "volume": 0.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "death": "mob.bzf_sit.death"
+        }
+      },
+      "bzf:sitdinningchair": {
+        "volume": 0.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "death": "mob.bzf_sitdinningchair.death"
+          }
+        }
+      }
+    }
+  }
+}

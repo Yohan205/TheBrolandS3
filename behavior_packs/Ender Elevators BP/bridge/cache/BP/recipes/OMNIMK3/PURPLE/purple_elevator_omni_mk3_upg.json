@@ -1,0 +1,232 @@
+{
+	"file_path": "C:\\Users\\Sofia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ender Elevators BP\\recipes\\OMNIMK2\\PURPLE\\purple_elevator_omni_mk3_upg.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "1d15ef87_7482_4999_a4d0_14525af4541b",
+	"file_version": 32,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.16,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "se:purple_elevator_omni_mk3_upg"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"!S!",
+							"S#S",
+							"!S!"
+						],
+						"key": {
+							"S": {
+								"item": "se:purple_elevator_mk3"
+							},
+							"#": {
+								"item": "se:purple_elevator_omni_mk2"
+							},
+							"!": {
+								"item": "minecraft:stonebrick:3"
+							}
+						},
+						"result": [
+							{
+								"count": 1,
+								"item": "se:purple_elevator_omni_mk3"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "se:purple_elevator_omni_mk3_upg"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "se:purple_elevator_mk3"
+								},
+								"#": {
+									"item": "se:purple_elevator_omni_mk2"
+								},
+								"!": {
+									"item": "minecraft:stonebrick:3"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:purple_elevator_omni_mk3"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "se:purple_elevator_omni_mk3_upg"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"!S!",
+							"S#S",
+							"!S!"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:purple_elevator_omni_mk3_upg"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "se:purple_elevator_mk3"
+								},
+								"#": {
+									"item": "se:purple_elevator_omni_mk2"
+								},
+								"!": {
+									"item": "minecraft:stonebrick:3"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:purple_elevator_omni_mk3"
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"S": {
+										"item": "se:purple_elevator_mk3"
+									},
+									"#": {
+										"item": "se:purple_elevator_omni_mk2"
+									},
+									"!": {
+										"item": "minecraft:stonebrick:3"
+									}
+								},
+								"key": "S",
+								"is_minified": true,
+								"children": {
+									"item": "se:purple_elevator_mk3"
+								}
+							},
+							{
+								"open": {
+									"S": {
+										"item": "se:purple_elevator_mk3"
+									},
+									"#": {
+										"item": "se:purple_elevator_omni_mk2"
+									},
+									"!": {
+										"item": "minecraft:stonebrick:3"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "se:purple_elevator_omni_mk2"
+								}
+							},
+							{
+								"key": "!",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:stonebrick:3"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:purple_elevator_omni_mk3_upg"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "se:purple_elevator_mk3"
+								},
+								"#": {
+									"item": "se:purple_elevator_omni_mk2"
+								},
+								"!": {
+									"item": "minecraft:stonebrick:3"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:purple_elevator_omni_mk3"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"count": 1,
+										"item": "se:purple_elevator_omni_mk3"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"count": 1,
+									"item": "se:purple_elevator_omni_mk3"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

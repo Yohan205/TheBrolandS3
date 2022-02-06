@@ -1,0 +1,35 @@
+{
+	"format_version": [1, 16, 0],
+	"daxo:jukebox_utility": {
+		"sound": "wood",
+		"textures": {
+			"down": "jukebox_utility_bottom",
+			"side": "jukebox_utility_side",
+			"up": "jukebox_utility_top_stop"
+		}
+	},
+	"daxo:jukebox_utility_lifeletters": {
+		"sound": "wood",
+		"textures": {
+			"down": "jukebox_utility_bottom",
+			"side": "jukebox_utility_side",
+			"up": "jukebox_utility_top"
+		}
+	},
+	"daxo:jukebox_utility_fallen": {
+		"sound": "wood",
+		"textures": {
+			"down": "jukebox_utility_bottom",
+			"side": "jukebox_utility_side",
+			"up": "jukebox_utility_top"
+		}
+	},
+	"daxo:jukebox_utility_dancing": {
+		"sound": "wood",
+		"textures": {
+			"down": "jukebox_utility_bottom",
+			"side": "jukebox_utility_side",
+			"up": "jukebox_utility_top"
+		}
+	}
+}

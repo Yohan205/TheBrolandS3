@@ -1,0 +1,40 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:crypt_spawner"
+		},
+		"components": {
+			"minecraft:destroy_time": 100,
+			"minecraft:explosion_resistance": 100,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "spawner_block",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:immovable": true,
+			"minecraft:ticking": {
+				"range": [
+					15,
+					15
+				],
+				"on_tick": {
+					"event": "spawn",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"spawn": {
+				"run_command": {
+					"command": [
+						"structure load crypt_1 ~-13~-8~-30",
+						"fill ~~~ ~~~ air"
+					]
+				}
+			}
+		}
+	}
+}

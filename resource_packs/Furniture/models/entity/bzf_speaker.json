@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.bzf_speaker",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 0, -8], "size": [12, 1, 12], "uv": [0, 13]},
+						{"origin": [-6, 21, -8], "size": [12, 1, 12], "uv": [0, 0]},
+						{"origin": [-6, 1, -8], "size": [1, 20, 12], "uv": [26, 26]},
+						{"origin": [5, 1, -8], "size": [1, 20, 12], "uv": [0, 26]},
+						{"origin": [-5, 1, 2.5], "size": [10, 20, 1], "uv": [52, 21]},
+						{"origin": [-5, 1, -8], "size": [10, 20, 1], "uv": [48, 0]},
+						{"origin": [1.24264, 1.24264, 2.6], "size": [6, 6, 1], "pivot": [0, 0, 0], "rotation": [0, 0, -45], "uv": [52, 42]},
+						{"origin": [8.31371, 8.31371, 2.6], "size": [6, 6, 1], "pivot": [0, 0, 0], "rotation": [0, 0, -45], "uv": [14, 26]}
+					]
+				}
+			]
+		}
+	]
+}

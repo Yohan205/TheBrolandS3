@@ -1,0 +1,21 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"daxo:record_lifeletters": {
+			"textures": [
+				"textures/items/record_lifeletters"
+			]
+		},
+		"daxo:record_fallen": {
+			"textures": [
+				"textures/items/record_fallen"
+			]
+		},
+		"daxo:record_dancing": {
+			"textures": [
+				"textures/items/record_dancing"
+			]
+		}
+	}
+}

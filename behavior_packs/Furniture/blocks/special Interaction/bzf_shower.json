@@ -1,0 +1,103 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "bzf:shower",
+            "properties": {
+                "bzf:face": [ 0, 1, 2, 3 ],
+                "bzf:on": [ false, true ]
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "bzf_shower",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:pick_collision": {
+                "origin": [ -8, 0, -8 ],
+                "size": [ 16, 16, 16 ]
+            },
+            "minecraft:loot": "loot_tables/blocks/bzf_shower.json",
+            "minecraft:geometry": "geometry.bzf_showerclose",
+            "minecraft:destroy_time": 3.0,
+			"minecraft:block_light_absorption": 0.0,
+            "minecraft:unwalkable": true,
+            "minecraft:entity_collision": {
+                "origin": [ -8.0, 0.0, -8.0 ],
+                "size": [ 1, 1, 1 ]
+            },
+            "minecraft:ticking": {
+                "looping": true,
+                "range": [ 0, 0 ],
+                "on_tick": {
+                "event": "water_particle"
+                }
+            },
+            "minecraft:friction": 0.6,
+            "minecraft:map_color": "#00ff00",
+            "minecraft:flammable": {
+                "flame_odds": 0,
+                "burn_odds": 0
+            },
+
+            "minecraft:on_interact": { 
+			"event": "bzf:toggle"
+			},
+            "minecraft:on_player_placing": { "event": "bzf:face" }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('bzf:face') == 0",
+                "components": { "minecraft:rotation": [ 0, 180, 0 ] }
+            }, {
+                "condition": "query.block_property('bzf:face') == 1",
+                "components": { "minecraft:rotation": [ 0, 0, 0 ] }
+            }, {
+                "condition": "query.block_property('bzf:face') == 2",
+                "components": { "minecraft:rotation": [ 0, 270, 0 ] }
+            },  {
+                "condition": "query.block_property('bzf:face') == 3",
+                "components": { "minecraft:rotation": [ 0, 90, 0 ] }
+            },
+            {
+                "condition": "!query.block_property('bzf:on')",
+                "components": {
+                    "minecraft:geometry": "geometry.bzf_showerclose",
+                    "minecraft:ticking": {
+                      "looping": true,
+                      "range": [ 0, 0 ],
+                      "on_tick": {
+                      "event": "nothing"
+                        }
+                    },
+			        "minecraft:block_light_absorption": 0.0,
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "bzf_shower",
+                            "render_method": "opaque"
+					    }
+				    }
+				}
+            }
+        ],
+        "events": {
+            "bzf:face": {
+                "set_block_property": {
+                    "bzf:face": "query.cardinal_facing_2d-2"
+                }
+            },
+            "water_particle": {
+                "run_command": {
+                    "command": ["particle minecraft:water_drip_particle ~~1.3~","particle minecraft:water_drip_particle ~0.1~1.4~","particle minecraft:water_drip_particle ~-0.1~1.3~","particle minecraft:water_drip_particle ~~1.4~-0.1","particle minecraft:water_drip_particle ~~1.3~0.1","particle minecraft:water_drip_particle ~0.1~1.4~","particle minecraft:water_drip_particle ~-0.1~1.3~-0.1","particle minecraft:water_drip_particle ~0.1~1.4~0.1","particle minecraft:water_drip_particle ~0.1~1.4~-0.1","particle minecraft:water_drip_particle ~-0.1~1.3~0.1", "playsound ambient.weather.rain @p ~~~ 1 5" ]
+                }
+            },
+            "bzf:toggle": {
+                "set_block_property": {
+                    "bzf:on": "query.block_property('bzf:on') ? false : true"
+                }
+            }
+        }
+    }
+}

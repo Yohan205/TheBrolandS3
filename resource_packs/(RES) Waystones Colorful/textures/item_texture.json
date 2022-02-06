@@ -1,0 +1,22 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+   "andesite_waystone": {
+     "textures": "textures/item/andesite_waystone"
+  	},
+   "sandstone_waystone": {
+     "textures": "textures/item/sandstone_waystone"
+  	},
+   "mossy_waystone": {
+     "textures": "textures/item/mossy_waystone"
+  	},
+   "warp_stone": {
+     "textures": "textures/item/warp_stone"
+  	},
+   "warp_scroll": {
+     "textures": "textures/item/warp_scroll"
+  	}
+  }
+}
+// ABDS (ignore isso) BASE BY ANDRIEL GAMES 

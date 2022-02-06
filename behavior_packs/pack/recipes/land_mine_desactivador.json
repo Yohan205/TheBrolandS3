@@ -1,0 +1,34 @@
+//bridge-file-version: #34
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "scb:land_mine_deactivate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#  ",
+			"#XO",
+			"## "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:iron_ingot"
+			},
+			"X": {
+				"item": "minecraft:shears"
+			},
+			"O": {
+				"item": "scb:block_remover"
+			}
+		},
+		"result": [
+			{
+				"item": "scb:land_mine_deactivate",
+				"count": 1
+			}
+		]
+	}
+}

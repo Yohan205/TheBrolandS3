@@ -1,0 +1,132 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\SecurityBE\\items\\block_reinforcer.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "5a084316_b6c3_4bb7_8dd4_a1ee747f7309",
+	"file_version": 6,
+	"cache_content": {
+		"open": true,
+		"comment": "",
+		"data": "",
+		"key": "global",
+		"type": "object",
+		"meta": {},
+		"children": [
+			{
+				"open": false,
+				"comment": "",
+				"data": "1.10",
+				"key": "format_version",
+				"type": "string",
+				"meta": {},
+				"children": []
+			},
+			{
+				"open": true,
+				"comment": "",
+				"data": "",
+				"key": "minecraft:item",
+				"type": "object",
+				"meta": {},
+				"children": [
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "description",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": true,
+								"comment": "",
+								"data": "scb:block_reinforcer",
+								"key": "identifier",
+								"type": "string",
+								"meta": {},
+								"children": []
+							}
+						]
+					},
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "components",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "100000",
+								"key": "minecraft:use_duration",
+								"type": "number",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "true",
+								"key": "minecraft:hand_equipped",
+								"type": "string",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "bridge:item_equipped_sensor",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "execute_commands",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "/say §aequipado!",
+												"key": "0",
+												"type": "string",
+												"meta": {
+													"is_value": true
+												},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "1",
+								"key": "minecraft:max_stack_size",
+								"type": "string",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "true",
+								"key": "minecraft:stacked_by_data",
+								"type": "string",
+								"meta": {},
+								"children": []
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

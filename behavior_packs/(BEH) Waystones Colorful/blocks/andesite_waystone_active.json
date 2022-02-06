@@ -1,0 +1,64 @@
+// Caso você utilize esses código no seu addon deixe os créditos para Andriel Games
+{
+  "format_version":"1.16.0",
+  "minecraft:block":{
+    "description":{
+      "identifier":"ws:andesite_waystone_active.waystones"
+    },
+    "components":{
+      "minecraft:material_instances":{
+        "*":{
+          "texture":"andesite_waystone_active",
+          "render_method":"alpha_test"
+        }
+      },
+      "minecraft:geometry":"geometry.waystone_active",
+      "minecraft:pick_collision":{
+        "origin":[ -8, 0, -8 ],
+        "size":[ 16, 16, 16 ]
+      },
+      "minecraft:entity_collision":{
+        "origin":[ -8, 0, -8 ],
+        "size":[ 16, 16, 16 ]
+      },
+      "minecraft:immovable": true,
+      "minecraft:destroy_time":1.0,
+      "minecraft:friction":0.6,
+      "minecraft:explosion_resistance":3.0,
+      "minecraft:block_light_absorption":8.0,
+      "minecraft:loot":"loot_tables/andesite_waystone.json",
+      "minecraft:map_color":"#818181",
+    	"minecraft:placement_filter": {
+        "conditions": [
+      		{
+            "block_filter": ["ws:andesite_waystone_bottom.waystones"],
+            "allowed_faces": ["up"]
+      		}
+        ]
+    	},
+      "minecraft:on_interact":{
+        "event":"interface"
+      }
+    },
+    "events":{
+      "interface":{
+        "run_command":{
+          "command":[
+            "summon ws:ui.waystones ~~-1~-0.6",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=red, c=1, r=2] ~~~ tag @p add red",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=green, c=1, r=2] ~~~ tag @p add green",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=blue, c=1, r=2] ~~~ tag @p add blue",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=pink, c=1, r=2] ~~~ tag @p add pink",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=purple, c=1, r=2] ~~~ tag @p add purple",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=black, c=1, r=2] ~~~ tag @p add black",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=gray, c=1, r=2] ~~~ tag @p add gray",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=yellow, c=1, r=2] ~~~ tag @p add yellow",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=orange, c=1, r=2] ~~~ tag @p add orange",
+            "execute @e[type=ws:waystone.waystones, name=waystone, tag=brown, c=1, r=2] ~~~ tag @p add brown"
+          ]
+        }
+      }
+    }
+  }
+}
+// BASE FEITA POR ANDRIEL GAMES

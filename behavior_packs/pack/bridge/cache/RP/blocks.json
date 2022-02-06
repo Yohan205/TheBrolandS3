@@ -1,0 +1,1707 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\SecurityBE\\blocks.json",
+	"file_type": "client_block",
+	"format_version": 1,
+	"file_uuid": "624af787_a8c8_431e_a3ba_a86d38394040",
+	"file_version": 34,
+	"cache_content": {
+		"children": [
+			{
+				"key": "format_version",
+				"is_minified": true,
+				"array": [
+					1,
+					1,
+					0
+				]
+			},
+			{
+				"key": "scb:stone_granite_smooth_reinforced",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "stone_granite_smooth_reinforced",
+								"down": "stone_granite_smooth_reinforced",
+								"side": "stone_granite_smooth_reinforced"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "stone_granite_smooth_reinforced",
+							"down": "stone_granite_smooth_reinforced",
+							"side": "stone_granite_smooth_reinforced"
+						}
+					}
+				]
+			},
+			{
+				"key": "scb:dirt_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "dirt_reinforced",
+						"down": "dirt_reinforced",
+						"side": "dirt_reinforced"
+					},
+					"sound": "dirt"
+				}
+			},
+			{
+				"key": "scb:cobblestone_mossy_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "cobblestone_mossy_reinforced",
+						"down": "cobblestone_mossy_reinforced",
+						"side": "cobblestone_mossy_reinforced"
+					}
+				}
+			},
+			{
+				"key": "scb:cobblestone_reinforced",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "cobblestone_reinforced",
+								"down": "cobblestone_reinforced",
+								"side": "cobblestone_reinforced"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "cobblestone_reinforced",
+							"down": "cobblestone_reinforced",
+							"side": "cobblestone_reinforced"
+						}
+					}
+				]
+			},
+			{
+				"key": "scb:brick_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "brick_reinforced",
+						"down": "brick_reinforced",
+						"side": "brick_reinforced"
+					},
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "scb:stone_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "stone_reinforced",
+						"down": "stone_reinforced",
+						"side": "stone_reinforced"
+					},
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "scb:stonebrick_carved_reinforced",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "stonebrick_carved_reinforced",
+								"down": "stonebrick_carved_reinforced",
+								"side": "stonebrick_carved_reinforced"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "stonebrick_carved_reinforced",
+							"down": "stonebrick_carved_reinforced",
+							"side": "stonebrick_carved_reinforced"
+						}
+					}
+				]
+			},
+			{
+				"key": "scb:stonebrick_cracked_reinforced",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "stonebrick_cracked_reinforced",
+								"down": "stonebrick_cracked_reinforced",
+								"side": "stonebrick_cracked_reinforced"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "stonebrick_cracked_reinforced",
+							"down": "stonebrick_cracked_reinforced",
+							"side": "stonebrick_cracked_reinforced"
+						}
+					}
+				]
+			},
+			{
+				"key": "scb:stonebrick_mossy_reinforced",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "stonebrick_mossy_reinforced",
+								"down": "stonebrick_mossy_reinforced",
+								"side": "stonebrick_mossy_reinforced"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "stonebrick_mossy_reinforced",
+							"down": "stonebrick_mossy_reinforced",
+							"side": "stonebrick_mossy_reinforced"
+						}
+					}
+				]
+			},
+			{
+				"key": "scb:stonebrick_reinforced",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "stonebrick_reinforced",
+								"down": "stonebrick_reinforced",
+								"side": "stonebrick_reinforced"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "stonebrick_reinforced",
+							"down": "stonebrick_reinforced",
+							"side": "stonebrick_reinforced"
+						}
+					}
+				]
+			},
+			{
+				"key": "scb:stone_granite_reinforced",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "stone_granite_reinforced",
+								"down": "stone_granite_reinforced",
+								"side": "stone_granite_reinforced"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "stone_granite_reinforced",
+							"down": "stone_granite_reinforced",
+							"side": "stone_granite_reinforced"
+						}
+					}
+				]
+			},
+			{
+				"key": "scb:stone_diorite_smooth_reinforced",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "stone_diorite_smooth_reinforced",
+								"down": "stone_diorite_smooth_reinforced",
+								"side": "stone_diorite_smooth_reinforced"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "stone_diorite_smooth_reinforced",
+							"down": "stone_diorite_smooth_reinforced",
+							"side": "stone_diorite_smooth_reinforced"
+						}
+					}
+				]
+			},
+			{
+				"key": "scb:stone_diorite_reinforced",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "stone_diorite_reinforced",
+								"down": "stone_diorite_reinforced",
+								"side": "stone_diorite_reinforced"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "stone_diorite_reinforced",
+							"down": "stone_diorite_reinforced",
+							"side": "stone_diorite_reinforced"
+						}
+					}
+				]
+			},
+			{
+				"key": "scb:stone_andesite_smooth_reinforced",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "stone_andesite_smooth_reinforced",
+								"down": "stone_andesite_smooth_reinforced",
+								"side": "stone_andesite_smooth_reinforced"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "stone_andesite_smooth_reinforced",
+							"down": "stone_andesite_smooth_reinforced",
+							"side": "stone_andesite_smooth_reinforced"
+						}
+					}
+				]
+			},
+			{
+				"key": "scb:stone_andesite_reinforced",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "stone_andesite_reinforced",
+								"down": "stone_andesite_reinforced",
+								"side": "stone_andesite_reinforced"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "stone_andesite_reinforced",
+							"down": "stone_andesite_reinforced",
+							"side": "stone_andesite_reinforced"
+						}
+					}
+				]
+			},
+			{
+				"key": "scb:end_stone_reinforced",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "end_stone_reinforced",
+								"down": "end_stone_reinforced",
+								"side": "end_stone_reinforced"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "end_stone_reinforced",
+							"down": "end_stone_reinforced",
+							"side": "end_stone_reinforced"
+						}
+					}
+				]
+			},
+			{
+				"key": "scb:plank_acacia_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "plank_acacia_reinforced",
+						"down": "plank_acacia_reinforced",
+						"side": "plank_acacia_reinforced"
+					},
+					"sound": "wood"
+				}
+			},
+			{
+				"key": "scb:plank_big_oak_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "plank_big_oak_reinforced",
+						"down": "plank_big_oak_reinforced",
+						"side": "plank_big_oak_reinforced"
+					},
+					"sound": "wood"
+				}
+			},
+			{
+				"key": "scb:plank_birch_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "plank_birch_reinforced",
+						"down": "plank_birch_reinforced",
+						"side": "plank_birch_reinforced"
+					},
+					"sound": "wood"
+				}
+			},
+			{
+				"key": "scb:plank_jungle_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "plank_jungle_reinforced",
+						"down": "plank_jungle_reinforced",
+						"side": "plank_jungle_reinforced"
+					},
+					"sound": "wood"
+				}
+			},
+			{
+				"key": "scb:plank_spruce_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "plank_spruce_reinforced",
+						"down": "plank_spruce_reinforced",
+						"side": "plank_spruce_reinforced"
+					},
+					"sound": "wood"
+				}
+			},
+			{
+				"key": "scb:plank_oak_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "plank_oak_reinforced",
+						"down": "plank_oak_reinforced",
+						"side": "plank_oak_reinforced"
+					},
+					"sound": "wood"
+				}
+			},
+			{
+				"key": "scb:wool_black_reinforced",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "r_wool_black",
+								"down": "r_wool_black",
+								"side": "r_wool_black"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "r_wool_black",
+							"down": "r_wool_black",
+							"side": "r_wool_black"
+						}
+					}
+				]
+			},
+			{
+				"key": "scb:wool_blue_reinforced",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "r_wool_blue",
+								"down": "r_wool_blue",
+								"side": "r_wool_blue"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "r_wool_blue",
+							"down": "r_wool_blue",
+							"side": "r_wool_blue"
+						}
+					}
+				]
+			},
+			{
+				"key": "scb:wool_brown_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "r_wool_brown",
+						"down": "r_wool_brown",
+						"side": "r_wool_brown"
+					}
+				}
+			},
+			{
+				"key": "scb:wool_cyan_reinforced",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "r_wool_cyan",
+								"down": "r_wool_cyan",
+								"side": "r_wool_cyan"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "r_wool_cyan",
+							"down": "r_wool_cyan",
+							"side": "r_wool_cyan"
+						}
+					}
+				]
+			},
+			{
+				"key": "scb:wool_gray_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "r_wool_gray",
+						"down": "r_wool_gray",
+						"side": "r_wool_gray"
+					}
+				}
+			},
+			{
+				"key": "scb:wool_green_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "r_wool_green",
+						"down": "r_wool_green",
+						"side": "r_wool_green"
+					}
+				}
+			},
+			{
+				"key": "scb:wool_light_blue_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "r_wool_light_blue",
+						"down": "r_wool_light_blue",
+						"side": "r_wool_light_blue"
+					}
+				}
+			},
+			{
+				"key": "scb:wool_lime_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "r_wool_lime",
+						"down": "r_wool_lime",
+						"side": "r_wool_lime"
+					}
+				}
+			},
+			{
+				"key": "scb:wool_magenta_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "r_wool_magenta",
+						"down": "r_wool_magenta",
+						"side": "r_wool_magenta"
+					}
+				}
+			},
+			{
+				"key": "scb:wool_orange_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "r_wool_orange",
+						"down": "r_wool_orange",
+						"side": "r_wool_orange"
+					}
+				}
+			},
+			{
+				"key": "scb:wool_pink_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "r_wool_pink",
+						"down": "r_wool_pink",
+						"side": "r_wool_pink"
+					}
+				}
+			},
+			{
+				"key": "scb:wool_purple_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "r_wool_purple",
+						"down": "r_wool_purple",
+						"side": "r_wool_purple"
+					}
+				}
+			},
+			{
+				"key": "scb:wool_red_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "r_wool_red",
+						"down": "r_wool_red",
+						"side": "r_wool_red"
+					}
+				}
+			},
+			{
+				"key": "scb:wool_silver_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "r_wool_silver",
+						"down": "r_wool_silver",
+						"side": "r_wool_silver"
+					}
+				}
+			},
+			{
+				"key": "scb:wool_white_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "r_wool_white",
+						"down": "r_wool_white",
+						"side": "r_wool_white"
+					}
+				}
+			},
+			{
+				"key": "scb:wool_yellow_reinforced",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "r_wool_yellow",
+						"down": "r_wool_yellow",
+						"side": "r_wool_yellow"
+					}
+				}
+			},
+			{
+				"key": "scb:table_drop",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "iron_block",
+						"down": "iron_block",
+						"side": "iron_block"
+					},
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "scb:fire_alarm_drop",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "iron_block",
+						"down": "iron_block",
+						"side": "iron_block"
+					},
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "scb:quartz_block_reinforced",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "quartz_block_reinforced",
+								"down": "quartz_block_reinforced",
+								"side": "quartz_block_reinforced"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "quartz_block_reinforced",
+							"down": "quartz_block_reinforced",
+							"side": "quartz_block_reinforced"
+						}
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"scb:stone_granite_smooth_reinforced": {
+						"textures": {
+							"up": "stone_granite_smooth_reinforced",
+							"down": "stone_granite_smooth_reinforced",
+							"side": "stone_granite_smooth_reinforced"
+						}
+					},
+					"scb:dirt_reinforced": {
+						"textures": {
+							"up": "dirt_reinforced",
+							"down": "dirt_reinforced",
+							"side": "dirt_reinforced"
+						},
+						"sound": "dirt"
+					},
+					"scb:cobblestone_mossy_reinforced": {
+						"textures": {
+							"up": "cobblestone_mossy_reinforced",
+							"down": "cobblestone_mossy_reinforced",
+							"side": "cobblestone_mossy_reinforced"
+						}
+					},
+					"scb:cobblestone_reinforced": {
+						"textures": {
+							"up": "cobblestone_reinforced",
+							"down": "cobblestone_reinforced",
+							"side": "cobblestone_reinforced"
+						}
+					},
+					"scb:brick_reinforced": {
+						"textures": {
+							"up": "brick_reinforced",
+							"down": "brick_reinforced",
+							"side": "brick_reinforced"
+						},
+						"sound": "stone"
+					},
+					"scb:stone_reinforced": {
+						"textures": {
+							"up": "stone_reinforced",
+							"down": "stone_reinforced",
+							"side": "stone_reinforced"
+						},
+						"sound": "stone"
+					},
+					"scb:stonebrick_carved_reinforced": {
+						"textures": {
+							"up": "stonebrick_carved_reinforced",
+							"down": "stonebrick_carved_reinforced",
+							"side": "stonebrick_carved_reinforced"
+						}
+					},
+					"scb:stonebrick_cracked_reinforced": {
+						"textures": {
+							"up": "stonebrick_cracked_reinforced",
+							"down": "stonebrick_cracked_reinforced",
+							"side": "stonebrick_cracked_reinforced"
+						}
+					},
+					"scb:stonebrick_mossy_reinforced": {
+						"textures": {
+							"up": "stonebrick_mossy_reinforced",
+							"down": "stonebrick_mossy_reinforced",
+							"side": "stonebrick_mossy_reinforced"
+						}
+					},
+					"scb:stonebrick_reinforced": {
+						"textures": {
+							"up": "stonebrick_reinforced",
+							"down": "stonebrick_reinforced",
+							"side": "stonebrick_reinforced"
+						}
+					},
+					"scb:stone_granite_reinforced": {
+						"textures": {
+							"up": "stone_granite_reinforced",
+							"down": "stone_granite_reinforced",
+							"side": "stone_granite_reinforced"
+						}
+					},
+					"scb:stone_diorite_smooth_reinforced": {
+						"textures": {
+							"up": "stone_diorite_smooth_reinforced",
+							"down": "stone_diorite_smooth_reinforced",
+							"side": "stone_diorite_smooth_reinforced"
+						}
+					},
+					"scb:stone_diorite_reinforced": {
+						"textures": {
+							"up": "stone_diorite_reinforced",
+							"down": "stone_diorite_reinforced",
+							"side": "stone_diorite_reinforced"
+						}
+					},
+					"scb:stone_andesite_smooth_reinforced": {
+						"textures": {
+							"up": "stone_andesite_smooth_reinforced",
+							"down": "stone_andesite_smooth_reinforced",
+							"side": "stone_andesite_smooth_reinforced"
+						}
+					},
+					"scb:stone_andesite_reinforced": {
+						"textures": {
+							"up": "stone_andesite_reinforced",
+							"down": "stone_andesite_reinforced",
+							"side": "stone_andesite_reinforced"
+						}
+					},
+					"scb:end_stone_reinforced": {
+						"textures": {
+							"up": "end_stone_reinforced",
+							"down": "end_stone_reinforced",
+							"side": "end_stone_reinforced"
+						}
+					},
+					"scb:plank_acacia_reinforced": {
+						"textures": {
+							"up": "plank_acacia_reinforced",
+							"down": "plank_acacia_reinforced",
+							"side": "plank_acacia_reinforced"
+						},
+						"sound": "wood"
+					},
+					"scb:plank_big_oak_reinforced": {
+						"textures": {
+							"up": "plank_big_oak_reinforced",
+							"down": "plank_big_oak_reinforced",
+							"side": "plank_big_oak_reinforced"
+						},
+						"sound": "wood"
+					},
+					"scb:plank_birch_reinforced": {
+						"textures": {
+							"up": "plank_birch_reinforced",
+							"down": "plank_birch_reinforced",
+							"side": "plank_birch_reinforced"
+						},
+						"sound": "wood"
+					},
+					"scb:plank_jungle_reinforced": {
+						"textures": {
+							"up": "plank_jungle_reinforced",
+							"down": "plank_jungle_reinforced",
+							"side": "plank_jungle_reinforced"
+						},
+						"sound": "wood"
+					},
+					"scb:plank_spruce_reinforced": {
+						"textures": {
+							"up": "plank_spruce_reinforced",
+							"down": "plank_spruce_reinforced",
+							"side": "plank_spruce_reinforced"
+						},
+						"sound": "wood"
+					},
+					"scb:plank_oak_reinforced": {
+						"textures": {
+							"up": "plank_oak_reinforced",
+							"down": "plank_oak_reinforced",
+							"side": "plank_oak_reinforced"
+						},
+						"sound": "wood"
+					},
+					"scb:wool_black_reinforced": {
+						"textures": {
+							"up": "r_wool_black",
+							"down": "r_wool_black",
+							"side": "r_wool_black"
+						}
+					},
+					"scb:wool_blue_reinforced": {
+						"textures": {
+							"up": "r_wool_blue",
+							"down": "r_wool_blue",
+							"side": "r_wool_blue"
+						}
+					},
+					"scb:wool_brown_reinforced": {
+						"textures": {
+							"up": "r_wool_brown",
+							"down": "r_wool_brown",
+							"side": "r_wool_brown"
+						}
+					},
+					"scb:wool_cyan_reinforced": {
+						"textures": {
+							"up": "r_wool_cyan",
+							"down": "r_wool_cyan",
+							"side": "r_wool_cyan"
+						}
+					},
+					"scb:wool_gray_reinforced": {
+						"textures": {
+							"up": "r_wool_gray",
+							"down": "r_wool_gray",
+							"side": "r_wool_gray"
+						}
+					},
+					"scb:wool_green_reinforced": {
+						"textures": {
+							"up": "r_wool_green",
+							"down": "r_wool_green",
+							"side": "r_wool_green"
+						}
+					},
+					"scb:wool_light_blue_reinforced": {
+						"textures": {
+							"up": "r_wool_light_blue",
+							"down": "r_wool_light_blue",
+							"side": "r_wool_light_blue"
+						}
+					},
+					"scb:wool_lime_reinforced": {
+						"textures": {
+							"up": "r_wool_lime",
+							"down": "r_wool_lime",
+							"side": "r_wool_lime"
+						}
+					},
+					"scb:wool_magenta_reinforced": {
+						"textures": {
+							"up": "r_wool_magenta",
+							"down": "r_wool_magenta",
+							"side": "r_wool_magenta"
+						}
+					},
+					"scb:wool_orange_reinforced": {
+						"textures": {
+							"up": "r_wool_orange",
+							"down": "r_wool_orange",
+							"side": "r_wool_orange"
+						}
+					},
+					"scb:wool_pink_reinforced": {
+						"textures": {
+							"up": "r_wool_pink",
+							"down": "r_wool_pink",
+							"side": "r_wool_pink"
+						}
+					},
+					"scb:wool_purple_reinforced": {
+						"textures": {
+							"up": "r_wool_purple",
+							"down": "r_wool_purple",
+							"side": "r_wool_purple"
+						}
+					},
+					"scb:wool_red_reinforced": {
+						"textures": {
+							"up": "r_wool_red",
+							"down": "r_wool_red",
+							"side": "r_wool_red"
+						}
+					},
+					"scb:wool_silver_reinforced": {
+						"textures": {
+							"up": "r_wool_silver",
+							"down": "r_wool_silver",
+							"side": "r_wool_silver"
+						}
+					},
+					"scb:wool_white_reinforced": {
+						"textures": {
+							"up": "r_wool_white",
+							"down": "r_wool_white",
+							"side": "r_wool_white"
+						}
+					},
+					"scb:wool_yellow_reinforced": {
+						"textures": {
+							"up": "r_wool_yellow",
+							"down": "r_wool_yellow",
+							"side": "r_wool_yellow"
+						}
+					},
+					"scb:table_drop": {
+						"textures": {
+							"up": "iron_block",
+							"down": "iron_block",
+							"side": "iron_block"
+						},
+						"sound": "stone"
+					},
+					"scb:fire_alarm_drop": {
+						"textures": {
+							"up": "iron_block",
+							"down": "iron_block",
+							"side": "iron_block"
+						},
+						"sound": "stone"
+					},
+					"scb:quartz_block_reinforced": {
+						"textures": {
+							"up": "quartz_block_reinforced",
+							"down": "quartz_block_reinforced",
+							"side": "quartz_block_reinforced"
+						}
+					},
+					"scb:quartz_block_chiseled_reinforced": {
+						"textures": {
+							"up": "quartz_block_chiseled_top_reinforced",
+							"down": "quartz_block_chiseled_top_reinforced",
+							"side": "quartz_block_chiseled_reinforced"
+						},
+						"isotropic": true
+					},
+					"scb:rocket_launcher_drop": {
+						"textures": {
+							"up": "iron_block",
+							"down": "iron_block",
+							"side": "iron_block"
+						}
+					},
+					"scb:quartz_block_lines_reinforced": {
+						"textures": {
+							"up": "quartz_block_lines_top_reinforced",
+							"down": "quartz_block_lines_top_reinforced",
+							"side": "quartz_block_lines_reinforced"
+						},
+						"isotropic": true
+					}
+				},
+				"key": "scb:quartz_block_chiseled_reinforced",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "quartz_block_chiseled_top_reinforced",
+								"down": "quartz_block_chiseled_top_reinforced",
+								"side": "quartz_block_chiseled_reinforced"
+							},
+							"isotropic": true
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "quartz_block_chiseled_top_reinforced",
+							"down": "quartz_block_chiseled_top_reinforced",
+							"side": "quartz_block_chiseled_reinforced"
+						}
+					},
+					{
+						"open": {
+							"textures": {
+								"up": "quartz_block_chiseled_top_reinforced",
+								"down": "quartz_block_chiseled_top_reinforced",
+								"side": "quartz_block_chiseled_reinforced"
+							},
+							"isotropic": true
+						},
+						"data": "true",
+						"key": "isotropic"
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"scb:stone_granite_smooth_reinforced": {
+						"textures": {
+							"up": "stone_granite_smooth_reinforced",
+							"down": "stone_granite_smooth_reinforced",
+							"side": "stone_granite_smooth_reinforced"
+						}
+					},
+					"scb:dirt_reinforced": {
+						"textures": {
+							"up": "dirt_reinforced",
+							"down": "dirt_reinforced",
+							"side": "dirt_reinforced"
+						},
+						"sound": "dirt"
+					},
+					"scb:cobblestone_mossy_reinforced": {
+						"textures": {
+							"up": "cobblestone_mossy_reinforced",
+							"down": "cobblestone_mossy_reinforced",
+							"side": "cobblestone_mossy_reinforced"
+						}
+					},
+					"scb:cobblestone_reinforced": {
+						"textures": {
+							"up": "cobblestone_reinforced",
+							"down": "cobblestone_reinforced",
+							"side": "cobblestone_reinforced"
+						}
+					},
+					"scb:brick_reinforced": {
+						"textures": {
+							"up": "brick_reinforced",
+							"down": "brick_reinforced",
+							"side": "brick_reinforced"
+						},
+						"sound": "stone"
+					},
+					"scb:stone_reinforced": {
+						"textures": {
+							"up": "stone_reinforced",
+							"down": "stone_reinforced",
+							"side": "stone_reinforced"
+						},
+						"sound": "stone"
+					},
+					"scb:stonebrick_carved_reinforced": {
+						"textures": {
+							"up": "stonebrick_carved_reinforced",
+							"down": "stonebrick_carved_reinforced",
+							"side": "stonebrick_carved_reinforced"
+						}
+					},
+					"scb:stonebrick_cracked_reinforced": {
+						"textures": {
+							"up": "stonebrick_cracked_reinforced",
+							"down": "stonebrick_cracked_reinforced",
+							"side": "stonebrick_cracked_reinforced"
+						}
+					},
+					"scb:stonebrick_mossy_reinforced": {
+						"textures": {
+							"up": "stonebrick_mossy_reinforced",
+							"down": "stonebrick_mossy_reinforced",
+							"side": "stonebrick_mossy_reinforced"
+						}
+					},
+					"scb:stonebrick_reinforced": {
+						"textures": {
+							"up": "stonebrick_reinforced",
+							"down": "stonebrick_reinforced",
+							"side": "stonebrick_reinforced"
+						}
+					},
+					"scb:stone_granite_reinforced": {
+						"textures": {
+							"up": "stone_granite_reinforced",
+							"down": "stone_granite_reinforced",
+							"side": "stone_granite_reinforced"
+						}
+					},
+					"scb:stone_diorite_smooth_reinforced": {
+						"textures": {
+							"up": "stone_diorite_smooth_reinforced",
+							"down": "stone_diorite_smooth_reinforced",
+							"side": "stone_diorite_smooth_reinforced"
+						}
+					},
+					"scb:stone_diorite_reinforced": {
+						"textures": {
+							"up": "stone_diorite_reinforced",
+							"down": "stone_diorite_reinforced",
+							"side": "stone_diorite_reinforced"
+						}
+					},
+					"scb:stone_andesite_smooth_reinforced": {
+						"textures": {
+							"up": "stone_andesite_smooth_reinforced",
+							"down": "stone_andesite_smooth_reinforced",
+							"side": "stone_andesite_smooth_reinforced"
+						}
+					},
+					"scb:stone_andesite_reinforced": {
+						"textures": {
+							"up": "stone_andesite_reinforced",
+							"down": "stone_andesite_reinforced",
+							"side": "stone_andesite_reinforced"
+						}
+					},
+					"scb:end_stone_reinforced": {
+						"textures": {
+							"up": "end_stone_reinforced",
+							"down": "end_stone_reinforced",
+							"side": "end_stone_reinforced"
+						}
+					},
+					"scb:plank_acacia_reinforced": {
+						"textures": {
+							"up": "plank_acacia_reinforced",
+							"down": "plank_acacia_reinforced",
+							"side": "plank_acacia_reinforced"
+						},
+						"sound": "wood"
+					},
+					"scb:plank_big_oak_reinforced": {
+						"textures": {
+							"up": "plank_big_oak_reinforced",
+							"down": "plank_big_oak_reinforced",
+							"side": "plank_big_oak_reinforced"
+						},
+						"sound": "wood"
+					},
+					"scb:plank_birch_reinforced": {
+						"textures": {
+							"up": "plank_birch_reinforced",
+							"down": "plank_birch_reinforced",
+							"side": "plank_birch_reinforced"
+						},
+						"sound": "wood"
+					},
+					"scb:plank_jungle_reinforced": {
+						"textures": {
+							"up": "plank_jungle_reinforced",
+							"down": "plank_jungle_reinforced",
+							"side": "plank_jungle_reinforced"
+						},
+						"sound": "wood"
+					},
+					"scb:plank_spruce_reinforced": {
+						"textures": {
+							"up": "plank_spruce_reinforced",
+							"down": "plank_spruce_reinforced",
+							"side": "plank_spruce_reinforced"
+						},
+						"sound": "wood"
+					},
+					"scb:plank_oak_reinforced": {
+						"textures": {
+							"up": "plank_oak_reinforced",
+							"down": "plank_oak_reinforced",
+							"side": "plank_oak_reinforced"
+						},
+						"sound": "wood"
+					},
+					"scb:wool_black_reinforced": {
+						"textures": {
+							"up": "r_wool_black",
+							"down": "r_wool_black",
+							"side": "r_wool_black"
+						}
+					},
+					"scb:wool_blue_reinforced": {
+						"textures": {
+							"up": "r_wool_blue",
+							"down": "r_wool_blue",
+							"side": "r_wool_blue"
+						}
+					},
+					"scb:wool_brown_reinforced": {
+						"textures": {
+							"up": "r_wool_brown",
+							"down": "r_wool_brown",
+							"side": "r_wool_brown"
+						}
+					},
+					"scb:wool_cyan_reinforced": {
+						"textures": {
+							"up": "r_wool_cyan",
+							"down": "r_wool_cyan",
+							"side": "r_wool_cyan"
+						}
+					},
+					"scb:wool_gray_reinforced": {
+						"textures": {
+							"up": "r_wool_gray",
+							"down": "r_wool_gray",
+							"side": "r_wool_gray"
+						}
+					},
+					"scb:wool_green_reinforced": {
+						"textures": {
+							"up": "r_wool_green",
+							"down": "r_wool_green",
+							"side": "r_wool_green"
+						}
+					},
+					"scb:wool_light_blue_reinforced": {
+						"textures": {
+							"up": "r_wool_light_blue",
+							"down": "r_wool_light_blue",
+							"side": "r_wool_light_blue"
+						}
+					},
+					"scb:wool_lime_reinforced": {
+						"textures": {
+							"up": "r_wool_lime",
+							"down": "r_wool_lime",
+							"side": "r_wool_lime"
+						}
+					},
+					"scb:wool_magenta_reinforced": {
+						"textures": {
+							"up": "r_wool_magenta",
+							"down": "r_wool_magenta",
+							"side": "r_wool_magenta"
+						}
+					},
+					"scb:wool_orange_reinforced": {
+						"textures": {
+							"up": "r_wool_orange",
+							"down": "r_wool_orange",
+							"side": "r_wool_orange"
+						}
+					},
+					"scb:wool_pink_reinforced": {
+						"textures": {
+							"up": "r_wool_pink",
+							"down": "r_wool_pink",
+							"side": "r_wool_pink"
+						}
+					},
+					"scb:wool_purple_reinforced": {
+						"textures": {
+							"up": "r_wool_purple",
+							"down": "r_wool_purple",
+							"side": "r_wool_purple"
+						}
+					},
+					"scb:wool_red_reinforced": {
+						"textures": {
+							"up": "r_wool_red",
+							"down": "r_wool_red",
+							"side": "r_wool_red"
+						}
+					},
+					"scb:wool_silver_reinforced": {
+						"textures": {
+							"up": "r_wool_silver",
+							"down": "r_wool_silver",
+							"side": "r_wool_silver"
+						}
+					},
+					"scb:wool_white_reinforced": {
+						"textures": {
+							"up": "r_wool_white",
+							"down": "r_wool_white",
+							"side": "r_wool_white"
+						}
+					},
+					"scb:wool_yellow_reinforced": {
+						"textures": {
+							"up": "r_wool_yellow",
+							"down": "r_wool_yellow",
+							"side": "r_wool_yellow"
+						}
+					},
+					"scb:table_drop": {
+						"textures": {
+							"up": "iron_block",
+							"down": "iron_block",
+							"side": "iron_block"
+						},
+						"sound": "stone"
+					},
+					"scb:fire_alarm_drop": {
+						"textures": {
+							"up": "iron_block",
+							"down": "iron_block",
+							"side": "iron_block"
+						},
+						"sound": "stone"
+					},
+					"scb:quartz_block_reinforced": {
+						"textures": {
+							"up": "quartz_block_reinforced",
+							"down": "quartz_block_reinforced",
+							"side": "quartz_block_reinforced"
+						}
+					},
+					"scb:quartz_block_chiseled_reinforced": {
+						"textures": {
+							"up": "quartz_block_chiseled_top_reinforced",
+							"down": "quartz_block_chiseled_top_reinforced",
+							"side": "quartz_block_chiseled_reinforced"
+						},
+						"isotropic": true
+					},
+					"scb:rocket_launcher_drop": {
+						"textures": {
+							"up": "iron_block",
+							"down": "iron_block",
+							"side": "iron_block"
+						}
+					},
+					"scb:quartz_block_lines_reinforced": {
+						"textures": {
+							"up": "quartz_block_lines_top_reinforced",
+							"down": "quartz_block_lines_top_reinforced",
+							"side": "quartz_block_lines_reinforced"
+						},
+						"isotropic": true
+					}
+				},
+				"key": "scb:rocket_launcher_drop",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "iron_block",
+								"down": "iron_block",
+								"side": "iron_block"
+							}
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "iron_block",
+							"down": "iron_block",
+							"side": "iron_block"
+						}
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"scb:stone_granite_smooth_reinforced": {
+						"textures": {
+							"up": "stone_granite_smooth_reinforced",
+							"down": "stone_granite_smooth_reinforced",
+							"side": "stone_granite_smooth_reinforced"
+						}
+					},
+					"scb:dirt_reinforced": {
+						"textures": {
+							"up": "dirt_reinforced",
+							"down": "dirt_reinforced",
+							"side": "dirt_reinforced"
+						},
+						"sound": "dirt"
+					},
+					"scb:cobblestone_mossy_reinforced": {
+						"textures": {
+							"up": "cobblestone_mossy_reinforced",
+							"down": "cobblestone_mossy_reinforced",
+							"side": "cobblestone_mossy_reinforced"
+						}
+					},
+					"scb:cobblestone_reinforced": {
+						"textures": {
+							"up": "cobblestone_reinforced",
+							"down": "cobblestone_reinforced",
+							"side": "cobblestone_reinforced"
+						}
+					},
+					"scb:brick_reinforced": {
+						"textures": {
+							"up": "brick_reinforced",
+							"down": "brick_reinforced",
+							"side": "brick_reinforced"
+						},
+						"sound": "stone"
+					},
+					"scb:stone_reinforced": {
+						"textures": {
+							"up": "stone_reinforced",
+							"down": "stone_reinforced",
+							"side": "stone_reinforced"
+						},
+						"sound": "stone"
+					},
+					"scb:stonebrick_carved_reinforced": {
+						"textures": {
+							"up": "stonebrick_carved_reinforced",
+							"down": "stonebrick_carved_reinforced",
+							"side": "stonebrick_carved_reinforced"
+						}
+					},
+					"scb:stonebrick_cracked_reinforced": {
+						"textures": {
+							"up": "stonebrick_cracked_reinforced",
+							"down": "stonebrick_cracked_reinforced",
+							"side": "stonebrick_cracked_reinforced"
+						}
+					},
+					"scb:stonebrick_mossy_reinforced": {
+						"textures": {
+							"up": "stonebrick_mossy_reinforced",
+							"down": "stonebrick_mossy_reinforced",
+							"side": "stonebrick_mossy_reinforced"
+						}
+					},
+					"scb:stonebrick_reinforced": {
+						"textures": {
+							"up": "stonebrick_reinforced",
+							"down": "stonebrick_reinforced",
+							"side": "stonebrick_reinforced"
+						}
+					},
+					"scb:stone_granite_reinforced": {
+						"textures": {
+							"up": "stone_granite_reinforced",
+							"down": "stone_granite_reinforced",
+							"side": "stone_granite_reinforced"
+						}
+					},
+					"scb:stone_diorite_smooth_reinforced": {
+						"textures": {
+							"up": "stone_diorite_smooth_reinforced",
+							"down": "stone_diorite_smooth_reinforced",
+							"side": "stone_diorite_smooth_reinforced"
+						}
+					},
+					"scb:stone_diorite_reinforced": {
+						"textures": {
+							"up": "stone_diorite_reinforced",
+							"down": "stone_diorite_reinforced",
+							"side": "stone_diorite_reinforced"
+						}
+					},
+					"scb:stone_andesite_smooth_reinforced": {
+						"textures": {
+							"up": "stone_andesite_smooth_reinforced",
+							"down": "stone_andesite_smooth_reinforced",
+							"side": "stone_andesite_smooth_reinforced"
+						}
+					},
+					"scb:stone_andesite_reinforced": {
+						"textures": {
+							"up": "stone_andesite_reinforced",
+							"down": "stone_andesite_reinforced",
+							"side": "stone_andesite_reinforced"
+						}
+					},
+					"scb:end_stone_reinforced": {
+						"textures": {
+							"up": "end_stone_reinforced",
+							"down": "end_stone_reinforced",
+							"side": "end_stone_reinforced"
+						}
+					},
+					"scb:plank_acacia_reinforced": {
+						"textures": {
+							"up": "plank_acacia_reinforced",
+							"down": "plank_acacia_reinforced",
+							"side": "plank_acacia_reinforced"
+						},
+						"sound": "wood"
+					},
+					"scb:plank_big_oak_reinforced": {
+						"textures": {
+							"up": "plank_big_oak_reinforced",
+							"down": "plank_big_oak_reinforced",
+							"side": "plank_big_oak_reinforced"
+						},
+						"sound": "wood"
+					},
+					"scb:plank_birch_reinforced": {
+						"textures": {
+							"up": "plank_birch_reinforced",
+							"down": "plank_birch_reinforced",
+							"side": "plank_birch_reinforced"
+						},
+						"sound": "wood"
+					},
+					"scb:plank_jungle_reinforced": {
+						"textures": {
+							"up": "plank_jungle_reinforced",
+							"down": "plank_jungle_reinforced",
+							"side": "plank_jungle_reinforced"
+						},
+						"sound": "wood"
+					},
+					"scb:plank_spruce_reinforced": {
+						"textures": {
+							"up": "plank_spruce_reinforced",
+							"down": "plank_spruce_reinforced",
+							"side": "plank_spruce_reinforced"
+						},
+						"sound": "wood"
+					},
+					"scb:plank_oak_reinforced": {
+						"textures": {
+							"up": "plank_oak_reinforced",
+							"down": "plank_oak_reinforced",
+							"side": "plank_oak_reinforced"
+						},
+						"sound": "wood"
+					},
+					"scb:wool_black_reinforced": {
+						"textures": {
+							"up": "r_wool_black",
+							"down": "r_wool_black",
+							"side": "r_wool_black"
+						}
+					},
+					"scb:wool_blue_reinforced": {
+						"textures": {
+							"up": "r_wool_blue",
+							"down": "r_wool_blue",
+							"side": "r_wool_blue"
+						}
+					},
+					"scb:wool_brown_reinforced": {
+						"textures": {
+							"up": "r_wool_brown",
+							"down": "r_wool_brown",
+							"side": "r_wool_brown"
+						}
+					},
+					"scb:wool_cyan_reinforced": {
+						"textures": {
+							"up": "r_wool_cyan",
+							"down": "r_wool_cyan",
+							"side": "r_wool_cyan"
+						}
+					},
+					"scb:wool_gray_reinforced": {
+						"textures": {
+							"up": "r_wool_gray",
+							"down": "r_wool_gray",
+							"side": "r_wool_gray"
+						}
+					},
+					"scb:wool_green_reinforced": {
+						"textures": {
+							"up": "r_wool_green",
+							"down": "r_wool_green",
+							"side": "r_wool_green"
+						}
+					},
+					"scb:wool_light_blue_reinforced": {
+						"textures": {
+							"up": "r_wool_light_blue",
+							"down": "r_wool_light_blue",
+							"side": "r_wool_light_blue"
+						}
+					},
+					"scb:wool_lime_reinforced": {
+						"textures": {
+							"up": "r_wool_lime",
+							"down": "r_wool_lime",
+							"side": "r_wool_lime"
+						}
+					},
+					"scb:wool_magenta_reinforced": {
+						"textures": {
+							"up": "r_wool_magenta",
+							"down": "r_wool_magenta",
+							"side": "r_wool_magenta"
+						}
+					},
+					"scb:wool_orange_reinforced": {
+						"textures": {
+							"up": "r_wool_orange",
+							"down": "r_wool_orange",
+							"side": "r_wool_orange"
+						}
+					},
+					"scb:wool_pink_reinforced": {
+						"textures": {
+							"up": "r_wool_pink",
+							"down": "r_wool_pink",
+							"side": "r_wool_pink"
+						}
+					},
+					"scb:wool_purple_reinforced": {
+						"textures": {
+							"up": "r_wool_purple",
+							"down": "r_wool_purple",
+							"side": "r_wool_purple"
+						}
+					},
+					"scb:wool_red_reinforced": {
+						"textures": {
+							"up": "r_wool_red",
+							"down": "r_wool_red",
+							"side": "r_wool_red"
+						}
+					},
+					"scb:wool_silver_reinforced": {
+						"textures": {
+							"up": "r_wool_silver",
+							"down": "r_wool_silver",
+							"side": "r_wool_silver"
+						}
+					},
+					"scb:wool_white_reinforced": {
+						"textures": {
+							"up": "r_wool_white",
+							"down": "r_wool_white",
+							"side": "r_wool_white"
+						}
+					},
+					"scb:wool_yellow_reinforced": {
+						"textures": {
+							"up": "r_wool_yellow",
+							"down": "r_wool_yellow",
+							"side": "r_wool_yellow"
+						}
+					},
+					"scb:table_drop": {
+						"textures": {
+							"up": "iron_block",
+							"down": "iron_block",
+							"side": "iron_block"
+						},
+						"sound": "stone"
+					},
+					"scb:fire_alarm_drop": {
+						"textures": {
+							"up": "iron_block",
+							"down": "iron_block",
+							"side": "iron_block"
+						},
+						"sound": "stone"
+					},
+					"scb:quartz_block_reinforced": {
+						"textures": {
+							"up": "quartz_block_reinforced",
+							"down": "quartz_block_reinforced",
+							"side": "quartz_block_reinforced"
+						}
+					},
+					"scb:quartz_block_chiseled_reinforced": {
+						"textures": {
+							"up": "quartz_block_chiseled_top_reinforced",
+							"down": "quartz_block_chiseled_top_reinforced",
+							"side": "quartz_block_chiseled_reinforced"
+						},
+						"isotropic": true
+					},
+					"scb:rocket_launcher_drop": {
+						"textures": {
+							"up": "iron_block",
+							"down": "iron_block",
+							"side": "iron_block"
+						}
+					},
+					"scb:quartz_block_lines_reinforced": {
+						"textures": {
+							"up": "quartz_block_lines_top_reinforced",
+							"down": "quartz_block_lines_top_reinforced",
+							"side": "quartz_block_lines_reinforced"
+						},
+						"isotropic": true
+					}
+				},
+				"key": "scb:quartz_block_lines_reinforced",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "quartz_block_lines_top_reinforced",
+								"down": "quartz_block_lines_top_reinforced",
+								"side": "quartz_block_lines_reinforced"
+							},
+							"isotropic": true
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "quartz_block_lines_top_reinforced",
+							"down": "quartz_block_lines_top_reinforced",
+							"side": "quartz_block_lines_reinforced"
+						}
+					},
+					{
+						"data": "true",
+						"key": "isotropic"
+					}
+				]
+			}
+		]
+	}
+}

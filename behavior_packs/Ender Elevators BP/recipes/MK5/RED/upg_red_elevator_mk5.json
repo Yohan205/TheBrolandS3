@@ -1,0 +1,34 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "se:upg_red_elevator_mk5"
+		},
+		"priority": 2,
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"!S!",
+			"S#S",
+			"!S!"
+		],
+		"key": {
+			"S": {
+				"item": "minecraft:stonebrick:3"
+			},
+			"#": {
+				"item": "se:red_elevator_mk4"
+			},
+			"!": {
+				"item": "minecraft:emerald"
+			}
+		},
+		"result": [
+			{
+				"count": 1,
+				"item": "se:red_elevator_mk5"
+			}
+		]
+	}
+}

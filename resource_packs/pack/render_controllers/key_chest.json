@@ -1,0 +1,35 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.key_chest": {
+			"geometry": "Array.Geometry[query.mark_variant]",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.Textures[query.mark_variant]"
+			],
+			"arrays": {
+				"textures": {
+					"Array.Textures": [
+						"Texture.default",
+						"Texture.right",
+						"Texture.back",
+						"Texture.left"
+					]
+				},
+				"geometries": {
+					"Array.Geometry": [
+						"Geometry.default",
+						"Geometry.right",
+						"Geometry.back",
+						"Geometry.left"
+					]
+				}
+			}
+		}
+	}
+}

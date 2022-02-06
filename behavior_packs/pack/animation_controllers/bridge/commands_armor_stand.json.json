@@ -1,0 +1,43 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.bridge_armor_stand.execute_commands": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"execute_command_id_2": "query.skin_id == 2"
+						},
+						{
+							"execute_command_id_1": "query.skin_id == 1"
+						}
+					]
+				},
+				"execute_command_id_1": {
+					"transitions": [
+						{
+							"default": "query.skin_id != 1"
+						}
+					],
+					"on_entry": [
+						"/playsound random.orb @a ~ ~ ~",
+						"/title @p actionbar §aSecurity Table",
+						"@s bridge:remove_command_id_1"
+					]
+				},
+				"execute_command_id_2": {
+					"transitions": [
+						{
+							"default": "query.skin_id != 2"
+						}
+					],
+					"on_entry": [
+						"/playsound random.pop @a ~ ~ ~",
+						"/title @p actionbar §aSecurity Table",
+						"@s bridge:remove_command_id_2"
+					]
+				}
+			}
+		}
+	}
+}

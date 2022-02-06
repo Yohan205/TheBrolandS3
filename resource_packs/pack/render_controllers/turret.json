@@ -1,0 +1,29 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.turret": {
+			"geometry": "geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				},
+				{
+					"leg*": "Material.legs"
+				}
+			],
+			"arrays": {
+				"textures": {
+					"Array.textures": [
+						"Texture.default",
+						"Texture.inactive",
+						"Texture.cobblestone_skin"
+					]
+				}
+			},
+			"textures": [
+				"Array.textures[query.mark_variant]"
+			]
+		}
+	}
+}

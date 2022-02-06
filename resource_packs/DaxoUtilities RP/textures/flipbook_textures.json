@@ -1,0 +1,9 @@
+[
+	{
+		"flipbook_texture": "textures/blocks/jukebox_utility_top",
+		"atlas_tile": "jukebox_utility_top",
+		"ticks_per_frame": 3,
+		"blend_frames": true
+	},
+	{}
+]

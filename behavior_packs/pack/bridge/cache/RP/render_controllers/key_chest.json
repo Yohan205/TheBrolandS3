@@ -1,0 +1,243 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\SecurityBE/render_controllers/key_chest.json",
+	"file_type": "render_controller",
+	"format_version": 1,
+	"file_uuid": "853ab0f0_43c1_4526_af88_11c65a8ca9eb",
+	"file_version": 4,
+	"cache_content": {
+		"open": true,
+		"comment": "",
+		"data": "",
+		"key": "global",
+		"type": "object",
+		"meta": {},
+		"children": [
+			{
+				"open": false,
+				"comment": "",
+				"data": "1.8.0",
+				"key": "format_version",
+				"type": "string",
+				"meta": {},
+				"children": []
+			},
+			{
+				"open": true,
+				"comment": "",
+				"data": "",
+				"key": "render_controllers",
+				"type": "object",
+				"meta": {},
+				"children": [
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "controller.render.key_chest",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": true,
+								"comment": "",
+								"data": "Array.Geometry[query.mark_variant]",
+								"key": "geometry",
+								"type": "string",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "materials",
+								"type": "array",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "0",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "Material.default",
+												"key": "*",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "textures",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "Array.Textures[query.mark_variant]",
+										"key": "0",
+										"type": "string",
+										"meta": {
+											"is_molang": true
+										},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "arrays",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "textures",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "Array.Textures",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "Texture.default",
+														"key": "0",
+														"type": "string",
+														"meta": {
+															"is_value": true
+														},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "Texture.right",
+														"key": "1",
+														"type": "string",
+														"meta": {
+															"is_value": true
+														},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "Texture.back",
+														"key": "2",
+														"type": "string",
+														"meta": {
+															"is_value": true
+														},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "Texture.left",
+														"key": "3",
+														"type": "string",
+														"meta": {
+															"is_value": true
+														},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "geometries",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "Array.Geometry",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "Geometry.default",
+														"key": "0",
+														"type": "string",
+														"meta": {
+															"is_value": true
+														},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "Geometry.right",
+														"key": "1",
+														"type": "string",
+														"meta": {
+															"is_value": true
+														},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "Geometry.back",
+														"key": "2",
+														"type": "string",
+														"meta": {
+															"is_value": true
+														},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "Geometry.left",
+														"key": "3",
+														"type": "string",
+														"meta": {
+															"is_value": true
+														},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

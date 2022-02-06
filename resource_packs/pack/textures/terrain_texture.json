@@ -1,0 +1,245 @@
+//bridge-file-version: #22
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"dirt_reinforced": {
+			"textures": [
+				"textures/blocks/dirt_reinforced"
+			]
+		},
+		"brick_reinforced": {
+			"textures": [
+				"textures/blocks/brick_reinforced"
+			]
+		},
+		"cobblestone_reinforced": {
+			"textures": [
+				"textures/blocks/cobblestone_reinforced"
+			]
+		},
+		"cobblestone_mossy_reinforced": {
+			"textures": [
+				"textures/blocks/cobblestone_mossy_reinforced"
+			]
+		},
+		"stone_reinforced": {
+			"textures": [
+				"textures/blocks/stone_reinforced"
+			]
+		},
+		"stonebrick_reinforced": {
+			"textures": [
+				"textures/blocks/stonebrick_reinforced"
+			]
+		},
+		"stonebrick_mossy_reinforced": {
+			"textures": [
+				"textures/blocks/stonebrick_mossy_reinforced"
+			]
+		},
+		"stonebrick_cracked_reinforced": {
+			"textures": [
+				"textures/blocks/stonebrick_cracked_reinforced"
+			]
+		},
+		"stonebrick_carved_reinforced": {
+			"textures": [
+				"textures/blocks/stonebrick_carved_reinforced"
+			]
+		},
+		"stone_andesite_reinforced": {
+			"textures": [
+				"textures/blocks/stone_andesite_reinforced"
+			]
+		},
+		"stone_andesite_smooth_reinforced": {
+			"textures": [
+				"textures/blocks/stone_andesite_smooth_reinforced"
+			]
+		},
+		"stone_diorite_reinforced": {
+			"textures": [
+				"textures/blocks/stone_diorite_reinforced"
+			]
+		},
+		"glass_reinforced": {
+			"textures": [
+				"textures/blocks/glass_reinforced",
+				"textures/blocks/glass_black_reinforced",
+				"textures/blocks/glass_blue_reinforced",
+				"textures/blocks/glass_brown_reinforced",
+				"textures/blocks/glass_cyan_reinforced",
+				"textures/blocks/glass_gray_reinforced",
+				"textures/blocks/glass_green_reinforced",
+				"textures/blocks/glass_light_blue_reinforced",
+				"textures/blocks/glass_lime_reinforced",
+				"textures/blocks/glass_magenta_reinforced",
+				"textures/blocks/glass_orange_reinforced",
+				"textures/blocks/glass_pink_reinforced",
+				"textures/blocks/glass_purple_reinforced",
+				"textures/blocks/glass_red_reinforced",
+				"textures/blocks/glass_silver_reinforced",
+				"textures/blocks/glass_white_reinforced",
+				"textures/blocks/glass_yellow_reinforced"
+			]
+		},
+		"stone_diorite_smooth_reinforced": {
+			"textures": [
+				"textures/blocks/stone_diorite_smooth_reinforced"
+			]
+		},
+		"stone_granite_reinforced": {
+			"textures": [
+				"textures/blocks/stone_granite_reinforced"
+			]
+		},
+		"stone_granite_smooth_reinforced": {
+			"textures": [
+				"textures/blocks/stone_granite_smooth_reinforced"
+			]
+		},
+		"end_stone_reinforced": {
+			"textures": [
+				"textures/blocks/end_stone_reinforced"
+			]
+		},
+		"plank_acacia_reinforced": {
+			"textures": [
+				"textures/blocks/planks_acacia_reinforced"
+			]
+		},
+		"plank_big_oak_reinforced": {
+			"textures": [
+				"textures/blocks/planks_big_oak_reinforced"
+			]
+		},
+		"plank_birch_reinforced": {
+			"textures": [
+				"textures/blocks/planks_birch_reinforced"
+			]
+		},
+		"plank_jungle_reinforced": {
+			"textures": [
+				"textures/blocks/planks_jungle_reinforced"
+			]
+		},
+		"plank_oak_reinforced": {
+			"textures": [
+				"textures/blocks/planks_oak_reinforced"
+			]
+		},
+		"plank_spruce_reinforced": {
+			"textures": [
+				"textures/blocks/planks_spruce_reinforced"
+			]
+		},
+		"r_wool_black": {
+			"textures": [
+				"textures/blocks/wool_colored_black_reinforced"
+			]
+		},
+		"r_wool_blue": {
+			"textures": [
+				"textures/blocks/wool_colored_blue_reinforced"
+			]
+		},
+		"r_wool_brown": {
+			"textures": [
+				"textures/blocks/wool_colored_brown_reinforced"
+			]
+		},
+		"r_wool_cyan": {
+			"textures": [
+				"textures/blocks/wool_colored_cyan_reinforced"
+			]
+		},
+		"r_wool_gray": {
+			"textures": [
+				"textures/blocks/wool_colored_gray_reinforced"
+			]
+		},
+		"r_wool_green": {
+			"textures": [
+				"textures/blocks/wool_colored_green_reinforced"
+			]
+		},
+		"r_wool_light_blue": {
+			"textures": [
+				"textures/blocks/wool_colored_light_blue_reinforced"
+			]
+		},
+		"r_wool_lime": {
+			"textures": [
+				"textures/blocks/wool_colored_lime_reinforced"
+			]
+		},
+		"r_wool_magenta": {
+			"textures": [
+				"textures/blocks/wool_colored_magenta_reinforced"
+			]
+		},
+		"r_wool_orange": {
+			"textures": [
+				"textures/blocks/wool_colored_orange_reinforced"
+			]
+		},
+		"r_wool_pink": {
+			"textures": [
+				"textures/blocks/wool_colored_pink_reinforced"
+			]
+		},
+		"r_wool_purple": {
+			"textures": [
+				"textures/blocks/wool_colored_purple_reinforced"
+			]
+		},
+		"r_wool_red": {
+			"textures": [
+				"textures/blocks/wool_colored_red_reinforced"
+			]
+		},
+		"r_wool_silver": {
+			"textures": [
+				"textures/blocks/wool_colored_silver_reinforced"
+			]
+		},
+		"r_wool_white": {
+			"textures": [
+				"textures/blocks/wool_colored_white_reinforced"
+			]
+		},
+		"r_wool_yellow": {
+			"textures": [
+				"textures/blocks/wool_colored_yellow_reinforced"
+			]
+		},
+		"quartz_block_lines_top_reinforced": {
+			"textures": [
+				"textures/blocks/quartz_block_lines_top_reinforced"
+			]
+		},
+		"quartz_block_lines_reinforced": {
+			"textures": [
+				"textures/blocks/quartz_block_lines_reinforced"
+			]
+		},
+		"quartz_block_chiseled_top_reinforced": {
+			"textures": [
+				"textures/blocks/quartz_block_chiseled_top_reinforced"
+			]
+		},
+		"quartz_block_chiseled_reinforced": {
+			"textures": [
+				"textures/blocks/quartz_block_chiseled_reinforced"
+			]
+		},
+		"quartz_block_reinforced": {
+			"textures": [
+				"textures/blocks/quartz_block_reinforced"
+			]
+		}
+	}
+}

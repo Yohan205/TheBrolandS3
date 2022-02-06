@@ -1,0 +1,170 @@
+//bridge-file-version: #96
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "scb:land_mine",
+			"is_summonable": true,
+			"is_spawnable": true,
+			"scripts": {
+				"animate": [
+					"bridge_execute_commands"
+				]
+			},
+			"animations": {
+				"bridge_execute_commands": "controller.animation.bridge_land_mine.execute_commands"
+			}
+		},
+		"component_groups": {
+			"scb:explode": {
+				"minecraft:spawn_entity": [
+					{
+						"spawn_entity": "minecraft:tnt"
+					}
+				]
+			},
+			"deactiave": {
+				"minecraft:entity_sensor": {},
+				"minecraft:on_hurt_by_player": {},
+				"minecraft:interact": {},
+				"minecraft:mark_variant": {
+					"value": 1
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "all",
+							"deals_damage": false,
+							"on_damage": {
+								"event": "scb:bye"
+							}
+						}
+					]
+				}
+			},
+			"active": {
+				"minecraft:mark_variant": {
+					"value": 0
+				}
+			},
+			"scb:bye": {
+				"minecraft:despawn": {}
+			},
+			"bridge:execute_command_id_1": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"bridge:execute_no_command": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			}
+		},
+		"components": {
+			"minecraft:movement": {
+				"value": 0
+			},
+			"minecraft:physics": {
+				"has_gravity": true
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 100000,
+				"attack_interval": 1,
+				"must_see": true,
+				"within_radius": 10,
+				"scan_interval": 0,
+				"persist_time": 0,
+				"reselect_targets": true
+			},
+			"minecraft:navigation.generic": {},
+			"minecraft:movement.basic": {},
+			"minecraft:behavior.nearest_prioritized_attackable_target": {
+				"attack_interval": 0.1,
+				"priority": 1,
+				"entity_types": [
+					{
+						"filters": {
+							"subject": "player",
+							"test": "is_family",
+							"value": "player"
+						}
+					}
+				],
+				"reselect_targets": true,
+				"target_search_height": 1
+			},
+			"minecraft:attack": {
+				"damage": 20
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"event": "scb:deactivate",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "scb:land_mine_deactivate"
+									}
+								]
+							}
+						},
+						"swing": true
+					}
+				]
+			},
+			"minecraft:fire_immune": true,
+			"minecraft:entity_sensor": {
+				"sensor_range": 0,
+				"event": "land_mine:explode"
+			},
+			"minecraft:on_hurt_by_player": {
+				"event": "land_mine:explode"
+			}
+		},
+		"events": {
+			"land_mine:explode": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"scb:deactivate": {
+				"add": {
+					"component_groups": [
+						"deactiave"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"active"
+					]
+				}
+			},
+			"scb:bye": {
+				"add": {
+					"component_groups": [
+						"scb:bye"
+					]
+				}
+			},
+			"bridge:remove_command_id_1": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			}
+		}
+	}
+}

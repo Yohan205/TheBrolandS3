@@ -1,0 +1,30 @@
+//bridge-file-version: #19
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "scb:padlock"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"X"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:iron_nugget"
+			},
+			"X": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "scb:padlock",
+				"count": 4
+			}
+		]
+	}
+}

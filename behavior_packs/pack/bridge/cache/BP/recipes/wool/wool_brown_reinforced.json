@@ -1,0 +1,271 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\SecurityBE\\recipes\\wool\\wool_brown_reinforced.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "6be50c49_6a53_4414_a4af_b91f8dbd2f6a",
+	"file_version": 25,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.12",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.12,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "scb:wool_brown_reinforced"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"X#"
+						],
+						"key": {
+							"#": {
+								"item": "scb:block_reinforcer"
+							},
+							"X": {
+								"item": "minecraft:wool",
+								"data": 12
+							}
+						},
+						"result": [
+							{
+								"item": "scb:wool_brown_reinforced",
+								"count": 1
+							},
+							{
+								"item": "scb:block_reinforcer",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:wool_brown_reinforced"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"X#"
+							],
+							"key": {
+								"#": {
+									"item": "scb:block_reinforcer"
+								},
+								"X": {
+									"item": "minecraft:wool",
+									"data": 12
+								}
+							},
+							"result": [
+								{
+									"item": "scb:wool_brown_reinforced",
+									"count": 1
+								},
+								{
+									"item": "scb:block_reinforcer",
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "scb:wool_brown_reinforced"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"array": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:wool_brown_reinforced"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"X#"
+							],
+							"key": {
+								"#": {
+									"item": "scb:block_reinforcer"
+								},
+								"X": {
+									"item": "minecraft:wool",
+									"data": 12
+								}
+							},
+							"result": [
+								{
+									"item": "scb:wool_brown_reinforced",
+									"count": 1
+								},
+								{
+									"item": "scb:block_reinforcer",
+									"count": 1
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"array": [
+							"X#"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:wool_brown_reinforced"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"X#"
+							],
+							"key": {
+								"#": {
+									"item": "scb:block_reinforcer"
+								},
+								"X": {
+									"item": "minecraft:wool",
+									"data": 12
+								}
+							},
+							"result": [
+								{
+									"item": "scb:wool_brown_reinforced",
+									"count": 1
+								},
+								{
+									"item": "scb:block_reinforcer",
+									"count": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "scb:block_reinforcer"
+									},
+									"X": {
+										"item": "minecraft:wool",
+										"data": 12
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "scb:block_reinforcer"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "scb:block_reinforcer"
+									},
+									"X": {
+										"item": "minecraft:wool",
+										"data": 12
+									}
+								},
+								"key": "X",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:wool",
+									"data": 12
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:wool_brown_reinforced"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"X#"
+							],
+							"key": {
+								"#": {
+									"item": "scb:block_reinforcer"
+								},
+								"X": {
+									"item": "minecraft:wool",
+									"data": 12
+								}
+							},
+							"result": [
+								{
+									"item": "scb:wool_brown_reinforced",
+									"count": 1
+								},
+								{
+									"item": "scb:block_reinforcer",
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"array": [
+							{
+								"open": [
+									{
+										"item": "scb:wool_brown_reinforced",
+										"count": 1
+									},
+									{
+										"item": "scb:block_reinforcer",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "scb:wool_brown_reinforced",
+									"count": 1
+								}
+							},
+							{
+								"open": [
+									{
+										"item": "scb:wool_brown_reinforced",
+										"count": 1
+									},
+									{
+										"item": "scb:block_reinforcer",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "scb:block_reinforcer",
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "se:green_elevator_omni_mk5_upg"
+		},
+		"priority": 2,
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"!S!",
+			"S#S",
+			"!S!"
+		],
+		"key": {
+			"S": {
+				"item": "se:green_elevator_mk5"
+			},
+			"#": {
+				"item": "se:green_elevator_omni_mk4"
+			},
+			"!": {
+				"item": "minecraft:stonebrick:3"
+			}
+		},
+		"result": [
+			{
+				"count": 1,
+				"item": "se:green_elevator_omni_mk5"
+			}
+		]
+	}
+}

@@ -1,0 +1,86 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "bzf:sitdinningchair",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+		}, 
+    "component_groups": {
+        "minecraft:despawn_if_not_riding": {
+   "minecraft:environment_sensor": {
+                "triggers": [
+                    {
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "chair": "is_riding",
+"operator": "!=",
+"value": false
+                                }
+                            ]
+                        },
+                        "event": "bzf:despawn"
+                    }
+                ]
+            }
+        },
+        "minecraft:despawn_instant": {
+    "minecraft:instant_despawn": {}
+        }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "furniture" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.1,
+        "height": 0.1
+      },
+      "minecraft:health": {
+        "value": 0.5,
+        "max": 0.5
+      },
+      "minecraft:push_through": {
+      "value": 1
+      },
+      "minecraft:knockback_resistance": {
+        "value": 100,
+        "max": 100
+       },
+      "minecraft:scale": {
+       "value": 1.0
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "family_types": [
+          "player"
+        ],
+        "seats": {
+          "position": [ 0.0, 0.7, 0.0 ]
+        }
+      },
+				"minecraft:is_stackable": {},
+			 "minecraft:persistent": {},
+    "minecraft:despawn": {
+      "despawn_from_distance": {
+        }
+      },
+      "minecraft:physics": {
+      "has_gravity": false
+      }
+    },
+    "events": {
+      "bzf:despawn": {
+        "add": {
+          "component_groups": [
+            "minecraft:despawn_instant"          
+            ]
+          }
+        }   
+      }
+    }
+  }

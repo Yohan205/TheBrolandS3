@@ -1,0 +1,378 @@
+{
+	"file_path": "C:\\Users\\Sofia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ender Elevators\\blocks\\MK1\\elevator.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "d73bb275_5f22_4759_be90_7d4aabefdc9d",
+	"file_version": 165,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "se:elevator"
+						},
+						"components": {
+							"minecraft:destroy_time": 0,
+							"minecraft:map_color": "#FFF5EF",
+							"minecraft:block_light_emission": 0,
+							"minecraft:block_light_absorption": 1,
+							"minecraft:flammable": {
+								"burn_odds": 0,
+								"flame_odds": 0
+							},
+							"minecraft:friction": 0.5,
+							"minecraft:explosion_resistance": 0.3,
+							"minecraft:on_step_off": {
+								"event": "teleport_up",
+								"target": "self",
+								"condition": "query.is_jumping"
+							},
+							"minecraft:on_interact": {
+								"event": "teleport_down",
+								"target": "self",
+								"condition": "query.is_sneaking"
+							},
+							"minecraft:on_fall_on": {
+								"event": "prevent_fall",
+								"target": "self",
+								"min_fall_distance": 3
+							},
+							"minecraft:breakonpush": true
+						},
+						"events": {
+							"teleport_up": {
+								"run_command": {
+									"command": [
+										"function MK1/checkUpMK1"
+									],
+									"target": "other"
+								}
+							},
+							"teleport_down": {
+								"run_command": {
+									"command": [
+										"function MK1/checkDownMK1"
+									],
+									"target": "other"
+								}
+							},
+							"prevent_fall": {
+								"run_command": {
+									"command": [
+										"effect @s resistance 1 10 true"
+									],
+									"target": "other"
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "se:elevator"
+							},
+							"components": {
+								"minecraft:destroy_time": 0,
+								"minecraft:map_color": "#FFF5EF",
+								"minecraft:block_light_emission": 0,
+								"minecraft:block_light_absorption": 1,
+								"minecraft:flammable": {
+									"burn_odds": 0,
+									"flame_odds": 0
+								},
+								"minecraft:friction": 0.5,
+								"minecraft:explosion_resistance": 0.3,
+								"minecraft:on_step_off": {
+									"event": "teleport_up",
+									"target": "self",
+									"condition": "query.is_jumping"
+								},
+								"minecraft:on_interact": {
+									"event": "teleport_down",
+									"target": "self",
+									"condition": "query.is_sneaking"
+								},
+								"minecraft:on_fall_on": {
+									"event": "prevent_fall",
+									"target": "self",
+									"min_fall_distance": 3
+								},
+								"minecraft:breakonpush": true
+							},
+							"events": {
+								"teleport_up": {
+									"run_command": {
+										"command": [
+											"function MK1/checkUpMK1"
+										],
+										"target": "other"
+									}
+								},
+								"teleport_down": {
+									"run_command": {
+										"command": [
+											"function MK1/checkDownMK1"
+										],
+										"target": "other"
+									}
+								},
+								"prevent_fall": {
+									"run_command": {
+										"command": [
+											"effect @s resistance 1 10 true"
+										],
+										"target": "other"
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "se:elevator"
+						}
+					},
+					{
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 0,
+							"minecraft:map_color": "#FFF5EF",
+							"minecraft:block_light_emission": 0,
+							"minecraft:block_light_absorption": 1,
+							"minecraft:flammable": {
+								"burn_odds": 0,
+								"flame_odds": 0
+							},
+							"minecraft:friction": 0.5,
+							"minecraft:explosion_resistance": 0.3,
+							"minecraft:on_step_off": {
+								"event": "teleport_up",
+								"target": "self",
+								"condition": "query.is_jumping"
+							},
+							"minecraft:on_interact": {
+								"event": "teleport_down",
+								"target": "self",
+								"condition": "query.is_sneaking"
+							},
+							"minecraft:on_fall_on": {
+								"event": "prevent_fall",
+								"target": "self",
+								"min_fall_distance": 3
+							},
+							"minecraft:breakonpush": true
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:elevator"
+							},
+							"components": {
+								"minecraft:destroy_time": 0,
+								"minecraft:map_color": "#FFF5EF",
+								"minecraft:block_light_emission": 0,
+								"minecraft:block_light_absorption": 1,
+								"minecraft:flammable": {
+									"burn_odds": 0,
+									"flame_odds": 0
+								},
+								"minecraft:friction": 0.5,
+								"minecraft:explosion_resistance": 0.3,
+								"minecraft:on_step_off": {
+									"event": "teleport_up",
+									"target": "self",
+									"condition": "query.is_jumping"
+								},
+								"minecraft:on_interact": {
+									"event": "teleport_down",
+									"target": "self",
+									"condition": "query.is_sneaking"
+								},
+								"minecraft:on_fall_on": {
+									"event": "prevent_fall",
+									"target": "self",
+									"min_fall_distance": 3
+								},
+								"minecraft:breakonpush": true
+							},
+							"events": {
+								"teleport_up": {
+									"run_command": {
+										"command": [
+											"function MK1/checkUpMK1"
+										],
+										"target": "other"
+									}
+								},
+								"teleport_down": {
+									"run_command": {
+										"command": [
+											"function MK1/checkDownMK1"
+										],
+										"target": "other"
+									}
+								},
+								"prevent_fall": {
+									"run_command": {
+										"command": [
+											"effect @s resistance 1 10 true"
+										],
+										"target": "other"
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"teleport_up": {
+										"run_command": {
+											"command": [
+												"function MK1/checkUpMK1"
+											],
+											"target": "other"
+										}
+									},
+									"teleport_down": {
+										"run_command": {
+											"command": [
+												"function MK1/checkDownMK1"
+											],
+											"target": "other"
+										}
+									},
+									"prevent_fall": {
+										"run_command": {
+											"command": [
+												"effect @s resistance 1 10 true"
+											],
+											"target": "other"
+										}
+									}
+								},
+								"key": "teleport_up",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"function MK1/checkUpMK1"
+												],
+												"target": "other"
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"function MK1/checkUpMK1"
+													],
+													"target": "other"
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"function MK1/checkUpMK1"
+												]
+											},
+											{
+												"data": "other",
+												"key": "target"
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"teleport_up": {
+										"run_command": {
+											"command": [
+												"function MK1/checkUpMK1"
+											],
+											"target": "other"
+										}
+									},
+									"teleport_down": {
+										"run_command": {
+											"command": [
+												"function MK1/checkDownMK1"
+											],
+											"target": "other"
+										}
+									},
+									"prevent_fall": {
+										"run_command": {
+											"command": [
+												"effect @s resistance 1 10 true"
+											],
+											"target": "other"
+										}
+									}
+								},
+								"key": "teleport_down",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"function MK1/checkDownMK1"
+												],
+												"target": "other"
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"function MK1/checkDownMK1"
+													],
+													"target": "other"
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"function MK1/checkDownMK1"
+												]
+											},
+											{
+												"data": "other",
+												"key": "target"
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "prevent_fall",
+								"is_minified": true,
+								"children": {
+									"run_command": {
+										"command": [
+											"effect @s resistance 1 10 true"
+										],
+										"target": "other"
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,37 @@
+//bridge-file-version: #36
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "scb:rocket"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#R#",
+			"#E#",
+			"#P#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:iron_ingot"
+			},
+			"R": {
+				"item": "minecraft:redstone"
+			},
+			"E": {
+				"item": "minecraft:emerald"
+			},
+			"P": {
+				"item": "minecraft:gunpowder"
+			}
+		},
+		"result": [
+			{
+				"item": "scb:rocket",
+				"count": 1
+			}
+		]
+	}
+}

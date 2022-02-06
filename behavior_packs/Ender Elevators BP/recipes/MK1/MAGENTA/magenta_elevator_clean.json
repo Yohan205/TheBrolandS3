@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "se:magenta_elevator_clean"
+		},
+		"priority": 2,
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "se:magenta_elevator",
+				"count": 1
+			},
+			{
+				"item": "minecraft:dye",
+				"data": 13,
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "se:elevator",
+				"count": 1
+			}
+		]
+	}
+}

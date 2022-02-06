@@ -1,0 +1,73 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\SecurityBE\\items\\fire_alarm_parts.json",
+	"file_type": "client_item",
+	"format_version": 1,
+	"file_uuid": "9adf7e91_091e_4853_ae29_4efb27cd96e6",
+	"file_version": 14,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.1,
+					"minecraft:item": {
+						"description": {
+							"identifier": "scb:fire_alarm_parts",
+							"category": "Equipment"
+						},
+						"components": {
+							"minecraft:icon": "fire_alarm_parts",
+							"minecraft:use_animation": "eat",
+							"minecraft:render_offsets": "apple"
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:fire_alarm_parts",
+								"category": "Equipment"
+							},
+							"components": {
+								"minecraft:icon": "fire_alarm_parts",
+								"minecraft:use_animation": "eat",
+								"minecraft:render_offsets": "apple"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "scb:fire_alarm_parts",
+							"category": "Equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:fire_alarm_parts",
+								"category": "Equipment"
+							},
+							"components": {
+								"minecraft:icon": "fire_alarm_parts",
+								"minecraft:use_animation": "eat",
+								"minecraft:render_offsets": "apple"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:icon": "fire_alarm_parts",
+							"minecraft:use_animation": "eat",
+							"minecraft:render_offsets": "apple"
+						}
+					}
+				]
+			}
+		]
+	}
+}

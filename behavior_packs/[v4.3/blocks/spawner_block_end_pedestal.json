@@ -1,0 +1,56 @@
+//bridge-file-version: #24
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:spawner_block_end_pedestal"
+		},
+		"components": {
+			"minecraft:destroy_time": 100,
+			"minecraft:explosion_resistance": 100,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "spawner_block_castle",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:immovable": true,
+			"minecraft:ticking": {
+				"range": [
+					3,
+					3
+				],
+				"on_tick": {
+					"event": "spawn",
+					"target": "self"
+				},
+				"looping": true
+			}
+		},
+		"events": {
+			"spawn": {
+				"randomize": [
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"structure load end_pedestal_chest ~~~"
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"summon shulker ~~~"
+							]
+						},
+						"set_block": {
+							"block_type": "minecraft:air"
+						}
+					}
+				]
+			}
+		}
+	}
+}

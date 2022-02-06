@@ -1,0 +1,524 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\SecurityBE\\animation_controllers\\bridge\\commands_security_table.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "c6567dc6_c21c_4768_bcd7_bce7966002c6",
+	"file_version": 0,
+	"cache_content": {
+		"open": true,
+		"comment": "",
+		"data": "",
+		"key": "global",
+		"type": "object",
+		"meta": {},
+		"children": [
+			{
+				"open": false,
+				"comment": "",
+				"data": "1.10.0",
+				"key": "format_version",
+				"type": "string",
+				"meta": {},
+				"children": []
+			},
+			{
+				"open": true,
+				"comment": "",
+				"data": "",
+				"key": "animation_controllers",
+				"type": "object",
+				"meta": {},
+				"children": [
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "controller.animation.bridge_security_table.execute_commands",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "states",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "default",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "transitions",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "0",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "query.skin_id == 5",
+																"key": "execute_command_id_5",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "1",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "query.skin_id == 4",
+																"key": "execute_command_id_4",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "2",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "query.skin_id == 3",
+																"key": "execute_command_id_3",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "3",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "query.skin_id == 2",
+																"key": "execute_command_id_2",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "4",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "query.skin_id == 1",
+																"key": "execute_command_id_1",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "execute_command_id_1",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "transitions",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "0",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "query.skin_id != 1",
+																"key": "default",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "on_entry",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "/particle minecraft:critical_hit_emitter ~ ~1 ~",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "@s bridge:remove_command_id_1",
+														"key": "1",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "execute_command_id_2",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "transitions",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "0",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "query.skin_id != 2",
+																"key": "default",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "on_entry",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": true,
+														"comment": "",
+														"data": "/playsound dig.stone @a ~ ~ ~",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "@s bridge:remove_command_id_2",
+														"key": "1",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "execute_command_id_3",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "transitions",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "0",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "query.skin_id != 3",
+																"key": "default",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "on_entry",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "/playsound random.anvil_break @a ~ ~ ~",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "/title @p actionbar §aSecurity Table",
+														"key": "1",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "@s bridge:remove_command_id_3",
+														"key": "2",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "execute_command_id_4",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "transitions",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "0",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "query.skin_id != 4",
+																"key": "default",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "on_entry",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "/particle minecraft:critical_hit_emitter ~ ~1 ~",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "/title @p actionbar §cUse Pickaxe...",
+														"key": "1",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "@s bridge:remove_command_id_4",
+														"key": "2",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "execute_command_id_5",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "transitions",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "0",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "query.skin_id != 5",
+																"key": "default",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "on_entry",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "/playsound dig.stone @a ~ ~ ~",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "@s bridge:remove_command_id_5",
+														"key": "1",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

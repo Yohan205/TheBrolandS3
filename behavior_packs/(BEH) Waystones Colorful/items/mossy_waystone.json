@@ -1,0 +1,26 @@
+// Caso você utilize esse código no seu addon deixe os créditos para Andriel Games
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ws:mossy_waystone_item.waystones",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.waystone"
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:block_placer": {
+        "block": "ws:mossy_waystone_test.waystones",
+        "use_block_description": true
+      },
+      "minecraft:icon": {
+        "texture": "mossy_waystone"
+      },
+      "minecraft:display_name": {
+        "value": "Obelisco de Piedra Musgosa\n§o§9Waystones"
+      }
+    }
+  }
+}

@@ -1,0 +1,1114 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\SecurityBE\\entities\\key_door.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "e16c6cca_bd0a_4dd2_978b_0a6b5dfe7023",
+	"file_version": 173,
+	"cache_content": {
+		"open": true,
+		"comment": "",
+		"data": "",
+		"key": "global",
+		"type": "object",
+		"meta": {},
+		"children": [
+			{
+				"open": false,
+				"comment": "",
+				"data": "1.13.0",
+				"key": "format_version",
+				"type": "string",
+				"meta": {},
+				"children": []
+			},
+			{
+				"open": true,
+				"comment": "",
+				"data": "",
+				"key": "minecraft:entity",
+				"type": "object",
+				"meta": {
+					"expand_path_exceptions": [
+						"do_not_upgrade"
+					]
+				},
+				"children": [
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "description",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "scb:key_door",
+								"key": "identifier",
+								"type": "string",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "true",
+								"key": "is_spawnable",
+								"type": "boolean",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "true",
+								"key": "is_summonable",
+								"type": "boolean",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "false",
+								"key": "is_experimental",
+								"type": "boolean",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "animations",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "minecraft:shulker",
+								"key": "runtime_identifier",
+								"type": "string",
+								"meta": {},
+								"children": []
+							}
+						]
+					},
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "component_groups",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "trans",
+								"type": "object",
+								"meta": {
+									"expand_path_exceptions": [
+										"minecraft:burns_in_daylight",
+										"minecraft:can_climb",
+										"minecraft:can_power_jump",
+										"minecraft:hide",
+										"minecraft:home",
+										"minecraft:is_baby",
+										"minecraft:is_charged",
+										"minecraft:is_chested",
+										"minecraft:is_hidden_when_invisible",
+										"minecraft:is_ignited",
+										"minecraft:is_illager_captain",
+										"minecraft:is_saddled",
+										"minecraft:is_shaking",
+										"minecraft:is_sheared",
+										"minecraft:is_stackable",
+										"minecraft:is_stunned",
+										"minecraft:is_tamed",
+										"minecraft:item_hopper",
+										"minecraft:jump.dynamic",
+										"minecraft:managed_wandering_trader",
+										"minecraft:persistent",
+										"minecraft:scaffolding_climber",
+										"minecraft:trade_resupply",
+										"minecraft:trust",
+										"minecraft:wants_jockey",
+										"minecraft:annotation.open_door"
+									]
+								},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:transformation",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "scb:key_door_open_front",
+												"key": "into",
+												"type": "string",
+												"meta": {
+													"definitions": [
+														"entity"
+													]
+												},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "delay",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": true,
+														"comment": "",
+														"data": "1",
+														"key": "value",
+														"type": "number",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:collision_box",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "0",
+												"key": "width",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "0",
+												"key": "height",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "scb:own",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "minecraft:is_tamed",
+										"type": "object",
+										"meta": {},
+										"children": []
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "components",
+						"type": "object",
+						"meta": {
+							"expand_path_exceptions": [
+								"minecraft:burns_in_daylight",
+								"minecraft:can_climb",
+								"minecraft:can_power_jump",
+								"minecraft:hide",
+								"minecraft:home",
+								"minecraft:is_baby",
+								"minecraft:is_charged",
+								"minecraft:is_chested",
+								"minecraft:is_hidden_when_invisible",
+								"minecraft:is_ignited",
+								"minecraft:is_illager_captain",
+								"minecraft:is_saddled",
+								"minecraft:is_shaking",
+								"minecraft:is_sheared",
+								"minecraft:is_stackable",
+								"minecraft:is_stunned",
+								"minecraft:is_tamed",
+								"minecraft:item_hopper",
+								"minecraft:jump.dynamic",
+								"minecraft:managed_wandering_trader",
+								"minecraft:persistent",
+								"minecraft:scaffolding_climber",
+								"minecraft:trade_resupply",
+								"minecraft:trust",
+								"minecraft:wants_jockey",
+								"minecraft:annotation.open_door"
+							]
+						},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:type_family",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "family",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "armor_stand",
+												"key": "0",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "inanimate",
+												"key": "1",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "mob",
+												"key": "2",
+												"type": "string",
+												"meta": {},
+												"children": []
+											},
+											{
+												"open": false,
+												"comment": "",
+												"data": "turret",
+												"key": "3",
+												"type": "string",
+												"meta": {
+													"is_value": true,
+													"definitions": [
+														"entity"
+													]
+												},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:collision_box",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "1",
+										"key": "width",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "2",
+										"key": "height",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:health",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "1000",
+										"key": "value",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "1000",
+										"key": "max",
+										"type": "number",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:hurt_on_condition",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "damage_conditions",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "0",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": true,
+														"comment": "",
+														"data": "",
+														"key": "filters",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "in_lava",
+																"key": "test",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "self",
+																"key": "subject",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "==",
+																"key": "operator",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "true",
+																"key": "value",
+																"type": "boolean",
+																"meta": {},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "lava",
+														"key": "cause",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "4",
+														"key": "damage_per_tick",
+														"type": "number",
+														"meta": {},
+														"children": []
+													}
+												]
+											},
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "1",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "",
+														"key": "filters",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "is_block",
+																"key": "test",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "self",
+																"key": "subject",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "==",
+																"key": "operator",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "minecraft:barrier",
+																"key": "value",
+																"type": "string",
+																"meta": {
+																	"definitions": [
+																		"block"
+																	]
+																},
+																"children": []
+															}
+														]
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "suffocation",
+														"key": "cause",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "0",
+														"key": "damage_per_tick",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:loot",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "loot_tables/key_chest.json",
+										"key": "table",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:physics",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:pushable",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "false",
+										"key": "is_pushable",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "false",
+										"key": "is_pushable_by_piston",
+										"type": "boolean",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:lookat",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "5",
+										"key": "search_radius",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "true",
+										"key": "set_target",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "filters",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "all_of",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": true,
+														"comment": "",
+														"data": "",
+														"key": "0",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "is_family",
+																"key": "test",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "other",
+																"key": "subject",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "player",
+																"key": "value",
+																"type": "string",
+																"meta": {
+																	"is_value": true,
+																	"definitions": [
+																		"entity"
+																	]
+																},
+																"children": []
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:tameable",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "1",
+										"key": "probability",
+										"type": "number",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "tame_items",
+										"type": "array",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "scb:padlock",
+												"key": "0",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "tame_event",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "scb:tamed",
+												"key": "event",
+												"type": "string",
+												"meta": {},
+												"children": []
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:knockback_resistance",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "10000",
+										"key": "value",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:damage_sensor",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "triggers",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "0",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "all",
+														"key": "cause",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": false,
+														"comment": "",
+														"data": "false",
+														"key": "deals_damage",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": true,
+														"comment": "",
+														"data": "deny",
+														"key": "on_damage_sound_event",
+														"type": "string",
+														"meta": {
+															"is_value": true
+														},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:on_target_acquired",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "dou:lou",
+										"key": "event",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "self",
+										"key": "target",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "filters",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "all_of",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": true,
+														"comment": "",
+														"data": "",
+														"key": "0",
+														"type": "object",
+														"meta": {},
+														"children": [
+															{
+																"open": false,
+																"comment": "",
+																"data": "is_owner",
+																"key": "test",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "other",
+																"key": "subject",
+																"type": "string",
+																"meta": {},
+																"children": []
+															},
+															{
+																"open": false,
+																"comment": "",
+																"data": "true",
+																"key": "value",
+																"type": "string",
+																"meta": {},
+																"children": []
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "events",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "dou:lou",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": false,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "trans",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "execute",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "commands",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": true,
+														"comment": "",
+														"data": "/playsound random.door_open @a ~ ~ ~",
+														"key": "0",
+														"type": "string",
+														"meta": {
+															"is_value": true
+														},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:entity_transformed",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "execute",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": true,
+												"comment": "",
+												"data": "",
+												"key": "commands",
+												"type": "object",
+												"meta": {},
+												"children": [
+													{
+														"open": true,
+														"comment": "",
+														"data": "/playsound random.door_close @a ~ ~ ~",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													},
+													{
+														"open": true,
+														"comment": "",
+														"data": "/particle minecraft:villager_happy ~ ~1 ~",
+														"key": "1",
+														"type": "string",
+														"meta": {
+															"is_value": true
+														},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:entity_spawned",
+								"type": "object",
+								"meta": {},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "",
+								"key": "scb:tamed",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "",
+										"key": "add",
+										"type": "object",
+										"meta": {},
+										"children": [
+											{
+												"open": false,
+												"comment": "",
+												"data": "",
+												"key": "component_groups",
+												"type": "array",
+												"meta": {},
+												"children": [
+													{
+														"open": false,
+														"comment": "",
+														"data": "scb:own",
+														"key": "0",
+														"type": "string",
+														"meta": {},
+														"children": []
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,1761 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\SecurityBE\\entities\\fire_alarm.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "799c0a70_5448_4687_a6b1_65af017f28b0",
+	"file_version": 79,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "scb:fire_alarm",
+							"is_summonable": true,
+							"is_spawnable": true,
+							"runtime_identifier": "scb:fire_alarm"
+						},
+						"component_groups": {
+							"scb:on_fire_alarm_tamed": {
+								"minecraft:behavior.move_to_block": {
+									"priority": 1,
+									"search_range": 10,
+									"goal_radius": 10,
+									"on_reach": {
+										"event": "scb:alarm"
+									},
+									"target_blocks": [
+										"minecraft:fire"
+									],
+									"tick_interval": 1,
+									"start_chance": 1,
+									"search_height": 5
+								}
+							},
+							"scb:despawn": {
+								"minecraft:despawn": {}
+							}
+						},
+						"components": {
+							"minecraft:navigation.hover": {
+								"avoid_damage_blocks": false,
+								"can_path_from_air": true,
+								"can_sink": true
+							},
+							"minecraft:movement.hover": {},
+							"minecraft:movement": {
+								"value": 0
+							},
+							"minecraft:tameable": {
+								"probability": 1,
+								"tame_items": [
+									"scb:padlock"
+								],
+								"tame_event": {
+									"event": "scb:active"
+								}
+							},
+							"minecraft:knockback_resistance": 10000,
+							"minecraft:collision_box": {
+								"width": 1,
+								"height": 0.9
+							},
+							"minecraft:can_fly": {
+								"value": true
+							},
+							"minecraft:jump.static": {},
+							"minecraft:flying_speed": {
+								"value": 0
+							},
+							"minecraft:damage_sensor": {
+								"triggers": [
+									{
+										"cause": "all",
+										"deals_damage": false,
+										"on_damage": {
+											"filters": {
+												"any_of": [
+													{
+														"test": "has_equipment",
+														"subject": "other",
+														"domain": "hand",
+														"value": "minecraft:diamond_pickaxe"
+													},
+													{
+														"test": "has_equipment",
+														"subject": "other",
+														"domain": "hand",
+														"value": "minecraft:golden_pickaxe"
+													},
+													{
+														"test": "has_equipment",
+														"subject": "other",
+														"domain": "hand",
+														"value": "minecraft:iron_pickaxe"
+													},
+													{
+														"test": "has_equipment",
+														"subject": "other",
+														"domain": "hand",
+														"value": "minecraft:stone_pickaxe"
+													},
+													{
+														"test": "has_equipment",
+														"subject": "other",
+														"domain": "hand",
+														"value": "minecraft:wooden_pickaxe"
+													}
+												]
+											},
+											"event": "scb:break_alarm"
+										},
+										"on_damage_sound_event": "breaking"
+									},
+									{
+										"cause": "all",
+										"deals_damage": false,
+										"on_damage_sound_event": "item.book.put"
+									}
+								]
+							}
+						},
+						"events": {
+							"scb:alarm": {
+								"execute": {
+									"commands": [
+										"/playsound random.orb @a ~ ~ ~"
+									]
+								},
+								"add": {
+									"component_groups": [
+										"scb:on_fire_alarm_tamed"
+									]
+								}
+							},
+							"scb:active": {
+								"add": {
+									"component_groups": [
+										"scb:on_fire_alarm_tamed"
+									]
+								}
+							},
+							"scb:break_alarm": {
+								"execute": {
+									"commands": [
+										"/setblock ~ ~ ~ fire_alarm_drop",
+										"/setblock ~ ~ ~ air 0 destroy",
+										"/playsound dig.stone @a ~ ~ ~"
+									]
+								},
+								"add": {
+									"component_groups": [
+										"scb:despawn"
+									]
+								}
+							},
+							"minecraft:entity_spawned": {
+								"execute": {
+									"commands": [
+										"/playsound dig.stone @a ~ ~ ~"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:fire_alarm",
+								"is_summonable": true,
+								"is_spawnable": true,
+								"runtime_identifier": "scb:fire_alarm"
+							},
+							"component_groups": {
+								"scb:on_fire_alarm_tamed": {
+									"minecraft:behavior.move_to_block": {
+										"priority": 1,
+										"search_range": 10,
+										"goal_radius": 10,
+										"on_reach": {
+											"event": "scb:alarm"
+										},
+										"target_blocks": [
+											"minecraft:fire"
+										],
+										"tick_interval": 1,
+										"start_chance": 1,
+										"search_height": 5
+									}
+								},
+								"scb:despawn": {
+									"minecraft:despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:navigation.hover": {
+									"avoid_damage_blocks": false,
+									"can_path_from_air": true,
+									"can_sink": true
+								},
+								"minecraft:movement.hover": {},
+								"minecraft:movement": {
+									"value": 0
+								},
+								"minecraft:tameable": {
+									"probability": 1,
+									"tame_items": [
+										"scb:padlock"
+									],
+									"tame_event": {
+										"event": "scb:active"
+									}
+								},
+								"minecraft:knockback_resistance": 10000,
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 0.9
+								},
+								"minecraft:can_fly": {
+									"value": true
+								},
+								"minecraft:jump.static": {},
+								"minecraft:flying_speed": {
+									"value": 0
+								},
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false,
+											"on_damage": {
+												"filters": {
+													"any_of": [
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:diamond_pickaxe"
+														},
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:golden_pickaxe"
+														},
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:iron_pickaxe"
+														},
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:stone_pickaxe"
+														},
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:wooden_pickaxe"
+														}
+													]
+												},
+												"event": "scb:break_alarm"
+											},
+											"on_damage_sound_event": "breaking"
+										},
+										{
+											"cause": "all",
+											"deals_damage": false,
+											"on_damage_sound_event": "item.book.put"
+										}
+									]
+								}
+							},
+							"events": {
+								"scb:alarm": {
+									"execute": {
+										"commands": [
+											"/playsound random.orb @a ~ ~ ~"
+										]
+									},
+									"add": {
+										"component_groups": [
+											"scb:on_fire_alarm_tamed"
+										]
+									}
+								},
+								"scb:active": {
+									"add": {
+										"component_groups": [
+											"scb:on_fire_alarm_tamed"
+										]
+									}
+								},
+								"scb:break_alarm": {
+									"execute": {
+										"commands": [
+											"/setblock ~ ~ ~ fire_alarm_drop",
+											"/setblock ~ ~ ~ air 0 destroy",
+											"/playsound dig.stone @a ~ ~ ~"
+										]
+									},
+									"add": {
+										"component_groups": [
+											"scb:despawn"
+										]
+									}
+								},
+								"minecraft:entity_spawned": {
+									"execute": {
+										"commands": [
+											"/playsound dig.stone @a ~ ~ ~"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "scb:fire_alarm",
+							"is_summonable": true,
+							"is_spawnable": true,
+							"runtime_identifier": "scb:fire_alarm"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:fire_alarm",
+								"is_summonable": true,
+								"is_spawnable": true,
+								"runtime_identifier": "scb:fire_alarm"
+							},
+							"component_groups": {
+								"scb:on_fire_alarm_tamed": {
+									"minecraft:behavior.move_to_block": {
+										"priority": 1,
+										"search_range": 10,
+										"goal_radius": 10,
+										"on_reach": {
+											"event": "scb:alarm"
+										},
+										"target_blocks": [
+											"minecraft:fire"
+										],
+										"tick_interval": 1,
+										"start_chance": 1,
+										"search_height": 5
+									}
+								},
+								"scb:despawn": {
+									"minecraft:despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:navigation.hover": {
+									"avoid_damage_blocks": false,
+									"can_path_from_air": true,
+									"can_sink": true
+								},
+								"minecraft:movement.hover": {},
+								"minecraft:movement": {
+									"value": 0
+								},
+								"minecraft:tameable": {
+									"probability": 1,
+									"tame_items": [
+										"scb:padlock"
+									],
+									"tame_event": {
+										"event": "scb:active"
+									}
+								},
+								"minecraft:knockback_resistance": 10000,
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 0.9
+								},
+								"minecraft:can_fly": {
+									"value": true
+								},
+								"minecraft:jump.static": {},
+								"minecraft:flying_speed": {
+									"value": 0
+								},
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false,
+											"on_damage": {
+												"filters": {
+													"any_of": [
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:diamond_pickaxe"
+														},
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:golden_pickaxe"
+														},
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:iron_pickaxe"
+														},
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:stone_pickaxe"
+														},
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:wooden_pickaxe"
+														}
+													]
+												},
+												"event": "scb:break_alarm"
+											},
+											"on_damage_sound_event": "breaking"
+										},
+										{
+											"cause": "all",
+											"deals_damage": false,
+											"on_damage_sound_event": "item.book.put"
+										}
+									]
+								}
+							},
+							"events": {
+								"scb:alarm": {
+									"execute": {
+										"commands": [
+											"/playsound random.orb @a ~ ~ ~"
+										]
+									},
+									"add": {
+										"component_groups": [
+											"scb:on_fire_alarm_tamed"
+										]
+									}
+								},
+								"scb:active": {
+									"add": {
+										"component_groups": [
+											"scb:on_fire_alarm_tamed"
+										]
+									}
+								},
+								"scb:break_alarm": {
+									"execute": {
+										"commands": [
+											"/setblock ~ ~ ~ fire_alarm_drop",
+											"/setblock ~ ~ ~ air 0 destroy",
+											"/playsound dig.stone @a ~ ~ ~"
+										]
+									},
+									"add": {
+										"component_groups": [
+											"scb:despawn"
+										]
+									}
+								},
+								"minecraft:entity_spawned": {
+									"execute": {
+										"commands": [
+											"/playsound dig.stone @a ~ ~ ~"
+										]
+									}
+								}
+							}
+						},
+						"key": "component_groups",
+						"children": [
+							{
+								"open": {
+									"scb:on_fire_alarm_tamed": {
+										"minecraft:behavior.move_to_block": {
+											"priority": 1,
+											"search_range": 10,
+											"goal_radius": 10,
+											"on_reach": {
+												"event": "scb:alarm"
+											},
+											"target_blocks": [
+												"minecraft:fire"
+											],
+											"tick_interval": 1,
+											"start_chance": 1,
+											"search_height": 5
+										}
+									},
+									"scb:despawn": {
+										"minecraft:despawn": {}
+									}
+								},
+								"key": "scb:on_fire_alarm_tamed",
+								"is_minified": true,
+								"children": {
+									"minecraft:behavior.move_to_block": {
+										"priority": 1,
+										"search_range": 10,
+										"goal_radius": 10,
+										"on_reach": {
+											"event": "scb:alarm"
+										},
+										"target_blocks": [
+											"minecraft:fire"
+										],
+										"tick_interval": 1,
+										"start_chance": 1,
+										"search_height": 5
+									}
+								}
+							},
+							{
+								"open": {
+									"scb:on_fire_alarm_tamed": {
+										"minecraft:behavior.move_to_block": {
+											"priority": 1,
+											"search_range": 10,
+											"goal_radius": 10,
+											"on_reach": {
+												"event": "scb:alarm"
+											},
+											"target_blocks": [
+												"minecraft:fire"
+											],
+											"tick_interval": 1,
+											"start_chance": 1,
+											"search_height": 5
+										}
+									},
+									"scb:despawn": {
+										"minecraft:despawn": {}
+									}
+								},
+								"key": "scb:despawn",
+								"is_minified": true,
+								"children": {
+									"minecraft:despawn": {}
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:fire_alarm",
+								"is_summonable": true,
+								"is_spawnable": true,
+								"runtime_identifier": "scb:fire_alarm"
+							},
+							"component_groups": {
+								"scb:on_fire_alarm_tamed": {
+									"minecraft:behavior.move_to_block": {
+										"priority": 1,
+										"search_range": 10,
+										"goal_radius": 10,
+										"on_reach": {
+											"event": "scb:alarm"
+										},
+										"target_blocks": [
+											"minecraft:fire"
+										],
+										"tick_interval": 1,
+										"start_chance": 1,
+										"search_height": 5
+									}
+								},
+								"scb:despawn": {
+									"minecraft:despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:navigation.hover": {
+									"avoid_damage_blocks": false,
+									"can_path_from_air": true,
+									"can_sink": true
+								},
+								"minecraft:movement.hover": {},
+								"minecraft:movement": {
+									"value": 0
+								},
+								"minecraft:tameable": {
+									"probability": 1,
+									"tame_items": [
+										"scb:padlock"
+									],
+									"tame_event": {
+										"event": "scb:active"
+									}
+								},
+								"minecraft:knockback_resistance": 10000,
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 0.9
+								},
+								"minecraft:can_fly": {
+									"value": true
+								},
+								"minecraft:jump.static": {},
+								"minecraft:flying_speed": {
+									"value": 0
+								},
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false,
+											"on_damage": {
+												"filters": {
+													"any_of": [
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:diamond_pickaxe"
+														},
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:golden_pickaxe"
+														},
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:iron_pickaxe"
+														},
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:stone_pickaxe"
+														},
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:wooden_pickaxe"
+														}
+													]
+												},
+												"event": "scb:break_alarm"
+											},
+											"on_damage_sound_event": "breaking"
+										},
+										{
+											"cause": "all",
+											"deals_damage": false,
+											"on_damage_sound_event": "item.book.put"
+										}
+									]
+								}
+							},
+							"events": {
+								"scb:alarm": {
+									"execute": {
+										"commands": [
+											"/playsound random.orb @a ~ ~ ~"
+										]
+									},
+									"add": {
+										"component_groups": [
+											"scb:on_fire_alarm_tamed"
+										]
+									}
+								},
+								"scb:active": {
+									"add": {
+										"component_groups": [
+											"scb:on_fire_alarm_tamed"
+										]
+									}
+								},
+								"scb:break_alarm": {
+									"execute": {
+										"commands": [
+											"/setblock ~ ~ ~ fire_alarm_drop",
+											"/setblock ~ ~ ~ air 0 destroy",
+											"/playsound dig.stone @a ~ ~ ~"
+										]
+									},
+									"add": {
+										"component_groups": [
+											"scb:despawn"
+										]
+									}
+								},
+								"minecraft:entity_spawned": {
+									"execute": {
+										"commands": [
+											"/playsound dig.stone @a ~ ~ ~"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:navigation.hover",
+								"is_minified": true,
+								"children": {
+									"avoid_damage_blocks": false,
+									"can_path_from_air": true,
+									"can_sink": true
+								}
+							},
+							{
+								"open": {
+									"minecraft:navigation.hover": {
+										"avoid_damage_blocks": false,
+										"can_path_from_air": true,
+										"can_sink": true
+									},
+									"minecraft:movement.hover": {},
+									"minecraft:movement": {
+										"value": 0
+									},
+									"minecraft:tameable": {
+										"probability": 1,
+										"tame_items": [
+											"scb:padlock"
+										],
+										"tame_event": {
+											"event": "scb:active"
+										}
+									},
+									"minecraft:knockback_resistance": 10000,
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 0.9
+									},
+									"minecraft:can_fly": {
+										"value": true
+									},
+									"minecraft:jump.static": {},
+									"minecraft:flying_speed": {
+										"value": 0
+									},
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"cause": "all",
+												"deals_damage": false,
+												"on_damage": {
+													"filters": {
+														"any_of": [
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:diamond_pickaxe"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:golden_pickaxe"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:iron_pickaxe"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:stone_pickaxe"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:wooden_pickaxe"
+															}
+														]
+													},
+													"event": "scb:break_alarm"
+												},
+												"on_damage_sound_event": "breaking"
+											},
+											{
+												"cause": "all",
+												"deals_damage": false,
+												"on_damage_sound_event": "item.book.put"
+											}
+										]
+									}
+								},
+								"key": "minecraft:movement.hover",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:movement",
+								"is_minified": true,
+								"children": {
+									"value": 0
+								}
+							},
+							{
+								"key": "minecraft:tameable",
+								"children": [
+									{
+										"data": "1",
+										"key": "probability"
+									},
+									{
+										"key": "tame_items",
+										"is_minified": true,
+										"array": [
+											"scb:padlock"
+										]
+									},
+									{
+										"open": {
+											"probability": 1,
+											"tame_items": [
+												"scb:padlock"
+											],
+											"tame_event": {
+												"event": "scb:active"
+											}
+										},
+										"key": "tame_event",
+										"is_minified": true,
+										"children": {
+											"event": "scb:active"
+										}
+									}
+								]
+							},
+							{
+								"data": "10000",
+								"key": "minecraft:knockback_resistance"
+							},
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 1,
+									"height": 0.9
+								}
+							},
+							{
+								"open": {
+									"minecraft:navigation.hover": {
+										"avoid_damage_blocks": false,
+										"can_path_from_air": true,
+										"can_sink": true
+									},
+									"minecraft:movement.hover": {},
+									"minecraft:movement": {
+										"value": 0
+									},
+									"minecraft:tameable": {
+										"probability": 1,
+										"tame_items": [
+											"scb:padlock"
+										],
+										"tame_event": {
+											"event": "scb:active"
+										}
+									},
+									"minecraft:knockback_resistance": 10000,
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 0.9
+									},
+									"minecraft:can_fly": {
+										"value": true
+									},
+									"minecraft:jump.static": {},
+									"minecraft:flying_speed": {
+										"value": 0
+									},
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"cause": "all",
+												"deals_damage": false,
+												"on_damage": {
+													"filters": {
+														"any_of": [
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:diamond_pickaxe"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:golden_pickaxe"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:iron_pickaxe"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:stone_pickaxe"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:wooden_pickaxe"
+															}
+														]
+													},
+													"event": "scb:break_alarm"
+												},
+												"on_damage_sound_event": "breaking"
+											},
+											{
+												"cause": "all",
+												"deals_damage": false,
+												"on_damage_sound_event": "item.book.put"
+											}
+										]
+									}
+								},
+								"key": "minecraft:can_fly",
+								"is_minified": true,
+								"children": {
+									"value": true
+								}
+							},
+							{
+								"key": "minecraft:jump.static",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:navigation.hover": {
+										"avoid_damage_blocks": false,
+										"can_path_from_air": true,
+										"can_sink": true
+									},
+									"minecraft:movement.hover": {},
+									"minecraft:movement": {
+										"value": 0
+									},
+									"minecraft:tameable": {
+										"probability": 1,
+										"tame_items": [
+											"scb:padlock"
+										],
+										"tame_event": {
+											"event": "scb:active"
+										}
+									},
+									"minecraft:knockback_resistance": 10000,
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 0.9
+									},
+									"minecraft:can_fly": {
+										"value": true
+									},
+									"minecraft:jump.static": {},
+									"minecraft:flying_speed": {
+										"value": 0
+									},
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"cause": "all",
+												"deals_damage": false,
+												"on_damage": {
+													"filters": {
+														"any_of": [
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:diamond_pickaxe"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:golden_pickaxe"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:iron_pickaxe"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:stone_pickaxe"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:wooden_pickaxe"
+															}
+														]
+													},
+													"event": "scb:break_alarm"
+												},
+												"on_damage_sound_event": "breaking"
+											},
+											{
+												"cause": "all",
+												"deals_damage": false,
+												"on_damage_sound_event": "item.book.put"
+											}
+										]
+									}
+								},
+								"key": "minecraft:flying_speed",
+								"is_minified": true,
+								"children": {
+									"value": 0
+								}
+							},
+							{
+								"open": {
+									"minecraft:navigation.hover": {
+										"avoid_damage_blocks": false,
+										"can_path_from_air": true,
+										"can_sink": true
+									},
+									"minecraft:movement.hover": {},
+									"minecraft:movement": {
+										"value": 0
+									},
+									"minecraft:tameable": {
+										"probability": 1,
+										"tame_items": [
+											"scb:padlock"
+										],
+										"tame_event": {
+											"event": "scb:active"
+										}
+									},
+									"minecraft:knockback_resistance": 10000,
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 0.9
+									},
+									"minecraft:can_fly": {
+										"value": true
+									},
+									"minecraft:jump.static": {},
+									"minecraft:flying_speed": {
+										"value": 0
+									},
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"cause": "all",
+												"deals_damage": false,
+												"on_damage": {
+													"filters": {
+														"any_of": [
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:diamond_pickaxe"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:golden_pickaxe"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:iron_pickaxe"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:stone_pickaxe"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "minecraft:wooden_pickaxe"
+															}
+														]
+													},
+													"event": "scb:break_alarm"
+												},
+												"on_damage_sound_event": "breaking"
+											},
+											{
+												"cause": "all",
+												"deals_damage": false,
+												"on_damage_sound_event": "item.book.put"
+											}
+										]
+									}
+								},
+								"key": "minecraft:damage_sensor",
+								"children": [
+									{
+										"open": {
+											"triggers": [
+												{
+													"cause": "all",
+													"deals_damage": false,
+													"on_damage": {
+														"filters": {
+															"any_of": [
+																{
+																	"test": "has_equipment",
+																	"subject": "other",
+																	"domain": "hand",
+																	"value": "minecraft:diamond_pickaxe"
+																},
+																{
+																	"test": "has_equipment",
+																	"subject": "other",
+																	"domain": "hand",
+																	"value": "minecraft:golden_pickaxe"
+																},
+																{
+																	"test": "has_equipment",
+																	"subject": "other",
+																	"domain": "hand",
+																	"value": "minecraft:iron_pickaxe"
+																},
+																{
+																	"test": "has_equipment",
+																	"subject": "other",
+																	"domain": "hand",
+																	"value": "minecraft:stone_pickaxe"
+																},
+																{
+																	"test": "has_equipment",
+																	"subject": "other",
+																	"domain": "hand",
+																	"value": "minecraft:wooden_pickaxe"
+																}
+															]
+														},
+														"event": "scb:break_alarm"
+													},
+													"on_damage_sound_event": "breaking"
+												},
+												{
+													"cause": "all",
+													"deals_damage": false,
+													"on_damage_sound_event": "item.book.put"
+												}
+											]
+										},
+										"key": "triggers",
+										"array": [
+											{
+												"open": [
+													{
+														"cause": "all",
+														"deals_damage": false,
+														"on_damage": {
+															"filters": {
+																"any_of": [
+																	{
+																		"test": "has_equipment",
+																		"subject": "other",
+																		"domain": "hand",
+																		"value": "minecraft:diamond_pickaxe"
+																	},
+																	{
+																		"test": "has_equipment",
+																		"subject": "other",
+																		"domain": "hand",
+																		"value": "minecraft:golden_pickaxe"
+																	},
+																	{
+																		"test": "has_equipment",
+																		"subject": "other",
+																		"domain": "hand",
+																		"value": "minecraft:iron_pickaxe"
+																	},
+																	{
+																		"test": "has_equipment",
+																		"subject": "other",
+																		"domain": "hand",
+																		"value": "minecraft:stone_pickaxe"
+																	},
+																	{
+																		"test": "has_equipment",
+																		"subject": "other",
+																		"domain": "hand",
+																		"value": "minecraft:wooden_pickaxe"
+																	}
+																]
+															},
+															"event": "scb:break_alarm"
+														},
+														"on_damage_sound_event": "breaking"
+													},
+													{
+														"cause": "all",
+														"deals_damage": false,
+														"on_damage_sound_event": "item.book.put"
+													}
+												],
+												"children": [
+													{
+														"data": "all",
+														"key": "cause"
+													},
+													{
+														"data": "false",
+														"key": "deals_damage"
+													},
+													{
+														"open": {
+															"cause": "all",
+															"deals_damage": false,
+															"on_damage": {
+																"filters": {
+																	"any_of": [
+																		{
+																			"test": "has_equipment",
+																			"subject": "other",
+																			"domain": "hand",
+																			"value": "minecraft:diamond_pickaxe"
+																		},
+																		{
+																			"test": "has_equipment",
+																			"subject": "other",
+																			"domain": "hand",
+																			"value": "minecraft:golden_pickaxe"
+																		},
+																		{
+																			"test": "has_equipment",
+																			"subject": "other",
+																			"domain": "hand",
+																			"value": "minecraft:iron_pickaxe"
+																		},
+																		{
+																			"test": "has_equipment",
+																			"subject": "other",
+																			"domain": "hand",
+																			"value": "minecraft:stone_pickaxe"
+																		},
+																		{
+																			"test": "has_equipment",
+																			"subject": "other",
+																			"domain": "hand",
+																			"value": "minecraft:wooden_pickaxe"
+																		}
+																	]
+																},
+																"event": "scb:break_alarm"
+															},
+															"on_damage_sound_event": "breaking"
+														},
+														"key": "on_damage",
+														"is_minified": true,
+														"children": {
+															"filters": {
+																"any_of": [
+																	{
+																		"test": "has_equipment",
+																		"subject": "other",
+																		"domain": "hand",
+																		"value": "minecraft:diamond_pickaxe"
+																	},
+																	{
+																		"test": "has_equipment",
+																		"subject": "other",
+																		"domain": "hand",
+																		"value": "minecraft:golden_pickaxe"
+																	},
+																	{
+																		"test": "has_equipment",
+																		"subject": "other",
+																		"domain": "hand",
+																		"value": "minecraft:iron_pickaxe"
+																	},
+																	{
+																		"test": "has_equipment",
+																		"subject": "other",
+																		"domain": "hand",
+																		"value": "minecraft:stone_pickaxe"
+																	},
+																	{
+																		"test": "has_equipment",
+																		"subject": "other",
+																		"domain": "hand",
+																		"value": "minecraft:wooden_pickaxe"
+																	}
+																]
+															},
+															"event": "scb:break_alarm"
+														}
+													},
+													{
+														"data": "breaking",
+														"key": "on_damage_sound_event"
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"cause": "all",
+														"deals_damage": false,
+														"on_damage": {
+															"filters": {
+																"any_of": [
+																	{
+																		"test": "has_equipment",
+																		"subject": "other",
+																		"domain": "hand",
+																		"value": "minecraft:diamond_pickaxe"
+																	},
+																	{
+																		"test": "has_equipment",
+																		"subject": "other",
+																		"domain": "hand",
+																		"value": "minecraft:golden_pickaxe"
+																	},
+																	{
+																		"test": "has_equipment",
+																		"subject": "other",
+																		"domain": "hand",
+																		"value": "minecraft:iron_pickaxe"
+																	},
+																	{
+																		"test": "has_equipment",
+																		"subject": "other",
+																		"domain": "hand",
+																		"value": "minecraft:stone_pickaxe"
+																	},
+																	{
+																		"test": "has_equipment",
+																		"subject": "other",
+																		"domain": "hand",
+																		"value": "minecraft:wooden_pickaxe"
+																	}
+																]
+															},
+															"event": "scb:break_alarm"
+														},
+														"on_damage_sound_event": "breaking"
+													},
+													{
+														"cause": "all",
+														"deals_damage": false,
+														"on_damage_sound_event": "item.book.put"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"cause": "all",
+													"deals_damage": false,
+													"on_damage_sound_event": "item.book.put"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:fire_alarm",
+								"is_summonable": true,
+								"is_spawnable": true,
+								"runtime_identifier": "scb:fire_alarm"
+							},
+							"component_groups": {
+								"scb:on_fire_alarm_tamed": {
+									"minecraft:behavior.move_to_block": {
+										"priority": 1,
+										"search_range": 10,
+										"goal_radius": 10,
+										"on_reach": {
+											"event": "scb:alarm"
+										},
+										"target_blocks": [
+											"minecraft:fire"
+										],
+										"tick_interval": 1,
+										"start_chance": 1,
+										"search_height": 5
+									}
+								},
+								"scb:despawn": {
+									"minecraft:despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:navigation.hover": {
+									"avoid_damage_blocks": false,
+									"can_path_from_air": true,
+									"can_sink": true
+								},
+								"minecraft:movement.hover": {},
+								"minecraft:movement": {
+									"value": 0
+								},
+								"minecraft:tameable": {
+									"probability": 1,
+									"tame_items": [
+										"scb:padlock"
+									],
+									"tame_event": {
+										"event": "scb:active"
+									}
+								},
+								"minecraft:knockback_resistance": 10000,
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 0.9
+								},
+								"minecraft:can_fly": {
+									"value": true
+								},
+								"minecraft:jump.static": {},
+								"minecraft:flying_speed": {
+									"value": 0
+								},
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false,
+											"on_damage": {
+												"filters": {
+													"any_of": [
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:diamond_pickaxe"
+														},
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:golden_pickaxe"
+														},
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:iron_pickaxe"
+														},
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:stone_pickaxe"
+														},
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "minecraft:wooden_pickaxe"
+														}
+													]
+												},
+												"event": "scb:break_alarm"
+											},
+											"on_damage_sound_event": "breaking"
+										},
+										{
+											"cause": "all",
+											"deals_damage": false,
+											"on_damage_sound_event": "item.book.put"
+										}
+									]
+								}
+							},
+							"events": {
+								"scb:alarm": {
+									"execute": {
+										"commands": [
+											"/playsound random.orb @a ~ ~ ~"
+										]
+									},
+									"add": {
+										"component_groups": [
+											"scb:on_fire_alarm_tamed"
+										]
+									}
+								},
+								"scb:active": {
+									"add": {
+										"component_groups": [
+											"scb:on_fire_alarm_tamed"
+										]
+									}
+								},
+								"scb:break_alarm": {
+									"execute": {
+										"commands": [
+											"/setblock ~ ~ ~ fire_alarm_drop",
+											"/setblock ~ ~ ~ air 0 destroy",
+											"/playsound dig.stone @a ~ ~ ~"
+										]
+									},
+									"add": {
+										"component_groups": [
+											"scb:despawn"
+										]
+									}
+								},
+								"minecraft:entity_spawned": {
+									"execute": {
+										"commands": [
+											"/playsound dig.stone @a ~ ~ ~"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"key": "scb:alarm",
+								"children": [
+									{
+										"open": {
+											"execute": {
+												"commands": [
+													"/playsound random.orb @a ~ ~ ~"
+												]
+											},
+											"add": {
+												"component_groups": [
+													"scb:on_fire_alarm_tamed"
+												]
+											}
+										},
+										"key": "execute",
+										"children": [
+											{
+												"open": {
+													"commands": [
+														"/playsound random.orb @a ~ ~ ~"
+													]
+												},
+												"key": "commands",
+												"is_minified": true,
+												"array": [
+													"/playsound random.orb @a ~ ~ ~"
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"execute": {
+												"commands": [
+													"/playsound random.orb @a ~ ~ ~"
+												]
+											},
+											"add": {
+												"component_groups": [
+													"scb:on_fire_alarm_tamed"
+												]
+											}
+										},
+										"key": "add",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"scb:on_fire_alarm_tamed"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"array": [
+													"scb:on_fire_alarm_tamed"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "scb:active",
+								"children": [
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"scb:on_fire_alarm_tamed"
+												]
+											}
+										},
+										"key": "add",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"scb:on_fire_alarm_tamed"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"array": [
+													"scb:on_fire_alarm_tamed"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "scb:break_alarm",
+								"children": [
+									{
+										"open": {
+											"execute": {
+												"commands": [
+													"/setblock ~ ~ ~ fire_alarm_drop",
+													"/setblock ~ ~ ~ air 0 destroy",
+													"/playsound dig.stone @a ~ ~ ~"
+												]
+											},
+											"add": {
+												"component_groups": [
+													"scb:despawn"
+												]
+											}
+										},
+										"key": "execute",
+										"children": [
+											{
+												"open": {
+													"commands": [
+														"/setblock ~ ~ ~ fire_alarm_drop",
+														"/setblock ~ ~ ~ air 0 destroy",
+														"/playsound dig.stone @a ~ ~ ~"
+													]
+												},
+												"key": "commands",
+												"is_minified": true,
+												"array": [
+													"/setblock ~ ~ ~ fire_alarm_drop",
+													"/setblock ~ ~ ~ air 0 destroy",
+													"/playsound dig.stone @a ~ ~ ~"
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"execute": {
+												"commands": [
+													"/setblock ~ ~ ~ fire_alarm_drop",
+													"/setblock ~ ~ ~ air 0 destroy",
+													"/playsound dig.stone @a ~ ~ ~"
+												]
+											},
+											"add": {
+												"component_groups": [
+													"scb:despawn"
+												]
+											}
+										},
+										"key": "add",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"scb:despawn"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"array": [
+													"scb:despawn"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:entity_spawned",
+								"children": [
+									{
+										"open": {
+											"execute": {
+												"commands": [
+													"/playsound dig.stone @a ~ ~ ~"
+												]
+											}
+										},
+										"key": "execute",
+										"children": [
+											{
+												"open": {
+													"commands": [
+														"/playsound dig.stone @a ~ ~ ~"
+													]
+												},
+												"key": "commands",
+												"is_minified": true,
+												"array": [
+													"/playsound dig.stone @a ~ ~ ~"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

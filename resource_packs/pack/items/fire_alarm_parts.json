@@ -1,0 +1,15 @@
+//bridge-file-version: #14
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "scb:fire_alarm_parts",
+			"category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "fire_alarm_parts",
+			"minecraft:use_animation": "eat",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

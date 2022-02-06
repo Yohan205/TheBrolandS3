@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "se:blue_elevator_omni_mk1_clean"
+		},
+		"priority": 2,
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "se:blue_elevator_omni_mk1",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "se:elevator_omni_mk1",
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,119 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+
+		"controller.animation.utility.opsa_check": {
+			"initial_state": "inactive",
+			"states": {
+				"inactive": {
+					"transitions": [
+						{
+							"active": "query.is_sleeping"
+						}
+					]
+				},
+				"active": {
+					"animations": [
+						"opsa_run"
+					],
+					"transitions": [
+						{
+							"inactive": "!query.is_sleeping"
+						}
+					]
+				}
+			}
+		},
+
+		"controller.animation.utility.light": {
+			"initial_state" : "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"light_up": "query.get_equipped_item_name('main_hand') == 'torch' || query.get_equipped_item_name('main_hand') == 'glowstone' || query.get_equipped_item_name('main_hand') == 'soul_torch' || query.get_equipped_item_name('main_hand') == 'redstone_torch' || query.get_equipped_item_name('main_hand') == 'lantern' || query.get_equipped_item_name('main_hand') == 'soul_lantern' || query.get_equipped_item_name('main_hand') == 'campfire' || query.get_equipped_item_name('main_hand') == 'soul_campfire' || query.get_equipped_item_name('main_hand') == 'shroomlight' || query.get_equipped_item_name('main_hand') == 'glowstone_dust' || query.get_equipped_item_name('main_hand') == 'beacon' || query.get_equipped_item_name('main_hand') == 'lit_pumpkin' || query.get_equipped_item_name('main_hand') == 'crying_obsidian' || query.get_equipped_item_name('main_hand') == 'magma' || query.get_equipped_item_name('main_hand') == 'enchanting_table' || query.get_equipped_item_name('main_hand') == 'end_rod' || query.get_equipped_item_name('main_hand') == 'SeaLantern' || query.get_equipped_item_name('main_hand') == 'Totem_of_Undying' || query.get_equipped_item_name('off_hand') == 'Totem_of_Undying' || query.get_equipped_item_name('main_hand') == '§bDisco de música\n§7NGUTP - Life Letters§f'"
+						}
+					]
+				},
+				"light_up": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],					
+					"on_entry": [
+						"/function dynamic_light"
+					]					
+				}
+			}
+		},
+		"controller.animation.utility.dark": {
+			"initial_state" : "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"remove": "query.get_equipped_item_name('main_hand') != 'torch' && query.get_equipped_item_name('main_hand') != 'glowstone' && query.get_equipped_item_name('main_hand') != 'soul_torch' && query.get_equipped_item_name('main_hand') != 'redstone_torch' && query.get_equipped_item_name('main_hand') != 'lantern' && query.get_equipped_item_name('main_hand') != 'soul_lantern' && query.get_equipped_item_name('main_hand') != 'campfire' && query.get_equipped_item_name('main_hand') != 'soul_campfire' && query.get_equipped_item_name('main_hand') != 'shroomlight' && query.get_equipped_item_name('main_hand') != 'glowstone_dust' && query.get_equipped_item_name('main_hand') != 'beacon' && query.get_equipped_item_name('main_hand') != 'lit_pumpkin' && query.get_equipped_item_name('main_hand') != 'crying_obsidian' && query.get_equipped_item_name('main_hand') != 'magma' && query.get_equipped_item_name('main_hand') != 'enchanting_table' && query.get_equipped_item_name('main_hand') != 'end_rod' && query.get_equipped_item_name('main_hand') != 'SeaLantern' && query.get_equipped_item_name('main_hand') != 'Totem_of_Undying' && query.get_equipped_item_name('off_hand') != 'Totem_of_Undying' || query.get_equipped_item_name('main_hand') == '§bDisco de música\n§7NGUTP - Life Letters§f'"
+						}
+					]
+				},
+				"remove": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],
+					"on_entry": [
+						"/fill ~-3 ~-3 ~-3 ~3 ~3 ~3 air 0 replace light_block -1"
+					]
+				}
+			}
+		},
+
+		"controller.animation.fire": {
+			"initial_state" : "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"light_up": "query.is_on_fire"
+						}
+					]
+				},
+				"light_up": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],					
+					"on_entry": [
+						"/function dynamic_light",
+						"/say yes"
+					]					
+				}
+			}
+		},
+		"controller.animation.not_fire": {
+			"initial_state" : "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"remove": "!query.is_on_fire"
+						}
+					]
+				},
+				"remove": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],
+					"on_entry": [
+						"/fill ~-3 ~-3 ~-3 ~3 ~3 ~3 air 0 replace light_block -1"
+					]
+				}
+			}
+		}
+	}
+}

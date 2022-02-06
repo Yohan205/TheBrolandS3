@@ -1,0 +1,40 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "§l•Bzf Furniture §21.0.4• [BP]",
+    "name": "§l•Bzf Furniture•",
+    "uuid": "4bbd4492-b33c-48ec-82f6-2f7d1bac70b7",
+    "version": [
+      1,
+      0,
+      4
+    ],
+    "min_engine_version": [
+      1,
+      8,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "•Bzf Furnitures §2Version 1.0.4, §6Made by BlazingFire203•",
+      "type": "data",
+      "uuid": "17ef00e6-0ed5-4f2a-ad63-b5ff96b8fe00",
+      "version": [
+        1,
+        0,
+        4
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "682b7d8a-7edd-45f9-95f0-dba1b8fff4ef",
+      "version": [
+        1,
+        0,
+        4
+      ]
+    }
+  ]
+}

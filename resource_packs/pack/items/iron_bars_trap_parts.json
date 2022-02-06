@@ -1,0 +1,15 @@
+//bridge-file-version: #9
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "scb:iron_bars_trap_parts",
+			"category": "SecurityBE"
+		},
+		"components": {
+			"minecraft:icon": "iron_bars_trap_parts",
+			"minecraft:use_animation": "eat",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

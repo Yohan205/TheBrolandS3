@@ -1,0 +1,114 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "bzf:flatscreentv",
+            "properties": {
+                "bzf:face": [ 2, 3, 4, 5 ],
+                "bzf:open": [ false, true ]
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "bzf_flatscreentv",
+                    "render_method": "blend"
+                }
+            },
+            "minecraft:on_interact": {
+                "event": "bzf:open"
+            },
+            "minecraft:pick_collision": {
+                "origin": [ -8, 0, -8 ],
+                "size": [ 16, 16, 16 ]
+            },
+            "minecraft:loot": "loot_tables/blocks/bzf_flatscreentv.json",
+            "minecraft:geometry": "geometry.bzf_flatscreentv",
+            "minecraft:on_player_placing": {
+                "event": "bzf:place"
+            },
+            "minecraft:destroy_time": 1.0,
+            "minecraft:friction": 0.6,
+            "minecraft:map_color": "#000000",
+            "minecraft:flammable": {
+                "flame_odds": 0,
+                "burn_odds": 0
+            },
+            "minecraft:block_light_emission": 0.0
+        },
+        "events": {
+            "bzf:place": {
+                "set_block_property": {
+                    "bzf:face": "(query.cardinal_facing_2d)"
+                }
+            },
+            "bzf:open": {
+                "set_block_property": {
+                    "bzf:open": true
+                }
+            },
+            "bzf:close": {
+                "set_block_property": {
+                    "bzf:open": false
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('bzf:face') == 2",
+                "components": {
+                    "minecraft:block_light_emission": 0.0
+                }
+            },
+            {
+                "condition": "query.block_property('bzf:face') == 3",
+                "components": {
+                    "minecraft:rotation": [ 0, 180, 0 ]
+                }
+            },
+            {
+                "condition": "query.block_property('bzf:face') == 4",
+                "components": {
+                    "minecraft:rotation": [ 0, 90, 0 ]
+                }
+            },
+            {
+                "condition": "query.block_property('bzf:face') == 5",
+                "components": {
+                    "minecraft:rotation": [ 0, 270, 0 ]
+                }
+            },
+
+            {
+                "condition": "query.block_property('bzf:open') == false",
+                "components": {
+                    "minecraft:on_interact": {
+                        "event": "bzf:open"
+                    },
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "bzf_flatscreentv",
+                            "render_method": "blend"
+                        }
+                    },
+                    "minecraft:geometry": "geometry.bzf_flatscreentv"
+                }
+            },
+            {
+                "condition": "query.block_property('bzf:open') == true",
+                "components": {
+                    "minecraft:on_interact": {
+                        "event": "bzf:close"
+                    },
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "bzf_flatscreentv",
+                            "render_method": "blend"
+                        }
+                    },
+                    "minecraft:geometry": "geometry.bzf_flatscreentvon"
+                }
+            }
+        ]
+    }
+}

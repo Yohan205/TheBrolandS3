@@ -1,0 +1,225 @@
+//bridge-file-version: #51
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"k_apple_leaves": {
+			"textures": "textures/blocks/k_apple_leaves"
+		},
+		"k_orange_leaves": {
+			"textures": "textures/blocks/k_orange_leaves"
+		},
+		"k_pear_leaves": {
+			"textures": "textures/blocks/k_pear_leaves"
+		},
+		"k_peach_leaves": {
+			"textures": "textures/blocks/k_peach_leaves"
+		},
+		"enraged_cobblestone": {
+			"textures": "textures/blocks/enraged_cobblestone"
+		},
+		"k_lemon_leaves": {
+			"textures": "textures/blocks/k_lemon_leaves"
+		},
+		"k_cherry_leaves": {
+			"textures": "textures/blocks/k_cherry_leaves"
+		},
+		"vase": {
+			"textures": [
+				"textures/blocks/vase"
+			]
+		},
+		"apple_sapling_block": {
+			"textures": [
+				"textures/blocks/apple_sapling_block"
+			]
+		},
+		"orange_sapling_block": {
+			"textures": [
+				"textures/blocks/orange_sapling_block"
+			]
+		},
+		"cherry_sapling_block": {
+			"textures": [
+				"textures/blocks/cherry_sapling_block"
+			]
+		},
+		"peach_sapling_block": {
+			"textures": [
+				"textures/blocks/peach_sapling_block"
+			]
+		},
+		"pear_sapling_block": {
+			"textures": [
+				"textures/blocks/pear_sapling_block"
+			]
+		},
+		"lemon_sapling_block": {
+			"textures": [
+				"textures/blocks/lemon_sapling_block"
+			]
+		},
+		"herobrine_totem_block": {
+			"textures": [
+				"textures/blocks/herobrine_totem_block"
+			]
+		},
+		"spike_trap": {
+			"textures": [
+				"textures/blocks/spike_trap"
+			]
+		},
+		"present": {
+			"textures": [
+				"textures/blocks/present"
+			]
+		},
+		"tombstone1": {
+			"textures": [
+				"textures/blocks/tombstone1"
+			]
+		},
+		"ectoplasm_block": {
+			"textures": [
+				"textures/blocks/ectoplasm_block"
+			]
+		},
+		"candle_holder": {
+			"textures": [
+				"textures/blocks/candle_holder"
+			]
+		},
+		"spider_nest": {
+			"textures": [
+				"textures/blocks/spider_nest"
+			]
+		},
+		"spawner_block_queenspider": {
+			"textures": [
+				"textures/blocks/spawner_block"
+			]
+		},
+		"banana_block_0": {
+			"textures": [
+				"textures/blocks/banana_block_0"
+			]
+		},
+		"banana_block_1": {
+			"textures": [
+				"textures/blocks/banana_block_1"
+			]
+		},
+		"banana_block": {
+			"textures": [
+				"textures/blocks/banana_block"
+			]
+		},
+		"banana_sapling_block": {
+			"textures": [
+				"textures/blocks/banana_sapling_block"
+			]
+		},
+		"k_blueberry_bush_0": {
+			"textures": [
+				"textures/blocks/k_blueberry_bush_0"
+			]
+		},
+		"k_blueberry_bush_1": {
+			"textures": [
+				"textures/blocks/k_blueberry_bush_1"
+			]
+		},
+		"k_blueberry_bush_2": {
+			"textures": [
+				"textures/blocks/k_blueberry_bush_2"
+			]
+		},
+		"k_blueberry_bush": {
+			"textures": [
+				"textures/blocks/k_blueberry_bush"
+			]
+		},
+		"k_blueberry_bush_harvested": {
+			"textures": [
+				"textures/blocks/k_blueberry_bush_1"
+			]
+		},
+		"mysterious_mushroom": {
+			"textures": [
+				"textures/blocks/mysterious_mushroom"
+			]
+		},
+		"sawmill": {
+			"textures": [
+				"textures/blocks/sawmill"
+			]
+		},
+		"spawner_block_lumberjack": {
+			"textures": [
+				"textures/blocks/empty"
+			]
+		},
+		"jukebox_extended": {
+			"textures": [
+				"textures/blocks/jukebox_extended"
+			]
+		},
+		"jukebox_extended_mystical": {
+			"textures": [
+				"textures/blocks/jukebox_extended"
+			]
+		},
+		"spawner_block_castle": {
+			"textures": [
+				"textures/blocks/empty"
+			]
+		},
+		"stone_bricks_trap": {
+			"textures": [
+				"textures/blocks/stone_bricks_trap"
+			]
+		},
+		"stone_bricks_trap_mossy": {
+			"textures": [
+				"textures/blocks/stone_bricks_trap_mossy"
+			]
+		},
+		"spike_trap_base": {
+			"textures": [
+				"textures/blocks/spike_trap_base"
+			]
+		},
+		"crypt_traproom_small_spawner": {
+			"textures": [
+				"textures/blocks/empty"
+			]
+		},
+		"crypt_throneroom_spawner": {
+			"textures": [
+				"textures/blocks/empty"
+			]
+		},
+		"crypt_spawner": {
+			"textures": [
+				"textures/blocks/empty"
+			]
+		},
+		"coconut_block": {
+			"textures": [
+				"textures/blocks/coconut"
+			]
+		},
+		"old_bell": {
+			"textures": [
+				"textures/blocks/old_bell"
+			]
+		},
+		"spawner_block": {
+			"textures": [
+				"textures/blocks/empty"
+			]
+		}
+	}
+}

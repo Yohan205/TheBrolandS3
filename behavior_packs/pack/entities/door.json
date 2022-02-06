@@ -1,0 +1,196 @@
+//bridge-file-version: #65
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "scb:door",
+			"runtime_identifier": "minecraft:shulker",
+			"is_summonable": true,
+			"is_spawnable": true,
+			"scripts": {
+				"animate": [
+					"bridge_execute_commands"
+				]
+			},
+			"animations": {
+				"bridge_execute_commands": "controller.animation.bridge_door.execute_commands"
+			}
+		},
+		"component_groups": {
+			"scb:open": {
+				"minecraft:transformation": {
+					"into": "scb:door_open",
+					"keep_owner": true
+				}
+			},
+			"scb:d_changed": {
+				"minecraft:is_tamed": {}
+			},
+			"scb:typer": {
+				"minecraft:mark_variant": {
+					"value": 0
+				}
+			},
+			"scb:rotate": {
+				"minecraft:transformation": {
+					"into": "scb:door_r",
+					"keep_owner": true
+				}
+			},
+			"scb:despawn": {
+				"minecraft:despawn": {}
+			},
+			"bridge:execute_command_id_1": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"bridge:execute_no_command": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			}
+		},
+		"components": {
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "scb:block_remover"
+									},
+									{
+										"test": "is_owner",
+										"subject": "other",
+										"value": true
+									}
+								]
+							},
+							"event": "scb:despawn"
+						},
+						"swing": true,
+						"play_sounds": "block.stonecutter.use",
+						"spawn_items": {
+							"table": "loot_tables/door.json"
+						}
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "scb:rotator"
+									},
+									{
+										"test": "is_owner",
+										"subject": "other",
+										"value": true
+									}
+								]
+							},
+							"event": "scb:rotate"
+						},
+						"swing": true,
+						"play_sounds": "block.stonecutter.use"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"test": "is_owner",
+								"subject": "other",
+								"value": true
+							},
+							"event": "scb:open"
+						},
+						"play_sounds": "deny"
+					}
+				]
+			},
+			"minecraft:tameable": {
+				"probability": 1,
+				"tame_items": [
+					"scb:padlock"
+				]
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false,
+						"on_damage_sound_event": "deny",
+						"on_damage": {
+							"filters": {
+								"test": "is_owner",
+								"subject": "other",
+								"value": true
+							},
+							"event": "scb:open"
+						}
+					},
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			}
+		},
+		"events": {
+			"scb:open": {
+				"add": {
+					"component_groups": [
+						"scb:open"
+					]
+				}
+			},
+			"minecraft:entity_transformed": {
+				"add": {
+					"component_groups": [
+						"scb:typer",
+						"scb:d_changed"
+					]
+				}
+			},
+			"scb:rotate": {
+				"add": {
+					"component_groups": [
+						"scb:rotate"
+					]
+				}
+			},
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"scb:despawn": {
+				"add": {
+					"component_groups": [
+						"scb:despawn"
+					]
+				}
+			},
+			"bridge:remove_command_id_1": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			}
+		}
+	}
+}

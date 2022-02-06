@@ -1,0 +1,261 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\SecurityBE\\recipes\\protected_door.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "32fdd864_8c39_4c10_9a83_0603d678107a",
+	"file_version": 34,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.12",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.12,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "scb:protected_door_pieces"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"##X",
+							"##X",
+							"##X"
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:iron_ingot"
+							},
+							"X": {
+								"item": "scb:stone_reinforced"
+							}
+						},
+						"result": [
+							{
+								"item": "scb:protected_door_pieces",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:protected_door_pieces"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"##X",
+								"##X",
+								"##X"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:iron_ingot"
+								},
+								"X": {
+									"item": "scb:stone_reinforced"
+								}
+							},
+							"result": [
+								{
+									"item": "scb:protected_door_pieces",
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "scb:protected_door_pieces"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:protected_door_pieces"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"##X",
+								"##X",
+								"##X"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:iron_ingot"
+								},
+								"X": {
+									"item": "scb:stone_reinforced"
+								}
+							},
+							"result": [
+								{
+									"item": "scb:protected_door_pieces",
+									"count": 1
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"array": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:protected_door_pieces"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"##X",
+								"##X",
+								"##X"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:iron_ingot"
+								},
+								"X": {
+									"item": "scb:stone_reinforced"
+								}
+							},
+							"result": [
+								{
+									"item": "scb:protected_door_pieces",
+									"count": 1
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"array": [
+							"##X",
+							"##X",
+							"##X"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:protected_door_pieces"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"##X",
+								"##X",
+								"##X"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:iron_ingot"
+								},
+								"X": {
+									"item": "scb:stone_reinforced"
+								}
+							},
+							"result": [
+								{
+									"item": "scb:protected_door_pieces",
+									"count": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:iron_ingot"
+									},
+									"X": {
+										"item": "scb:stone_reinforced"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:iron_ingot"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:iron_ingot"
+									},
+									"X": {
+										"item": "scb:stone_reinforced"
+									}
+								},
+								"key": "X",
+								"is_minified": true,
+								"children": {
+									"item": "scb:stone_reinforced"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:protected_door_pieces"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"##X",
+								"##X",
+								"##X"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:iron_ingot"
+								},
+								"X": {
+									"item": "scb:stone_reinforced"
+								}
+							},
+							"result": [
+								{
+									"item": "scb:protected_door_pieces",
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"array": [
+							{
+								"open": [
+									{
+										"item": "scb:protected_door_pieces",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "scb:protected_door_pieces",
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

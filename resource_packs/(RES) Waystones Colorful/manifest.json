@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Addon: §l§e@Andriel_YT\n§rMod Java: §l§c@BlayTheNinth\n§rTexturas: §l§a@JoeCreates",
+        "name": "Waystones Colorful",
+        "uuid": "976c70cd-16c8-4304-aee0-3004e6b95a47",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 14, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Addon: §l§e@Andriel_YT\n§rMod Java: §l§c@BlayTheNinth\n§rTexturas: §l§a@JoeCreates",
+            "type": "resources",
+            "uuid": "1787482b-cd2e-4791-9102-6f0e5495aa19",
+            "version": [0, 0, 1]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "bzf:lightbulbon",
+            "properties": {
+                "light:off": [ false, true ]
+            }
+        },
+        "components": {
+            "minecraft:destroy_time": 1.0,
+            "minecraft:friction": 0.6,
+            "minecraft:on_interact": {
+                "event": "light:off",
+                "target": "self"
+            },
+            "minecraft:map_color": "#00ff00",
+            "minecraft:flammable": {
+                "flame_odds": 0,
+                "burn_odds": 0
+            },
+            "minecraft:pick_collision": {
+                "origin": [ -5, 0, -5 ],
+                "size": [ 10, 20, 10 ]
+            },
+            "minecraft:entity_collision": {
+                "origin": [ -6, 0, -6 ],
+                "size": [ 10, 20, 10 ]
+            },
+            "minecraft:block_light_emission": 0.9,
+            "minecraft:geometry": "geometry.bzf_lightbulb",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "bzf_lightbulbon",
+                    "render_method": "blend"
+                }
+            }
+        },
+        "events": {
+            "light:off": {
+                "set_block_at_pos": {
+                    "block_offset": [ 0, 0, 0 ],
+                    "block_type": "bzf:lightbulboff"
+                }
+            }
+        }
+    }
+}

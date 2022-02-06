@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "pack.description",
+      "name": "§3Daxo §6Utilities§f RP",
+      "uuid":"bb21e9cb-1b4f-4686-abc4-ce56d273b78c",
+      "version": [0, 0, 8],
+      "min_engine_version": [1, 17, 0]
+     },
+    "modules": [
+      {
+        "description": "§3Made by YohanColla",
+        "type": "resources",
+        "uuid": "21d7a3f8-fb9d-4e90-bca3-9418d80e7333",
+        "version": [0, 0, 8]
+      }
+    ],
+    "dependencies": [
+      {
+       "uuid":"ad592993-dcb4-4c91-9305-ce29b9d467fa",
+        "version":[0, 1, 3]
+      }
+   ]
+   }

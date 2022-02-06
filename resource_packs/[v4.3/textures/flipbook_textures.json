@@ -1,0 +1,22 @@
+//bridge-file-version: #11
+[
+	{
+		"flipbook_texture": "textures/blocks/mysterious_mushroom",
+		"atlas_tile": "mysterious_mushroom",
+		"ticks_per_frame": 15,
+		"blend_frames": true
+	},
+	{
+		"flipbook_texture": "textures/blocks/sawmill",
+		"atlas_tile": "sawmill",
+		"ticks_per_frame": 1,
+		"blend_frames": true
+	},
+	{
+		"flipbook_texture": "textures/blocks/jukebox_extended",
+		"atlas_tile": "jukebox_extended",
+		"ticks_per_frame": 5,
+		"blend_frames": true
+	},
+	{}
+]

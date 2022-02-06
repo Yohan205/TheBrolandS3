@@ -1,0 +1,34 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.10.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "scb:security_table_pieces"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"I I",
+			"I I"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:iron_ingot",
+				"data": 0
+			},
+			"I": {
+				"item": "minecraft:stick",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "scb:security_table_pieces",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

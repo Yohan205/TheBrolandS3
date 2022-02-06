@@ -1,0 +1,48 @@
+//bridge-file-version: #15
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:spawner_block_piglins_on_boat"
+		},
+		"components": {
+			"minecraft:destroy_time": 100,
+			"minecraft:explosion_resistance": 100,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "spawner_block_castle",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:immovable": true,
+			"minecraft:ticking": {
+				"range": [
+					5,
+					5
+				],
+				"on_tick": {
+					"event": "spawn",
+					"target": "self"
+				},
+				"looping": true
+			}
+		},
+		"events": {
+			"spawn": {
+				"run_command": {
+					"command": [
+						"summon minecraft:piglin ~~~",
+						"summon minecraft:piglin ~~~",
+						"summon minecraft:piglin ~~~",
+						"summon minecraft:piglin ~~~",
+						"summon minecraft:piglin_brute ~~~",
+						"summon minecraft:piglin_brute ~~~"
+					]
+				},
+				"set_block": {
+					"block_type": "minecraft:air"
+				}
+			}
+		}
+	}
+}

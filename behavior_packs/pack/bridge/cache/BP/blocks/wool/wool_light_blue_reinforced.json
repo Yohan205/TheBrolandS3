@@ -1,0 +1,141 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\SecurityBE\\blocks\\wool\\wool_light_blue_reinforced.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "5f3cc048_a515_40c9_a881_7845b91fbfc1",
+	"file_version": 17,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "scb:wool_light_blue_reinforced",
+							"register_to_creative_menu": true
+						},
+						"components": {
+							"minecraft:destroy_time": {
+								"value": 10000
+							},
+							"minecraft:explosion_resistance": {
+								"value": 10000
+							},
+							"minecraft:map_color": {
+								"color": "#3B3B3B"
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:wool_light_blue_reinforced",
+								"register_to_creative_menu": true
+							},
+							"components": {
+								"minecraft:destroy_time": {
+									"value": 10000
+								},
+								"minecraft:explosion_resistance": {
+									"value": 10000
+								},
+								"minecraft:map_color": {
+									"color": "#3B3B3B"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "scb:wool_light_blue_reinforced",
+							"register_to_creative_menu": true
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:wool_light_blue_reinforced",
+								"register_to_creative_menu": true
+							},
+							"components": {
+								"minecraft:destroy_time": {
+									"value": 10000
+								},
+								"minecraft:explosion_resistance": {
+									"value": 10000
+								},
+								"minecraft:map_color": {
+									"color": "#3B3B3B"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:destroy_time": {
+										"value": 10000
+									},
+									"minecraft:explosion_resistance": {
+										"value": 10000
+									},
+									"minecraft:map_color": {
+										"color": "#3B3B3B"
+									}
+								},
+								"key": "minecraft:destroy_time",
+								"is_minified": true,
+								"children": {
+									"value": 10000
+								}
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": {
+										"value": 10000
+									},
+									"minecraft:explosion_resistance": {
+										"value": 10000
+									},
+									"minecraft:map_color": {
+										"color": "#3B3B3B"
+									}
+								},
+								"key": "minecraft:explosion_resistance",
+								"is_minified": true,
+								"children": {
+									"value": 10000
+								}
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": {
+										"value": 10000
+									},
+									"minecraft:explosion_resistance": {
+										"value": 10000
+									},
+									"minecraft:map_color": {
+										"color": "#3B3B3B"
+									}
+								},
+								"key": "minecraft:map_color",
+								"is_minified": true,
+								"children": {
+									"color": "#3B3B3B"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

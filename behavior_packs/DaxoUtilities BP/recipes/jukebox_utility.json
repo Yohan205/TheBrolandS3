@@ -1,0 +1,38 @@
+{
+	"format_version": 1.17,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "daxo:jukebox_utility"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"GDS",
+			"#X#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:planks",
+				"data": "0"
+			},
+			"X": {
+				"item": "minecraft:noteblock"
+			},
+			"G": {
+				"item": "minecraft:gold_nugget"
+			},
+			"D": {
+				"item": "minecraft:diamond"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "daxo:jukebox_utility",
+			"data": "0",
+			"count": 1
+		}
+	}
+}

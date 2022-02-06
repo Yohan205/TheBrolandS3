@@ -1,0 +1,8 @@
+{
+	"file_path": "C:\\Users\\Sofia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Ender_Elevators_RP\\texts\\en_US.lang",
+	"file_type": "client_lang",
+	"format_version": 0,
+	"file_uuid": "b82fc762_84e3_4489_bb90_436c0f7d596c",
+	"file_version": 2,
+	"cache_content": "pack.name=Ender Elevators V2 Free Edition\r\npack.description=Resources for the Ender Elevators V2 Free Edition Addon\r\ntile.se:black_elevator.name=Black Enderporter\r\ntile.se:blue_elevator.name=Blue Enderporter\r\ntile.se:cyan_elevator.name=Cyan Enderporter\r\ntile.se:elevator.name=Enderporter\r\ntile.se:gray_elevator.name=Gray Enderporter\r\ntile.se:green_elevator.name=Green Enderporter\r\ntile.se:light_blue_elevator.name=Light Blue Enderporter\r\ntile.se:light_gray_elevator.name=Light Gray Enderporter\r\ntile.se:lime_elevator.name=Lime Enderporter\r\ntile.se:magenta_elevator.name=Magenta Enderporter\r\ntile.se:orange_elevator.name=Orange Enderporter\r\ntile.se:pink_elevator.name=Pink Enderporter\r\ntile.se:purple_elevator.name=Purple Enderporter\r\ntile.se:red_elevator.name=Red Enderporter\r\ntile.se:white_elevator.name=White Enderporter\r\ntile.se:yellow_elevator.name=Yellow Enderporter"
+}

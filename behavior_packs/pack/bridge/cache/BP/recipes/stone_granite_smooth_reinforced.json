@@ -1,0 +1,226 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\SecurityBE\\recipes\\stone_granite_smooth_reinforced.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "4683af2a_4079_4b69_b0f0_46989c220670",
+	"file_version": 16,
+	"cache_content": {
+		"open": true,
+		"comment": "",
+		"data": "",
+		"key": "global",
+		"type": "object",
+		"meta": {},
+		"children": [
+			{
+				"open": false,
+				"comment": "",
+				"data": "1.12",
+				"key": "format_version",
+				"type": "string",
+				"meta": {},
+				"children": []
+			},
+			{
+				"open": true,
+				"comment": "",
+				"data": "",
+				"key": "minecraft:recipe_shaped",
+				"type": "object",
+				"meta": {},
+				"children": [
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "description",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": true,
+								"comment": "",
+								"data": "scb:stone_granite_smooth_reinforced",
+								"key": "identifier",
+								"type": "string",
+								"meta": {},
+								"children": []
+							}
+						]
+					},
+					{
+						"open": false,
+						"comment": "",
+						"data": "",
+						"key": "tags",
+						"type": "array",
+						"meta": {},
+						"children": [
+							{
+								"open": false,
+								"comment": "",
+								"data": "crafting_table",
+								"key": "0",
+								"type": "string",
+								"meta": {},
+								"children": []
+							}
+						]
+					},
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "pattern",
+						"type": "array",
+						"meta": {},
+						"children": [
+							{
+								"open": true,
+								"comment": "",
+								"data": "X#",
+								"key": "0",
+								"type": "string",
+								"meta": {},
+								"children": []
+							}
+						]
+					},
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "key",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "#",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "scb:block_reinforcer",
+										"key": "item",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "X",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "minecraft:stone",
+										"key": "item",
+										"type": "string",
+										"meta": {},
+										"children": []
+									},
+									{
+										"open": true,
+										"comment": "",
+										"data": "2",
+										"key": "data",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "result",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "0",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "scb:stone_granite_smooth_reinforced",
+										"key": "item",
+										"type": "string",
+										"meta": {
+											"definitions": [
+												"block",
+												"item"
+											]
+										},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "1",
+										"key": "count",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							},
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "1",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "scb:block_reinforcer",
+										"key": "item",
+										"type": "string",
+										"meta": {
+											"definitions": [
+												"block",
+												"item"
+											]
+										},
+										"children": []
+									},
+									{
+										"open": false,
+										"comment": "",
+										"data": "1",
+										"key": "count",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

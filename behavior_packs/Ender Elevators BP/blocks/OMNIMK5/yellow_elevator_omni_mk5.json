@@ -1,0 +1,64 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "se:yellow_elevator_omni_mk5"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "items"
+			},
+			"minecraft:destroy_time": 0,
+			"minecraft:map_color": "#FDFF00",
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 1,
+			"minecraft:flammable": {
+				"burn_odds": 0,
+				"flame_odds": 0
+			},
+			"minecraft:friction": 0.5,
+			"minecraft:explosion_resistance": 0.3,
+			"minecraft:on_step_off": {
+				"event": "teleport_up",
+				"target": "self",
+				"condition": "query.is_jumping"
+			},
+			"minecraft:on_interact": {
+				"event": "teleport_down",
+				"target": "self",
+				"condition": "query.is_sneaking"
+			},
+			"minecraft:on_fall_on": {
+				"event": "prevent_fall",
+				"target": "self",
+				"min_fall_distance": 3
+			}
+		},
+		"events": {
+			"teleport_up": {
+				"run_command": {
+					"command": [
+						"function OMNIMK5/checkYellowOMNIMK5"
+					],
+					"target": "other"
+				}
+			},
+			"teleport_down": {
+				"run_command": {
+					"command": [
+						"function OMNIMK5/checkDownYellowOMNIMK5"
+					],
+					"target": "other"
+				}
+			},
+			"prevent_fall": {
+				"run_command": {
+					"command": [
+						"effect @s resistance 1 10 true"
+					],
+					"target": "other"
+				}
+			}
+		}
+	}
+}

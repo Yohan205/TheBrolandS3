@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.bridge_custom_item_behavior": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"holds_block_reinforcer": "query.get_equipped_item_name(0, 0) == 'block_reinforcer'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_reset_player"
+					]
+				},
+				"holds_block_reinforcer": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name(0, 0) != 'block_reinforcer'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_equipped_5a084316_b6c3_4bb7_8dd4_a1ee747f7309",
+						"/say §aequipado!"
+					],
+					"on_exit": [
+						"@s bridge:on_unequipped_5a084316_b6c3_4bb7_8dd4_a1ee747f7309"
+					]
+				}
+			}
+		}
+	}
+}

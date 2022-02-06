@@ -1,0 +1,44 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"record.lifeletters": {
+			"__use_legacy_max_distance": true,
+			"max_distance": 60,
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/records/lifeletters",
+					"stream": true,
+					"volume": 1
+				}
+			],
+			"category": "record"
+		},
+		"record.fallen": {
+			"__use_legacy_max_distance": true,
+			"max_distance": 60,
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/records/fallen",
+					"stream": true,
+					"volume": 1
+				}
+			],
+			"category": "record"
+		},
+		"record.dancing": {
+			"__use_legacy_max_distance": true,
+			"max_distance": 60,
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/records/dancing",
+					"stream": true,
+					"volume": 1
+				}
+			],
+			"category": "record"
+		}
+	}
+}

@@ -1,0 +1,290 @@
+{
+	"file_path": "C:\\Users\\Sofia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ender Elevators BP\\recipes\\OMEGA\\ORANGE\\upg_pink_elevator_omega.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "49bfd6fe_be5c_4a53_9159_8065332c8a3f",
+	"file_version": 30,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.16,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "se:upg_pink_elevator_omega"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"key": {
+							"S": {
+								"item": "minecraft:stonebrick:3"
+							},
+							"#": {
+								"pattern": [
+									"!S!",
+									"S#S",
+									"!S!"
+								],
+								"item": "se:pink_elevator_omni_mk5"
+							},
+							"!": {
+								"item": "minecraft:netherite_ingot"
+							}
+						},
+						"result": [
+							{
+								"count": 1,
+								"item": "se:pink_elevator_omega"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "se:upg_pink_elevator_omega"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"key": {
+								"S": {
+									"item": "minecraft:stonebrick:3"
+								},
+								"#": {
+									"pattern": [
+										"!S!",
+										"S#S",
+										"!S!"
+									],
+									"item": "se:pink_elevator_omni_mk5"
+								},
+								"!": {
+									"item": "minecraft:netherite_ingot"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:pink_elevator_omega"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "se:upg_pink_elevator_omega"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:upg_pink_elevator_omega"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"key": {
+								"S": {
+									"item": "minecraft:stonebrick:3"
+								},
+								"#": {
+									"pattern": [
+										"!S!",
+										"S#S",
+										"!S!"
+									],
+									"item": "se:pink_elevator_omni_mk5"
+								},
+								"!": {
+									"item": "minecraft:netherite_ingot"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:pink_elevator_omega"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:upg_pink_elevator_omega"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"key": {
+								"S": {
+									"item": "minecraft:stonebrick:3"
+								},
+								"#": {
+									"pattern": [
+										"!S!",
+										"S#S",
+										"!S!"
+									],
+									"item": "se:pink_elevator_omni_mk5"
+								},
+								"!": {
+									"item": "minecraft:netherite_ingot"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:pink_elevator_omega"
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"key": "S",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:stonebrick:3"
+								}
+							},
+							{
+								"open": {
+									"S": {
+										"item": "minecraft:stonebrick:3"
+									},
+									"#": {
+										"pattern": [
+											"!S!",
+											"S#S",
+											"!S!"
+										],
+										"item": "se:pink_elevator_omni_mk5"
+									},
+									"!": {
+										"item": "minecraft:netherite_ingot"
+									}
+								},
+								"key": "#",
+								"children": [
+									{
+										"open": {
+											"pattern": [
+												"!S!",
+												"S#S",
+												"!S!"
+											],
+											"item": "se:pink_elevator_omni_mk5"
+										},
+										"key": "pattern",
+										"is_minified": true,
+										"children": [
+											"!S!",
+											"S#S",
+											"!S!"
+										]
+									},
+									{
+										"open": {
+											"pattern": [
+												"!S!",
+												"S#S",
+												"!S!"
+											],
+											"item": "se:pink_elevator_omni_mk5"
+										},
+										"data": "se:pink_elevator_omni_mk5",
+										"key": "item"
+									}
+								]
+							},
+							{
+								"open": {
+									"S": {
+										"item": "minecraft:stonebrick:3"
+									},
+									"#": {
+										"pattern": [
+											"!S!",
+											"S#S",
+											"!S!"
+										],
+										"item": "se:pink_elevator_omni_mk5"
+									},
+									"!": {
+										"item": "minecraft:netherite_ingot"
+									}
+								},
+								"key": "!",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:netherite_ingot"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:upg_pink_elevator_omega"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"key": {
+								"S": {
+									"item": "minecraft:stonebrick:3"
+								},
+								"#": {
+									"pattern": [
+										"!S!",
+										"S#S",
+										"!S!"
+									],
+									"item": "se:pink_elevator_omni_mk5"
+								},
+								"!": {
+									"item": "minecraft:netherite_ingot"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:pink_elevator_omega"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"count": 1,
+										"item": "se:pink_elevator_omega"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"count": 1,
+									"item": "se:pink_elevator_omega"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,1354 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\SecurityBE\\entities\\land_mine.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "23ec0fac_64c4_4a8a_af56_77ca32a11f2c",
+	"file_version": 96,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "scb:land_mine",
+							"is_summonable": true,
+							"is_spawnable": true
+						},
+						"component_groups": {
+							"scb:explode": {
+								"minecraft:spawn_entity": [
+									{
+										"spawn_entity": "minecraft:tnt"
+									}
+								]
+							},
+							"deactiave": {
+								"minecraft:entity_sensor": {},
+								"minecraft:on_hurt_by_player": {},
+								"minecraft:interact": {},
+								"minecraft:mark_variant": {
+									"value": 1
+								},
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false,
+											"on_damage": {
+												"event": "scb:bye"
+											}
+										}
+									]
+								}
+							},
+							"active": {
+								"minecraft:mark_variant": {
+									"value": 0
+								}
+							},
+							"scb:bye": {
+								"minecraft:despawn": {}
+							}
+						},
+						"components": {
+							"minecraft:movement": {
+								"value": 0
+							},
+							"minecraft:physics": {
+								"has_gravity": true
+							},
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 100000,
+								"attack_interval": 1,
+								"must_see": true,
+								"within_radius": 10,
+								"scan_interval": 0,
+								"persist_time": 0,
+								"reselect_targets": true
+							},
+							"minecraft:navigation.generic": {},
+							"minecraft:movement.basic": {},
+							"minecraft:behavior.nearest_prioritized_attackable_target": {
+								"attack_interval": 0.1,
+								"priority": 1,
+								"entity_types": [
+									{
+										"filters": {
+											"subject": "player",
+											"test": "is_family",
+											"value": "player"
+										}
+									}
+								],
+								"reselect_targets": true,
+								"target_search_height": 1
+							},
+							"minecraft:attack": {
+								"damage": 20
+							},
+							"minecraft:interact": {
+								"interactions": [
+									{
+										"on_interact": {
+											"event": "scb:deactivate",
+											"filters": {
+												"all_of": [
+													{
+														"test": "has_equipment",
+														"subject": "other",
+														"domain": "hand",
+														"value": "scb:land_mine_deactivate"
+													}
+												]
+											}
+										},
+										"swing": true
+									}
+								]
+							},
+							"minecraft:fire_immune": true,
+							"minecraft:entity_sensor": {
+								"sensor_range": 0,
+								"event": "land_mine:explode"
+							},
+							"minecraft:on_hurt_by_player": {
+								"event": "land_mine:explode"
+							}
+						},
+						"events": {
+							"land_mine:explode": {
+								"execute": {
+									"commands": [
+										"/playsound random.orb @a ~ ~ ~",
+										"/summon scb:mine_explode",
+										"/kill @s"
+									]
+								}
+							},
+							"scb:deactivate": {
+								"add": {
+									"component_groups": [
+										"deactiave"
+									]
+								},
+								"remove": {
+									"component_groups": [
+										"active"
+									]
+								}
+							},
+							"scb:bye": {
+								"add": {
+									"component_groups": [
+										"scb:bye"
+									]
+								}
+							}
+						}
+					}
+				},
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "scb:land_mine",
+							"is_summonable": true,
+							"is_spawnable": true
+						},
+						"component_groups": {
+							"scb:explode": {
+								"minecraft:spawn_entity": [
+									{
+										"spawn_entity": "minecraft:tnt"
+									}
+								]
+							},
+							"deactiave": {
+								"minecraft:entity_sensor": {},
+								"minecraft:on_hurt_by_player": {},
+								"minecraft:interact": {},
+								"minecraft:mark_variant": {
+									"value": 1
+								},
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false,
+											"on_damage": {
+												"event": "scb:bye"
+											}
+										}
+									]
+								}
+							},
+							"active": {
+								"minecraft:mark_variant": {
+									"value": 0
+								}
+							},
+							"scb:bye": {
+								"minecraft:despawn": {}
+							}
+						},
+						"components": {
+							"minecraft:movement": {
+								"value": 0
+							},
+							"minecraft:physics": {
+								"has_gravity": true
+							},
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 100000,
+								"attack_interval": 1,
+								"must_see": true,
+								"within_radius": 10,
+								"scan_interval": 0,
+								"persist_time": 0,
+								"reselect_targets": true
+							},
+							"minecraft:navigation.generic": {},
+							"minecraft:movement.basic": {},
+							"minecraft:behavior.nearest_prioritized_attackable_target": {
+								"attack_interval": 0.1,
+								"priority": 1,
+								"entity_types": [
+									{
+										"filters": {
+											"subject": "player",
+											"test": "is_family",
+											"value": "player"
+										}
+									}
+								],
+								"reselect_targets": true,
+								"target_search_height": 1
+							},
+							"minecraft:attack": {
+								"damage": 20
+							},
+							"minecraft:interact": {
+								"interactions": [
+									{
+										"on_interact": {
+											"event": "scb:deactivate",
+											"filters": {
+												"all_of": [
+													{
+														"test": "has_equipment",
+														"subject": "other",
+														"domain": "hand",
+														"value": "scb:land_mine_deactivate"
+													}
+												]
+											}
+										},
+										"swing": true
+									}
+								]
+							},
+							"minecraft:fire_immune": true,
+							"minecraft:entity_sensor": {
+								"sensor_range": 0,
+								"event": "land_mine:explode"
+							},
+							"minecraft:on_hurt_by_player": {
+								"event": "land_mine:explode"
+							}
+						},
+						"events": {
+							"land_mine:explode": {
+								"execute": {
+									"commands": [
+										"/playsound random.orb @a ~ ~ ~",
+										"/summon scb:mine_explode",
+										"/kill @s"
+									]
+								}
+							},
+							"scb:deactivate": {
+								"add": {
+									"component_groups": [
+										"deactiave"
+									]
+								},
+								"remove": {
+									"component_groups": [
+										"active"
+									]
+								}
+							},
+							"scb:bye": {
+								"add": {
+									"component_groups": [
+										"scb:bye"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "scb:land_mine",
+							"is_summonable": true,
+							"is_spawnable": true
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:land_mine",
+								"is_summonable": true,
+								"is_spawnable": true
+							},
+							"component_groups": {
+								"scb:explode": {
+									"minecraft:spawn_entity": [
+										{
+											"spawn_entity": "minecraft:tnt"
+										}
+									]
+								},
+								"deactiave": {
+									"minecraft:entity_sensor": {},
+									"minecraft:on_hurt_by_player": {},
+									"minecraft:interact": {},
+									"minecraft:mark_variant": {
+										"value": 1
+									},
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"cause": "all",
+												"deals_damage": false,
+												"on_damage": {
+													"event": "scb:bye"
+												}
+											}
+										]
+									}
+								},
+								"active": {
+									"minecraft:mark_variant": {
+										"value": 0
+									}
+								},
+								"scb:bye": {
+									"minecraft:despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:movement": {
+									"value": 0
+								},
+								"minecraft:physics": {
+									"has_gravity": true
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 100000,
+									"attack_interval": 1,
+									"must_see": true,
+									"within_radius": 10,
+									"scan_interval": 0,
+									"persist_time": 0,
+									"reselect_targets": true
+								},
+								"minecraft:navigation.generic": {},
+								"minecraft:movement.basic": {},
+								"minecraft:behavior.nearest_prioritized_attackable_target": {
+									"attack_interval": 0.1,
+									"priority": 1,
+									"entity_types": [
+										{
+											"filters": {
+												"subject": "player",
+												"test": "is_family",
+												"value": "player"
+											}
+										}
+									],
+									"reselect_targets": true,
+									"target_search_height": 1
+								},
+								"minecraft:attack": {
+									"damage": 20
+								},
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"on_interact": {
+												"event": "scb:deactivate",
+												"filters": {
+													"all_of": [
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "scb:land_mine_deactivate"
+														}
+													]
+												}
+											},
+											"swing": true
+										}
+									]
+								},
+								"minecraft:fire_immune": true,
+								"minecraft:entity_sensor": {
+									"sensor_range": 0,
+									"event": "land_mine:explode"
+								},
+								"minecraft:on_hurt_by_player": {
+									"event": "land_mine:explode"
+								}
+							},
+							"events": {
+								"land_mine:explode": {
+									"execute": {
+										"commands": [
+											"/playsound random.orb @a ~ ~ ~",
+											"/summon scb:mine_explode",
+											"/kill @s"
+										]
+									}
+								},
+								"scb:deactivate": {
+									"add": {
+										"component_groups": [
+											"deactiave"
+										]
+									},
+									"remove": {
+										"component_groups": [
+											"active"
+										]
+									}
+								},
+								"scb:bye": {
+									"add": {
+										"component_groups": [
+											"scb:bye"
+										]
+									}
+								}
+							}
+						},
+						"key": "component_groups",
+						"children": [
+							{
+								"key": "scb:explode",
+								"children": [
+									{
+										"open": {
+											"minecraft:spawn_entity": [
+												{
+													"spawn_entity": "minecraft:tnt"
+												}
+											]
+										},
+										"key": "minecraft:spawn_entity",
+										"array": [
+											{
+												"open": [
+													{
+														"spawn_entity": "minecraft:tnt"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"spawn_entity": "minecraft:tnt"
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"scb:explode": {
+										"minecraft:spawn_entity": [
+											{
+												"spawn_entity": "minecraft:tnt"
+											}
+										]
+									},
+									"deactiave": {
+										"minecraft:entity_sensor": {},
+										"minecraft:on_hurt_by_player": {},
+										"minecraft:interact": {},
+										"minecraft:mark_variant": {
+											"value": 1
+										},
+										"minecraft:damage_sensor": {
+											"triggers": [
+												{
+													"cause": "all",
+													"deals_damage": false,
+													"on_damage": {
+														"event": "scb:bye"
+													}
+												}
+											]
+										}
+									},
+									"active": {
+										"minecraft:mark_variant": {
+											"value": 0
+										}
+									},
+									"scb:bye": {
+										"minecraft:despawn": {}
+									}
+								},
+								"key": "deactiave",
+								"is_minified": true,
+								"children": {
+									"minecraft:entity_sensor": {},
+									"minecraft:on_hurt_by_player": {},
+									"minecraft:interact": {},
+									"minecraft:mark_variant": {
+										"value": 1
+									},
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"cause": "all",
+												"deals_damage": false,
+												"on_damage": {
+													"event": "scb:bye"
+												}
+											}
+										]
+									}
+								}
+							},
+							{
+								"open": {
+									"scb:explode": {
+										"minecraft:spawn_entity": [
+											{
+												"spawn_entity": "minecraft:tnt"
+											}
+										]
+									},
+									"deactiave": {
+										"minecraft:entity_sensor": {},
+										"minecraft:on_hurt_by_player": {},
+										"minecraft:interact": {},
+										"minecraft:mark_variant": {
+											"value": 1
+										},
+										"minecraft:damage_sensor": {
+											"triggers": [
+												{
+													"cause": "all",
+													"deals_damage": false,
+													"on_damage": {
+														"event": "scb:bye"
+													}
+												}
+											]
+										}
+									},
+									"active": {
+										"minecraft:mark_variant": {
+											"value": 0
+										}
+									},
+									"scb:bye": {
+										"minecraft:despawn": {}
+									}
+								},
+								"key": "active",
+								"children": [
+									{
+										"open": {
+											"minecraft:mark_variant": {
+												"value": 0
+											}
+										},
+										"key": "minecraft:mark_variant",
+										"is_minified": true,
+										"children": {
+											"value": 0
+										}
+									}
+								]
+							},
+							{
+								"key": "scb:bye",
+								"is_minified": true,
+								"children": {
+									"minecraft:despawn": {}
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:land_mine",
+								"is_summonable": true,
+								"is_spawnable": true
+							},
+							"component_groups": {
+								"scb:explode": {
+									"minecraft:spawn_entity": [
+										{
+											"spawn_entity": "minecraft:tnt"
+										}
+									]
+								},
+								"deactiave": {
+									"minecraft:entity_sensor": {},
+									"minecraft:on_hurt_by_player": {},
+									"minecraft:interact": {},
+									"minecraft:mark_variant": {
+										"value": 1
+									},
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"cause": "all",
+												"deals_damage": false,
+												"on_damage": {
+													"event": "scb:bye"
+												}
+											}
+										]
+									}
+								},
+								"active": {
+									"minecraft:mark_variant": {
+										"value": 0
+									}
+								},
+								"scb:bye": {
+									"minecraft:despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:movement": {
+									"value": 0
+								},
+								"minecraft:physics": {
+									"has_gravity": true
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 100000,
+									"attack_interval": 1,
+									"must_see": true,
+									"within_radius": 10,
+									"scan_interval": 0,
+									"persist_time": 0,
+									"reselect_targets": true
+								},
+								"minecraft:navigation.generic": {},
+								"minecraft:movement.basic": {},
+								"minecraft:behavior.nearest_prioritized_attackable_target": {
+									"attack_interval": 0.1,
+									"priority": 1,
+									"entity_types": [
+										{
+											"filters": {
+												"subject": "player",
+												"test": "is_family",
+												"value": "player"
+											}
+										}
+									],
+									"reselect_targets": true,
+									"target_search_height": 1
+								},
+								"minecraft:attack": {
+									"damage": 20
+								},
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"on_interact": {
+												"event": "scb:deactivate",
+												"filters": {
+													"all_of": [
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "scb:land_mine_deactivate"
+														}
+													]
+												}
+											},
+											"swing": true
+										}
+									]
+								},
+								"minecraft:fire_immune": true,
+								"minecraft:entity_sensor": {
+									"sensor_range": 0,
+									"event": "land_mine:explode"
+								},
+								"minecraft:on_hurt_by_player": {
+									"event": "land_mine:explode"
+								}
+							},
+							"events": {
+								"land_mine:explode": {
+									"execute": {
+										"commands": [
+											"/playsound random.orb @a ~ ~ ~",
+											"/summon scb:mine_explode",
+											"/kill @s"
+										]
+									}
+								},
+								"scb:deactivate": {
+									"add": {
+										"component_groups": [
+											"deactiave"
+										]
+									},
+									"remove": {
+										"component_groups": [
+											"active"
+										]
+									}
+								},
+								"scb:bye": {
+									"add": {
+										"component_groups": [
+											"scb:bye"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:movement",
+								"is_minified": true,
+								"children": {
+									"value": 0
+								}
+							},
+							{
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {
+									"has_gravity": true
+								}
+							},
+							{
+								"open": {
+									"minecraft:movement": {
+										"value": 0
+									},
+									"minecraft:physics": {
+										"has_gravity": true
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 100000,
+										"attack_interval": 1,
+										"must_see": true,
+										"within_radius": 10,
+										"scan_interval": 0,
+										"persist_time": 0,
+										"reselect_targets": true
+									},
+									"minecraft:navigation.generic": {},
+									"minecraft:movement.basic": {},
+									"minecraft:behavior.nearest_prioritized_attackable_target": {
+										"attack_interval": 0.1,
+										"priority": 1,
+										"entity_types": [
+											{
+												"filters": {
+													"subject": "player",
+													"test": "is_family",
+													"value": "player"
+												}
+											}
+										],
+										"reselect_targets": true,
+										"target_search_height": 1
+									},
+									"minecraft:attack": {
+										"damage": 20
+									},
+									"minecraft:interact": {
+										"interactions": [
+											{
+												"on_interact": {
+													"event": "scb:deactivate",
+													"filters": {
+														"all_of": [
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "scb:land_mine_deactivate"
+															}
+														]
+													}
+												},
+												"swing": true
+											}
+										]
+									},
+									"minecraft:fire_immune": true,
+									"minecraft:entity_sensor": {
+										"sensor_range": 0,
+										"event": "land_mine:explode"
+									},
+									"minecraft:on_hurt_by_player": {
+										"event": "land_mine:explode"
+									}
+								},
+								"key": "minecraft:behavior.nearest_attackable_target",
+								"is_minified": true,
+								"children": {
+									"priority": 100000,
+									"attack_interval": 1,
+									"must_see": true,
+									"within_radius": 10,
+									"scan_interval": 0,
+									"persist_time": 0,
+									"reselect_targets": true
+								}
+							},
+							{
+								"key": "minecraft:navigation.generic",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:movement": {
+										"value": 0
+									},
+									"minecraft:physics": {
+										"has_gravity": true
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 100000,
+										"attack_interval": 1,
+										"must_see": true,
+										"within_radius": 10,
+										"scan_interval": 0,
+										"persist_time": 0,
+										"reselect_targets": true
+									},
+									"minecraft:navigation.generic": {},
+									"minecraft:movement.basic": {},
+									"minecraft:behavior.nearest_prioritized_attackable_target": {
+										"attack_interval": 0.1,
+										"priority": 1,
+										"entity_types": [
+											{
+												"filters": {
+													"subject": "player",
+													"test": "is_family",
+													"value": "player"
+												}
+											}
+										],
+										"reselect_targets": true,
+										"target_search_height": 1
+									},
+									"minecraft:attack": {
+										"damage": 20
+									},
+									"minecraft:interact": {
+										"interactions": [
+											{
+												"on_interact": {
+													"event": "scb:deactivate",
+													"filters": {
+														"all_of": [
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"domain": "hand",
+																"value": "scb:land_mine_deactivate"
+															}
+														]
+													}
+												},
+												"swing": true
+											}
+										]
+									},
+									"minecraft:fire_immune": true,
+									"minecraft:entity_sensor": {
+										"sensor_range": 0,
+										"event": "land_mine:explode"
+									},
+									"minecraft:on_hurt_by_player": {
+										"event": "land_mine:explode"
+									}
+								},
+								"key": "minecraft:movement.basic",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:behavior.nearest_prioritized_attackable_target",
+								"children": [
+									{
+										"data": "0.1",
+										"key": "attack_interval"
+									},
+									{
+										"open": {
+											"attack_interval": 0.1,
+											"priority": 1,
+											"entity_types": [
+												{
+													"filters": {
+														"subject": "player",
+														"test": "is_family",
+														"value": "player"
+													}
+												}
+											],
+											"reselect_targets": true,
+											"target_search_height": 1
+										},
+										"data": "1",
+										"key": "priority"
+									},
+									{
+										"key": "entity_types",
+										"array": [
+											{
+												"open": [
+													{
+														"filters": {
+															"subject": "player",
+															"test": "is_family",
+															"value": "player"
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"filters": {
+																"subject": "player",
+																"test": "is_family",
+																"value": "player"
+															}
+														},
+														"key": "filters",
+														"is_minified": true,
+														"children": {
+															"subject": "player",
+															"test": "is_family",
+															"value": "player"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"data": "true",
+										"key": "reselect_targets"
+									},
+									{
+										"data": "1",
+										"key": "target_search_height"
+									}
+								]
+							},
+							{
+								"key": "minecraft:attack",
+								"is_minified": true,
+								"children": {
+									"damage": 20
+								}
+							},
+							{
+								"key": "minecraft:interact",
+								"children": [
+									{
+										"key": "interactions",
+										"array": [
+											{
+												"open": [
+													{
+														"on_interact": {
+															"event": "scb:deactivate",
+															"filters": {
+																"all_of": [
+																	{
+																		"test": "has_equipment",
+																		"subject": "other",
+																		"domain": "hand",
+																		"value": "scb:land_mine_deactivate"
+																	}
+																]
+															}
+														},
+														"swing": true
+													}
+												],
+												"children": [
+													{
+														"key": "on_interact",
+														"children": [
+															{
+																"data": "scb:deactivate",
+																"key": "event"
+															},
+															{
+																"open": {
+																	"event": "scb:deactivate",
+																	"filters": {
+																		"all_of": [
+																			{
+																				"test": "has_equipment",
+																				"subject": "other",
+																				"domain": "hand",
+																				"value": "scb:land_mine_deactivate"
+																			}
+																		]
+																	}
+																},
+																"key": "filters",
+																"children": [
+																	{
+																		"open": {
+																			"all_of": [
+																				{
+																					"test": "has_equipment",
+																					"subject": "other",
+																					"domain": "hand",
+																					"value": "scb:land_mine_deactivate"
+																				}
+																			]
+																		},
+																		"key": "all_of",
+																		"array": [
+																			{
+																				"open": [
+																					{
+																						"test": "has_equipment",
+																						"subject": "other",
+																						"domain": "hand",
+																						"value": "scb:land_mine_deactivate"
+																					}
+																				],
+																				"is_minified": true,
+																				"children": {
+																					"test": "has_equipment",
+																					"subject": "other",
+																					"domain": "hand",
+																					"value": "scb:land_mine_deactivate"
+																				}
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"data": "true",
+														"key": "swing"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"data": "true",
+								"key": "minecraft:fire_immune"
+							},
+							{
+								"key": "minecraft:entity_sensor",
+								"is_minified": true,
+								"children": {
+									"sensor_range": 0,
+									"event": "land_mine:explode"
+								}
+							},
+							{
+								"key": "minecraft:on_hurt_by_player",
+								"is_minified": true,
+								"children": {
+									"event": "land_mine:explode"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:land_mine",
+								"is_summonable": true,
+								"is_spawnable": true
+							},
+							"component_groups": {
+								"scb:explode": {
+									"minecraft:spawn_entity": [
+										{
+											"spawn_entity": "minecraft:tnt"
+										}
+									]
+								},
+								"deactiave": {
+									"minecraft:entity_sensor": {},
+									"minecraft:on_hurt_by_player": {},
+									"minecraft:interact": {},
+									"minecraft:mark_variant": {
+										"value": 1
+									},
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"cause": "all",
+												"deals_damage": false,
+												"on_damage": {
+													"event": "scb:bye"
+												}
+											}
+										]
+									}
+								},
+								"active": {
+									"minecraft:mark_variant": {
+										"value": 0
+									}
+								},
+								"scb:bye": {
+									"minecraft:despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:movement": {
+									"value": 0
+								},
+								"minecraft:physics": {
+									"has_gravity": true
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 100000,
+									"attack_interval": 1,
+									"must_see": true,
+									"within_radius": 10,
+									"scan_interval": 0,
+									"persist_time": 0,
+									"reselect_targets": true
+								},
+								"minecraft:navigation.generic": {},
+								"minecraft:movement.basic": {},
+								"minecraft:behavior.nearest_prioritized_attackable_target": {
+									"attack_interval": 0.1,
+									"priority": 1,
+									"entity_types": [
+										{
+											"filters": {
+												"subject": "player",
+												"test": "is_family",
+												"value": "player"
+											}
+										}
+									],
+									"reselect_targets": true,
+									"target_search_height": 1
+								},
+								"minecraft:attack": {
+									"damage": 20
+								},
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"on_interact": {
+												"event": "scb:deactivate",
+												"filters": {
+													"all_of": [
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"domain": "hand",
+															"value": "scb:land_mine_deactivate"
+														}
+													]
+												}
+											},
+											"swing": true
+										}
+									]
+								},
+								"minecraft:fire_immune": true,
+								"minecraft:entity_sensor": {
+									"sensor_range": 0,
+									"event": "land_mine:explode"
+								},
+								"minecraft:on_hurt_by_player": {
+									"event": "land_mine:explode"
+								}
+							},
+							"events": {
+								"land_mine:explode": {
+									"execute": {
+										"commands": [
+											"/playsound random.orb @a ~ ~ ~",
+											"/summon scb:mine_explode",
+											"/kill @s"
+										]
+									}
+								},
+								"scb:deactivate": {
+									"add": {
+										"component_groups": [
+											"deactiave"
+										]
+									},
+									"remove": {
+										"component_groups": [
+											"active"
+										]
+									}
+								},
+								"scb:bye": {
+									"add": {
+										"component_groups": [
+											"scb:bye"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"key": "land_mine:explode",
+								"children": [
+									{
+										"open": {
+											"execute": {
+												"commands": [
+													"/playsound random.orb @a ~ ~ ~",
+													"/summon scb:mine_explode",
+													"/kill @s"
+												]
+											}
+										},
+										"key": "execute",
+										"children": [
+											{
+												"open": {
+													"commands": [
+														"/playsound random.orb @a ~ ~ ~",
+														"/summon scb:mine_explode",
+														"/kill @s"
+													]
+												},
+												"key": "commands",
+												"is_minified": true,
+												"array": [
+													"/playsound random.orb @a ~ ~ ~",
+													"/summon scb:mine_explode",
+													"/kill @s"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "scb:deactivate",
+								"children": [
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"deactiave"
+												]
+											},
+											"remove": {
+												"component_groups": [
+													"active"
+												]
+											}
+										},
+										"key": "add",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"deactiave"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"array": [
+													"deactiave"
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"deactiave"
+												]
+											},
+											"remove": {
+												"component_groups": [
+													"active"
+												]
+											}
+										},
+										"key": "remove",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"active"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"array": [
+													"active"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "scb:bye",
+								"is_minified": true,
+								"children": {
+									"add": {
+										"component_groups": [
+											"scb:bye"
+										]
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,77 @@
+##bridge-file-version: #32
+pack.name=§bSecurityBEcraft 1.1 Resources by @Pammsitoh
+pack.description=§bSecurityBEcraft Addon created by ThePamm
+build.scb.text=Build
+item.spawn_egg.entity.scb:turret.name=Turret §d|| §bSecurityBeCraft
+item.spawn_egg.entity.scb:land_mine.name=Land mine §d|| §bSecurityBeCraft
+item.scb:block_reinforcer.name=Block reinforcer §d|| §bSecurityBeCraft
+item.scb:block_remover.name=Block remover §d|| §bSecurityBeCraft
+entity.scb:turret.name=Turret §d|| §bSecurityBeCraft
+entity.scb:key_chest.name=Protected Chest §d|| §bSecurityBeCraft
+item.spawn_egg.entity.scb:key_chest.name=Protected Chest §d|| §bSecurityBeCraft
+item.scb:protected_chest_pieces.name=Protected chest Parts §d|| §bSecurityBeCraft
+item.spawn_egg.entity.scb:key_door.name=Protected Door §d|| §bSecurityBeCraft
+item.scb:protected_door_pieces.name=Protected door parts §d|| §bSecurityBeCraft
+item.scb:padlock.name=Padlock §d|| §bSecurityBeCraft
+item.spawn_egg.entity.scb:security_table.name=Security Table §d|| §bSecurityBeCraft
+item.scb:security_table_pieces.name=Security table parts §d|| §bSecurityBeCraft
+entity.scb:mine_explode.name=Land mine §d|| §bSecurityBeCraft
+item.scb:land_mine_pieces.name=Land mine parts §d|| §bSecurityBeCraft
+item.spawn_egg.entity.scb:block_remove_entity.name=§dUniversal §fBlock Remover §d|| §bSecurityBeCraft
+item.scb:rotator.name=Rotate §d|| §bSecurityBeCraft
+item.scb:turret_pieces.name=Turret parts §d|| §bSecurityBeCraft
+tile.scb:stone_reinforced.name=Stone reinforced §d|| §bSecurityBeCraft
+tile.scb:dirt_reinforced.name=Dirt reinforced §d|| §bSecurityBeCraft
+tile.scb:stonebrick_reinforced.name=Stonebrick reinforced §d|| §bSecurityBeCraft
+tile.scb:stonebrick_mossy_reinforced.name=Stonebrick mossy reinforced §d|| §bSecurityBeCraft
+tile.scb:stonebrick_carved_reinforced.name=Stonebrick carved reinforced §d|| §bSecurityBeCraft
+tile.scb:stonebrick_cracked_reinforced.name=Stonebrick cracked reinforced §d|| §bSecurityBeCraft
+tile.scb:stone_granite_reinforced.name=Granite reinforced §d|| §bSecurityBeCraft
+tile.scb:stone_granite_smooth_reinforced.name=Granite smooth reinforced §d|| §bSecurityBeCraft
+tile.scb:stone_diorite_reinforced.name=Diorite reinforced §d|| §bSecurityBeCraft
+tile.scb:stone_diorite_smooth_reinforced.name=Diorite smooth reinforced §d|| §bSecurityBeCraft
+tile.scb:stone_andesite_reinforced.name=Andesite reinforced §d|| §bSecurityBeCraft
+tile.scb:stone_andesite_smooth_reinforced.name=Andesite smooth reinforced §d|| §bSecurityBeCraft
+tile.scb:end_stone_reinforced.name=End stone reinforced §d|| §bSecurityBeCraft
+tile.scb:brick_reinforced.name=Brick reinforced §d|| §bSecurityBeCraft
+tile.scb:cobblestone_reinforced.name=Cobblestone reinforced §d|| §bSecurityBeCraft
+tile.scb:cobblestone_mossy_reinforced.name=Cobblestone mossy reinforced §d|| §bSecurityBeCraft
+tile.scb:plank_acacia_reinforced.name=Acacia Wood Planks Reinforced §d|| §bSecurityBeCraft
+tile.scb:plank_big_oak_reinforced.name=Dark Oak Wood Planks Reinforced §d|| §bSecurityBeCraft
+tile.scb:plank_birch_reinforced.name=Birch Wood Planks Reinforced §d|| §bSecurityBeCraft
+tile.scb:plank_jungle_reinforced.name=Jungle Wood Planks Reinforced §d|| §bSecurityBeCraft
+tile.scb:plank_oak_reinforced.name=Oak Wood Planks Reinforced §d|| §bSecurityBeCraft
+tile.scb:plank_spruce_reinforced.name=Spruce Wood Planks Reinforced §d|| §bSecurityBeCraft
+tile.scb:quartz_block_reinforced.name=Quartz Block Reinforced §d|| §bSecurityBeCraft
+tile.scb:quartz_block_lines_reinforced.name=Pillar Quartz Block Reinforced §d|| §bSecurityBeCraft
+tile.scb:quartz_block_chiseled_reinforced.name=Chiseled Quartz Block Reinforced §d|| §bSecurityBeCraft
+tile.scb:wool_white_reinforced.name=White Wool Reinforced §d|| §bSecurityBeCraft
+tile.scb:wool_orange_reinforced.name=Orange Wool Reinforced §d|| §bSecurityBeCraft
+tile.scb:wool_magenta_reinforced.name=Magenta Wool Reinforced §d|| §bSecurityBeCraft
+tile.scb:wool_light_blue_reinforced.name=Light Blue Wool Reinforced §d|| §bSecurityBeCraft
+tile.scb:wool_yellow_reinforced.name=Yellow Wool Reinforced §d|| §bSecurityBeCraft
+tile.scb:wool_lime_reinforced.name=Lime Wool Reinforced §d|| §bSecurityBeCraft
+tile.scb:wool_pink_reinforced.name=Pink Wool Reinforced §d|| §bSecurityBeCraft
+tile.scb:wool_gray_reinforced.name=Gray Wool Reinforced §d|| §bSecurityBeCraft
+tile.scb:wool_silver_reinforced.name=Silver Wool Reinforced §d|| §bSecurityBeCraft
+tile.scb:wool_cyan_reinforced.name=Cyan Wool Reinforced §d|| §bSecurityBeCraft
+tile.scb:wool_purple_reinforced.name=Purple Wool Reinforced §d|| §bSecurityBeCraft
+tile.scb:wool_blue_reinforced.name=Blue Wool Reinforced §d|| §bSecurityBeCraft
+tile.scb:wool_brown_reinforced.name=Brown Wool Reinforced §d|| §bSecurityBeCraft
+tile.scb:wool_green_reinforced.name=Green Wool Reinforced §d|| §bSecurityBeCraft
+tile.scb:wool_red_reinforced.name=Red Wool Reinforced §d|| §bSecurityBeCraft
+tile.scb:wool_black_reinforced.name=Black Wool Reinforced §d|| §bSecurityBeCraft
+
+item.scb:fire_alarm_parts.name=Fire Alarm Parts §d|| §bSecurityBeCraft
+item.scb:rocket.name=Rocket §d|| §bSecurityBeCraft
+item.scb:land_mine_deactivate.name=Land Mine Deactivator §d|| §bSecurityBeCraft
+item.scb:iron_bars_trap_parts.name=Iron Bars Trap Parts §d|| §bSecurityBeCraft
+item.scb:rocket_launcher_parts.name=Rocket Launcher Parts §d|| §bSecurityBeCraft
+
+item.spawn_egg.entity.scb:fire_alarm.name=Fire Alarm §d|| §bSecurityBeCraft
+item.spawn_egg.entity.scb:iron_bars_trap.name=Iron Bars Trap §d|| §bSecurityBeCraft
+item.spawn_egg.entity.scb:misil_launcher.name=Rocket Launcher §d|| §bSecurityBeCraft
+item.spawn_egg.entity.scb:door.name=Protected Door §d|| §bSecurityBeCraft
+
+
+

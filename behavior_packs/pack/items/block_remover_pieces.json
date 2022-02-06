@@ -1,0 +1,16 @@
+//bridge-file-version: #15
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "scb:block_remover_pieces",
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:use_duration": 32,
+			"minecraft:max_stack_size": 64,
+			"minecraft:stacked_by_data": true,
+			"minecraft:foil": true
+		}
+	}
+}

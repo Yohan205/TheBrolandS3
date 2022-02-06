@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ws:warp_stone" //BASE BY ANDRIEL
+    },
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:purple_dye"
+      },
+      "B": {
+        "item": "minecraft:ender_pearl"
+      },
+      "C": {
+        "item": "minecraft:emerald",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ws:warp_stone.waystones",
+      "count": 1,
+      "data": 0
+    }
+  }
+}
+//ABDS (ignore isso)

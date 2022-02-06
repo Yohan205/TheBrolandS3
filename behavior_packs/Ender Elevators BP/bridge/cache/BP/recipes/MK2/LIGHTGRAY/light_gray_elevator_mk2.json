@@ -1,0 +1,128 @@
+{
+	"file_path": "C:\\Users\\Sofia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ender Elevators\\recipes\\MK2\\LIGHTGRAY\\light_gray_elevator_mk2.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "88ac7b56_587a_4f9f_b7f7_3a34211f7889",
+	"file_version": 9,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "se:light_gray_elevator_mk2"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"ingredients": [
+							{
+								"item": "se:elevator_mk2",
+								"count": 1
+							},
+							{
+								"item": "minecraft:dye",
+								"data": 7,
+								"count": 1
+							}
+						],
+						"result": [
+							{
+								"item": "se:light_gray_elevator_mk2",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "se:light_gray_elevator_mk2"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:light_gray_elevator_mk2"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "se:elevator_mk2",
+									"count": 1
+								},
+								{
+									"item": "minecraft:dye",
+									"data": 7,
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "se:light_gray_elevator_mk2",
+									"count": 1
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"is_minified": true,
+								"children": {
+									"item": "se:elevator_mk2",
+									"count": 1
+								}
+							},
+							{
+								"open": [
+									{
+										"item": "se:elevator_mk2",
+										"count": 1
+									},
+									{
+										"item": "minecraft:dye",
+										"data": 7,
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:dye",
+									"data": 7,
+									"count": 1
+								}
+							}
+						]
+					},
+					{
+						"key": "result",
+						"is_minified": true,
+						"children": [
+							{
+								"item": "se:light_gray_elevator_mk2",
+								"count": 1
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

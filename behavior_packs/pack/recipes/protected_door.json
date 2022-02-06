@@ -1,0 +1,31 @@
+//bridge-file-version: #34
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "scb:protected_door_pieces"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"##X",
+			"##X",
+			"##X"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:iron_ingot"
+			},
+			"X": {
+				"item": "scb:stone_reinforced"
+			}
+		},
+		"result": [
+			{
+				"item": "scb:protected_door_pieces",
+				"count": 1
+			}
+		]
+	}
+}

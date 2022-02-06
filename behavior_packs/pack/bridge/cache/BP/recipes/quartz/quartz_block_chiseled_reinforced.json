@@ -1,0 +1,202 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\SecurityBE\\recipes\\quartz\\quartz_block_chiseled_reinforced.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "d6a0faa8_93c2_487d_8b19_34b85de321b6",
+	"file_version": 27,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.12",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.12,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "scb:quartz_block_chiseled_reinforced"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"X#"
+						],
+						"key": {
+							"#": {
+								"item": "scb:block_reinforcer"
+							},
+							"X": {
+								"item": "minecraft:quartz_block",
+								"data": 1
+							}
+						},
+						"result": [
+							{
+								"item": "scb:quartz_block_chiseled_reinforced",
+								"count": 1
+							},
+							{
+								"item": "scb:block_reinforcer",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "scb:quartz_block_chiseled_reinforced"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"array": [
+							"crafting_table"
+						]
+					},
+					{
+						"key": "pattern",
+						"is_minified": true,
+						"array": [
+							"X#"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:quartz_block_chiseled_reinforced"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"X#"
+							],
+							"key": {
+								"#": {
+									"item": "scb:block_reinforcer"
+								},
+								"X": {
+									"item": "minecraft:quartz_block",
+									"data": 1
+								}
+							},
+							"result": [
+								{
+									"item": "scb:quartz_block_chiseled_reinforced",
+									"count": 1
+								},
+								{
+									"item": "scb:block_reinforcer",
+									"count": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "scb:block_reinforcer"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "scb:block_reinforcer"
+									},
+									"X": {
+										"item": "minecraft:quartz_block",
+										"data": 1
+									}
+								},
+								"key": "X",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:quartz_block",
+									"data": 1
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "scb:quartz_block_chiseled_reinforced"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"X#"
+							],
+							"key": {
+								"#": {
+									"item": "scb:block_reinforcer"
+								},
+								"X": {
+									"item": "minecraft:quartz_block",
+									"data": 1
+								}
+							},
+							"result": [
+								{
+									"item": "scb:quartz_block_chiseled_reinforced",
+									"count": 1
+								},
+								{
+									"item": "scb:block_reinforcer",
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"array": [
+							{
+								"open": [
+									{
+										"item": "scb:quartz_block_chiseled_reinforced",
+										"count": 1
+									},
+									{
+										"item": "scb:block_reinforcer",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "scb:quartz_block_chiseled_reinforced",
+									"count": 1
+								}
+							},
+							{
+								"open": [
+									{
+										"item": "scb:quartz_block_chiseled_reinforced",
+										"count": 1
+									},
+									{
+										"item": "scb:block_reinforcer",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "scb:block_reinforcer",
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

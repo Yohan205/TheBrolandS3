@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ws:fundo_ui.waystones",
+      "materials": { "default": "drowned" },
+      "textures": {
+        "default": "textures/entity/fundo"
+      },
+      "geometry": {
+        "default": "geometry.fundo"
+      },
+      "render_controllers": [ "controller.render.agent" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 52
+      }
+    }
+  }
+}

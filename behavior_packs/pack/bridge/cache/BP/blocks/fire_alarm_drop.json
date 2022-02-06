@@ -1,0 +1,97 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\SecurityBE\\blocks\\fire_alarm_drop.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "f22fd146_308a_4d90_8dfe_c8c30942ee7a",
+	"file_version": 4,
+	"cache_content": {
+		"open": true,
+		"comment": "",
+		"data": "",
+		"key": "global",
+		"type": "object",
+		"meta": {},
+		"children": [
+			{
+				"open": false,
+				"comment": "",
+				"data": "1.10.0",
+				"key": "format_version",
+				"type": "string",
+				"meta": {},
+				"children": []
+			},
+			{
+				"open": true,
+				"comment": "",
+				"data": "",
+				"key": "minecraft:block",
+				"type": "object",
+				"meta": {},
+				"children": [
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "description",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": true,
+								"comment": "",
+								"data": "scb:fire_alarm_drop",
+								"key": "identifier",
+								"type": "string",
+								"meta": {
+									"definitions": [
+										"block"
+									]
+								},
+								"children": []
+							},
+							{
+								"open": false,
+								"comment": "",
+								"data": "false",
+								"key": "register_to_creative_menu",
+								"type": "boolean",
+								"meta": {},
+								"children": []
+							}
+						]
+					},
+					{
+						"open": true,
+						"comment": "",
+						"data": "",
+						"key": "components",
+						"type": "object",
+						"meta": {},
+						"children": [
+							{
+								"open": true,
+								"comment": "",
+								"data": "",
+								"key": "minecraft:loot",
+								"type": "object",
+								"meta": {},
+								"children": [
+									{
+										"open": true,
+										"comment": "",
+										"data": "loot_tables/fire_alarm.json",
+										"key": "table",
+										"type": "string",
+										"meta": {},
+										"children": []
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

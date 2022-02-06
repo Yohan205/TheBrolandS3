@@ -1,0 +1,270 @@
+//bridge-file-version: #90
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "scb:key_chest_left",
+			"is_spawnable": false,
+			"is_summonable": false,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:shulker_bullet",
+			"scripts": {
+				"animate": [
+					"bridge_execute_commands"
+				]
+			},
+			"animations": {
+				"bridge_execute_commands": "controller.animation.bridge_key_chest_left.execute_commands"
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"armor_stand",
+					"inanimate",
+					"mob",
+					"turret"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 1
+			},
+			"minecraft:health": {
+				"value": 6,
+				"max": 6,
+				"min": 5
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/armor_stand.json"
+			},
+			"minecraft:nameable": {
+				"always_show": false,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:inventory": {
+				"inventory_size": 27,
+				"container_type": "minecart_chest",
+				"restrict_to_owner": true
+			},
+			"minecraft:tameable": {
+				"probability": 1,
+				"tame_items": [
+					"scb:padlock"
+				],
+				"tame_event": {
+					"event": "scb:tamed"
+				}
+			},
+			"minecraft:fire_immune": true,
+			"minecraft:on_hurt_by_player": {
+				"filters": {
+					"test": "is_owner",
+					"subject": "other",
+					"value": true
+				},
+				"event": "scb:open"
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "scb:block_remover"
+									},
+									{
+										"test": "is_owner",
+										"subject": "other",
+										"value": true
+									}
+								]
+							},
+							"event": "scb:despawn"
+						},
+						"spawn_items": {
+							"table": "loot_tables/key_chest.json"
+						},
+						"hurt_item": 1
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "scb:rotator"
+									},
+									{
+										"test": "is_owner",
+										"subject": "other",
+										"value": true
+									},
+									{
+										"test": "is_sneaking",
+										"subject": "other",
+										"value": true
+									}
+								]
+							},
+							"event": "scb:rotation"
+						}
+					}
+				]
+			}
+		},
+		"events": {
+			"scb:open": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"scb:despawn": {
+				"add": {
+					"component_groups": [
+						"scb:despown",
+						"bridge:execute_command_id_2"
+					]
+				}
+			},
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_command_id_3"
+					]
+				}
+			},
+			"scb:tamed": {
+				"add": {
+					"component_groups": [
+						"scb:own"
+					]
+				}
+			},
+			"scb:rotation": {
+				"add": {
+					"component_groups": [
+						"scb:rotate"
+					]
+				}
+			},
+			"minecraft:entity_transformed": {
+				"add": {
+					"component_groups": [
+						"scb:own",
+						"bridge:execute_command_id_4"
+					]
+				}
+			},
+			"bridge:remove_command_id_1": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"bridge:remove_command_id_2": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_2"
+					]
+				}
+			},
+			"bridge:remove_command_id_3": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_3"
+					]
+				}
+			},
+			"bridge:remove_command_id_4": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_4"
+					]
+				}
+			}
+		},
+		"component_groups": {
+			"scb:despown": {
+				"minecraft:despawn": {}
+			},
+			"scb:own": {
+				"minecraft:is_tamed": {}
+			},
+			"scb:inv": {
+				"minecraft:inventory": {
+					"inventory_size": 27,
+					"container_type": "minecart_chest",
+					"restrict_to_owner": true
+				}
+			},
+			"scb:rotate": {
+				"minecraft:transformation": {
+					"into": "scb:key_chest",
+					"keep_owner": true,
+					"drop_equipment": true
+				}
+			},
+			"bridge:execute_command_id_1": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"bridge:execute_no_command": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			},
+			"bridge:execute_command_id_2": {
+				"minecraft:skin_id": {
+					"value": 2
+				}
+			},
+			"bridge:execute_command_id_3": {
+				"minecraft:skin_id": {
+					"value": 3
+				}
+			},
+			"bridge:execute_command_id_4": {
+				"minecraft:skin_id": {
+					"value": 4
+				}
+			}
+		}
+	}
+}

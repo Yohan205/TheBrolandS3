@@ -1,0 +1,307 @@
+{
+  "bzf:modernchair": {
+    "textures": "bzf_modernchair",
+    "sound": "cloth"
+  },
+  "bzf:whitebookshelf1": {
+    "textures": "bzf_whitebookshelf1",
+    "sound": "metal"
+  },
+  "bzf:small_lamp_white": {
+    "textures": "bzf_small_lamp_white",
+    "sound": "stone"
+  },
+  "bzf:small_lamp_red": {
+    "textures": "bzf_small_lamp_red",
+    "sound": "stone"
+  },
+  "bzf:whitecoffeetable": {
+    "textures": "bzf_whitecoffeetable",
+    "sound": "metal"
+  },
+  "bzf:small_lamp_blue": {
+    "textures": "bzf_small_lamp_blue",
+    "sound": "stone"
+  },
+  "bzf:sprucebookshelf2": {
+    "textures": "bzf_sprucebookshelf2",
+    "sound": "wood"
+  },
+  "bzf:sprucebookshelf1": {
+    "textures": "bzf_sprucebookshelf1",
+    "sound": "wood"
+  },
+  "bzf:itemshelf": {
+    "textures": "bzf_itemshelf",
+    "sound": "metal"
+  },
+  "bzf:whitebookshelf2": {
+    "textures": "bzf_whitebookshelf2",
+    "sound": "metal"
+  },
+  "bzf:whiteshelf": {
+    "textures": "bzf_whiteshelf",
+    "sound": "metal"
+  },
+  "bzf:moderncouch": {
+    "textures": "bzf_moderncouch",
+    "sound": "cloth"
+  },
+  "bzf:woodenshelf": {
+    "textures": "bzf_woodenshelf",
+    "sound": "wood"
+  },
+  "bzf:graymodernlamp": {
+    "textures": "bzf_graymodernlamp",
+    "sound": "metal"
+  },
+  "bzf:graycoffeetable": {
+    "textures": "bzf_graycoffeetable",
+    "sound": "metal"
+  },
+  "bzf:modernchair2gray": {
+    "textures": "bzf_modernchair2gray",
+    "sound": "cloth"
+  },
+  "bzf:blender": {
+    "textures": "bzf_blender",
+    "sound": "metal"
+  },
+  "bzf:moderncouch2gray": {
+    "textures": "bzf_moderncouch2gray",
+    "sound": "cloth"
+  },
+  "bzf:graypottedplant": {
+    "textures": "bzf_graypottedplant",
+    "sound": "stone"
+  },
+  "bzf:modernchair2white": {
+    "textures": "bzf_modernchair2white",
+    "sound": "cloth"
+  },
+  "bzf:wallflatscreentv": {
+    "textures": "bzf_wallflatscreentv",
+    "sound": "metal"
+  },
+  "bzf:whitemodernlamp": {
+    "textures": "bzf_whitemodernlamp",
+    "sound": "metal"
+  },
+  "bzf:flatscreentv": {
+    "textures": "bzf_flatscreentv",
+    "sound": "metal"
+  },
+  "bzf:moderncouch2white": {
+    "textures": "bzf_moderncouch2white",
+    "sound": "cloth"
+  },
+  "bzf:shelfgray": {
+    "textures": "bzf_shelfgray",
+    "sound": "metal"
+  },
+  "bzf:cupboard1": {
+    "textures": "bzf_cupboard1",
+    "sound": "wood"
+  },
+  "bzf:toiletwhite": {
+    "textures": "bzf_toiletwhite",
+    "sound": "stone"
+  },
+  "bzf:whitesink": {
+    "textures": "bzf_whitesink",
+    "sound": "stone"
+  },
+  "bzf:whitecuttingboard": {
+    "textures": "bzf_whitecuttingboard",
+    "sound": "metal"
+  },
+  "bzf:fruitbowl": {
+    "textures": "bzf_fruitbowl",
+    "sound": "stone"
+  },
+  "bzf:towel": {
+    "textures": "bzf_towel",
+    "sound": "stone"
+  },
+  "bzf:stove": {
+    "textures": "bzf_stove",
+    "sound": "metal"
+  },
+  "bzf:woodencuttingboard": {
+    "textures": "bzf_woodencuttingboard",
+    "sound": "wood"
+  },
+  "bzf:microwave": {
+    "textures": "bzf_microwave",
+    "sound": "metal"
+  },
+  "bzf:plate": {
+    "textures": "bzf_plate",
+    "sound": "stone"
+  },
+  "bzf:bathtub": {
+    "textures": "bzf_bathtub",
+    "sound": "stone"
+  },
+  "bzf:desktop": {
+    "textures": "bzf_desktop",
+    "sound": "normal"
+  },
+  "bzf:cabinet1": {
+    "textures": "bzf_cabinet1",
+    "sound": "normal"
+  },
+  "bzf:cupboard2": {
+    "textures": "bzf_cupboard2",
+    "sound": "metal"
+  },
+  "bzf:modernfridge": {
+    "textures": "bzf_modernfridge",
+    "sound": "metal"
+  },
+  "bzf:bedcover2": {
+    "textures": "bzf_bedcover2",
+    "sound": "metal"
+  },
+  "bzf:bedbarcover1": {
+    "textures": "bzf_bedbarcover1",
+    "sound": "metal"
+  },
+  "bzf:bedbarcover2": {
+    "textures": "bzf_bedbarcover2",
+    "sound": "wood"
+  },
+  "bzf:kitchen_sink": {
+    "textures": "bzf_kitchen_sink",
+    "sound": "metal"
+  },
+  "bzf:bedcover1": {
+    "textures": "bzf_bedcover1",
+    "sound": "metal"
+  },
+  "bzf:bedcover3": {
+    "textures": "bzf_bedcover3",
+    "sound": "wood"
+  },
+  "bzf:tv_placement": {
+    "textures": "bzf_tv_placement",
+    "sound": "metal"
+  },
+  "bzf:tv_placement2": {
+    "textures": "bzf_tv_placement2",
+    "sound": "metal"
+  },
+  "bzf:cabinet2": {
+    "textures": "bzf_cabinet2",
+    "sound": "normal"
+  },
+  "bzf:cabinet3": {
+    "textures": "bzf_cabinet3",
+    "sound": "normal"
+  },
+  "bzf:redbookopen": {
+    "textures": "bzf_redbookopen",
+    "sound": "normal"
+  },
+  "bzf:japanese_lantern": {
+    "textures": "bzf_japanese_lantern",
+    "sound": "normal"
+  },
+  "bzf:knife_placement": {
+    "textures": "bzf_knife_placement",
+    "sound": "normal"
+  },
+  "bzf:bluebookopen": {
+    "textures": "bzf_bluebookopen",
+    "sound": "normal"
+  },
+  "bzf:graydinningtable": {
+    "textures": "bzf_graydinningtable",
+    "sound": "metal"
+  },
+  "bzf:kitchen_drawer": {
+    "textures": "bzf_kitchen_drawer",
+    "sound": "metal"
+  },
+  "bzf:whitedinningchair": {
+    "textures": "bzf_whitedinningchair",
+    "sound": "metal"
+  },
+  "bzf:woodendinningchair": {
+    "textures": "bzf_woodendinningchair",
+    "sound": "metal"
+  },
+  "bzf:whitedrawer": {
+    "textures": "bzf_whitedrawer",
+    "sound": "metal"
+  },
+  "bzf:graydrawer": {
+    "textures": "bzf_graydrawer",
+    "sound": "metal"
+  },
+  "bzf:mirror": {
+    "textures": "bzf_mirror",
+    "sound": "metal"
+  },
+  "bzf:woodendinningtable": {
+    "textures": "bzf_woodendinningtable",
+    "sound": "metal"
+  },
+  "bzf:woodendrawer": {
+    "textures": "bzf_woodendrawer",
+    "sound": "metal"
+  },
+  "bzf:whitesmalltable": {
+    "textures": "bzf_whitesmalltable",
+    "sound": "metal"
+  },
+  "bzf:whitedinningtable": {
+    "textures": "bzf_whitedinningtable",
+    "sound": "metal"
+  },
+  "bzf:graysmalltable": {
+    "textures": "bzf_graysmalltable",
+    "sound": "metal"
+  },
+  "bzf:whitepottedplant": {
+    "textures": "bzf_whitepottedplant",
+    "sound": "stone"
+  },
+  "bzf:woodensmalltable": {
+    "textures": "bzf_woodensmalltable",
+    "sound": "metal"
+  },
+  "bzf:kitchen_counter": {
+    "textures": "bzf_kitchen_counter",
+    "sound": "metal"
+  },
+  "bzf:graydinningchair": {
+    "textures": "bzf_graydinningchair",
+    "sound": "metal"
+  },
+  "bzf:grayshelf": {
+    "textures": "bzf_grayshelf",
+    "sound": "wood"
+  },
+  "bzf:small_lamp_pink": {
+    "textures": "bzf_small_lamp_pink",
+    "sound": "stone"
+  },
+  "bzf:small_lamp_gray": {
+    "textures": "bzf_small_lamp_gray",
+    "sound": "stone"
+  },
+  "bzf:furniture_box": {
+    "textures": {
+      "up": "bzf_furniture_box_up",
+      "down": "bzf_furniture_box_down",
+      "side": "bzf_furniture_box_side"
+    },
+    "sound": "normal"
+  },
+  "format_version": [
+    1,
+    1,
+    0
+  ]
+}

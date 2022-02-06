@@ -1,0 +1,124 @@
+{
+	"file_path": "C:\\Users\\Sofia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Ender_Elevators_RP\\manifest.json",
+	"file_type": "manifest_rp",
+	"format_version": 1,
+	"file_uuid": "68f12cb4_148e_4252_a788_c8cb23ba43fa",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "2",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "pack.name",
+						"description": "pack.description",
+						"version": [
+							1,
+							0,
+							2
+						],
+						"min_engine_version": [
+							1,
+							13,
+							0
+						],
+						"uuid": "1ecad36f-b832-4862-913f-b5ab5e4924d0"
+					},
+					"modules": [
+						{
+							"type": "resources",
+							"uuid": "73657d3f-6ac7-41ea-bdd6-ce78116739ec",
+							"version": [
+								1,
+								0,
+								0
+							]
+						}
+					]
+				},
+				"key": "header",
+				"children": [
+					{
+						"data": "pack.name",
+						"key": "name"
+					},
+					{
+						"data": "pack.description",
+						"key": "description"
+					},
+					{
+						"open": {
+							"name": "pack.name",
+							"description": "pack.description",
+							"version": [
+								1,
+								0,
+								2
+							],
+							"min_engine_version": [
+								1,
+								13,
+								0
+							],
+							"uuid": "1ecad36f-b832-4862-913f-b5ab5e4924d0"
+						},
+						"key": "version",
+						"is_minified": true,
+						"children": [
+							1,
+							0,
+							2
+						]
+					},
+					{
+						"key": "min_engine_version",
+						"is_minified": true,
+						"children": [
+							1,
+							13,
+							0
+						]
+					},
+					{
+						"open": {
+							"name": "pack.name",
+							"description": "pack.description",
+							"version": [
+								1,
+								0,
+								2
+							],
+							"min_engine_version": [
+								1,
+								13,
+								0
+							],
+							"uuid": "1ecad36f-b832-4862-913f-b5ab5e4924d0"
+						},
+						"data": "1ecad36f-b832-4862-913f-b5ab5e4924d0",
+						"key": "uuid"
+					}
+				]
+			},
+			{
+				"key": "modules",
+				"is_minified": true,
+				"children": [
+					{
+						"type": "resources",
+						"uuid": "73657d3f-6ac7-41ea-bdd6-ce78116739ec",
+						"version": [
+							1,
+							0,
+							0
+						]
+					}
+				]
+			}
+		]
+	}
+}

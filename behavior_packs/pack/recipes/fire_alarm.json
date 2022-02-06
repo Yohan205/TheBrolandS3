@@ -1,0 +1,33 @@
+//bridge-file-version: #46
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "scb:fire_alarm_parts"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#Q#",
+			"#R#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:iron_ingot"
+			},
+			"R": {
+				"item": "minecraft:redstone"
+			},
+			"Q": {
+				"item": "minecraft:quartz"
+			}
+		},
+		"result": [
+			{
+				"item": "scb:fire_alarm_parts",
+				"count": 1
+			}
+		]
+	}
+}

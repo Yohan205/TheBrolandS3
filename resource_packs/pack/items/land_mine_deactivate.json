@@ -1,0 +1,15 @@
+//bridge-file-version: #5
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "scb:land_mine_deactivate",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:icon": "land_mine_deactivate",
+			"minecraft:use_animation": "eat",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

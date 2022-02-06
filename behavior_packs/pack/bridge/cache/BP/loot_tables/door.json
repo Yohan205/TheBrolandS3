@@ -1,0 +1,142 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\SecurityBE\\loot_tables\\door.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "d283c2f3_b9c9_4e4e_9a54_2cef811ec2cf",
+	"file_version": 12,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "minecraft:spawn_egg",
+									"functions": [
+										{
+											"function": "set_actor_id",
+											"id": "scb:door"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"array": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "minecraft:spawn_egg",
+										"functions": [
+											{
+												"function": "set_actor_id",
+												"id": "scb:door"
+											}
+										]
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "minecraft:spawn_egg",
+											"functions": [
+												{
+													"function": "set_actor_id",
+													"id": "scb:door"
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"array": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:spawn_egg",
+												"functions": [
+													{
+														"function": "set_actor_id",
+														"id": "scb:door"
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"open": {
+													"type": "item",
+													"name": "minecraft:spawn_egg",
+													"functions": [
+														{
+															"function": "set_actor_id",
+															"id": "scb:door"
+														}
+													]
+												},
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "minecraft:spawn_egg",
+												"key": "name"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "minecraft:spawn_egg",
+													"functions": [
+														{
+															"function": "set_actor_id",
+															"id": "scb:door"
+														}
+													]
+												},
+												"key": "functions",
+												"array": [
+													{
+														"open": [
+															{
+																"function": "set_actor_id",
+																"id": "scb:door"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"function": "set_actor_id",
+															"id": "scb:door"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

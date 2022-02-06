@@ -1,0 +1,1 @@
+give @s se:elevator_omni_mk2 1

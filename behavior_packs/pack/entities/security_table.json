@@ -1,0 +1,463 @@
+//bridge-file-version: #162
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "scb:security_table",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:shulker",
+			"scripts": {
+				"animate": [
+					"bridge_execute_commands"
+				]
+			},
+			"animations": {
+				"bridge_execute_commands": "controller.animation.bridge_security_table.execute_commands"
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:despawn": {}
+			},
+			"drop": {},
+			"bridge:execute_command_id_1": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"bridge:execute_no_command": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			},
+			"bridge:execute_command_id_2": {
+				"minecraft:skin_id": {
+					"value": 2
+				}
+			},
+			"bridge:execute_command_id_3": {
+				"minecraft:skin_id": {
+					"value": 3
+				}
+			},
+			"bridge:execute_command_id_4": {
+				"minecraft:skin_id": {
+					"value": 4
+				}
+			},
+			"bridge:execute_command_id_5": {
+				"minecraft:skin_id": {
+					"value": 5
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"armor_stand",
+					"inanimate",
+					"mob",
+					"turret"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 1
+			},
+			"minecraft:health": {
+				"value": 1000,
+				"max": 1000
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/security_table.json"
+			},
+			"minecraft:nameable": {},
+			"minecraft:persistent": {},
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:navigation.generic": {},
+			"minecraft:movement.basic": {},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "scb:fire_alarm_parts"
+									}
+								]
+							},
+							"event": "scb:drop"
+						},
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/fire_alarm.json"
+						},
+						"play_sounds": "random.anvil",
+						"interact_text": "build.scb.text"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "scb:protected_door_pieces"
+									}
+								]
+							},
+							"event": "scb:drop"
+						},
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/door.json"
+						},
+						"play_sounds": "random.anvil",
+						"interact_text": "build.scb.text"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "scb:rocket_launcher_parts"
+									}
+								]
+							},
+							"event": "scb:drop"
+						},
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/missile_launcher.json"
+						},
+						"play_sounds": "random.anvil",
+						"interact_text": "build.scb.text"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "scb:turret_pieces"
+									}
+								]
+							},
+							"event": "scb:drop"
+						},
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/turret.json"
+						},
+						"play_sounds": "random.anvil",
+						"interact_text": "build.scb.text"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "scb:iron_bars_trap_parts"
+									}
+								]
+							},
+							"event": "scb:drop"
+						},
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/iron_bars_trap.json"
+						},
+						"play_sounds": "random.anvil",
+						"interact_text": "build.scb.text"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "scb:land_mine_pieces"
+									}
+								]
+							},
+							"event": "scb:drop"
+						},
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/land_mine.json"
+						},
+						"play_sounds": "random.anvil",
+						"interact_text": "build.scb.text"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "scb:protected_chest_pieces"
+									}
+								]
+							},
+							"event": "scb:drop"
+						},
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/key_chest.json"
+						},
+						"interact_text": "build.scb.text"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "scb:block_remover"
+									}
+								]
+							},
+							"event": "scb:drop"
+						},
+						"spawn_items": {
+							"table": "loot_tables/block_remover_entity.json"
+						},
+						"hurt_item": 10,
+						"interact_text": "build.scb.text"
+					}
+				]
+			},
+			"minecraft:fire_immune": true,
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": {
+								"any_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:diamond_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:golden_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:iron_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:stone_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:wooden_pickaxe"
+									}
+								]
+							},
+							"event": "scb:despawn"
+						},
+						"on_damage_sound_event": "breaking"
+					},
+					{
+						"cause": "all",
+						"deals_damage": false,
+						"on_damage_sound_event": "break",
+						"on_damage": {
+							"filters": {
+								"any_of": [
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"operator": "not",
+										"value": "minecraft:diamond_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"operator": "not",
+										"value": "minecraft:golden_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"operator": "not",
+										"value": "minecraft:iron_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"operator": "not",
+										"value": "minecraft:stone_pickaxe"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"operator": "not",
+										"value": "minecraft:wooden_pickaxe"
+									}
+								]
+							},
+							"event": "scb:unbreakable"
+						}
+					}
+				]
+			},
+			"minecraft:knockback_resistance": {
+				"value": 100
+			},
+			"minecraft:block_sensor": {
+				"sensor_radius": 1,
+				"on_break": [
+					{
+						"on_block_broken": "scb:despawn"
+					}
+				]
+			}
+		},
+		"events": {
+			"scb:despawn": {
+				"add": {
+					"component_groups": [
+						"despawn",
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"scb:drop": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_command_id_2"
+					]
+				}
+			},
+			"minecraft:entity_transformed": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_command_id_3"
+					]
+				}
+			},
+			"scb:unbreakable": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_command_id_4"
+					]
+				}
+			},
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_command_id_5"
+					]
+				}
+			},
+			"bridge:remove_command_id_1": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"bridge:remove_command_id_2": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_2"
+					]
+				}
+			},
+			"bridge:remove_command_id_3": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_3"
+					]
+				}
+			},
+			"bridge:remove_command_id_4": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_4"
+					]
+				}
+			},
+			"bridge:remove_command_id_5": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_5"
+					]
+				}
+			}
+		}
+	}
+}

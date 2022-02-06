@@ -1,0 +1,14 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "lfm:miner_chip",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": "miner_chip",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

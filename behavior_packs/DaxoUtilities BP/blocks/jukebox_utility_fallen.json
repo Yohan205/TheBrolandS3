@@ -1,0 +1,112 @@
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "daxo:jukebox_utility_fallen",
+			"properties": {
+				"daxo:face": [
+					1,
+					2,
+					3,
+					4,
+					5
+				]
+			}
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "jukebox_utility",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:destroy_time": 1,
+			"minecraft:friction": 0.6,
+			"minecraft:map_color": "#0000FF",
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0.3,
+			"minecraft:on_player_placing": {
+				"event": "daxo:place"
+			},
+			"minecraft:on_interact": {
+				"target": "self",
+				"event": "record_fallen_stop"
+			},
+			"minecraft:on_player_destroyed": {
+				"event": "jukebox_utility_fallen_break",
+				"target": "self"
+			},
+			"minecraft:loot": "loot_tables/blocks/empty.json"
+		},
+		"events": {
+			"daxo:place": {
+				"set_block_property": {
+					"daxo:face": "(query.cardinal_player_facing)"
+				}
+			},
+			"record_fallen_stop": {
+				"run_command": {
+					"target": "self",
+					"command": [
+						"stopsound @a[r=80] record.fallen"
+					]
+				},
+				"spawn_loot": {
+					"table": "loot_tables/items/record_fallen.json"
+				},
+				"set_block": {
+					"block_type": "daxo:jukebox_utility"
+				}
+			},
+			"jukebox_utility_fallen_break": {
+				"run_command": {
+					"target": "self",
+					"command": [
+						"stopsound @a[r=80] record.fallen"
+					]
+				},
+				"spawn_loot": {
+					"table": "loot_tables/blocks/jukebox_utility_fallen_break.json"
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('daxo:face') == 2",
+				"components": {
+					"minecraft:block_light_absorption": 0
+				}
+			},
+			{
+				"condition": "query.block_property('daxo:face') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('daxo:face') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('daxo:face') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,281 @@
+{
+	"file_path": "C:\\Users\\Sofia\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ender Elevators\\recipes\\MK2\\PINK\\upg_purple_elevator_mk2.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "308c86dc_e0ec_43ca_a7a2_192710fe8da8",
+	"file_version": 13,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.16,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "se:upg_purple_elevator_mk2"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"!S!",
+							"S#S",
+							"!S!"
+						],
+						"key": {
+							"S": {
+								"item": "minecraft:stonebrick:3"
+							},
+							"#": {
+								"item": "se:purple_elevator"
+							},
+							"!": {
+								"item": "minecraft:iron_ingot"
+							}
+						},
+						"result": [
+							{
+								"count": 1,
+								"item": "se:purple_elevator_mk2"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "se:upg_purple_elevator_mk2"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "minecraft:stonebrick:3"
+								},
+								"#": {
+									"item": "se:purple_elevator"
+								},
+								"!": {
+									"item": "minecraft:iron_ingot"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:purple_elevator_mk2"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "se:upg_purple_elevator_mk2"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:upg_purple_elevator_mk2"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "minecraft:stonebrick:3"
+								},
+								"#": {
+									"item": "se:purple_elevator"
+								},
+								"!": {
+									"item": "minecraft:iron_ingot"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:purple_elevator_mk2"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:upg_purple_elevator_mk2"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "minecraft:stonebrick:3"
+								},
+								"#": {
+									"item": "se:purple_elevator"
+								},
+								"!": {
+									"item": "minecraft:iron_ingot"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:purple_elevator_mk2"
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"!S!",
+							"S#S",
+							"!S!"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:upg_purple_elevator_mk2"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "minecraft:stonebrick:3"
+								},
+								"#": {
+									"item": "se:purple_elevator"
+								},
+								"!": {
+									"item": "minecraft:iron_ingot"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:purple_elevator_mk2"
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"key": "S",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:stonebrick:3"
+								}
+							},
+							{
+								"open": {
+									"S": {
+										"item": "minecraft:stonebrick:3"
+									},
+									"#": {
+										"item": "se:purple_elevator"
+									},
+									"!": {
+										"item": "minecraft:iron_ingot"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "se:purple_elevator"
+								}
+							},
+							{
+								"key": "!",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:iron_ingot"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "se:upg_purple_elevator_mk2"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"!S!",
+								"S#S",
+								"!S!"
+							],
+							"key": {
+								"S": {
+									"item": "minecraft:stonebrick:3"
+								},
+								"#": {
+									"item": "se:purple_elevator"
+								},
+								"!": {
+									"item": "minecraft:iron_ingot"
+								}
+							},
+							"result": [
+								{
+									"count": 1,
+									"item": "se:purple_elevator_mk2"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"count": 1,
+										"item": "se:purple_elevator_mk2"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"count": 1,
+									"item": "se:purple_elevator_mk2"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
